@@ -1,0 +1,218 @@
+[
+  {
+    "LNP_name": null,
+    "Nucleic_acid": "mRNA",
+    "IL_to_Nucleic_Acid_Mass_Ratio": null,
+    "Lipids": {
+      "Ionizable_lipid": null,
+      "Helper_lipid": null,
+      "Cholesterol": null,
+      "PEG_lipid": null
+    },
+    "Molar_ratios": {
+      "Ionizable_lipid": null,
+      "Helper_lipid": null,
+      "Cholesterol": null,
+      "PEG_lipid": null
+    },
+    "_source_page": 12
+  },
+  {
+    "LNP_name": null,
+    "Nucleic_acid": "mRNA",
+    "IL_to_Nucleic_Acid_Mass_Ratio": null,
+    "Lipids": {
+      "Ionizable_lipid": null,
+      "Helper_lipid": null,
+      "Cholesterol": null,
+      "PEG_lipid": null
+    },
+    "Molar_ratios": {
+      "Ionizable_lipid": null,
+      "Helper_lipid": null,
+      "Cholesterol": null,
+      "PEG_lipid": null
+    },
+    "_source_page": 12
+  },
+  {
+    "LNP_name": null,
+    "Nucleic_acid": "mRNA",
+    "IL_to_Nucleic_Acid_Mass_Ratio": null,
+    "Lipids": {
+      "Ionizable_lipid": null,
+      "Helper_lipid": "B10 formulation",
+      "Cholesterol": null,
+      "PEG_lipid": null
+    },
+    "Molar_ratios": {
+      "Ionizable_lipid": null,
+      "Helper_lipid": null,
+      "Cholesterol": null,
+      "PEG_lipid": null
+    },
+    "_source_page": 12
+  },
+  {
+    "LNP_name": null,
+    "Nucleic_acid": "mRNA",
+    "IL_to_Nucleic_Acid_Mass_Ratio": null,
+    "Lipids": {
+      "Ionizable_lipid": null,
+      "Helper_lipid": "B10 formulation",
+      "Cholesterol": null,
+      "PEG_lipid": null
+    },
+    "Molar_ratios": {
+      "Ionizable_lipid": null,
+      "Helper_lipid": null,
+      "Cholesterol": null,
+      "PEG_lipid": null
+    },
+    "_source_page": 12
+  },
+  {
+    "LNP_name": null,
+    "Nucleic_acid": "mRNA",
+    "IL_to_Nucleic_Acid_Mass_Ratio": null,
+    "Lipids": {
+      "Ionizable_lipid": null,
+      "Helper_lipid": "SM-102",
+      "Cholesterol": null,
+      "PEG_lipid": null
+    },
+    "Molar_ratios": {
+      "Ionizable_lipid": null,
+      "Helper_lipid": null,
+      "Cholesterol": null,
+      "PEG_lipid": null
+    },
+    "_source_page": 12
+  },
+  {
+    "LNP_name": null,
+    "Nucleic_acid": "mRNA",
+    "IL_to_Nucleic_Acid_Mass_Ratio": null,
+    "Lipids": {
+      "Ionizable_lipid": null,
+      "Helper_lipid": "C14-494B10",
+      "Cholesterol": null,
+      "PEG_lipid": null
+    },
+    "Molar_ratios": {
+      "Ionizable_lipid": null,
+      "Helper_lipid": null,
+      "Cholesterol": null,
+      "PEG_lipid": null
+    },
+    "_source_page": 12
+  },
+  {
+    "LNP_name": null,
+    "Nucleic_acid": "mRNA",
+    "IL_to_Nucleic_Acid_Mass_Ratio": null,
+    "Lipids": {
+      "Ionizable_lipid": null,
+      "Helper_lipid": "C14-494B10",
+      "Cholesterol": null,
+      "PEG_lipid": null
+    },
+    "Molar_ratios": {
+      "Ionizable_lipid": null,
+      "Helper_lipid": null,
+      "Cholesterol": null,
+      "PEG_lipid": null
+    },
+    "_source_page": 12
+  },
+  {
+    "LNP_name": null,
+    "Nucleic_acid": "mRNA",
+    "IL_to_Nucleic_Acid_Mass_Ratio": null,
+    "Lipids": {
+      "Ionizable_lipid": null,
+      "Helper_lipid": "E10i-494B10",
+      "Cholesterol": null,
+      "PEG_lipid": null
+    },
+    "Molar_ratios": {
+      "Ionizable_lipid": null,
+      "Helper_lipid": null,
+      "Cholesterol": null,
+      "PEG_lipid": null
+    },
+    "_source_page": 12
+  },
+  {
+    "LNP_name": "SM-102",
+    "Nucleic_acid": "mRNA",
+    "IL_to_Nucleic_Acid_Mass_Ratio": "10 : 1",
+    "Lipids": {
+      "Ionizable_lipid": "SM-102",
+      "Helper_lipid": "DSPC",
+      "Cholesterol": "Cholesterol",
+      "PEG_lipid": "DMG-PEG2000"
+    },
+    "Molar_ratios": {
+      "Ionizable_lipid": 50,
+      "Helper_lipid": 10,
+      "Cholesterol": 38.5,
+      "PEG_lipid": 1.5
+    },
+    "_source_page": 14
+  },
+  {
+    "LNP_name": "SM-102 (B10)",
+    "Nucleic_acid": "mRNA",
+    "IL_to_Nucleic_Acid_Mass_Ratio": "10 : 1",
+    "Lipids": {
+      "Ionizable_lipid": "SM-102",
+      "Helper_lipid": "DSPC",
+      "Cholesterol": "Cholesterol",
+      "PEG_lipid": "DMG-PEG2000"
+    },
+    "Molar_ratios": {
+      "Ionizable_lipid": 40,
+      "Helper_lipid": 30,
+      "Cholesterol": 25,
+      "PEG_lipid": 2.5
+    },
+    "_source_page": 14
+  },
+  {
+    "LNP_name": "ALC-0315",
+    "Nucleic_acid": "mRNA",
+    "IL_to_Nucleic_Acid_Mass_Ratio": "10 : 1",
+    "Lipids": {
+      "Ionizable_lipid": "ALC-0315",
+      "Helper_lipid": "DSPC",
+      "Cholesterol": "Cholesterol",
+      "PEG_lipid": "ALC-0159"
+    },
+    "Molar_ratios": {
+      "Ionizable_lipid": 46.3,
+      "Helper_lipid": 9.4,
+      "Cholesterol": 42.7,
+      "PEG_lipid": 1.6
+    },
+    "_source_page": 14
+  },
+  {
+    "LNP_name": "LNP1",
+    "Nucleic_acid": "mRNA",
+    "IL_to_Nucleic_Acid_Mass_Ratio": null,
+    "Lipids": {
+      "Ionizable_lipid": null,
+      "Helper_lipid": null,
+      "Cholesterol": null,
+      "PEG_lipid": null
+    },
+    "Molar_ratios": {
+      "Ionizable_lipid": null,
+      "Helper_lipid": null,
+      "Cholesterol": null,
+      "PEG_lipid": null
+    },
+    "_source_page": 15
+  }
+]

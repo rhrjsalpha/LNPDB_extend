@@ -1,0 +1,53 @@
+DOI,paper_doi,paper_title,count
+10.1073/pnas.2409572122,https://doi.org/10.1073/pnas.2409572122,Rational design and modular synthesis of biodegradable ionizable lipids via the Passerini reaction for mRNA delivery,10
+10.34133/bmr.0017,https://doi.org/10.34133/bmr.0017,Development of Lipid Nanoparticle Formulation for the Repeated Administration of mRNA Therapeutics,6
+10.1002/jbm.a.37705,10.1002/jbm.a.37705,Influence of ionizable lipid tail length on lipid nanoparticle delivery of mRNA of varying length,9
+10.1016/j.jpha.2024.100996,https://doi.org/10.1016/j.jpha.2024.100996,Machine learning-driven optimization of mRNA-lipid nanoparticle vaccine quality with XGBoost/Bayesian method and ensemble model approaches,24
+10.1101/2024.09.27.614859,https://doi.org/10.1101/2024.09.27.614859,Structural Characterization of mRNA Lipid Nanoparticles in the Presence of Intrinsic Drug-free Lipid Nanoparticles,2
+10.1248/cpb.c24-00089,https://doi.org/10.1248/cpb.c24-00089,Understanding the Manufacturing Process of Lipid Nanoparticles for mRNA Delivery Using Machine Learning,9
+10.3390/pr11061718,https://doi.org/10.3390/pr11061718,Formulation of Nucleic Acids by Encapsulation in Lipid Nanoparticles for Continuous Production of mRNA,4
+10.1021/jacs.2c12893,10.1021/jacs.2c12893,Ionizable Lipid Nanoparticles for In Vivo mRNA Delivery to the Placenta during Pregnancy,15
+10.1016/j.ijpharm.2023.123050,https://doi.org/10.1016/j.ijpharm.2023.123050,Optimization of formulation and atomization of lipid nanoparticles for the inhalation of mRNA,22
+10.1002/btm2.10580,10.1002/btm2.10580,Optimization of ionizable lipids for aerosolizable mRNA lipid nanoparticles,12
+10.1101/2023.11.09.565872,https://doi.org/10.1101/2023.11.09.565872,Applying machine learning to identify ionizable lipids for nanoparticle-mediated delivery of mRNA,8
+10.1038/s41434-022-00370-1,https://doi.org/10.1038/s41434-022-00370-1,Taylor Dispersion Analysis to support lipid-nanoparticle formulations for mRNA vaccines,9
+10.1073/pnas.2303567120,https://doi.org/10.1073/pnas.2303567120,Throughput-scalable manufacturing of SARS-CoV-2 mRNA lipid nanoparticle vaccines,10
+10.1016/j.cej.2022.136310,https://doi.org/10.1016/j.cej.2022.136310,Development of in silico methodology for siRNA lipid nanoparticle formulations,8
+10.1002/adfm.202106727,10.1002/adfm.202106727,Discovery of a Novel Amino Lipid That Improves Lipid Nanoparticle Performance through Specific Interactions with mRNA,40
+10.1016/j.jconrel.2021.11.022,https://doi.org/10.1016/j.jconrel.2021.11.022,Lipid nanoparticle chemistry determines how nucleoside base modifications alter mRNA delivery,4
+10.1039/d1bm01454d,10.1039/d1bm01454d,Optimization of phospholipid chemistry for improved lipid nanoparticle (LNP) delivery of messenger RNA (mRNA),13
+10.1038/s41467-022-33157-4,https://doi.org/10.1038/s41467-022-33157-4,Payload distribution and capacity of mRNA lipid nanoparticles,10
+10.1039/d1na00712b,10.1039/d1na00712b,Predictive high-throughput screening of PEGylated lipids in oligonucleotide-loaded lipid nanoparticles for neuronal gene silencing,19
+10.1126/sciadv.abf4398,10.1126/sciadv.abf4398,Engineered ionizable lipid nanoparticles for targeted delivery of RNA therapeutics into different types of cells in the liver,12
+10.1039/d0bm01609h,10.1039/d0bm01609h,Helper Lipid Structure Influences Protein Adsorption and Delivery of Lipid Nanoparticles to Spleen and Liver,96
+10.1126/sciadv.aba1028,10.1126/sciadv.aba1028,Ionizable lipid nanoparticles for in utero mRNA delivery,15
+10.1021/acs.nanolett.1c01353,https://doi.org/10.1021/acs.nanolett.1c01353,Scalable mRNA and siRNA Lipid Nanoparticle Production Using a Parallelized Microfluidic Device,5
+10.1038/s41551-021-00786-x,10.1038/s41551-021-00786-x,Optimization of lipid nanoparticles for the delivery of nebulized therapeutic mRNA to the lungs,59
+10.1126/sciadv.abc2315,10.1126/sciadv.abc2315,Functionalized lipid-like nanoparticles for in vivo mRNA delivery and base editing,11
+10.1016/j.omtn.2020.01.018,https://doi.org/10.1016/j.omtn.2020.01.018,Efficient Delivery of Antisense Oligonucleotides Using Bioreducible Lipid Nanoparticles In Vitro and In Vivo,34
+10.1038/s41467-020-16248-y,https://doi.org/10.1038/s41467-020-16248-y,Synergistic lipid compositions for albumin receptor mediated delivery of mRNA to the liver,3
+10.1021/acs.nanolett.0c01386,https://dx.doi.org/10.1021/acs.nanolett.0c01386,Deconvoluting Lipid Nanoparticle Structure for Messenger RNA Delivery,5
+10.1016/j.omtn.2019.01.013,https://doi.org/10.1016/j.omtn.2019.01.013,Optimization of Lipid Nanoparticles for Intramuscular Administration of mRNA Vaccines,7
+10.1016/j.jconrel.2019.10.028,10.1016/j.jconrel.2019.10.028,Ionizable lipid nanoparticles encapsulating barcoded mRNA for accelerated in vivo delivery screening,16
+10.1039/C9NR02004G,10.1039/C9NR02004G,Fusion-dependent formation of lipid nanoparticles containing macromolecular payloads,11
+10.1038/s41434-019-0095-2,https://doi.org/10.1038/s41434-019-0095-2,Inside out: optimization of lipid nanoparticle formulations for exterior complexation and in vivo delivery of saRNA,12
+10.1039/c9nr09347h,10.1039/c9nr09347h,On the role of helper lipids in lipid nanoparticle formulations of siRNA,14
+10.1021/acsmedchemlett.8b00652,10.1021/acsmedchemlett.8b00652,Simplifying the Chemical Structure of Cationic Lipids for siRNA-Lipid Nanoparticles,23
+10.1002/smll.201805097,10.1002/smll.201805097,Branched-Tail Lipid Nanoparticles Potently Deliver mRNA In Vivo due to Enhanced Ionization at Endosomal pH,11
+10.1021/acsnano.8b01516,10.1021/acsnano.8b01516,On the formation and morphology of lipid nanoparticles containing Ionizable cationic lipids and siRNA,12
+10.1021/acsnano.8b03640,10.1021/acsnano.8b03640,"Analyzing 2,000 in vivo Drug Delivery Data Points Reveals Cholesterol Structure Impacts Nanoparticle Delivery",18
+10.1002/anie.201809056,10.1002/anie.201809056,Customizable Lipid Nanoparticle Materials for the Delivery of siRNAs and mRNAs,18
+10.1016/j.nano.2016.12.014,http://dx.doi.org/10.1016/j.nano.2016.12.014,Design of lipid nanoparticles for in vitro and in vivo delivery of plasmid DNA,4
+10.1002/adma.201606944,10.1002/adma.201606944,Synthesis and Biological Evaluation of Ionizable Lipid Materials for the In Vivo Delivery of Messenger RNA to B Lymphocytes,4
+10.1073/pnas.1520244113,10.1073/pnas.1520244113,Efficient delivery of genome-editing proteins using bioreducible lipid nanoparticles,3
+10.1016/j.jconrel.2016.05.059,http://dx.doi.org/10.1016/j.jconrel.2016.05.059,Influence of particle size on the in vivo potency of lipid nanoparticle formulations of siRNA,12
+10.1002/adma.201505822,10.1002/adma.201505822,Bioinspired Alkenyl Amino Alcohol Ionizable Lipid Materials for Highly Potent In Vivo mRNA Delivery,5
+10.1021/acs.nanolett.5b02497,10.1021/acs.nanolett.5b02497,Optimization of Lipid Nanoparticle Formulations for mRNA Delivery in vivo with Fractional Factorial and Definitive Screening Designs,43
+10.1021/acs.jpcb.5b02891,10.1021/acs.jpcb.5b02891,Microfluidic Mixing: A General Method for Encapsulating Macromolecules in Lipid Nanoparticle Systems,54
+10.1038/mtna.2014.61,10.1038/mtna.2014.61,"Shielding of Lipid Nanoparticles for siRNA Delivery: Impact on Physicochemical Properties, Cytokine Induction, and Efficacy",5
+10.1073/pnas.1306529110,10.1073/pnas.1306529110,Multiparametric approach for the evaluation of lipid nanoparticles for siRNA delivery,32
+10.1016/j.nano.2012.05.019,http://dx.doi.org/10.1016/j.nano.2012.05.019,Influence of cationic lipid composition on uptake and intracellular processing of lipid nanoparticle formulations of siRNA,4
+10.1073/pnas.1209367109,10.1073/pnas.1209367109,Nonviral delivery of self-amplifying RNA vaccines,6
+10.1038/nbt.1602,10.1038/nbt.1602,Rational design of cationic lipids for siRNA delivery,14
+10.1016/j.jconrel.2005.06.014,10.1016/j.jconrel.2005.06.014,Cationic lipid saturation influences intracellular delivery of encapsulated nucleic acids,4
+10.1016/j.bbamem.2005.02.001,10.1016/j.bbamem.2005.02.001,Stabilized plasmid?lipid particles containing PEG-diacylglycerols exhibit extended circulation lifetimes and tumor selective gene expression,4

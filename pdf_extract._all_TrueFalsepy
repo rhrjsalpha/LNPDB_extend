@@ -1,0 +1,202 @@
+import fitz  # PyMuPDF
+import ollama
+import os
+import re
+from typing import List, Dict
+
+# ============================================================
+# 설정
+# ============================================================
+PDF_FILE = r"C:\Users\kogun\PycharmProjects\LNPDB\pdfs\MP_2025.pdf"
+MODEL = "jinbora/deepseek-r1-Bllossom:8b"
+
+# ============================================================
+# PDF → page 단위 텍스트 추출
+# ============================================================
+def extract_pages_from_pdf(pdf_path: str) -> List[Dict]:
+    if not os.path.exists(pdf_path):
+        raise FileNotFoundError(pdf_path)
+
+    doc = fitz.open(pdf_path)
+    pages = []
+
+    for i, page in enumerate(doc):
+        pages.append({
+            "page": i + 1,
+            "text": page.get_text("text").strip()
+        })
+
+    doc.close()
+    return pages
+
+
+# ============================================================
+# 최후 판사 (LLM)
+# ============================================================
+def judge_true_false(raw_output: str) -> bool:
+    JUDGE_PROMPT = """
+너는 판단 결과 판사이다.
+
+아래 TEXT는 어떤 질문에 대한 모델의 출력이다.
+이 TEXT의 최종 의미가
+True 인지 False 인지 판정하라.
+
+규칙:
+- 반드시 True 또는 False 중 하나를 포함하라
+- 한 단어로 출력하라
+
+TEXT:
+"""
+    response = ollama.generate(
+        model=MODEL,
+        prompt=JUDGE_PROMPT + raw_output,
+        options={"temperature": 0}
+    )
+
+    text = response["response"].lower()
+    matches = re.findall(r"\b(true|false)\b", text)
+    print("judges", response["response"], matches)
+
+    if not matches:
+        raise RuntimeError(
+            "[JUDGE ERROR] True/False not found\n" + response["response"]
+        )
+
+    return matches[-1] == "true"
+
+
+# ============================================================
+# Robust True/False Extractor (핵심)
+# ============================================================
+def robust_true_false_extractor(raw_output: str) -> bool:
+    # -------------------------------------------------
+    # STEP 1: <think>...</think> 제거
+    # -------------------------------------------------
+    cleaned = re.sub(
+        r"<think>.*?</think>",
+        "",
+        raw_output,
+        flags=re.DOTALL | re.IGNORECASE
+    ).strip()
+
+    # -------------------------------------------------
+    # STEP 2: 줄 정리
+    # -------------------------------------------------
+    lines = [l.strip() for l in cleaned.splitlines() if l.strip()]
+
+    # -------------------------------------------------
+    # STEP 3: 한 단어 True / False 우선
+    # -------------------------------------------------
+    for line in reversed(lines):
+        if line.lower() == "true":
+            return True
+        if line.lower() == "false":
+            return False
+
+    # -------------------------------------------------
+    # STEP 4: 전체 텍스트 내 True/False 유일성 검사
+    # -------------------------------------------------
+    matches = re.findall(r"\b(true|false)\b", cleaned.lower())
+    if len(matches) == 1:
+        return matches[0] == "true"
+
+    # -------------------------------------------------
+    # STEP 5: 그래도 안 되면 judge 호출
+    # -------------------------------------------------
+    return judge_true_false(cleaned)
+
+
+# ============================================================
+# 그룹별 존재 여부 판단
+# ============================================================
+def check_group_presence(pages: List[Dict], group_name: str, group_definition: str):
+    PROMPT = f"""
+너는 논문 페이지 필터링 모델이다.
+
+아래 PAGE TEXT에
+[{group_name}] 정보가
+이 페이지 자체에 명시적으로 존재하는지 판단하라.
+
+판단 기준:
+{group_definition}
+
+출력 규칙:
+- True 또는 False를 포함하라
+- 한 단어로 출력하라
+
+PAGE TEXT:
+"""
+
+    results = []
+
+    for p in pages:
+        print(f"[CHECK] page {p['page']} | {group_name}")
+
+        response = ollama.generate(
+            model=MODEL,
+            prompt=PROMPT + p["text"],
+            options={"temperature": 0}
+        )
+
+        raw_output = response["response"]
+        ans = robust_true_false_extractor(raw_output)
+        print("ans", ans, "\n raw ",raw_output)
+
+        print(f"  → RESULT: {ans}")
+        results.append({
+            "page": p["page"],
+            group_name: ans
+        })
+
+    return results
+
+
+# ============================================================
+# MAIN
+# ============================================================
+def main():
+    pages = extract_pages_from_pdf(PDF_FILE)
+
+    # -------- Group 1 --------
+    group1_def = """
+- lipid, component, ionizable lipid, helper lipid, cholesterol, PEG 등의 이름
+- SM-102, C14-494, DOPE, DSPC, DMG-PEG2000 등 고유 물질명
+- 조성 성분의 '이름 나열'
+"""
+
+    # -------- Group 2 --------
+    group2_def = """
+- molar ratio, mol%, wt%, %
+- 50:10:38.5:1.5 같은 비율
+- mass ratio, charge ratio, N/P ratio
+"""
+
+    # -------- Group 3 --------
+    group3_def = """
+- buffer, PBS, acetate buffer
+- microfluidic, mixing, ethanol injection
+- in vivo / in vitro
+- mouse strain, cell line
+- organ, tissue
+- IV, IM
+- mRNA, siRNA, sgRNA, protein
+- dose (µg, mg/kg)
+- luminescence, uptake, diameter 등 실험 측정
+"""
+
+    r1 = check_group_presence(pages, "group_1_material_names", group1_def)
+    r2 = check_group_presence(pages, "group_2_ratios", group2_def)
+    r3 = check_group_presence(pages, "group_3_conditions", group3_def)
+
+    print("\n===== SUMMARY =====")
+    for i in range(len(pages)):
+        print(
+            f"page {pages[i]['page']:>3} | "
+            f"materials: {r1[i]['group_1_material_names']} | "
+            f"ratios: {r2[i]['group_2_ratios']} | "
+            f"conditions: {r3[i]['group_3_conditions']}"
+        )
+
+
+if __name__ == "__main__":
+    main()

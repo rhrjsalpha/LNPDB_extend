@@ -1,0 +1,51 @@
+Lipid nanoparticle formulation
+The corresponding IL, 18:1 Δ9-cis phosphoethanolamine (DOPE),
+cholesterol, and 14:0 PEG2000 phosphoethanolamine (C14-PEG2000)
+were dissolved in ethanol at a molar ratio of 35:16:46.5:2.5, respectively,
+to form the organic phase of the formulation. For the B10 formulation,
+a molar ratio of 40:30:25:2.5 was used. The SM-102 LNP was
+prepared using SM-102, 1,2-distearoyl-sn-glycero-3-phosphocholine
+(DSPC), cholesterol, and 1,2-dimyristoyl-rac-glycero-3-methoxypolyethylene
+glycol-2000 (DMG-PEG2000) at a molar ratio of
+50:10:38.5:1.5, respectively. The ALC-0315 LNPwas formulated via ALC-
+0315, DSPC, cholesterol, and ALC-0159 at a molar ratio of
+46.3:9.4:42.7:1.6, respectively. The aqueous phase was prepared by
+dissolving the corresponding mRNA in a 10mM citrate buffer at pH 3
+(Teknova, Hollister, CA, USA). For each mRNA LNP, the weight ratio of
+the mRNA to IL was 1:10, and the volume ratio of the organic phase to
+aqueous phase was 1:3. Each phase was loaded in separate glass syringes
+(Hamilton Company, Reno,NV) and connected to a Pump 33 DDS
+syringe pump(HarvardApparatus,MA,USA) attached to amicrofluidic
+device with a staggered herringbone micromixer design. The microfluidic
+devices were fabricated in polydimethylsiloxane utilizing standard
+soft lithographic procedures39. A two-step exposure process was
+used to create the SU-8 master with positive channel features on a
+silicon wafer, where each mixing channel is 4 cm in length. The syringes
+were injected at a flow rate of 0.6mL/min and 1.8mL/min for the
+organic phase and aqueous phase, respectively.
+For LNPs encapsulating RNP complex, the aqueous phase contained
+a solution of pH 7.4 1X PBS (Thermo Fisher Scientific) and the
+RNP cargo. RNPs were formed by adding TrueCut Cas9 protein
+(Thermo Fisher Scientific) and sgRNA in a 1:1 molar ratio, where the
+sgRNA targeted both the upstream and downstream LoxP sites in the
+Ai9 cassette. Cas9 and sgRNA were allowed to sit at roomtemperature
+for 20min to allow time for the RNP complexes to form, before
+microfluidicmixing of the two phases. The ethanol phase consisted of
+the corresponding IL, DOPE, cholesterol, C14-PEG2000, and 1,2-dioleoyl-
+3-trimethylammonium-propane (DOTAP) at a molar ratio of
+10.0:11.5:30.0:1.00:16.0, respectively. RNP loading is based on a weight
+ratio of 15:1 corresponding to the ratio of total lipids and the amount of
+RNP, respectively.
+LNPs for TTR gene editing were prepared using a NanoAssemblr
+Ignite (Precision Nanosystems, Vancouver, BC, Canada) using the
+excipient and buffer conditions described above. Here, Becton Dickinson
+(Franklin Lakes, NJ, USA) conventional Leur-Lok syringes were
+used at a flow rate of 12mL/min into an Ignite NxGen cartridge (Precision
+Nanosystems).
+All LNPs dialyzed against pH7.4 1X PBS in 20 kDaMWCOcassettes
+(Thermo Fisher Scientific) for at least 2 h,were passed through 0.22 μm
+syringe filters (Genesee Scientific, El Cajon, CA, USA), and stored at
+4 °C until further use. For the TTR gene editing studies, LNPs were
+concentrated by transferring them to Amicon 50k regenerated cellulose
+centrifugal filters (Millipore Sigma) and centrifuging at 700 × g
+until the desired volume was reached.

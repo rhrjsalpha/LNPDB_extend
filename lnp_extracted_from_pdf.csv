@@ -1,0 +1,13 @@
+﻿source_page,LNP_name,Nucleic_Acid,IL_to_Nucleic_Acid_Mass_Ratio,Ionizable_lipid,Helper_lipid,Cholesterol,PEG_lipid,Ionizable_lipid_ratio,Helper_lipid_ratio,Cholesterol_ratio,PEG_lipid_ratio
+12,,mRNA,,,,,,,,,
+12,,mRNA,,,,,,,,,
+12,,mRNA,,,B10 formulation,,,,,,
+12,,mRNA,,,B10 formulation,,,,,,
+12,,mRNA,,,SM-102,,,,,,
+12,,mRNA,,,C14-494B10,,,,,,
+12,,mRNA,,,C14-494B10,,,,,,
+12,,mRNA,,,E10i-494B10,,,,,,
+14,SM-102,mRNA,10 : 1,SM-102,DSPC,Cholesterol,DMG-PEG2000,50,10,38.5,1.5
+14,SM-102 (B10),mRNA,10 : 1,SM-102,DSPC,Cholesterol,DMG-PEG2000,40,30,25,2.5
+14,ALC-0315,mRNA,10 : 1,ALC-0315,DSPC,Cholesterol,ALC-0159,46.3,9.4,42.7,1.6
+15,LNP1,mRNA,,,,,,,,,
