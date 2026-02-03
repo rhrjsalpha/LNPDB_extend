@@ -1,0 +1,3888 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Knowledge Graph Explorer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+        :root {
+            color-scheme: light;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #f8fafc;
+            color: #0f172a;
+        }
+
+        .layout {
+            display: grid;
+            grid-template-columns: 360px 1fr;
+            height: 100vh;
+            transition: grid-template-columns 0.3s ease;
+        }
+
+        .layout.sidebar-collapsed {
+            grid-template-columns: 0px 1fr;
+        }
+
+        .layout.sidebar-disabled {
+            grid-template-columns: 1fr;
+            width: 100%;
+        }
+
+        .layout.sidebar-disabled .main {
+            width: 100vw !important;
+        }
+
+        .layout.sidebar-disabled .tab-panel {
+            padding: 0 !important;
+            width: 100vw !important;
+        }
+
+        .layout.sidebar-disabled .network-panel {
+            width: 100vw !important;
+            height: 100vh !important;
+            border-radius: 0;
+            border: none;
+            max-width: none !important;
+        }
+
+        .layout.sidebar-disabled #networkCanvas {
+            width: 100vw !important;
+            height: 100vh !important;
+            max-width: none !important;
+        }
+
+        /* Force canvas to take full iframe space */
+        canvas#networkCanvas {
+            width: 100% !important;
+            height: 100% !important;
+        }
+
+        .sidebar {
+            background: #ffffff;
+            border-right: 1px solid #e2e8f0;
+            padding: 24px 24px 16px;
+            overflow-y: auto;
+            transition: width 0.3s ease, opacity 0.3s ease;
+            display: block; /* Visible in standalone mode */
+        }
+
+        .sidebar.collapsed {
+            width: 0;
+            padding: 24px 0 16px;
+            overflow: hidden;
+            opacity: 0;
+        }
+
+        .sidebar h1 {
+            margin: 0 0 8px;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .sidebar p {
+            margin: 0 0 20px;
+            color: #475569;
+            font-size: 0.95rem;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .stat-card {
+            background: #f1f5f9;
+            border-radius: 12px;
+            padding: 12px;
+        }
+
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .section {
+            margin-bottom: 24px;
+        }
+
+        .section h2 {
+            font-size: 1rem;
+            margin: 0 0 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            color: #1e293b;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1px solid #cbd5f5;
+            border-radius: 10px;
+            font-size: 0.95rem;
+        }
+
+        .search-hint {
+            margin-top: 6px;
+            font-size: 0.8rem;
+            color: #64748b;
+        }
+
+        .list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .list-item {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+            padding: 10px 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.9rem;
+        }
+
+        .list-item strong {
+            font-weight: 600;
+        }
+
+        .cluster-item,
+        .relation-item {
+            border-left: 4px solid transparent;
+            text-align: left;
+            cursor: pointer;
+            transition: background 0.2s ease, transform 0.2s ease;
+        }
+
+        .cluster-item:hover,
+        .relation-item:hover {
+            background: #e2e8f0;
+        }
+
+        .cluster-item.active,
+        .relation-item.active {
+            transform: translateX(4px);
+            background: #e2e8f0;
+        }
+
+        .cluster-item .meta,
+        .relation-item .meta {
+            font-size: 0.8rem;
+            color: #475569;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            width: 100%;
+        }
+
+        .tab-bar {
+            display: flex;
+            gap: 8px;
+            padding: 16px 20px 0;
+            background: #ffffff;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .tab {
+            border: none;
+            background: #e2e8f0;
+            color: #1e293b;
+            padding: 10px 16px;
+            border-radius: 999px;
+            font-size: 0.95rem;
+            cursor: pointer;
+            transition: background 0.2s ease, color 0.2s ease;
+        }
+
+        .tab.active {
+            background: #1d4ed8;
+            color: #ffffff;
+        }
+
+        .sidebar-toggle {
+            position: absolute;
+            top: 16px;
+            right: 20px;
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 8px 12px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.2s ease;
+            z-index: 10;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: none; /* Hidden when sidebar is disabled */
+        }
+
+        .sidebar-toggle:hover {
+            background: #f8fafc;
+            border-color: #cbd5e1;
+        }
+
+        .sidebar-toggle::before {
+            content: '☰';
+            margin-right: 6px;
+        }
+
+        .sidebar-toggle.collapsed::before {
+            content: '☰';
+        }
+
+        .tab-panel {
+            flex: 1;
+            display: none;
+            padding: 16px 20px;
+            overflow: hidden;
+        }
+
+        .tab-panel.active {
+            display: block;
+        }
+
+        .network-panel {
+            height: calc(100vh - 74px);
+            background: #ffffff;
+            border-radius: 16px;
+            border: 1px solid #e2e8f0;
+            overflow: hidden;
+        }
+
+        #networkCanvas {
+            width: 100%;
+            height: 100%;
+            background: #ffffff;
+            border-radius: 16px;
+        }
+
+        #networkCanvas {
+            cursor: grab;
+        }
+
+        #networkCanvas:active {
+            cursor: grabbing;
+        }
+
+        .selection-card {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+            padding: 12px;
+            font-size: 0.9rem;
+        }
+
+        .selection-card h3 {
+            margin: 0 0 8px;
+            font-size: 1rem;
+        }
+
+        .selection-card ul {
+            list-style: none;
+            padding-left: 0;
+            margin: 0;
+        }
+
+        .selection-card li {
+            margin-bottom: 4px;
+            color: #475569;
+        }
+
+        .table-container {
+            background: #ffffff;
+            border-radius: 16px;
+            border: 1px solid #e2e8f0;
+            height: calc(100vh - 90px);
+            overflow: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 10px 14px;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+            font-size: 0.9rem;
+        }
+
+        th {
+            background: #f8fafc;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+
+        .pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 2px 10px;
+            border-radius: 999px;
+            background: #e2e8f0;
+            font-size: 0.75rem;
+            color: #0f172a;
+        }
+
+        .legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.85rem;
+            color: #475569;
+        }
+
+        .legend-swatch {
+            width: 12px;
+            height: 12px;
+            border-radius: 999px;
+            border: 1px solid rgba(15, 23, 42, 0.25);
+        }
+
+
+        /* Mobile/narrow iframe handling - when sidebar is disabled, use full space */
+        @media (max-width: 800px) {
+            .layout:not(.sidebar-disabled) {
+                grid-template-columns: 1fr;
+            }
+
+            .layout:not(.sidebar-disabled) .sidebar {
+                height: 280px;
+                border-right: none;
+                border-bottom: 1px solid #e2e8f0;
+            }
+
+            .layout:not(.sidebar-disabled) .main {
+                height: calc(100vh - 280px);
+            }
+
+            /* When sidebar is disabled (iframe mode), ensure full viewport usage */
+            .layout.sidebar-disabled .main {
+                width: 100% !important;
+                height: 100vh !important;
+            }
+
+            .layout.sidebar-disabled .tab-panel {
+                padding: 0 !important;
+                width: 100% !important;
+                height: 100vh !important;
+            }
+
+            .layout.sidebar-disabled .network-panel {
+                width: 100% !important;
+                height: 100vh !important;
+                border-radius: 0 !important;
+                border: none !important;
+                max-width: none !important;
+            }
+
+            .layout.sidebar-disabled #networkCanvas {
+                width: 100% !important;
+                height: 100vh !important;
+                max-width: none !important;
+            }
+
+            /* Ensure iframe canvas takes full space on mobile */
+            canvas#networkCanvas {
+                width: 100% !important;
+                height: 100% !important;
+                min-width: 100% !important;
+                min-height: 100% !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="layout">
+        <aside class="sidebar">
+            <h1>Knowledge Graph Explorer</h1>
+            <p>Search, highlight, and inspect entities and relations to understand how the graph fits together.</p>
+            <div class="stats-grid" id="statsGrid"></div>
+            <div class="section">
+                <h2>Search</h2>
+                <input id="searchInput" class="search-input" type="text" placeholder="Search for entities or
+                    relations" />
+                <div class="search-hint">Matches are highlighted. Press Escape to clear.</div>
+            </div>
+            <div class="section" id="selectionSection">
+                <h2>Selection</h2>
+                <div id="selectionDetails" class="selection-card">Click a node or relation in the network to inspect
+                    details.</div>
+            </div>
+            <div class="section">
+                <h2>Entity Clusters</h2>
+                <div id="clusterList" class="list"></div>
+            </div>
+            <div class="section">
+                <h2>Top Entities</h2>
+                <div id="topEntities" class="list"></div>
+            </div>
+            <div class="section">
+                <h2>Top Relations</h2>
+                <div id="topRelations" class="list"></div>
+            </div>
+        </aside>
+        <main class="main">
+            <button class="sidebar-toggle" id="sidebarToggle" title="Toggle sidebar"></button>
+            <div class="tab-bar" style="padding-bottom: 10px; display: none;">
+                <button class="tab active" data-tab="network">Network</button>
+                <!-- <button class="tab" data-tab="relations">Relations</button>
+                <button class="tab" data-tab="insights">Insights</button> -->
+            </div>
+            <section id="network" class="tab-panel active">
+                <div class="network-panel">
+                    <canvas id="networkCanvas"></canvas>
+                </div>
+            </section>
+            <!-- <section id="relations" class="tab-panel">
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Subject</th>
+                                <th>Relation</th>
+                                <th>Object</th>
+                            </tr>
+                        </thead>
+                        <tbody id="relationsTable"></tbody>
+                    </table>
+                </div>
+            </section>
+            <section id="insights" class="tab-panel">
+                <div class="table-container" style="padding: 20px;">
+                    <div id="insightsContent"></div>
+                </div>
+            </section> -->
+        </main>
+    </div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script id="viz-data" type="application/json">
+{
+  "nodes": [
+    {
+      "id": "10 mM citrate buffer",
+      "label": "10 mM citrate buffer",
+      "cluster": "10 mM citrate buffer",
+      "color": "#38e85d",
+      "degree": 3,
+      "indegree": 1,
+      "outdegree": 2,
+      "isRepresentative": true,
+      "radius": 24,
+      "neighbors": [
+        "mRNA",
+        "pH 3",
+        "Teknova"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e9"
+        ],
+        "outgoing": [
+          "e0",
+          "e21"
+        ]
+      }
+    },
+    {
+      "id": "4 cm length",
+      "label": "4 cm length",
+      "cluster": "4 cm length",
+      "color": "#d95858",
+      "degree": 1,
+      "indegree": 1,
+      "outdegree": 0,
+      "isRepresentative": true,
+      "radius": 20,
+      "neighbors": [
+        "mixing channel"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e15"
+        ],
+        "outgoing": []
+      }
+    },
+    {
+      "id": "ALC-0159",
+      "label": "ALC-0159",
+      "cluster": "ALC-0159",
+      "color": "#47e543",
+      "degree": 1,
+      "indegree": 1,
+      "outdegree": 0,
+      "isRepresentative": true,
+      "radius": 20,
+      "neighbors": [
+        "ALC-0315 LNP"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e11"
+        ],
+        "outgoing": []
+      }
+    },
+    {
+      "id": "ALC-0315",
+      "label": "ALC-0315",
+      "cluster": "ALC-0315",
+      "color": "#da2b86",
+      "degree": 1,
+      "indegree": 1,
+      "outdegree": 0,
+      "isRepresentative": true,
+      "radius": 20,
+      "neighbors": [
+        "ALC-0315 LNP"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e12"
+        ],
+        "outgoing": []
+      }
+    },
+    {
+      "id": "ALC-0315 LNP",
+      "label": "ALC-0315 LNP",
+      "cluster": "ALC-0315 LNP",
+      "color": "#e1b95b",
+      "degree": 5,
+      "indegree": 0,
+      "outdegree": 5,
+      "isRepresentative": true,
+      "radius": 28,
+      "neighbors": [
+        "ALC-0159",
+        "ALC-0315",
+        "cholesterol",
+        "DSPC",
+        "molar ratio 46.3:9.4:42.7:1.6"
+      ],
+      "edgeIds": {
+        "incoming": [],
+        "outgoing": [
+          "e11",
+          "e12",
+          "e13",
+          "e14",
+          "e18"
+        ]
+      }
+    },
+    {
+      "id": "aqueous phase",
+      "label": "aqueous phase",
+      "cluster": "aqueous phase",
+      "color": "#58e1c5",
+      "degree": 4,
+      "indegree": 1,
+      "outdegree": 3,
+      "isRepresentative": true,
+      "radius": 26,
+      "neighbors": [
+        "flow rate 1.8 mL/min",
+        "glass syringes",
+        "mRNA",
+        "volume ratio (organic phase:aqueous phase) 1:3"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e39"
+        ],
+        "outgoing": [
+          "e22",
+          "e24",
+          "e34"
+        ]
+      }
+    },
+    {
+      "id": "B10 formulation",
+      "label": "B10 formulation",
+      "cluster": "B10 formulation",
+      "color": "#8245dd",
+      "degree": 1,
+      "indegree": 0,
+      "outdegree": 1,
+      "isRepresentative": true,
+      "radius": 20,
+      "neighbors": [
+        "molar ratio 40:30:25:2.5"
+      ],
+      "edgeIds": {
+        "incoming": [],
+        "outgoing": [
+          "e43"
+        ]
+      }
+    },
+    {
+      "id": "C14-PEG2000",
+      "label": "C14-PEG2000",
+      "cluster": "C14-PEG2000",
+      "color": "#4437e6",
+      "degree": 2,
+      "indegree": 0,
+      "outdegree": 2,
+      "isRepresentative": true,
+      "radius": 22,
+      "neighbors": [
+        "ethanol",
+        "organic phase"
+      ],
+      "edgeIds": {
+        "incoming": [],
+        "outgoing": [
+          "e5",
+          "e30"
+        ]
+      }
+    },
+    {
+      "id": "cholesterol",
+      "label": "cholesterol",
+      "cluster": "cholesterol",
+      "color": "#47db43",
+      "degree": 4,
+      "indegree": 2,
+      "outdegree": 2,
+      "isRepresentative": true,
+      "radius": 26,
+      "neighbors": [
+        "ALC-0315 LNP",
+        "ethanol",
+        "organic phase",
+        "SM-102 LNP"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e13",
+          "e35"
+        ],
+        "outgoing": [
+          "e6",
+          "e31"
+        ]
+      }
+    },
+    {
+      "id": "DMG-PEG2000",
+      "label": "DMG-PEG2000",
+      "cluster": "DMG-PEG2000",
+      "color": "#137ada",
+      "degree": 1,
+      "indegree": 1,
+      "outdegree": 0,
+      "isRepresentative": true,
+      "radius": 20,
+      "neighbors": [
+        "SM-102 LNP"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e36"
+        ],
+        "outgoing": []
+      }
+    },
+    {
+      "id": "DOPE",
+      "label": "DOPE",
+      "cluster": "DOPE",
+      "color": "#34c8b8",
+      "degree": 2,
+      "indegree": 0,
+      "outdegree": 2,
+      "isRepresentative": true,
+      "radius": 22,
+      "neighbors": [
+        "ethanol",
+        "organic phase"
+      ],
+      "edgeIds": {
+        "incoming": [],
+        "outgoing": [
+          "e7",
+          "e32"
+        ]
+      }
+    },
+    {
+      "id": "DSPC",
+      "label": "DSPC",
+      "cluster": "DSPC",
+      "color": "#7be278",
+      "degree": 2,
+      "indegree": 2,
+      "outdegree": 0,
+      "isRepresentative": true,
+      "radius": 22,
+      "neighbors": [
+        "ALC-0315 LNP",
+        "SM-102 LNP"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e14",
+          "e37"
+        ],
+        "outgoing": []
+      }
+    },
+    {
+      "id": "ethanol",
+      "label": "ethanol",
+      "cluster": "ethanol",
+      "color": "#ea6eab",
+      "degree": 4,
+      "indegree": 4,
+      "outdegree": 0,
+      "isRepresentative": true,
+      "radius": 26,
+      "neighbors": [
+        "C14-PEG2000",
+        "cholesterol",
+        "DOPE",
+        "IL"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e5",
+          "e6",
+          "e7",
+          "e8"
+        ],
+        "outgoing": []
+      }
+    },
+    {
+      "id": "flow rate 0.6 mL/min",
+      "label": "flow rate 0.6 mL/min",
+      "cluster": "flow rate 0.6 mL/min",
+      "color": "#d56dd2",
+      "degree": 1,
+      "indegree": 1,
+      "outdegree": 0,
+      "isRepresentative": true,
+      "radius": 20,
+      "neighbors": [
+        "organic phase"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e23"
+        ],
+        "outgoing": []
+      }
+    },
+    {
+      "id": "flow rate 1.8 mL/min",
+      "label": "flow rate 1.8 mL/min",
+      "cluster": "flow rate 1.8 mL/min",
+      "color": "#5ae37e",
+      "degree": 1,
+      "indegree": 1,
+      "outdegree": 0,
+      "isRepresentative": true,
+      "radius": 20,
+      "neighbors": [
+        "aqueous phase"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e22"
+        ],
+        "outgoing": []
+      }
+    },
+    {
+      "id": "glass syringes",
+      "label": "glass syringes",
+      "cluster": "glass syringes",
+      "color": "#e47de0",
+      "degree": 4,
+      "indegree": 2,
+      "outdegree": 2,
+      "isRepresentative": true,
+      "radius": 26,
+      "neighbors": [
+        "aqueous phase",
+        "Hamilton Company",
+        "organic phase",
+        "Pump 33 DDS syringe pump"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e24",
+          "e25"
+        ],
+        "outgoing": [
+          "e1",
+          "e4"
+        ]
+      }
+    },
+    {
+      "id": "Hamilton Company",
+      "label": "Hamilton Company",
+      "cluster": "Hamilton Company",
+      "color": "#de743a",
+      "degree": 2,
+      "indegree": 1,
+      "outdegree": 1,
+      "isRepresentative": true,
+      "radius": 22,
+      "neighbors": [
+        "glass syringes",
+        "Reno, NV"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e1"
+        ],
+        "outgoing": [
+          "e26"
+        ]
+      }
+    },
+    {
+      "id": "Harvard Apparatus",
+      "label": "Harvard Apparatus",
+      "cluster": "Harvard Apparatus",
+      "color": "#22dd7f",
+      "degree": 2,
+      "indegree": 1,
+      "outdegree": 1,
+      "isRepresentative": true,
+      "radius": 22,
+      "neighbors": [
+        "MA, USA",
+        "Pump 33 DDS syringe pump"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e2"
+        ],
+        "outgoing": [
+          "e27"
+        ]
+      }
+    },
+    {
+      "id": "Hollister, CA, USA",
+      "label": "Hollister, CA, USA",
+      "cluster": "Hollister, CA, USA",
+      "color": "#47a6e8",
+      "degree": 1,
+      "indegree": 1,
+      "outdegree": 0,
+      "isRepresentative": true,
+      "radius": 20,
+      "neighbors": [
+        "Teknova"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e28"
+        ],
+        "outgoing": []
+      }
+    },
+    {
+      "id": "IL",
+      "label": "IL",
+      "cluster": "IL",
+      "color": "#edee5a",
+      "degree": 3,
+      "indegree": 1,
+      "outdegree": 2,
+      "isRepresentative": true,
+      "radius": 24,
+      "neighbors": [
+        "ethanol",
+        "organic phase",
+        "weight ratio (mRNA:IL) 1:10"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e41"
+        ],
+        "outgoing": [
+          "e8",
+          "e33"
+        ]
+      }
+    },
+    {
+      "id": "MA, USA",
+      "label": "MA, USA",
+      "cluster": "MA, USA",
+      "color": "#31b69b",
+      "degree": 1,
+      "indegree": 1,
+      "outdegree": 0,
+      "isRepresentative": true,
+      "radius": 20,
+      "neighbors": [
+        "Harvard Apparatus"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e27"
+        ],
+        "outgoing": []
+      }
+    },
+    {
+      "id": "microfluidic device",
+      "label": "microfluidic device",
+      "cluster": "microfluidic device",
+      "color": "#7067e5",
+      "degree": 4,
+      "indegree": 1,
+      "outdegree": 3,
+      "isRepresentative": true,
+      "radius": 26,
+      "neighbors": [
+        "polydimethylsiloxane",
+        "Pump 33 DDS syringe pump",
+        "staggered herringbone micromixer",
+        "standard soft lithographic procedures"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e3"
+        ],
+        "outgoing": [
+          "e10",
+          "e17",
+          "e45"
+        ]
+      }
+    },
+    {
+      "id": "mixing channel",
+      "label": "mixing channel",
+      "cluster": "mixing channel",
+      "color": "#c821cf",
+      "degree": 1,
+      "indegree": 0,
+      "outdegree": 1,
+      "isRepresentative": true,
+      "radius": 20,
+      "neighbors": [
+        "4 cm length"
+      ],
+      "edgeIds": {
+        "incoming": [],
+        "outgoing": [
+          "e15"
+        ]
+      }
+    },
+    {
+      "id": "molar ratio 35:16:46.5:2.5",
+      "label": "molar ratio 35:16:46.5:2.5",
+      "cluster": "molar ratio 35:16:46.5:2.5",
+      "color": "#69eccf",
+      "degree": 1,
+      "indegree": 1,
+      "outdegree": 0,
+      "isRepresentative": true,
+      "radius": 20,
+      "neighbors": [
+        "organic phase"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e19"
+        ],
+        "outgoing": []
+      }
+    },
+    {
+      "id": "molar ratio 40:30:25:2.5",
+      "label": "molar ratio 40:30:25:2.5",
+      "cluster": "molar ratio 40:30:25:2.5",
+      "color": "#d91f9e",
+      "degree": 1,
+      "indegree": 1,
+      "outdegree": 0,
+      "isRepresentative": true,
+      "radius": 20,
+      "neighbors": [
+        "B10 formulation"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e43"
+        ],
+        "outgoing": []
+      }
+    },
+    {
+      "id": "molar ratio 46.3:9.4:42.7:1.6",
+      "label": "molar ratio 46.3:9.4:42.7:1.6",
+      "cluster": "molar ratio 46.3:9.4:42.7:1.6",
+      "color": "#ce8630",
+      "degree": 1,
+      "indegree": 1,
+      "outdegree": 0,
+      "isRepresentative": true,
+      "radius": 20,
+      "neighbors": [
+        "ALC-0315 LNP"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e18"
+        ],
+        "outgoing": []
+      }
+    },
+    {
+      "id": "molar ratio 50:10:38.5:1.5",
+      "label": "molar ratio 50:10:38.5:1.5",
+      "cluster": "molar ratio 50:10:38.5:1.5",
+      "color": "#d6d56f",
+      "degree": 1,
+      "indegree": 1,
+      "outdegree": 0,
+      "isRepresentative": true,
+      "radius": 20,
+      "neighbors": [
+        "SM-102 LNP"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e20"
+        ],
+        "outgoing": []
+      }
+    },
+    {
+      "id": "mRNA",
+      "label": "mRNA",
+      "cluster": "mRNA",
+      "color": "#8971e5",
+      "degree": 3,
+      "indegree": 2,
+      "outdegree": 1,
+      "isRepresentative": true,
+      "radius": 24,
+      "neighbors": [
+        "10 mM citrate buffer",
+        "aqueous phase",
+        "weight ratio (mRNA:IL) 1:10"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e34",
+          "e42"
+        ],
+        "outgoing": [
+          "e9"
+        ]
+      }
+    },
+    {
+      "id": "organic phase",
+      "label": "organic phase",
+      "cluster": "organic phase",
+      "color": "#75e44e",
+      "degree": 8,
+      "indegree": 5,
+      "outdegree": 3,
+      "isRepresentative": true,
+      "radius": 34,
+      "neighbors": [
+        "C14-PEG2000",
+        "cholesterol",
+        "DOPE",
+        "flow rate 0.6 mL/min",
+        "glass syringes",
+        "IL",
+        "molar ratio 35:16:46.5:2.5",
+        "volume ratio (organic phase:aqueous phase) 1:3"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e30",
+          "e31",
+          "e32",
+          "e33",
+          "e40"
+        ],
+        "outgoing": [
+          "e19",
+          "e23",
+          "e25"
+        ]
+      }
+    },
+    {
+      "id": "pH 3",
+      "label": "pH 3",
+      "cluster": "pH 3",
+      "color": "#eb7331",
+      "degree": 1,
+      "indegree": 1,
+      "outdegree": 0,
+      "isRepresentative": true,
+      "radius": 20,
+      "neighbors": [
+        "10 mM citrate buffer"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e21"
+        ],
+        "outgoing": []
+      }
+    },
+    {
+      "id": "polydimethylsiloxane",
+      "label": "polydimethylsiloxane",
+      "cluster": "polydimethylsiloxane",
+      "color": "#de4ee0",
+      "degree": 1,
+      "indegree": 1,
+      "outdegree": 0,
+      "isRepresentative": true,
+      "radius": 20,
+      "neighbors": [
+        "microfluidic device"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e10"
+        ],
+        "outgoing": []
+      }
+    },
+    {
+      "id": "positive channel features",
+      "label": "positive channel features",
+      "cluster": "positive channel features",
+      "color": "#ac67d8",
+      "degree": 1,
+      "indegree": 1,
+      "outdegree": 0,
+      "isRepresentative": true,
+      "radius": 20,
+      "neighbors": [
+        "SU-8 master"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e16"
+        ],
+        "outgoing": []
+      }
+    },
+    {
+      "id": "Pump 33 DDS syringe pump",
+      "label": "Pump 33 DDS syringe pump",
+      "cluster": "Pump 33 DDS syringe pump",
+      "color": "#5782f1",
+      "degree": 3,
+      "indegree": 1,
+      "outdegree": 2,
+      "isRepresentative": true,
+      "radius": 24,
+      "neighbors": [
+        "glass syringes",
+        "Harvard Apparatus",
+        "microfluidic device"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e4"
+        ],
+        "outgoing": [
+          "e2",
+          "e3"
+        ]
+      }
+    },
+    {
+      "id": "Reno, NV",
+      "label": "Reno, NV",
+      "cluster": "Reno, NV",
+      "color": "#8ae757",
+      "degree": 1,
+      "indegree": 1,
+      "outdegree": 0,
+      "isRepresentative": true,
+      "radius": 20,
+      "neighbors": [
+        "Hamilton Company"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e26"
+        ],
+        "outgoing": []
+      }
+    },
+    {
+      "id": "silicon wafer",
+      "label": "silicon wafer",
+      "cluster": "silicon wafer",
+      "color": "#722fed",
+      "degree": 1,
+      "indegree": 1,
+      "outdegree": 0,
+      "isRepresentative": true,
+      "radius": 20,
+      "neighbors": [
+        "SU-8 master"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e29"
+        ],
+        "outgoing": []
+      }
+    },
+    {
+      "id": "SM-102",
+      "label": "SM-102",
+      "cluster": "SM-102",
+      "color": "#dec671",
+      "degree": 1,
+      "indegree": 1,
+      "outdegree": 0,
+      "isRepresentative": true,
+      "radius": 20,
+      "neighbors": [
+        "SM-102 LNP"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e38"
+        ],
+        "outgoing": []
+      }
+    },
+    {
+      "id": "SM-102 LNP",
+      "label": "SM-102 LNP",
+      "cluster": "SM-102 LNP",
+      "color": "#89ec5e",
+      "degree": 5,
+      "indegree": 0,
+      "outdegree": 5,
+      "isRepresentative": true,
+      "radius": 28,
+      "neighbors": [
+        "cholesterol",
+        "DMG-PEG2000",
+        "DSPC",
+        "molar ratio 50:10:38.5:1.5",
+        "SM-102"
+      ],
+      "edgeIds": {
+        "incoming": [],
+        "outgoing": [
+          "e20",
+          "e35",
+          "e36",
+          "e37",
+          "e38"
+        ]
+      }
+    },
+    {
+      "id": "staggered herringbone micromixer",
+      "label": "staggered herringbone micromixer",
+      "cluster": "staggered herringbone micromixer",
+      "color": "#c6349b",
+      "degree": 1,
+      "indegree": 1,
+      "outdegree": 0,
+      "isRepresentative": true,
+      "radius": 20,
+      "neighbors": [
+        "microfluidic device"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e17"
+        ],
+        "outgoing": []
+      }
+    },
+    {
+      "id": "standard soft lithographic procedures",
+      "label": "standard soft lithographic procedures",
+      "cluster": "standard soft lithographic procedures",
+      "color": "#cae281",
+      "degree": 1,
+      "indegree": 1,
+      "outdegree": 0,
+      "isRepresentative": true,
+      "radius": 20,
+      "neighbors": [
+        "microfluidic device"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e45"
+        ],
+        "outgoing": []
+      }
+    },
+    {
+      "id": "SU-8 master",
+      "label": "SU-8 master",
+      "cluster": "SU-8 master",
+      "color": "#797ee5",
+      "degree": 3,
+      "indegree": 1,
+      "outdegree": 2,
+      "isRepresentative": true,
+      "radius": 24,
+      "neighbors": [
+        "positive channel features",
+        "silicon wafer",
+        "two-step exposure process"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e44"
+        ],
+        "outgoing": [
+          "e16",
+          "e29"
+        ]
+      }
+    },
+    {
+      "id": "Teknova",
+      "label": "Teknova",
+      "cluster": "Teknova",
+      "color": "#dd9d80",
+      "degree": 2,
+      "indegree": 1,
+      "outdegree": 1,
+      "isRepresentative": true,
+      "radius": 22,
+      "neighbors": [
+        "10 mM citrate buffer",
+        "Hollister, CA, USA"
+      ],
+      "edgeIds": {
+        "incoming": [
+          "e0"
+        ],
+        "outgoing": [
+          "e28"
+        ]
+      }
+    },
+    {
+      "id": "two-step exposure process",
+      "label": "two-step exposure process",
+      "cluster": "two-step exposure process",
+      "color": "#d8e965",
+      "degree": 1,
+      "indegree": 0,
+      "outdegree": 1,
+      "isRepresentative": true,
+      "radius": 20,
+      "neighbors": [
+        "SU-8 master"
+      ],
+      "edgeIds": {
+        "incoming": [],
+        "outgoing": [
+          "e44"
+        ]
+      }
+    },
+    {
+      "id": "volume ratio (organic phase:aqueous phase) 1:3",
+      "label": "volume ratio (organic phase:aqueous phase) 1:3",
+      "cluster": "volume ratio (organic phase:aqueous phase) 1:3",
+      "color": "#d94cde",
+      "degree": 2,
+      "indegree": 0,
+      "outdegree": 2,
+      "isRepresentative": true,
+      "radius": 22,
+      "neighbors": [
+        "aqueous phase",
+        "organic phase"
+      ],
+      "edgeIds": {
+        "incoming": [],
+        "outgoing": [
+          "e39",
+          "e40"
+        ]
+      }
+    },
+    {
+      "id": "weight ratio (mRNA:IL) 1:10",
+      "label": "weight ratio (mRNA:IL) 1:10",
+      "cluster": "weight ratio (mRNA:IL) 1:10",
+      "color": "#de77b1",
+      "degree": 2,
+      "indegree": 0,
+      "outdegree": 2,
+      "isRepresentative": true,
+      "radius": 22,
+      "neighbors": [
+        "IL",
+        "mRNA"
+      ],
+      "edgeIds": {
+        "incoming": [],
+        "outgoing": [
+          "e41",
+          "e42"
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "source": "10 mM citrate buffer",
+      "target": "Teknova",
+      "predicate": "associated with",
+      "cluster": "associated with",
+      "color": "#50ef97",
+      "tooltip": "10 mM citrate buffer —associated with→ Teknova"
+    },
+    {
+      "id": "e1",
+      "source": "glass syringes",
+      "target": "Hamilton Company",
+      "predicate": "associated with",
+      "cluster": "associated with",
+      "color": "#50ef97",
+      "tooltip": "glass syringes —associated with→ Hamilton Company"
+    },
+    {
+      "id": "e2",
+      "source": "Pump 33 DDS syringe pump",
+      "target": "Harvard Apparatus",
+      "predicate": "associated with",
+      "cluster": "associated with",
+      "color": "#50ef97",
+      "tooltip": "Pump 33 DDS syringe pump —associated with→ Harvard Apparatus"
+    },
+    {
+      "id": "e3",
+      "source": "Pump 33 DDS syringe pump",
+      "target": "microfluidic device",
+      "predicate": "attached to",
+      "cluster": "attached to",
+      "color": "#e2e837",
+      "tooltip": "Pump 33 DDS syringe pump —attached to→ microfluidic device"
+    },
+    {
+      "id": "e4",
+      "source": "glass syringes",
+      "target": "Pump 33 DDS syringe pump",
+      "predicate": "connected to",
+      "cluster": "connected to",
+      "color": "#9c2cc5",
+      "tooltip": "glass syringes —connected to→ Pump 33 DDS syringe pump"
+    },
+    {
+      "id": "e5",
+      "source": "C14-PEG2000",
+      "target": "ethanol",
+      "predicate": "dissolved in",
+      "cluster": "dissolved in",
+      "color": "#1c39c9",
+      "tooltip": "C14-PEG2000 —dissolved in→ ethanol"
+    },
+    {
+      "id": "e6",
+      "source": "cholesterol",
+      "target": "ethanol",
+      "predicate": "dissolved in",
+      "cluster": "dissolved in",
+      "color": "#1c39c9",
+      "tooltip": "cholesterol —dissolved in→ ethanol"
+    },
+    {
+      "id": "e7",
+      "source": "DOPE",
+      "target": "ethanol",
+      "predicate": "dissolved in",
+      "cluster": "dissolved in",
+      "color": "#1c39c9",
+      "tooltip": "DOPE —dissolved in→ ethanol"
+    },
+    {
+      "id": "e8",
+      "source": "IL",
+      "target": "ethanol",
+      "predicate": "dissolved in",
+      "cluster": "dissolved in",
+      "color": "#1c39c9",
+      "tooltip": "IL —dissolved in→ ethanol"
+    },
+    {
+      "id": "e9",
+      "source": "mRNA",
+      "target": "10 mM citrate buffer",
+      "predicate": "dissolved in",
+      "cluster": "dissolved in",
+      "color": "#1c39c9",
+      "tooltip": "mRNA —dissolved in→ 10 mM citrate buffer"
+    },
+    {
+      "id": "e10",
+      "source": "microfluidic device",
+      "target": "polydimethylsiloxane",
+      "predicate": "fabricated in",
+      "cluster": "fabricated in",
+      "color": "#c2ca44",
+      "tooltip": "microfluidic device —fabricated in→ polydimethylsiloxane"
+    },
+    {
+      "id": "e11",
+      "source": "ALC-0315 LNP",
+      "target": "ALC-0159",
+      "predicate": "formulated via",
+      "cluster": "formulated via",
+      "color": "#c2df5b",
+      "tooltip": "ALC-0315 LNP —formulated via→ ALC-0159"
+    },
+    {
+      "id": "e12",
+      "source": "ALC-0315 LNP",
+      "target": "ALC-0315",
+      "predicate": "formulated via",
+      "cluster": "formulated via",
+      "color": "#c2df5b",
+      "tooltip": "ALC-0315 LNP —formulated via→ ALC-0315"
+    },
+    {
+      "id": "e13",
+      "source": "ALC-0315 LNP",
+      "target": "cholesterol",
+      "predicate": "formulated via",
+      "cluster": "formulated via",
+      "color": "#c2df5b",
+      "tooltip": "ALC-0315 LNP —formulated via→ cholesterol"
+    },
+    {
+      "id": "e14",
+      "source": "ALC-0315 LNP",
+      "target": "DSPC",
+      "predicate": "formulated via",
+      "cluster": "formulated via",
+      "color": "#c2df5b",
+      "tooltip": "ALC-0315 LNP —formulated via→ DSPC"
+    },
+    {
+      "id": "e15",
+      "source": "mixing channel",
+      "target": "4 cm length",
+      "predicate": "has",
+      "cluster": "has",
+      "color": "#35bde4",
+      "tooltip": "mixing channel —has→ 4 cm length"
+    },
+    {
+      "id": "e16",
+      "source": "SU-8 master",
+      "target": "positive channel features",
+      "predicate": "has",
+      "cluster": "has",
+      "color": "#35bde4",
+      "tooltip": "SU-8 master —has→ positive channel features"
+    },
+    {
+      "id": "e17",
+      "source": "microfluidic device",
+      "target": "staggered herringbone micromixer",
+      "predicate": "has design",
+      "cluster": "has design",
+      "color": "#cd1eb6",
+      "tooltip": "microfluidic device —has design→ staggered herringbone micromixer"
+    },
+    {
+      "id": "e18",
+      "source": "ALC-0315 LNP",
+      "target": "molar ratio 46.3:9.4:42.7:1.6",
+      "predicate": "has molar ratio",
+      "cluster": "has molar ratio",
+      "color": "#34dbe5",
+      "tooltip": "ALC-0315 LNP —has molar ratio→ molar ratio 46.3:9.4:42.7:1.6"
+    },
+    {
+      "id": "e19",
+      "source": "organic phase",
+      "target": "molar ratio 35:16:46.5:2.5",
+      "predicate": "has molar ratio",
+      "cluster": "has molar ratio",
+      "color": "#34dbe5",
+      "tooltip": "organic phase —has molar ratio→ molar ratio 35:16:46.5:2.5"
+    },
+    {
+      "id": "e20",
+      "source": "SM-102 LNP",
+      "target": "molar ratio 50:10:38.5:1.5",
+      "predicate": "has molar ratio",
+      "cluster": "has molar ratio",
+      "color": "#34dbe5",
+      "tooltip": "SM-102 LNP —has molar ratio→ molar ratio 50:10:38.5:1.5"
+    },
+    {
+      "id": "e21",
+      "source": "10 mM citrate buffer",
+      "target": "pH 3",
+      "predicate": "has pH",
+      "cluster": "has pH",
+      "color": "#d3614a",
+      "tooltip": "10 mM citrate buffer —has pH→ pH 3"
+    },
+    {
+      "id": "e22",
+      "source": "aqueous phase",
+      "target": "flow rate 1.8 mL/min",
+      "predicate": "injected at",
+      "cluster": "injected at",
+      "color": "#a0e075",
+      "tooltip": "aqueous phase —injected at→ flow rate 1.8 mL/min"
+    },
+    {
+      "id": "e23",
+      "source": "organic phase",
+      "target": "flow rate 0.6 mL/min",
+      "predicate": "injected at",
+      "cluster": "injected at",
+      "color": "#a0e075",
+      "tooltip": "organic phase —injected at→ flow rate 0.6 mL/min"
+    },
+    {
+      "id": "e24",
+      "source": "aqueous phase",
+      "target": "glass syringes",
+      "predicate": "loaded in",
+      "cluster": "loaded in",
+      "color": "#6bcb25",
+      "tooltip": "aqueous phase —loaded in→ glass syringes"
+    },
+    {
+      "id": "e25",
+      "source": "organic phase",
+      "target": "glass syringes",
+      "predicate": "loaded in",
+      "cluster": "loaded in",
+      "color": "#6bcb25",
+      "tooltip": "organic phase —loaded in→ glass syringes"
+    },
+    {
+      "id": "e26",
+      "source": "Hamilton Company",
+      "target": "Reno, NV",
+      "predicate": "located in",
+      "cluster": "located in",
+      "color": "#aa37cf",
+      "tooltip": "Hamilton Company —located in→ Reno, NV"
+    },
+    {
+      "id": "e27",
+      "source": "Harvard Apparatus",
+      "target": "MA, USA",
+      "predicate": "located in",
+      "cluster": "located in",
+      "color": "#aa37cf",
+      "tooltip": "Harvard Apparatus —located in→ MA, USA"
+    },
+    {
+      "id": "e28",
+      "source": "Teknova",
+      "target": "Hollister, CA, USA",
+      "predicate": "located in",
+      "cluster": "located in",
+      "color": "#aa37cf",
+      "tooltip": "Teknova —located in→ Hollister, CA, USA"
+    },
+    {
+      "id": "e29",
+      "source": "SU-8 master",
+      "target": "silicon wafer",
+      "predicate": "on",
+      "cluster": "on",
+      "color": "#1358d7",
+      "tooltip": "SU-8 master —on→ silicon wafer"
+    },
+    {
+      "id": "e30",
+      "source": "C14-PEG2000",
+      "target": "organic phase",
+      "predicate": "part of",
+      "cluster": "part of",
+      "color": "#de434a",
+      "tooltip": "C14-PEG2000 —part of→ organic phase"
+    },
+    {
+      "id": "e31",
+      "source": "cholesterol",
+      "target": "organic phase",
+      "predicate": "part of",
+      "cluster": "part of",
+      "color": "#de434a",
+      "tooltip": "cholesterol —part of→ organic phase"
+    },
+    {
+      "id": "e32",
+      "source": "DOPE",
+      "target": "organic phase",
+      "predicate": "part of",
+      "cluster": "part of",
+      "color": "#de434a",
+      "tooltip": "DOPE —part of→ organic phase"
+    },
+    {
+      "id": "e33",
+      "source": "IL",
+      "target": "organic phase",
+      "predicate": "part of",
+      "cluster": "part of",
+      "color": "#de434a",
+      "tooltip": "IL —part of→ organic phase"
+    },
+    {
+      "id": "e34",
+      "source": "aqueous phase",
+      "target": "mRNA",
+      "predicate": "prepared by dissolving",
+      "cluster": "prepared by dissolving",
+      "color": "#3b78dd",
+      "tooltip": "aqueous phase —prepared by dissolving→ mRNA"
+    },
+    {
+      "id": "e35",
+      "source": "SM-102 LNP",
+      "target": "cholesterol",
+      "predicate": "prepared using",
+      "cluster": "prepared using",
+      "color": "#e769a4",
+      "tooltip": "SM-102 LNP —prepared using→ cholesterol"
+    },
+    {
+      "id": "e36",
+      "source": "SM-102 LNP",
+      "target": "DMG-PEG2000",
+      "predicate": "prepared using",
+      "cluster": "prepared using",
+      "color": "#e769a4",
+      "tooltip": "SM-102 LNP —prepared using→ DMG-PEG2000"
+    },
+    {
+      "id": "e37",
+      "source": "SM-102 LNP",
+      "target": "DSPC",
+      "predicate": "prepared using",
+      "cluster": "prepared using",
+      "color": "#e769a4",
+      "tooltip": "SM-102 LNP —prepared using→ DSPC"
+    },
+    {
+      "id": "e38",
+      "source": "SM-102 LNP",
+      "target": "SM-102",
+      "predicate": "prepared using",
+      "cluster": "prepared using",
+      "color": "#e769a4",
+      "tooltip": "SM-102 LNP —prepared using→ SM-102"
+    },
+    {
+      "id": "e39",
+      "source": "volume ratio (organic phase:aqueous phase) 1:3",
+      "target": "aqueous phase",
+      "predicate": "relates",
+      "cluster": "relates",
+      "color": "#d333e2",
+      "tooltip": "volume ratio (organic phase:aqueous phase) 1:3 —relates→ aqueous phase"
+    },
+    {
+      "id": "e40",
+      "source": "volume ratio (organic phase:aqueous phase) 1:3",
+      "target": "organic phase",
+      "predicate": "relates",
+      "cluster": "relates",
+      "color": "#d333e2",
+      "tooltip": "volume ratio (organic phase:aqueous phase) 1:3 —relates→ organic phase"
+    },
+    {
+      "id": "e41",
+      "source": "weight ratio (mRNA:IL) 1:10",
+      "target": "IL",
+      "predicate": "relates",
+      "cluster": "relates",
+      "color": "#d333e2",
+      "tooltip": "weight ratio (mRNA:IL) 1:10 —relates→ IL"
+    },
+    {
+      "id": "e42",
+      "source": "weight ratio (mRNA:IL) 1:10",
+      "target": "mRNA",
+      "predicate": "relates",
+      "cluster": "relates",
+      "color": "#d333e2",
+      "tooltip": "weight ratio (mRNA:IL) 1:10 —relates→ mRNA"
+    },
+    {
+      "id": "e43",
+      "source": "B10 formulation",
+      "target": "molar ratio 40:30:25:2.5",
+      "predicate": "used molar ratio",
+      "cluster": "used molar ratio",
+      "color": "#7fd9e4",
+      "tooltip": "B10 formulation —used molar ratio→ molar ratio 40:30:25:2.5"
+    },
+    {
+      "id": "e44",
+      "source": "two-step exposure process",
+      "target": "SU-8 master",
+      "predicate": "used to create",
+      "cluster": "used to create",
+      "color": "#97d449",
+      "tooltip": "two-step exposure process —used to create→ SU-8 master"
+    },
+    {
+      "id": "e45",
+      "source": "microfluidic device",
+      "target": "standard soft lithographic procedures",
+      "predicate": "utilizing",
+      "cluster": "utilizing",
+      "color": "#6597d4",
+      "tooltip": "microfluidic device —utilizing→ standard soft lithographic procedures"
+    }
+  ],
+  "clusters": [
+    {
+      "id": "DOPE",
+      "label": "DOPE",
+      "members": [
+        "18:1 Δ9-cis phosphoethanolamine (DOPE)",
+        "DOPE"
+      ],
+      "size": 2,
+      "color": "#34c8b8"
+    },
+    {
+      "id": "DMG-PEG2000",
+      "label": "DMG-PEG2000",
+      "members": [
+        "1,2-dimyristoyl-rac-glycero-3-methoxypolyethylene glycol-2000 (DMG-PEG2000)",
+        "DMG-PEG2000"
+      ],
+      "size": 2,
+      "color": "#137ada"
+    },
+    {
+      "id": "C14-PEG2000",
+      "label": "C14-PEG2000",
+      "members": [
+        "14:0 PEG2000 phosphoethanolamine (C14-PEG2000)",
+        "C14-PEG2000"
+      ],
+      "size": 2,
+      "color": "#4437e6"
+    },
+    {
+      "id": "microfluidic device",
+      "label": "microfluidic device",
+      "members": [
+        "microfluidic device",
+        "microfluidic devices"
+      ],
+      "size": 2,
+      "color": "#7067e5"
+    },
+    {
+      "id": "DSPC",
+      "label": "DSPC",
+      "members": [
+        "1,2-distearoyl-sn-glycero-3-phosphocholine (DSPC)",
+        "DSPC"
+      ],
+      "size": 2,
+      "color": "#7be278"
+    },
+    {
+      "id": "mixing channel",
+      "label": "mixing channel",
+      "members": [
+        "mixing channel"
+      ],
+      "size": 1,
+      "color": "#c821cf"
+    },
+    {
+      "id": "cholesterol",
+      "label": "cholesterol",
+      "members": [
+        "cholesterol"
+      ],
+      "size": 1,
+      "color": "#47db43"
+    },
+    {
+      "id": "Harvard Apparatus",
+      "label": "Harvard Apparatus",
+      "members": [
+        "Harvard Apparatus"
+      ],
+      "size": 1,
+      "color": "#22dd7f"
+    },
+    {
+      "id": "molar ratio 50:10:38.5:1.5",
+      "label": "molar ratio 50:10:38.5:1.5",
+      "members": [
+        "molar ratio 50:10:38.5:1.5"
+      ],
+      "size": 1,
+      "color": "#d6d56f"
+    },
+    {
+      "id": "10 mM citrate buffer",
+      "label": "10 mM citrate buffer",
+      "members": [
+        "10 mM citrate buffer"
+      ],
+      "size": 1,
+      "color": "#38e85d"
+    },
+    {
+      "id": "molar ratio 40:30:25:2.5",
+      "label": "molar ratio 40:30:25:2.5",
+      "members": [
+        "molar ratio 40:30:25:2.5"
+      ],
+      "size": 1,
+      "color": "#d91f9e"
+    },
+    {
+      "id": "ALC-0315 LNP",
+      "label": "ALC-0315 LNP",
+      "members": [
+        "ALC-0315 LNP"
+      ],
+      "size": 1,
+      "color": "#e1b95b"
+    },
+    {
+      "id": "molar ratio 35:16:46.5:2.5",
+      "label": "molar ratio 35:16:46.5:2.5",
+      "members": [
+        "molar ratio 35:16:46.5:2.5"
+      ],
+      "size": 1,
+      "color": "#69eccf"
+    },
+    {
+      "id": "volume ratio (organic phase:aqueous phase) 1:3",
+      "label": "volume ratio (organic phase:aqueous phase) 1:3",
+      "members": [
+        "volume ratio (organic phase:aqueous phase) 1:3"
+      ],
+      "size": 1,
+      "color": "#d94cde"
+    },
+    {
+      "id": "ALC-0315",
+      "label": "ALC-0315",
+      "members": [
+        "ALC-0315"
+      ],
+      "size": 1,
+      "color": "#da2b86"
+    },
+    {
+      "id": "IL",
+      "label": "IL",
+      "members": [
+        "IL"
+      ],
+      "size": 1,
+      "color": "#edee5a"
+    },
+    {
+      "id": "molar ratio 46.3:9.4:42.7:1.6",
+      "label": "molar ratio 46.3:9.4:42.7:1.6",
+      "members": [
+        "molar ratio 46.3:9.4:42.7:1.6"
+      ],
+      "size": 1,
+      "color": "#ce8630"
+    },
+    {
+      "id": "two-step exposure process",
+      "label": "two-step exposure process",
+      "members": [
+        "two-step exposure process"
+      ],
+      "size": 1,
+      "color": "#d8e965"
+    },
+    {
+      "id": "mRNA",
+      "label": "mRNA",
+      "members": [
+        "mRNA"
+      ],
+      "size": 1,
+      "color": "#8971e5"
+    },
+    {
+      "id": "Pump 33 DDS syringe pump",
+      "label": "Pump 33 DDS syringe pump",
+      "members": [
+        "Pump 33 DDS syringe pump"
+      ],
+      "size": 1,
+      "color": "#5782f1"
+    },
+    {
+      "id": "silicon wafer",
+      "label": "silicon wafer",
+      "members": [
+        "silicon wafer"
+      ],
+      "size": 1,
+      "color": "#722fed"
+    },
+    {
+      "id": "glass syringes",
+      "label": "glass syringes",
+      "members": [
+        "glass syringes"
+      ],
+      "size": 1,
+      "color": "#e47de0"
+    },
+    {
+      "id": "SU-8 master",
+      "label": "SU-8 master",
+      "members": [
+        "SU-8 master"
+      ],
+      "size": 1,
+      "color": "#797ee5"
+    },
+    {
+      "id": "flow rate 0.6 mL/min",
+      "label": "flow rate 0.6 mL/min",
+      "members": [
+        "flow rate 0.6 mL/min"
+      ],
+      "size": 1,
+      "color": "#d56dd2"
+    },
+    {
+      "id": "polydimethylsiloxane",
+      "label": "polydimethylsiloxane",
+      "members": [
+        "polydimethylsiloxane"
+      ],
+      "size": 1,
+      "color": "#de4ee0"
+    },
+    {
+      "id": "weight ratio (mRNA:IL) 1:10",
+      "label": "weight ratio (mRNA:IL) 1:10",
+      "members": [
+        "weight ratio (mRNA:IL) 1:10"
+      ],
+      "size": 1,
+      "color": "#de77b1"
+    },
+    {
+      "id": "organic phase",
+      "label": "organic phase",
+      "members": [
+        "organic phase"
+      ],
+      "size": 1,
+      "color": "#75e44e"
+    },
+    {
+      "id": "pH 3",
+      "label": "pH 3",
+      "members": [
+        "pH 3"
+      ],
+      "size": 1,
+      "color": "#eb7331"
+    },
+    {
+      "id": "flow rate 1.8 mL/min",
+      "label": "flow rate 1.8 mL/min",
+      "members": [
+        "flow rate 1.8 mL/min"
+      ],
+      "size": 1,
+      "color": "#5ae37e"
+    },
+    {
+      "id": "ALC-0159",
+      "label": "ALC-0159",
+      "members": [
+        "ALC-0159"
+      ],
+      "size": 1,
+      "color": "#47e543"
+    },
+    {
+      "id": "standard soft lithographic procedures",
+      "label": "standard soft lithographic procedures",
+      "members": [
+        "standard soft lithographic procedures"
+      ],
+      "size": 1,
+      "color": "#cae281"
+    },
+    {
+      "id": "Hamilton Company",
+      "label": "Hamilton Company",
+      "members": [
+        "Hamilton Company"
+      ],
+      "size": 1,
+      "color": "#de743a"
+    },
+    {
+      "id": "SM-102",
+      "label": "SM-102",
+      "members": [
+        "SM-102"
+      ],
+      "size": 1,
+      "color": "#dec671"
+    },
+    {
+      "id": "B10 formulation",
+      "label": "B10 formulation",
+      "members": [
+        "B10 formulation"
+      ],
+      "size": 1,
+      "color": "#8245dd"
+    },
+    {
+      "id": "Hollister, CA, USA",
+      "label": "Hollister, CA, USA",
+      "members": [
+        "Hollister, CA, USA"
+      ],
+      "size": 1,
+      "color": "#47a6e8"
+    },
+    {
+      "id": "aqueous phase",
+      "label": "aqueous phase",
+      "members": [
+        "aqueous phase"
+      ],
+      "size": 1,
+      "color": "#58e1c5"
+    },
+    {
+      "id": "Reno, NV",
+      "label": "Reno, NV",
+      "members": [
+        "Reno, NV"
+      ],
+      "size": 1,
+      "color": "#8ae757"
+    },
+    {
+      "id": "ethanol",
+      "label": "ethanol",
+      "members": [
+        "ethanol"
+      ],
+      "size": 1,
+      "color": "#ea6eab"
+    },
+    {
+      "id": "MA, USA",
+      "label": "MA, USA",
+      "members": [
+        "MA, USA"
+      ],
+      "size": 1,
+      "color": "#31b69b"
+    },
+    {
+      "id": "staggered herringbone micromixer",
+      "label": "staggered herringbone micromixer",
+      "members": [
+        "staggered herringbone micromixer"
+      ],
+      "size": 1,
+      "color": "#c6349b"
+    },
+    {
+      "id": "SM-102 LNP",
+      "label": "SM-102 LNP",
+      "members": [
+        "SM-102 LNP"
+      ],
+      "size": 1,
+      "color": "#89ec5e"
+    },
+    {
+      "id": "Teknova",
+      "label": "Teknova",
+      "members": [
+        "Teknova"
+      ],
+      "size": 1,
+      "color": "#dd9d80"
+    },
+    {
+      "id": "4 cm length",
+      "label": "4 cm length",
+      "members": [
+        "4 cm length"
+      ],
+      "size": 1,
+      "color": "#d95858"
+    },
+    {
+      "id": "positive channel features",
+      "label": "positive channel features",
+      "members": [
+        "positive channel features"
+      ],
+      "size": 1,
+      "color": "#ac67d8"
+    }
+  ],
+  "edgeClusters": [
+    {
+      "id": "has molar ratio",
+      "label": "has molar ratio",
+      "members": [
+        "has molar ratio"
+      ],
+      "size": 1,
+      "color": "#34dbe5"
+    },
+    {
+      "id": "used to create",
+      "label": "used to create",
+      "members": [
+        "used to create"
+      ],
+      "size": 1,
+      "color": "#97d449"
+    },
+    {
+      "id": "injected at",
+      "label": "injected at",
+      "members": [
+        "injected at"
+      ],
+      "size": 1,
+      "color": "#a0e075"
+    },
+    {
+      "id": "relates",
+      "label": "relates",
+      "members": [
+        "relates"
+      ],
+      "size": 1,
+      "color": "#d333e2"
+    },
+    {
+      "id": "dissolved in",
+      "label": "dissolved in",
+      "members": [
+        "dissolved in",
+        "was dissolved in"
+      ],
+      "size": 2,
+      "color": "#1c39c9"
+    },
+    {
+      "id": "formulated via",
+      "label": "formulated via",
+      "members": [
+        "formulated via"
+      ],
+      "size": 1,
+      "color": "#c2df5b"
+    },
+    {
+      "id": "has pH",
+      "label": "has pH",
+      "members": [
+        "has pH"
+      ],
+      "size": 1,
+      "color": "#d3614a"
+    },
+    {
+      "id": "on",
+      "label": "on",
+      "members": [
+        "on"
+      ],
+      "size": 1,
+      "color": "#1358d7"
+    },
+    {
+      "id": "associated with",
+      "label": "associated with",
+      "members": [
+        "associated with"
+      ],
+      "size": 1,
+      "color": "#50ef97"
+    },
+    {
+      "id": "attached to",
+      "label": "attached to",
+      "members": [
+        "attached to"
+      ],
+      "size": 1,
+      "color": "#e2e837"
+    },
+    {
+      "id": "utilizing",
+      "label": "utilizing",
+      "members": [
+        "utilizing"
+      ],
+      "size": 1,
+      "color": "#6597d4"
+    },
+    {
+      "id": "part of",
+      "label": "part of",
+      "members": [
+        "part of"
+      ],
+      "size": 1,
+      "color": "#de434a"
+    },
+    {
+      "id": "connected to",
+      "label": "connected to",
+      "members": [
+        "connected to"
+      ],
+      "size": 1,
+      "color": "#9c2cc5"
+    },
+    {
+      "id": "has design",
+      "label": "has design",
+      "members": [
+        "has design"
+      ],
+      "size": 1,
+      "color": "#cd1eb6"
+    },
+    {
+      "id": "loaded in",
+      "label": "loaded in",
+      "members": [
+        "loaded in"
+      ],
+      "size": 1,
+      "color": "#6bcb25"
+    },
+    {
+      "id": "prepared using",
+      "label": "prepared using",
+      "members": [
+        "prepared using"
+      ],
+      "size": 1,
+      "color": "#e769a4"
+    },
+    {
+      "id": "used molar ratio",
+      "label": "used molar ratio",
+      "members": [
+        "used molar ratio"
+      ],
+      "size": 1,
+      "color": "#7fd9e4"
+    },
+    {
+      "id": "located in",
+      "label": "located in",
+      "members": [
+        "located in"
+      ],
+      "size": 1,
+      "color": "#aa37cf"
+    },
+    {
+      "id": "fabricated in",
+      "label": "fabricated in",
+      "members": [
+        "fabricated in"
+      ],
+      "size": 1,
+      "color": "#c2ca44"
+    },
+    {
+      "id": "prepared by dissolving",
+      "label": "prepared by dissolving",
+      "members": [
+        "prepared by dissolving"
+      ],
+      "size": 1,
+      "color": "#3b78dd"
+    },
+    {
+      "id": "has",
+      "label": "has",
+      "members": [
+        "has"
+      ],
+      "size": 1,
+      "color": "#35bde4"
+    }
+  ],
+  "topEntities": [
+    {
+      "label": "organic phase",
+      "degree": 8,
+      "indegree": 5,
+      "outdegree": 3,
+      "cluster": "organic phase"
+    },
+    {
+      "label": "ALC-0315 LNP",
+      "degree": 5,
+      "indegree": 0,
+      "outdegree": 5,
+      "cluster": "ALC-0315 LNP"
+    },
+    {
+      "label": "SM-102 LNP",
+      "degree": 5,
+      "indegree": 0,
+      "outdegree": 5,
+      "cluster": "SM-102 LNP"
+    },
+    {
+      "label": "aqueous phase",
+      "degree": 4,
+      "indegree": 1,
+      "outdegree": 3,
+      "cluster": "aqueous phase"
+    },
+    {
+      "label": "cholesterol",
+      "degree": 4,
+      "indegree": 2,
+      "outdegree": 2,
+      "cluster": "cholesterol"
+    },
+    {
+      "label": "ethanol",
+      "degree": 4,
+      "indegree": 4,
+      "outdegree": 0,
+      "cluster": "ethanol"
+    },
+    {
+      "label": "glass syringes",
+      "degree": 4,
+      "indegree": 2,
+      "outdegree": 2,
+      "cluster": "glass syringes"
+    },
+    {
+      "label": "microfluidic device",
+      "degree": 4,
+      "indegree": 1,
+      "outdegree": 3,
+      "cluster": "microfluidic device"
+    },
+    {
+      "label": "10 mM citrate buffer",
+      "degree": 3,
+      "indegree": 1,
+      "outdegree": 2,
+      "cluster": "10 mM citrate buffer"
+    },
+    {
+      "label": "IL",
+      "degree": 3,
+      "indegree": 1,
+      "outdegree": 2,
+      "cluster": "IL"
+    }
+  ],
+  "topRelations": [
+    {
+      "predicate": "dissolved in",
+      "count": 5,
+      "cluster": "dissolved in",
+      "color": "#1c39c9"
+    },
+    {
+      "predicate": "formulated via",
+      "count": 4,
+      "cluster": "formulated via",
+      "color": "#c2df5b"
+    },
+    {
+      "predicate": "part of",
+      "count": 4,
+      "cluster": "part of",
+      "color": "#de434a"
+    },
+    {
+      "predicate": "prepared using",
+      "count": 4,
+      "cluster": "prepared using",
+      "color": "#e769a4"
+    },
+    {
+      "predicate": "relates",
+      "count": 4,
+      "cluster": "relates",
+      "color": "#d333e2"
+    },
+    {
+      "predicate": "associated with",
+      "count": 3,
+      "cluster": "associated with",
+      "color": "#50ef97"
+    },
+    {
+      "predicate": "has molar ratio",
+      "count": 3,
+      "cluster": "has molar ratio",
+      "color": "#34dbe5"
+    },
+    {
+      "predicate": "located in",
+      "count": 3,
+      "cluster": "located in",
+      "color": "#aa37cf"
+    },
+    {
+      "predicate": "has",
+      "count": 2,
+      "cluster": "has",
+      "color": "#35bde4"
+    },
+    {
+      "predicate": "injected at",
+      "count": 2,
+      "cluster": "injected at",
+      "color": "#a0e075"
+    }
+  ],
+  "stats": {
+    "entities": 44,
+    "relations": 46,
+    "relationTypes": 21,
+    "entityClusters": 44,
+    "edgeClusters": 21,
+    "isolatedEntities": 0,
+    "components": 4,
+    "averageDegree": 2.09,
+    "density": 0.024
+  },
+  "isolatedEntities": [],
+  "components": [
+    {
+      "size": 36,
+      "members": [
+        "10 mM citrate buffer",
+        "ALC-0159",
+        "ALC-0315",
+        "ALC-0315 LNP",
+        "aqueous phase",
+        "C14-PEG2000",
+        "cholesterol",
+        "DMG-PEG2000",
+        "DOPE",
+        "DSPC",
+        "ethanol",
+        "flow rate 0.6 mL/min",
+        "flow rate 1.8 mL/min",
+        "glass syringes",
+        "Hamilton Company",
+        "Harvard Apparatus",
+        "Hollister, CA, USA",
+        "IL",
+        "MA, USA",
+        "microfluidic device",
+        "molar ratio 35:16:46.5:2.5",
+        "molar ratio 46.3:9.4:42.7:1.6",
+        "molar ratio 50:10:38.5:1.5",
+        "mRNA",
+        "organic phase",
+        "pH 3",
+        "polydimethylsiloxane",
+        "Pump 33 DDS syringe pump",
+        "Reno, NV",
+        "SM-102",
+        "SM-102 LNP",
+        "staggered herringbone micromixer",
+        "standard soft lithographic procedures",
+        "Teknova",
+        "volume ratio (organic phase:aqueous phase) 1:3",
+        "weight ratio (mRNA:IL) 1:10"
+      ]
+    },
+    {
+      "size": 4,
+      "members": [
+        "positive channel features",
+        "silicon wafer",
+        "SU-8 master",
+        "two-step exposure process"
+      ]
+    },
+    {
+      "size": 2,
+      "members": [
+        "4 cm length",
+        "mixing channel"
+      ]
+    },
+    {
+      "size": 2,
+      "members": [
+        "B10 formulation",
+        "molar ratio 40:30:25:2.5"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "source": "10 mM citrate buffer",
+      "predicate": "associated with",
+      "target": "Teknova",
+      "edgeId": "e0",
+      "color": "#50ef97"
+    },
+    {
+      "source": "glass syringes",
+      "predicate": "associated with",
+      "target": "Hamilton Company",
+      "edgeId": "e1",
+      "color": "#50ef97"
+    },
+    {
+      "source": "Pump 33 DDS syringe pump",
+      "predicate": "associated with",
+      "target": "Harvard Apparatus",
+      "edgeId": "e2",
+      "color": "#50ef97"
+    },
+    {
+      "source": "Pump 33 DDS syringe pump",
+      "predicate": "attached to",
+      "target": "microfluidic device",
+      "edgeId": "e3",
+      "color": "#e2e837"
+    },
+    {
+      "source": "glass syringes",
+      "predicate": "connected to",
+      "target": "Pump 33 DDS syringe pump",
+      "edgeId": "e4",
+      "color": "#9c2cc5"
+    },
+    {
+      "source": "C14-PEG2000",
+      "predicate": "dissolved in",
+      "target": "ethanol",
+      "edgeId": "e5",
+      "color": "#1c39c9"
+    },
+    {
+      "source": "cholesterol",
+      "predicate": "dissolved in",
+      "target": "ethanol",
+      "edgeId": "e6",
+      "color": "#1c39c9"
+    },
+    {
+      "source": "DOPE",
+      "predicate": "dissolved in",
+      "target": "ethanol",
+      "edgeId": "e7",
+      "color": "#1c39c9"
+    },
+    {
+      "source": "IL",
+      "predicate": "dissolved in",
+      "target": "ethanol",
+      "edgeId": "e8",
+      "color": "#1c39c9"
+    },
+    {
+      "source": "mRNA",
+      "predicate": "dissolved in",
+      "target": "10 mM citrate buffer",
+      "edgeId": "e9",
+      "color": "#1c39c9"
+    },
+    {
+      "source": "microfluidic device",
+      "predicate": "fabricated in",
+      "target": "polydimethylsiloxane",
+      "edgeId": "e10",
+      "color": "#c2ca44"
+    },
+    {
+      "source": "ALC-0315 LNP",
+      "predicate": "formulated via",
+      "target": "ALC-0159",
+      "edgeId": "e11",
+      "color": "#c2df5b"
+    },
+    {
+      "source": "ALC-0315 LNP",
+      "predicate": "formulated via",
+      "target": "ALC-0315",
+      "edgeId": "e12",
+      "color": "#c2df5b"
+    },
+    {
+      "source": "ALC-0315 LNP",
+      "predicate": "formulated via",
+      "target": "cholesterol",
+      "edgeId": "e13",
+      "color": "#c2df5b"
+    },
+    {
+      "source": "ALC-0315 LNP",
+      "predicate": "formulated via",
+      "target": "DSPC",
+      "edgeId": "e14",
+      "color": "#c2df5b"
+    },
+    {
+      "source": "mixing channel",
+      "predicate": "has",
+      "target": "4 cm length",
+      "edgeId": "e15",
+      "color": "#35bde4"
+    },
+    {
+      "source": "SU-8 master",
+      "predicate": "has",
+      "target": "positive channel features",
+      "edgeId": "e16",
+      "color": "#35bde4"
+    },
+    {
+      "source": "microfluidic device",
+      "predicate": "has design",
+      "target": "staggered herringbone micromixer",
+      "edgeId": "e17",
+      "color": "#cd1eb6"
+    },
+    {
+      "source": "ALC-0315 LNP",
+      "predicate": "has molar ratio",
+      "target": "molar ratio 46.3:9.4:42.7:1.6",
+      "edgeId": "e18",
+      "color": "#34dbe5"
+    },
+    {
+      "source": "organic phase",
+      "predicate": "has molar ratio",
+      "target": "molar ratio 35:16:46.5:2.5",
+      "edgeId": "e19",
+      "color": "#34dbe5"
+    },
+    {
+      "source": "SM-102 LNP",
+      "predicate": "has molar ratio",
+      "target": "molar ratio 50:10:38.5:1.5",
+      "edgeId": "e20",
+      "color": "#34dbe5"
+    },
+    {
+      "source": "10 mM citrate buffer",
+      "predicate": "has pH",
+      "target": "pH 3",
+      "edgeId": "e21",
+      "color": "#d3614a"
+    },
+    {
+      "source": "aqueous phase",
+      "predicate": "injected at",
+      "target": "flow rate 1.8 mL/min",
+      "edgeId": "e22",
+      "color": "#a0e075"
+    },
+    {
+      "source": "organic phase",
+      "predicate": "injected at",
+      "target": "flow rate 0.6 mL/min",
+      "edgeId": "e23",
+      "color": "#a0e075"
+    },
+    {
+      "source": "aqueous phase",
+      "predicate": "loaded in",
+      "target": "glass syringes",
+      "edgeId": "e24",
+      "color": "#6bcb25"
+    },
+    {
+      "source": "organic phase",
+      "predicate": "loaded in",
+      "target": "glass syringes",
+      "edgeId": "e25",
+      "color": "#6bcb25"
+    },
+    {
+      "source": "Hamilton Company",
+      "predicate": "located in",
+      "target": "Reno, NV",
+      "edgeId": "e26",
+      "color": "#aa37cf"
+    },
+    {
+      "source": "Harvard Apparatus",
+      "predicate": "located in",
+      "target": "MA, USA",
+      "edgeId": "e27",
+      "color": "#aa37cf"
+    },
+    {
+      "source": "Teknova",
+      "predicate": "located in",
+      "target": "Hollister, CA, USA",
+      "edgeId": "e28",
+      "color": "#aa37cf"
+    },
+    {
+      "source": "SU-8 master",
+      "predicate": "on",
+      "target": "silicon wafer",
+      "edgeId": "e29",
+      "color": "#1358d7"
+    },
+    {
+      "source": "C14-PEG2000",
+      "predicate": "part of",
+      "target": "organic phase",
+      "edgeId": "e30",
+      "color": "#de434a"
+    },
+    {
+      "source": "cholesterol",
+      "predicate": "part of",
+      "target": "organic phase",
+      "edgeId": "e31",
+      "color": "#de434a"
+    },
+    {
+      "source": "DOPE",
+      "predicate": "part of",
+      "target": "organic phase",
+      "edgeId": "e32",
+      "color": "#de434a"
+    },
+    {
+      "source": "IL",
+      "predicate": "part of",
+      "target": "organic phase",
+      "edgeId": "e33",
+      "color": "#de434a"
+    },
+    {
+      "source": "aqueous phase",
+      "predicate": "prepared by dissolving",
+      "target": "mRNA",
+      "edgeId": "e34",
+      "color": "#3b78dd"
+    },
+    {
+      "source": "SM-102 LNP",
+      "predicate": "prepared using",
+      "target": "cholesterol",
+      "edgeId": "e35",
+      "color": "#e769a4"
+    },
+    {
+      "source": "SM-102 LNP",
+      "predicate": "prepared using",
+      "target": "DMG-PEG2000",
+      "edgeId": "e36",
+      "color": "#e769a4"
+    },
+    {
+      "source": "SM-102 LNP",
+      "predicate": "prepared using",
+      "target": "DSPC",
+      "edgeId": "e37",
+      "color": "#e769a4"
+    },
+    {
+      "source": "SM-102 LNP",
+      "predicate": "prepared using",
+      "target": "SM-102",
+      "edgeId": "e38",
+      "color": "#e769a4"
+    },
+    {
+      "source": "volume ratio (organic phase:aqueous phase) 1:3",
+      "predicate": "relates",
+      "target": "aqueous phase",
+      "edgeId": "e39",
+      "color": "#d333e2"
+    },
+    {
+      "source": "volume ratio (organic phase:aqueous phase) 1:3",
+      "predicate": "relates",
+      "target": "organic phase",
+      "edgeId": "e40",
+      "color": "#d333e2"
+    },
+    {
+      "source": "weight ratio (mRNA:IL) 1:10",
+      "predicate": "relates",
+      "target": "IL",
+      "edgeId": "e41",
+      "color": "#d333e2"
+    },
+    {
+      "source": "weight ratio (mRNA:IL) 1:10",
+      "predicate": "relates",
+      "target": "mRNA",
+      "edgeId": "e42",
+      "color": "#d333e2"
+    },
+    {
+      "source": "B10 formulation",
+      "predicate": "used molar ratio",
+      "target": "molar ratio 40:30:25:2.5",
+      "edgeId": "e43",
+      "color": "#7fd9e4"
+    },
+    {
+      "source": "two-step exposure process",
+      "predicate": "used to create",
+      "target": "SU-8 master",
+      "edgeId": "e44",
+      "color": "#97d449"
+    },
+    {
+      "source": "microfluidic device",
+      "predicate": "utilizing",
+      "target": "standard soft lithographic procedures",
+      "edgeId": "e45",
+      "color": "#6597d4"
+    }
+  ]
+}
+    </script>
+    <script>
+        (function () {
+            console.log('[iframe] Script starting - mobile check:', window.innerWidth <= 768);
+            console.log('[iframe] User agent:', navigator.userAgent);
+
+            const dataElement = document.getElementById('viz-data');
+            if (!dataElement) {
+                console.error('[iframe] viz-data element not found!');
+                return;
+            }
+
+            let vizData;
+            try {
+                vizData = JSON.parse(dataElement.textContent);
+                console.log('[iframe] Data parsed successfully:', vizData.nodes?.length, 'nodes');
+            } catch (e) {
+                console.error('[iframe] Failed to parse data:', e);
+                return;
+            }
+
+            const state = {
+                activeElement: null,
+                focusCluster: null,
+                focusPredicate: null,
+                searchTerm: '',
+                sidebarCollapsed: false,
+                sidebarDisabled: false
+            };
+
+            const nodeById = Object.fromEntries(vizData.nodes.map(node => [node.id, node]));
+            const edgeById = Object.fromEntries(vizData.edges.map(edge => [edge.id, edge]));
+            const clusterById = Object.fromEntries(vizData.clusters.map(cluster => [cluster.id, cluster]));
+            const edgesByPredicate = {};
+            vizData.edges.forEach(edge => {
+                if (!edgesByPredicate[edge.predicate]) {
+                    edgesByPredicate[edge.predicate] = [];
+                }
+                edgesByPredicate[edge.predicate].push(edge.id);
+            });
+
+            const nodesByCluster = {};
+            vizData.clusters.forEach(cluster => {
+                cluster.members.forEach(member => {
+                    if (!nodesByCluster[cluster.id]) {
+                        nodesByCluster[cluster.id] = new Set();
+                    }
+                    nodesByCluster[cluster.id].add(member);
+                });
+            });
+
+            function renderStats() {
+                const grid = document.getElementById('statsGrid');
+                const stats = vizData.stats;
+                const entries = [
+                    { label: 'Entities', value: stats.entities },
+                    { label: 'Relations', value: stats.relations },
+                    { label: 'Relation types', value: stats.relationTypes },
+                    { label: 'Entity clusters', value: stats.entityClusters },
+                    { label: 'Edge clusters', value: stats.edgeClusters },
+                    { label: 'Isolated entities', value: stats.isolatedEntities },
+                    { label: 'Components', value: stats.components },
+                    { label: 'Average degree', value: stats.averageDegree }
+                ];
+                grid.innerHTML = entries
+                    .map(entry => `
+                        <div class="stat-card">
+                            <div class="stat-value">${entry.value}</div>
+                            <div>${entry.label}</div>
+                        </div>
+                    `)
+                    .join('');
+            }
+
+            function renderTopLists() {
+                const topEntitiesContainer = document.getElementById('topEntities');
+                const topRelationsContainer = document.getElementById('topRelations');
+
+                const entityItems = vizData.topEntities.map(item => {
+                    const clusterLabel = item.cluster ? `${item.cluster}` : 'Unclustered';
+                    return `
+                        <div class="list-item">
+                            <div>
+                                <strong>${item.label}</strong>
+                                <div class="meta">Cluster: ${clusterLabel}</div>
+                            </div>
+                            <div>${item.degree}</div>
+                        </div>
+                    `;
+                });
+                topEntitiesContainer.innerHTML = entityItems.join('') || '<div class="meta">No entities</div>';
+
+                const relationItems = vizData.topRelations.map(item => `
+                    <div class="list-item relation-item" data-predicate="${item.predicate}">
+                        <div>
+                            <strong>${item.predicate}</strong>
+                            <div class="meta">${item.count} relations</div>
+                        </div>
+                        <div class="pill" style="background: ${item.color}1a; border: 1px solid ${item.color};">${item.count}</div>
+                    </div>
+                `);
+                topRelationsContainer.innerHTML = relationItems.join('') || '<div class="meta">No relations</div>';
+            }
+
+            function renderClusters() {
+                const container = document.getElementById('clusterList');
+                if (!vizData.clusters.length) {
+                    container.innerHTML = '<div class="meta">No cluster information provided.</div>';
+                    return;
+                }
+                container.innerHTML = vizData.clusters
+                    .map(cluster => `
+                        <button class="list-item cluster-item" data-cluster="${cluster.id}" style="border-left-color: ${cluster.color};">
+                            <div>
+                                <strong>${cluster.label}</strong>
+                                <div class="meta">${cluster.size} members</div>
+                            </div>
+                            <span class="legend-swatch" style="background: ${cluster.color};"></span>
+                        </button>
+                    `)
+                    .join('');
+            }
+
+            // function renderRelationsTable() {
+            //     const tbody = document.getElementById('relationsTable');
+            //     tbody.innerHTML = vizData.relations
+            //         .map(rel => `
+            //             <tr data-edge="${rel.edgeId}">
+            //                 <td>${rel.source}</td>
+            //                 <td><span class="pill" style="border: 1px solid ${rel.color}; background: ${rel.color}1a;">${rel.predicate}</span></td>
+            //                 <td>${rel.target}</td>
+            //             </tr>
+            //         `)
+            //         .join('');
+            // }
+
+            // function renderInsights() {
+            //     const insights = document.getElementById('insightsContent');
+            //     const clusters = vizData.clusters
+            //         .map(cluster => `
+            //             <div class="list-item" style="border-left: 4px solid ${cluster.color};">
+            //                 <div>
+            //                     <strong>${cluster.label}</strong>
+            //                     <div class="meta">Members: ${cluster.members.join(', ')}</div>
+            //                 </div>
+            //                 <div>${cluster.size}</div>
+            //             </div>
+            //         `)
+            //         .join('');
+
+            //     const components = vizData.components
+            //         .map((component, index) => `
+            //             <div class="list-item">
+            //                 <div>
+            //                     <strong>Component ${index + 1}</strong>
+            //                     <div class="meta">${component.members.join(', ')}</div>
+            //                 </div>
+            //                 <div>${component.size}</div>
+            //             </div>
+            //         `)
+            //         .join('');
+
+            //     const isolates = vizData.isolatedEntities.length
+            //         ? vizData.isolatedEntities.join(', ')
+            //         : 'None';
+
+            //     insights.innerHTML = `
+            //         <div class="section">
+            //             <h2>Clusters</h2>
+            //             <div class="list">${clusters || '<div class="meta">No clusters</div>'}</div>
+            //         </div>
+            //         <div class="section">
+            //             <h2>Connected components</h2>
+            //             <div class="list">${components || '<div class="meta">Single connected component</div>'}</div>
+            //         </div>
+            //         <div class="section">
+            //             <h2>Isolated entities</h2>
+            //             <div class="meta">${isolates}</div>
+            //         </div>
+            //     `;
+            // }
+
+            function setActiveElement(element) {
+                state.activeElement = element;
+                renderSelectionDetails();
+                updateHighlights();
+
+                // Notify parent about selection change
+                if (window.parent !== window && state.sidebarDisabled) {
+                    const selection = element ? {
+                        type: element.type,
+                        id: element.id,
+                        ...getElementDetails(element)
+                    } : null;
+                    window.parent.postMessage({
+                        type: 'selectionChanged',
+                        selection: selection
+                    }, '*');
+                }
+            }
+
+            function getElementDetails(element) {
+                if (!element) return {};
+
+                if (element.type === 'node') {
+                    const node = nodeById[element.id];
+                    return {
+                        label: node.label,
+                        cluster: node.cluster,
+                        degree: node.degree,
+                        indegree: node.indegree,
+                        outdegree: node.outdegree,
+                        neighbors: node.neighbors
+                    };
+                } else if (element.type === 'edge') {
+                    const edge = edgeById[element.id];
+                    return {
+                        source: edge.source,
+                        target: edge.target,
+                        predicate: edge.predicate,
+                        cluster: edge.cluster
+                    };
+                }
+                return {};
+            }
+
+            function clearActiveElement() {
+                state.activeElement = null;
+                renderSelectionDetails();
+                updateHighlights();
+            }
+
+            function renderSelectionDetails() {
+                const panel = document.getElementById('selectionDetails');
+                const active = state.activeElement;
+                if (!active) {
+                    panel.innerHTML = 'Click a node or relation in the network to inspect details.';
+                    return;
+                }
+
+                if (active.type === 'node') {
+                    const node = nodeById[active.id];
+                    const cluster = node.cluster ? `Cluster: ${node.cluster}` : 'Unclustered';
+                    const neighbors = node.neighbors.length ? node.neighbors.join(', ') : 'None';
+                    panel.innerHTML = `
+                        <h3>${node.label}</h3>
+                        <ul>
+                            <li>${cluster}</li>
+                            <li>Total degree: ${node.degree}</li>
+                            <li>Outgoing: ${node.outdegree}</li>
+                            <li>Incoming: ${node.indegree}</li>
+                            <li>Neighbors: ${neighbors}</li>
+                        </ul>
+                    `;
+                } else if (active.type === 'edge') {
+                    const edge = edgeById[active.id];
+                    const cluster = edge.cluster ? `Cluster: ${edge.cluster}` : 'Unclustered';
+                    panel.innerHTML = `
+                        <h3>${edge.source} → ${edge.target}</h3>
+                        <ul>
+                            <li>Relation: ${edge.predicate}</li>
+                            <li>${cluster}</li>
+                        </ul>
+                    `;
+                }
+            }
+
+            function toggleClusterFocus(clusterId) {
+                if (state.focusCluster === clusterId) {
+                    state.focusCluster = null;
+                } else {
+                    state.focusCluster = clusterId;
+                }
+                updateActiveButtons();
+                updateHighlights();
+            }
+
+            function togglePredicateFocus(predicate) {
+                if (state.focusPredicate === predicate) {
+                    state.focusPredicate = null;
+                } else {
+                    state.focusPredicate = predicate;
+                }
+                updateActiveButtons();
+                updateHighlights();
+            }
+
+            function updateActiveButtons() {
+                document.querySelectorAll('.cluster-item').forEach(item => {
+                    const clusterId = item.getAttribute('data-cluster');
+                    item.classList.toggle('active', state.focusCluster === clusterId);
+                });
+                document.querySelectorAll('.relation-item').forEach(item => {
+                    const predicate = item.getAttribute('data-predicate');
+                    item.classList.toggle('active', state.focusPredicate === predicate);
+                });
+            }
+
+            // Canvas-based network visualization
+            let canvas, ctx, transform, simulation;
+            let nodes, edges;
+            let highlightedNodes = new Set();
+            let highlightedEdges = new Set();
+            let isFiltering = false;
+
+            function createNetwork() {
+                console.log('[iframe] createNetwork starting...');
+
+                if (typeof d3 === 'undefined') {
+                    console.error('[iframe] D3.js not loaded!');
+                    return;
+                }
+                console.log('[iframe] D3.js version:', d3.version);
+
+                canvas = document.getElementById('networkCanvas');
+                if (!canvas) {
+                    console.error('[iframe] Canvas element not found!');
+                    return;
+                }
+
+                ctx = canvas.getContext('2d');
+                if (!ctx) {
+                    console.error('[iframe] Canvas context not available!');
+                    return;
+                }
+
+                // Force a layout recalculation to ensure proper sizing
+                canvas.offsetHeight; // Trigger reflow
+
+                // Set canvas size with device pixel ratio for crisp rendering
+                const rect = canvas.getBoundingClientRect();
+                console.log('[iframe] Canvas rect:', rect.width, 'x', rect.height);
+
+                // Ensure minimum size for mobile/narrow viewports
+                const width = Math.max(rect.width, 320);
+                const height = Math.max(rect.height, 200);
+
+                const dpr = window.devicePixelRatio || 1;
+                canvas.width = width * dpr;
+                canvas.height = height * dpr;
+                ctx.scale(dpr, dpr);
+                canvas.style.width = width + 'px';
+                canvas.style.height = height + 'px';
+
+                // Initialize transform for zooming/panning
+                transform = d3.zoomIdentity;
+
+                // Clone data for simulation
+                nodes = vizData.nodes.map(node => ({ ...node }));
+                edges = vizData.edges.map(edge => ({ ...edge }));
+
+                // Create D3 force simulation
+                simulation = d3
+                    .forceSimulation(nodes)
+                    .force('link', d3.forceLink(edges).id(d => d.id).distance(120).strength(0.3))
+                    .force('charge', d3.forceManyBody().strength(-280))
+                    .force('center', d3.forceCenter(width / 2, height / 2))
+                    .force('collision', d3.forceCollide().radius(d => d.radius + 12));
+
+                // Set up zoom behavior
+                const zoom = d3.zoom()
+                    .scaleExtent([0.25, 3])
+                    .on('zoom', (event) => {
+                        transform = event.transform;
+                        render();
+                    });
+
+                d3.select(canvas).call(zoom);
+
+                // Mouse interaction handling
+                let draggedNode = null;
+                let mouseX, mouseY;
+
+                function getMousePos(event) {
+                    const rect = canvas.getBoundingClientRect();
+                    return {
+                        x: (event.clientX - rect.left - transform.x) / transform.k,
+                        y: (event.clientY - rect.top - transform.y) / transform.k
+                    };
+                }
+
+                function findNode(x, y) {
+                    for (let i = nodes.length - 1; i >= 0; i--) {
+                        const node = nodes[i];
+                        const dx = x - node.x;
+                        const dy = y - node.y;
+                        if (dx * dx + dy * dy < node.radius * node.radius) {
+                            return node;
+                        }
+                    }
+                    return null;
+                }
+
+                function findEdge(x, y) {
+                    for (let i = edges.length - 1; i >= 0; i--) {
+                        const edge = edges[i];
+                        if (!edge.source || !edge.target) continue;
+
+                        // Check if click is near the edge line
+                        const dx = edge.target.x - edge.source.x;
+                        const dy = edge.target.y - edge.source.y;
+                        const length = Math.sqrt(dx * dx + dy * dy);
+                        if (length === 0) continue;
+
+                        const dot = ((x - edge.source.x) * dx + (y - edge.source.y) * dy) / (length * length);
+                        if (dot < 0 || dot > 1) continue;
+
+                        const projX = edge.source.x + dot * dx;
+                        const projY = edge.source.y + dot * dy;
+                        const distSq = (x - projX) * (x - projX) + (y - projY) * (y - projY);
+
+                        if (distSq < 25) { // 5px threshold
+                            return edge;
+                        }
+                    }
+                    return null;
+                }
+
+                canvas.addEventListener('mousedown', (event) => {
+                    const pos = getMousePos(event);
+                    mouseX = pos.x;
+                    mouseY = pos.y;
+                    draggedNode = findNode(pos.x, pos.y);
+
+                    if (draggedNode) {
+                        simulation.alphaTarget(0.3).restart();
+                        draggedNode.fx = draggedNode.x;
+                        draggedNode.fy = draggedNode.y;
+                        canvas.style.cursor = 'grabbing';
+                    }
+                });
+
+                canvas.addEventListener('mousemove', (event) => {
+                    const pos = getMousePos(event);
+
+                    if (draggedNode) {
+                        draggedNode.fx = pos.x;
+                        draggedNode.fy = pos.y;
+                    } else {
+                        // Update cursor based on what's under mouse
+                        const node = findNode(pos.x, pos.y);
+                        const edge = findEdge(pos.x, pos.y);
+                        canvas.style.cursor = (node || edge) ? 'pointer' : 'grab';
+                    }
+                });
+
+                canvas.addEventListener('mouseup', (event) => {
+                    if (draggedNode) {
+                        simulation.alphaTarget(0);
+                        draggedNode.fx = null;
+                        draggedNode.fy = null;
+                        draggedNode = null;
+                        canvas.style.cursor = 'grab';
+                    }
+                });
+
+                canvas.addEventListener('click', (event) => {
+                    const pos = getMousePos(event);
+                    const node = findNode(pos.x, pos.y);
+                    const edge = findEdge(pos.x, pos.y);
+
+                    if (node) {
+                        setActiveElement({ type: 'node', id: node.id });
+                    } else if (edge) {
+                        setActiveElement({ type: 'edge', id: edge.id });
+                    } else {
+                        clearActiveElement();
+                    }
+                });
+
+                // Animation loop
+                simulation.on('tick', () => {
+                    render();
+                });
+
+                // Handle window resize
+                window.addEventListener('resize', resizeCanvas);
+
+                render();
+            }
+
+            function resizeCanvas() {
+                if (!canvas || !ctx) return;
+
+                // Force canvas to take full container size
+                if (state.sidebarDisabled) {
+                    canvas.style.width = '100%';
+                    canvas.style.height = '100%';
+                }
+
+                const rect = canvas.getBoundingClientRect();
+                console.log('Canvas resize - rect:', rect.width, 'x', rect.height);
+
+                // Ensure minimum size for mobile
+                const width = Math.max(rect.width, 320);
+                const height = Math.max(rect.height, 200);
+
+                const dpr = window.devicePixelRatio || 1;
+                canvas.width = width * dpr;
+                canvas.height = height * dpr;
+                ctx.scale(dpr, dpr);
+                canvas.style.width = width + 'px';
+                canvas.style.height = height + 'px';
+
+                // Update simulation center
+                if (simulation) {
+                    simulation.force('center', d3.forceCenter(width / 2, height / 2));
+                    simulation.alpha(0.3).restart();
+                }
+
+                render();
+            }
+
+
+            function render() {
+                if (!ctx || !canvas) return;
+
+                // Clear canvas
+                ctx.clearRect(0, 0, canvas.width / (window.devicePixelRatio || 1),
+                             canvas.height / (window.devicePixelRatio || 1));
+
+                // Apply transform
+                ctx.save();
+                ctx.translate(transform.x, transform.y);
+                ctx.scale(transform.k, transform.k);
+
+                // Set text properties
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                ctx.font = '12px Inter, system-ui, sans-serif';
+
+                // Draw edges first
+                edges.forEach(edge => {
+                    if (!edge.source || !edge.target) return;
+
+                    const isHighlighted = highlightedEdges.has(edge.id);
+                    const isDimmed = isFiltering && !isHighlighted;
+
+                    // Calculate edge endpoints accounting for node radius
+                    const dx = edge.target.x - edge.source.x;
+                    const dy = edge.target.y - edge.source.y;
+                    const distance = Math.sqrt(dx * dx + dy * dy) || 1;
+                    const normX = dx / distance;
+                    const normY = dy / distance;
+
+                    const sourcePadding = edge.source.radius + 2;
+                    const targetPadding = edge.target.radius + 8;
+                    const sourceX = edge.source.x + normX * sourcePadding;
+                    const sourceY = edge.source.y + normY * sourcePadding;
+                    const targetX = edge.target.x - normX * targetPadding;
+                    const targetY = edge.target.y - normY * targetPadding;
+
+                    // Draw edge line
+                    ctx.strokeStyle = edge.color;
+                    ctx.globalAlpha = isDimmed ? 0.15 : (isHighlighted ? 1.0 : 0.55);
+                    ctx.lineWidth = 1.4;
+                    ctx.beginPath();
+                    ctx.moveTo(sourceX, sourceY);
+                    ctx.lineTo(targetX, targetY);
+                    ctx.stroke();
+
+                    // Draw arrowhead
+                    const arrowLength = 10;
+                    const arrowWidth = 5;
+                    const angle = Math.atan2(dy, dx);
+
+                    ctx.fillStyle = '#94a3b8';
+                    ctx.beginPath();
+                    ctx.moveTo(targetX, targetY);
+                    ctx.lineTo(
+                        targetX - arrowLength * Math.cos(angle - arrowWidth * Math.PI / 180),
+                        targetY - arrowLength * Math.sin(angle - arrowWidth * Math.PI / 180)
+                    );
+                    ctx.lineTo(
+                        targetX - arrowLength * Math.cos(angle + arrowWidth * Math.PI / 180),
+                        targetY - arrowLength * Math.sin(angle + arrowWidth * Math.PI / 180)
+                    );
+                    ctx.closePath();
+                    ctx.fill();
+
+                    // Draw edge label if zoom level is appropriate
+                    if (transform.k > 0.8) {
+                        const labelX = (sourceX + targetX) / 2;
+                        const labelY = (sourceY + targetY) / 2;
+
+                        ctx.fillStyle = isDimmed ? 'rgba(30, 41, 59, 0.15)' : 'rgba(30, 41, 59, 0.8)';
+                        ctx.font = '10px Inter, system-ui, sans-serif';
+                        ctx.fillText(edge.predicate, labelX, labelY);
+                    }
+                });
+
+                // Draw nodes
+                nodes.forEach(node => {
+                    const isHighlighted = highlightedNodes.has(node.id);
+                    const isDimmed = isFiltering && !isHighlighted;
+
+                    // Draw node circle
+                    ctx.fillStyle = node.color;
+                    ctx.globalAlpha = isDimmed ? 0.15 : 1.0;
+                    ctx.beginPath();
+                    ctx.arc(node.x, node.y, node.radius, 0, 2 * Math.PI);
+                    ctx.fill();
+
+                    // Draw node border
+                    ctx.strokeStyle = '#0f172a';
+                    ctx.lineWidth = isHighlighted ? 2.4 : 1.2;
+                    ctx.stroke();
+
+                    // Draw node label
+                    if (transform.k > 0.5) {
+                        ctx.fillStyle = isDimmed ? 'rgba(15, 23, 42, 0.15)' : '#0f172a';
+                        ctx.font = '12px Inter, system-ui, sans-serif';
+                        ctx.fillText(node.label, node.x, node.y + node.radius + 14);
+                    }
+                });
+
+                ctx.restore();
+                ctx.globalAlpha = 1.0;
+            }
+
+            function updateHighlights() {
+                // Clear previous highlights
+                highlightedNodes.clear();
+                highlightedEdges.clear();
+                isFiltering = false;
+
+                const addNode = id => {
+                    if (id) {
+                        highlightedNodes.add(id);
+                    }
+                };
+                const addEdge = id => {
+                    if (id) {
+                        highlightedEdges.add(id);
+                    }
+                };
+
+                if (state.activeElement) {
+                    isFiltering = true;
+                    if (state.activeElement.type === 'node') {
+                        const node = nodeById[state.activeElement.id];
+                        addNode(node.id);
+                        node.neighbors.forEach(addNode);
+                        (node.edgeIds.outgoing || []).forEach(addEdge);
+                        (node.edgeIds.incoming || []).forEach(addEdge);
+                    } else if (state.activeElement.type === 'edge') {
+                        const edge = edgeById[state.activeElement.id];
+                        addEdge(edge.id);
+                        addNode(edge.source);
+                        addNode(edge.target);
+                    }
+                }
+
+                if (state.focusCluster && nodesByCluster[state.focusCluster]) {
+                    isFiltering = true;
+                    nodesByCluster[state.focusCluster].forEach(addNode);
+                    vizData.edges.forEach(edge => {
+                        if (
+                            nodesByCluster[state.focusCluster].has(edge.source) &&
+                            nodesByCluster[state.focusCluster].has(edge.target)
+                        ) {
+                            addEdge(edge.id);
+                        }
+                    });
+                }
+
+                if (state.focusPredicate && edgesByPredicate[state.focusPredicate]) {
+                    isFiltering = true;
+                    edgesByPredicate[state.focusPredicate].forEach(edgeId => {
+                        addEdge(edgeId);
+                        const edge = edgeById[edgeId];
+                        addNode(edge.source);
+                        addNode(edge.target);
+                    });
+                }
+
+                if (state.searchTerm) {
+                    const term = state.searchTerm.toLowerCase();
+                    isFiltering = true;
+                    vizData.nodes.forEach(node => {
+                        if (node.label.toLowerCase().includes(term)) {
+                            addNode(node.id);
+                            node.neighbors.forEach(addNode);
+                        }
+                    });
+                    vizData.edges.forEach(edge => {
+                        if (edge.predicate.toLowerCase().includes(term)) {
+                            addEdge(edge.id);
+                            addNode(edge.source);
+                            addNode(edge.target);
+                        }
+                    });
+                }
+
+                // Trigger re-render with updated highlights
+                render();
+            }
+
+            function toggleSidebar() {
+                if (state.sidebarDisabled) return;
+
+                state.sidebarCollapsed = !state.sidebarCollapsed;
+                const layout = document.querySelector('.layout');
+                const sidebar = document.querySelector('.sidebar');
+                const toggleButton = document.getElementById('sidebarToggle');
+
+                layout.classList.toggle('sidebar-collapsed', state.sidebarCollapsed);
+                sidebar.classList.toggle('collapsed', state.sidebarCollapsed);
+                toggleButton.classList.toggle('collapsed', state.sidebarCollapsed);
+
+                // Trigger canvas resize when sidebar toggles
+                setTimeout(() => {
+                    resizeCanvas();
+                }, 300); // Wait for transition to complete
+            }
+
+            function disableSidebar() {
+                state.sidebarDisabled = true;
+
+                const layout = document.querySelector('.layout');
+                const sidebar = document.querySelector('.sidebar');
+                const toggleButton = document.getElementById('sidebarToggle');
+                const main = document.querySelector('.main');
+                const tabPanel = document.querySelector('.tab-panel');
+                const networkPanel = document.querySelector('.network-panel');
+
+                layout.classList.add('sidebar-disabled');
+                sidebar.style.display = 'none';
+                toggleButton.style.display = 'none';
+
+                // Force styles directly for iframe context
+                main.style.width = '100%';
+                main.style.height = '100vh';
+                tabPanel.style.padding = '0';
+                tabPanel.style.width = '100%';
+                tabPanel.style.height = '100vh';
+                networkPanel.style.width = '100%';
+                networkPanel.style.height = '100vh';
+                networkPanel.style.borderRadius = '0';
+                networkPanel.style.border = 'none';
+
+                console.log('Sidebar disabled, forcing full width styles');
+
+                // Multiple resize attempts with forced reflow
+                setTimeout(() => {
+                    canvas.offsetHeight; // Trigger reflow
+                    console.log('First resize attempt after 200ms');
+                    resizeCanvas();
+                }, 200);
+
+                setTimeout(() => {
+                    canvas.offsetHeight; // Trigger reflow
+                    console.log('Second resize attempt after 500ms');
+                    resizeCanvas();
+                }, 500);
+
+                setTimeout(() => {
+                    canvas.offsetHeight; // Trigger reflow
+                    console.log('Final resize attempt after 800ms');
+                    resizeCanvas();
+                }, 800);
+
+                // Notify parent about graph data
+                if (window.parent !== window) {
+                    window.parent.postMessage({
+                        type: 'graphDataReady',
+                        data: vizData
+                    }, '*');
+                }
+            }
+
+            function bindInteractions() {
+                document.querySelectorAll('.cluster-item').forEach(item => {
+                    item.addEventListener('click', () => toggleClusterFocus(item.getAttribute('data-cluster')));
+                });
+
+                document.querySelectorAll('.relation-item').forEach(item => {
+                    item.addEventListener('click', () => togglePredicateFocus(item.getAttribute('data-predicate')));
+                });
+
+                // document.getElementById('relationsTable').addEventListener('click', event => {
+                //     const row = event.target.closest('tr');
+                //     if (!row) {
+                //         return;
+                //     }
+                //     const edgeId = row.getAttribute('data-edge');
+                //     if (edgeId) {
+                //         setActiveElement({ type: 'edge', id: edgeId });
+                //     }
+                // });
+
+                const searchInput = document.getElementById('searchInput');
+                searchInput.addEventListener('input', () => {
+                    state.searchTerm = searchInput.value.trim();
+                    updateHighlights();
+
+                    // Notify parent about search change
+                    if (window.parent !== window && state.sidebarDisabled) {
+                        window.parent.postMessage({
+                            type: 'searchChanged',
+                            searchTerm: state.searchTerm
+                        }, '*');
+                    }
+                });
+                searchInput.addEventListener('keydown', event => {
+                    if (event.key === 'Escape') {
+                        searchInput.value = '';
+                        state.searchTerm = '';
+                        updateHighlights();
+                    }
+                });
+
+                document.querySelectorAll('.tab').forEach(tab => {
+                    tab.addEventListener('click', event => {
+                        const target = event.currentTarget;
+                        document.querySelectorAll('.tab').forEach(button => button.classList.remove('active'));
+                        target.classList.add('active');
+                        const tabId = target.getAttribute('data-tab');
+                        document.querySelectorAll('.tab-panel').forEach(panel => {
+                            panel.classList.toggle('active', panel.id === tabId);
+                        });
+                    });
+                });
+
+                document.getElementById('sidebarToggle').addEventListener('click', toggleSidebar);
+
+                // Listen for messages from parent
+                window.addEventListener('message', (event) => {
+                    if (event.data.type === 'disableInternalSidebar') {
+                        disableSidebar();
+                    } else if (event.data.type === 'search') {
+                        state.searchTerm = event.data.term || '';
+                        updateHighlights();
+                    } else if (event.data.type === 'focusCluster') {
+                        toggleClusterFocus(event.data.clusterId);
+                    } else if (event.data.type === 'focusPredicate') {
+                        togglePredicateFocus(event.data.predicate);
+                    }
+                });
+
+            }
+
+            renderStats();
+            renderTopLists();
+            renderClusters();
+            // renderRelationsTable();
+            // renderInsights();
+
+            // Delay network creation to ensure proper layout
+            setTimeout(() => {
+                createNetwork();
+                bindInteractions();
+            }, 100);
+        })();
+    </script>
+</body>
+
+</html>

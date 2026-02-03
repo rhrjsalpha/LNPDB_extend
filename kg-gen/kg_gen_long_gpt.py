@@ -26,18 +26,19 @@ silicon wafer, where each mixing channel is 4 cm in length. The syringes
 were injected at a flow rate of 0.6mL/min and 1.8mL/min for the
 organic phase and aqueous phase, respectively.
 """
-
+print("Using model...")
 kg = KGGen(
     model="openai/gpt-5.2",
     temperature=1.0,
-    api_key=""
+    api_key="YOUR_OPENAI"
 )
 
+print("Generating knowledge graph...")
 graph = kg.generate(
     input_data=large_text,
     chunk_size=2000,
     cluster=True,
-    context="Lipid nanoparticle formulation and experiments"
+    context="When molar ratios are given, decompose them intocomponent-wise quantitative relations instead of keeping them as raw strings."
 )
 
 print("Entities 1:", graph.entities)
@@ -53,6 +54,7 @@ print("Relations 1:", graph.relations)
 #print("Edges 2:", graph.edges)
 #print("Relations 2:", graph.relations)
 
+print("Visualizing knowledge graph...")
 KGGen.visualize(
     graph,
     output_path="kg_large_gpt-5.2.html",
