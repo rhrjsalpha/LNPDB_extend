@@ -1,0 +1,13 @@
+IL_name,HL_name,CHL_name,PEG_name,IL_molratio,HL_molratio,CHL_molratio,PEG_molratio,count_lnpdb
+ALC-0315,DSPC,Cholesterol,,46.3,9.4,34.3,10.0,2
+ALC-0315,DSPC,Cholesterol,,46.3,9.4,39.3,5.0,2
+ALC-0315,DSPC,Cholesterol,,46.3,9.4,41.3,3.0,2
+ALC-0315,DSPC,Cholesterol,,46.3,9.4,42.7,1.6,2
+ALC-0315,DSPC,Cholesterol,,46.3,9.4,43.3,1.0,2
+ALC-0315,DSPC,Cholesterol,,46.3,9.4,43.8,0.5,2
+ALC-0315,DSPC,Cholesterol,PEG2000,46.3,9.4,34.3,10.0,14
+ALC-0315,DSPC,Cholesterol,PEG2000,46.3,9.4,39.3,5.0,14
+ALC-0315,DSPC,Cholesterol,PEG2000,46.3,9.4,41.3,3.0,14
+ALC-0315,DSPC,Cholesterol,PEG2000,46.3,9.4,42.7,1.6,14
+ALC-0315,DSPC,Cholesterol,PEG2000,46.3,9.4,43.3,1.0,14
+ALC-0315,DSPC,Cholesterol,PEG2000,46.3,9.4,43.8,0.5,14
