@@ -5,7 +5,7 @@ import os
 # ======================================================
 # Config (DOI_DIR만 바꾸면 됨)
 # ======================================================
-DOI_DIR = "/Users/kogeon/python_projects_path/LNPDB_extend/ATLAS_LNPDB/TASK_2_1_OVERLAP/YY_BY_DOI/10.1016_j.jconrel.2025.01.071"
+DOI_DIR = "/Users/kogeon/python_projects_path/LNPDB_extend/ATLAS_LNPDB/TASK_2_1_OVERLAP/YY_BY_DOI/10.1038_s41467-024-45422-9"
 ATLAS_CSV = os.path.join(DOI_DIR, "matched_atlas.csv")
 LNPDB_CSV = os.path.join(DOI_DIR, "matched_lnpdb.csv")
 OUTPUT_DIR = os.path.join(DOI_DIR, "ATLAS_LNPDB_by_matched_id")
