@@ -1,0 +1,6 @@
+﻿Category,Names,Details
+Ionizable_Lipid,cationic lipid,N/A
+PEG_Lipid,"PEG-lipid conjugate, PEG-diacylglycerol (PEG-DAG) conjugate, PEG-dialkyloxypropyl (PEG-DAA) conjugate, PEG-phospholipid conjugate, PEG-ceramide (PEG-Cer) conjugate, PEG-didecyloxypropyl (C10) conjugate, PEG-dilauryloxypropyl (C12) conjugate, PEG-dimyristyloxypropyl (C14) conjugate, PEG-dipalmityloxypropyl (C16) conjugate, PEG-distearyloxypropyl (C18) conjugate",at least 3 mole percent
+Helper_Lipid,"phospholipid, dipalmitoylphosphatidylcholine (DPPC), distearoylphosphatidylcholine (DSPC)",less than 0.5 mole percent phospholipid
+Structural_Lipid,cholesterol,N/A
+Cargo,"corticosteroid, nucleic acid, mRNA","corticosteroid has a logP greater than 3.0, mRNA is chemically modified, lipid:nucleic mass ratio of from about 9:1 to about 20:1"
