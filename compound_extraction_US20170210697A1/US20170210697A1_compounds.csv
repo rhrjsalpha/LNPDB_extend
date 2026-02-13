@@ -1,0 +1,2529 @@
+﻿paragraph_no,compound_name,iupac_name,inchi,smiles,has_structure_fig,other_info
+[0003],novel lipid,,,,False,mentioned as a component of lipid nanoparticle compositions
+[0003],cationic and/or ionizable amino lipids,,,,False,mentioned as a component of lipid nanoparticle compositions
+[0003],phospholipids including polyunsaturated lipids,,,,False,mentioned as a component of lipid nanoparticle compositions
+[0003],PEG lipids,,,,False,mentioned as a component of lipid nanoparticle compositions
+[0003],structural lipids,,,,False,mentioned as a component of lipid nanoparticle compositions
+[0005],cationic and/or amino (ionizable) lipids,,,,False,mentioned as a component of lipid-containing nanoparticle compositions
+[0005],phospholipids including polyunsaturated lipids,,,,False,mentioned as a component of lipid-containing nanoparticle compositions
+[0005],structural lipids,,,,False,"mentioned as a component of lipid-containing nanoparticle compositions (e.g., sterols)"
+[0005],lipids containing polyethylene glycol (PEG lipids),,,,False,mentioned as a component of lipid-containing nanoparticle compositions
+[0007],Compounds of Formula (I),,,,True,Structure shown in Figure US20170210697A1-20170727-C00001
+[0071],H,,,[H],False,Group R9 is selected from H
+[0071],CN,,,[CH3],False,Group R9 is selected from CN (methyl)
+[0071],NO2,,,[N+](=O)[O-],False,Group R9 is selected from NO2 (nitro)
+[0071],C1-6 alkyl,,,,False,Group R9 is selected from C1-6 alkyl
+[0071],C2-6 alkenyl,,,,False,Group R9 is selected from C2-6 alkenyl
+[0071],C3-6 carbocycle,,,,False,Group R9 is selected from C3-6 carbocycle
+[0071],heterocycle,,,,False,Group R9 is selected from heterocycle
+[0072],C1-3 alkyl,,,,False,Each R is independently selected from C1-3 alkyl
+[0072],C2-3 alkenyl,,,,False,Each R is independently selected from C2-3 alkenyl
+[0072],H,,,[H],False,Each R is independently selected from H
+[0073],C1-18 alkyl,,,,False,Each R′ is independently selected from C1-18 alkyl
+[0073],C2-18 alkenyl,,,,False,Each R′ is independently selected from C2-18 alkenyl
+[0073],H,,,[H],False,Each R′ is independently selected from H
+[0074],C3-14 alkyl,,,,False,Each R″ is independently selected from C3-14 alkyl
+[0074],C3-14 alkenyl,,,,False,Each R″ is independently selected from C3-14 alkenyl
+[0075],C1-12 alkyl,,,,False,Each R* is independently selected from C1-12 alkyl
+[0075],C2-12 alkenyl,,,,False,Each R* is independently selected from C2-12 alkenyl
+[0076],C3-6 carbocycle,,,,False,Each Y is independently a C3-6 carbocycle
+[0077],F,,,[F],False,Each X is independently selected from F
+[0077],Cl,,,[Cl],False,Each X is independently selected from Cl
+[0077],Br,,,[Br],False,Each X is independently selected from Br
+[0077],I,,,[I],False,Each X is independently selected from I
+[0112],Formula (IA),,,,True,subset of compounds of Formula (I)
+[0113],Formula (II),,,,True,subset of compounds of Formula (I)
+[0114],Formula (IIa),,,,True,subset of compounds of Formula (I)
+[0114],Formula (IIb),,,,True,subset of compounds of Formula (I)
+[0114],Formula (IIc),,,,True,subset of compounds of Formula (I)
+[0114],Formula (IIe),,,,True,subset of compounds of Formula (I)
+[0115],Formula (IId),,,,True,subset of compounds of Formula (I)
+[0116],Formula (I),,,,False,lipid component
+[0116],Formula (IA),,,,False,lipid component
+[0116],Formula (II),,,,False,lipid component
+[0116],Formula (IIa),,,,False,lipid component
+[0116],Formula (IIb),,,,False,lipid component
+[0116],Formula (IIc),,,,False,lipid component
+[0116],Formula (IId),,,,False,lipid component
+[0116],Formula (IIe),,,,False,lipid component
+[0118],Formula (I),,,,False,lipid component
+[0118],Formula (IA),,,,False,lipid component
+[0118],Formula (II),,,,False,lipid component
+[0118],Formula (IIa),,,,False,lipid component
+[0118],Formula (IIb),,,,False,lipid component
+[0118],Formula (IIc),,,,False,lipid component
+[0118],Formula (IId),,,,False,lipid component
+[0118],Formula (IIe),,,,False,lipid component
+[0119],Formula (I),,,,False,lipid component
+[0119],Formula (IA),,,,False,lipid component
+[0119],Formula (II),,,,False,lipid component
+[0119],Formula (IIa),,,,False,lipid component
+[0119],Formula (IIb),,,,False,lipid component
+[0119],Formula (IIc),,,,False,lipid component
+[0119],Formula (IId),,,,False,lipid component
+[0119],Formula (IIe),,,,False,lipid component
+[0120],Formula (I),,,,False,lipid component
+[0120],Formula (IA),,,,False,lipid component
+[0120],Formula (II),,,,False,lipid component
+[0120],Formula (IIa),,,,False,lipid component
+[0120],Formula (IIb),,,,False,lipid component
+[0120],Formula (IIc),,,,False,lipid component
+[0120],Formula (IId),,,,False,lipid component
+[0120],Formula (IIe),,,,False,lipid component
+[0125],MC3,,,,True,Mentioned in the context of a nanoparticle composition
+[0127],Compound 26,,,,True,Included in nanoparticle compositions for hEPO expression measurement
+[0127],Compound 18,,,,True,Included in nanoparticle compositions for hEPO expression measurement
+[0127],Compound 25,,,,True,Included in nanoparticle compositions for hEPO expression measurement
+[0127],MC3,,,,True,Included in nanoparticle compositions for hEPO expression measurement
+[0128],Compound 18,,,,True,Included in nanoparticle compositions for AUC measurement
+[0128],Compound 25,,,,True,Included in nanoparticle compositions for AUC measurement
+[0128],Compound 26,,,,True,Included in nanoparticle compositions for AUC measurement
+[0128],MC3,,,,True,Included in nanoparticle compositions for AUC measurement
+[0129],MC3,,,,True,Included in nanoparticle compositions for luciferase expression measurement
+[0129],Compound 168,,,,True,Included in nanoparticle compositions for luciferase expression measurement
+[0129],Compound 169,,,,True,Included in nanoparticle compositions for luciferase expression measurement
+[0129],Compound 170,,,,True,Included in nanoparticle compositions for luciferase expression measurement
+[0129],Compound 173,,,,True,Included in nanoparticle compositions for luciferase expression measurement
+[0129],Compound 174,,,,True,Included in nanoparticle compositions for luciferase expression measurement
+[0129],Compound 175,,,,True,Included in nanoparticle compositions for luciferase expression measurement
+[0130],MC3,,,,True,Included in nanoparticle compositions for hEPO expression measurement
+[0130],Compound 18,,,,True,Included in nanoparticle compositions for hEPO expression measurement
+[0130],Compound 25,,,,True,Included in nanoparticle compositions for hEPO expression measurement
+[0130],Compound 30,,,,True,Included in nanoparticle compositions for hEPO expression measurement
+[0130],Compound 108,,,,True,Included in nanoparticle compositions for hEPO expression measurement
+[0130],Compound 109,,,,True,Included in nanoparticle compositions for hEPO expression measurement
+[0130],Compound 110,,,,True,Included in nanoparticle compositions for hEPO expression measurement
+[0130],Compound 111,,,,True,Included in nanoparticle compositions for hEPO expression measurement
+[0130],Compound 112,,,,True,Included in nanoparticle compositions for hEPO expression measurement
+[0130],Compound 60,,,,True,Included in nanoparticle compositions for hEPO expression measurement
+[0130],Compound 122,,,,True,Included in nanoparticle compositions for hEPO expression measurement
+[0131],Compound 18,,,,True,Corresponds to number 1 in FIG. 10.
+[0131],MC3,,,,True,Corresponds to number 2 in FIG. 10.
+[0131],Compounds 48-50,,,,True,Corresponds to numbers 3-5 in FIG. 10.
+[0131],Compound 54,,,,True,Corresponds to number 6 in FIG. 10.
+[0131],Compound 111,,,,True,Corresponds to number 7 in FIG. 10.
+[0131],Compound 60,,,,True,Corresponds to number 8 in FIG. 10.
+[0131],Compound 75,,,,True,Corresponds to number 9 in FIG. 10.
+[0131],Compound 68,,,,True,Corresponds to number 10 in FIG. 10.
+[0131],Compound 66,,,,True,Corresponds to number 11 in FIG. 10.
+[0131],Compound 128,,,,True,Corresponds to number 12 in FIG. 10.
+[0131],Compound 65,,,,True,Corresponds to number 13 in FIG. 10.
+[0131],Compound 130,,,,True,Corresponds to number 14 in FIG. 10.
+[0131],Compounds 133-135,,,,True,Corresponds to numbers 15-17 in FIG. 10.
+[0131],Compound 147,,,,True,Corresponds to number 18 in FIG. 10.
+[0131],Compound 96,,,,True,Corresponds to number 19 in FIG. 10.
+[0131],Compound 151,,,,True,Corresponds to number 20 in FIG. 10.
+[0132],MC3,,,,True,
+[0132],Compound 18,,,,True,
+[0134],MC3,,,,False,Reference lipid
+[0134],KC2,,,,False,Reference lipid
+[0134],DLinDMA,,,,False,Reference lipid
+[0135],Formula (I),,,,True,See Figure US20170210697A1-20170727-C00006 for structure.
+[0153],Formula (IA),,,,True,"Includes salts or isomers.  Parameters: l selected from 1, 2, 3, 4, and 5; m selected from 5, 6, 7, 8, and 9; M1 is a bond or M′; R4 is unsubstituted C1-3 alkyl, or —(CH2)nQ, in which Q is OH, —NHC(S)N(R)2, —NHC(O)N(R)2, —N(R)C(O)R, —N(R)S(O)2R, —N(R)R8, —NHC(═NR9)N(R)2, —NHC(═CHR9)N(R)2, —OC(O)N(R)2, —N(R)C(O)OR, heteroaryl or heterocycloalkyl; M and M′ are independently selected from —C(O)O—, —OC(O)—, —C(O)N(R′)—, —P(O)(OR′)O—, —S—S—, an aryl group, and a heteroaryl group; and R2 and R3 are independently selected from the group consisting of H, C1-14 alkyl, and C2-14 alkenyl. Specific examples: m is 5, 7, or 9. Q is OH, —NHC(S)N(R)2, or —NHC(O)N(R)2. Q is —N(R)C(O)R, or —N(R)S(O)2R."
+[0154],Formula (II),,,,True,"Includes salts or isomers. Parameters: l selected from 1, 2, 3, 4, and 5; M1 is a bond or M′; R4 is unsubstituted C1-3 alkyl, or —(CH2)nQ, in which n is 2, 3, or 4, and Q is OH, —NHC(S)N(R)2, —NHC(O)N(R)2, —N(R)C(O)R, —N(R)S(O)2R, —N(R)R8, —NHC(═NR9)N(R)2, —NHC(═CHR9)N(R)2, —OC(O)N(R)2, —N(R)C(O)OR, heteroaryl or heterocycloalkyl; M and M′ are independently selected from —C(O)O—, —OC(O)—, —C(O)N(R′)—, —P(O)(OR′)O—, —S—S—, an aryl group, and a heteroaryl group; and R2 and R3 are independently selected from the group consisting of H, C1-14 alkyl, and C2-14 alkenyl."
+[0155],Formula (I),,,,False,Compounds may include one or more of the following features when applicable.
+[0155],Formula (IA),,,,False,Compounds may include one or more of the following features when applicable.
+[0182],Formula (IIa),,,,True,Salts or isomers thereof
+[0183],Formula (IIb),,,,True,Salts or isomers thereof
+[0184],Formula (IIc),,,,True,Salts or isomers thereof
+[0184],Formula (IIe),,,,True,Salts or isomers thereof
+[0185],Formula (IId),,,,True,Salts or isomers thereof
+[0186],Formula (I),,,,False,
+[0186],Formula (IA),,,,False,
+[0186],Formula (II),,,,False,
+[0186],Formula (IIa),,,,False,
+[0186],Formula (IIb),,,,False,
+[0186],Formula (IIc),,,,False,
+[0186],Formula (IId),,,,False,
+[0186],Formula (IIe),,,,False,
+[0200],C00013,,,,True,Figure US20170210697A1-20170727-C00013
+[0201],linoleyl,,,,False,R1 is linoleyl.
+[0202],decan-2-yl,,,,True,R1 is branched.
+[0202],undecan-3-yl,,,,True,R1 is branched.
+[0202],dodecan-4-yl,,,,True,R1 is branched.
+[0202],tridecan-5-yl,,,,True,R1 is branched.
+[0202],tetradecan-6-yl,,,,True,R1 is branched.
+[0202],2-methylundecan-3-yl,,,,True,R1 is branched.
+[0202],2-methyldecan-2-yl,,,,True,R1 is branched.
+[0202],3-methylundecan-3-yl,,,,True,R1 is branched.
+[0202],4-methyldodecan-4-yl,,,,True,R1 is branched.
+[0202],heptadeca-9-yl,,,,True,R1 is branched.
+[0203],1-cyclopropylnonyl,,,,True,R' is substituted with a C3-6 carbocycle.
+[0205],cyclopropyl group,,,,False,Y is a cyclopropyl group.
+[0205],cyclohexyl group,,,,False,Y is a cyclohexyl group.
+[0208],decan-2-yl,,,,True,R' is branched.
+[0208],undecan-3-yl,,,,True,R' is branched.
+[0208],dodecan-4-yl,,,,True,R' is branched.
+[0208],tridecan-5-yl,,,,True,R' is branched.
+[0208],tetradecan-6-yl,,,,True,R' is branched.
+[0208],2-methylundecan-3-yl,,,,True,R' is branched.
+[0208],2-methyldecan-2-yl,,,,True,R' is branched.
+[0208],3-methylundecan-3-yl,,,,True,R' is branched.
+[0208],4-methyldodecan-4-yl,,,,True,R' is branched.
+[0208],heptadeca-9-yl,,,,True,R' is branched.
+[0209],1-cyclopropylnonyl,,,,True,R' is substituted with a C3-6 carbocycle.
+[0209],methoxy,,,,False,R' is substituted with an alkoxy.
+[0209],C(O)OCH3,,,,False,R' is substituted with C(O)O-alkyl.
+[0209],OC(O)CH3,,,,False,R' is substituted with OC(O)-alkyl.
+[0212],phenyl,phenyl,,c1ccccc1,False,"M′ may be selected from the group consisting of phenyl, oxazole, and thiazole."
+[0212],oxazole,oxazole,,c1cnc o1,False,"M′ may be selected from the group consisting of phenyl, oxazole, and thiazole."
+[0212],thiazole,thiazole,,c1nc s1,False,"M′ may be selected from the group consisting of phenyl, oxazole, and thiazole."
+[0214],phenyl,phenyl,,c1ccccc1,False,"M may be selected from the group consisting of phenyl, oxazole, and thiazole."
+[0214],oxazole,oxazole,,c1cnc o1,False,"M may be selected from the group consisting of phenyl, oxazole, and thiazole."
+[0214],thiazole,thiazole,,c1nc s1,False,"M may be selected from the group consisting of phenyl, oxazole, and thiazole."
+[0217],methyl,methyl,,C,False,"R7 is C1-3 alkyl (e.g., methyl, ethyl, propyl, or i-propyl)."
+[0217],ethyl,ethyl,,CC,False,"R7 is C1-3 alkyl (e.g., methyl, ethyl, propyl, or i-propyl)."
+[0217],propyl,propyl,,CCC,False,"R7 is C1-3 alkyl (e.g., methyl, ethyl, propyl, or i-propyl)."
+[0217],i-propyl,isopropyl,,CC(C),False,"R7 is C1-3 alkyl (e.g., methyl, ethyl, propyl, or i-propyl)."
+[0219],C8 alkyl,,,,False,R2 and R3 are C8 alkyl.
+[0219],C2 alkyl,,,,False,R2 and R3 are C2 alkyl.
+[0219],C3 alkyl,,,,False,R2 and R3 are C3 alkyl.
+[0219],C4 alkyl,,,,False,R2 and R3 are C4 alkyl.
+[0219],C5 alkyl,,,,False,R2 and R3 are C5 alkyl.
+[0219],C6 alkyl,,,,False,R2 and R3 are C6 alkyl.
+[0219],C7 alkyl,,,,False,R2 and R3 are C7 alkyl.
+[0220],C8 alkyl,,,,False,R2 is C8 alkyl.
+[0220],C1 alkyl,,,,False,"R3 is C1-7 (e.g., C1, C2, C3, C4, C5, C6, or C7 alkyl) or C9 alkyl."
+[0220],C2 alkyl,,,,False,"R3 is C1-7 (e.g., C1, C2, C3, C4, C5, C6, or C7 alkyl) or C9 alkyl."
+[0220],C3 alkyl,,,,False,"R3 is C1-7 (e.g., C1, C2, C3, C4, C5, C6, or C7 alkyl) or C9 alkyl."
+[0220],C4 alkyl,,,,False,"R3 is C1-7 (e.g., C1, C2, C3, C4, C5, C6, or C7 alkyl) or C9 alkyl."
+[0220],C5 alkyl,,,,False,"R3 is C1-7 (e.g., C1, C2, C3, C4, C5, C6, or C7 alkyl) or C9 alkyl."
+[0220],C6 alkyl,,,,False,"R3 is C1-7 (e.g., C1, C2, C3, C4, C5, C6, or C7 alkyl) or C9 alkyl."
+[0220],C7 alkyl,,,,False,"R3 is C1-7 (e.g., C1, C2, C3, C4, C5, C6, or C7 alkyl) or C9 alkyl."
+[0220],C9 alkyl,,,,False,"R3 is C1-7 (e.g., C1, C2, C3, C4, C5, C6, or C7 alkyl) or C9 alkyl."
+[0228],thiourea,,,,True,example isostere
+[0230],—CH(═N—OCH3),,,,False,
+[0230],—C(O)NH—OH,,,,False,
+[0230],—C(O)NH—OCH3,,,,False,
+[0230],—C(O)N(CH3)—OH,,,,False,
+[0230],—C(O)N(CH3)—OCH3,,,,False,
+[0232],guanin-9-yl,"2-amino-1,9-dihydro-6H-purin-6-one-9-yl",,,False,Q is a substituted or unsubstituted 5- to 10-membered heteroaryl
+[0232],adenin-9-yl,,,,False,Q is a substituted or unsubstituted 5- to 10-membered heteroaryl
+[0232],cytosin-1-yl,,,,False,Q is a substituted or unsubstituted 5- to 10-membered heteroaryl
+[0232],uracil-1-yl,,,,False,Q is a substituted or unsubstituted 5- to 10-membered heteroaryl
+[0232],4-methylpiperazinyl,,,,False,Q is a substituted 5- to 14-membered heterocycloalkyl
+[0232],4-(4-methoxybenzyl)piperazinyl,,,,False,Q is a substituted 5- to 14-membered heterocycloalkyl
+[0232],"isoindolin-2-yl-1,3-dione",,,,False,Q is a substituted 5- to 14-membered heterocycloalkyl
+[0232],"pyrrolidin-1-yl-2,5-dione",,,,False,Q is a substituted 5- to 14-membered heterocycloalkyl
+[0232],"imidazolidin-3-yl-2,4-dione",,,,False,Q is a substituted 5- to 14-membered heterocycloalkyl
+[0233],"3-(dimethylamino)-cyclobut-3-ene-4-yl-1,2-dione",,,,False,R8 is cyclobutenyl
+[0234],thiazole,,,,False,R8 is a heteroaryl
+[0234],imidazole,,,,False,R8 is a heteroaryl
+[0237],methyl N-hydroxycarbamate,,,,False,"Example of -OC(O)N(R)2, -N(R)C(O)OR, -N(OR)C(O)OR"
+[0237],methyl N-hydroxycarbamate,,,,False,"Example of -OC(O)N(R)2, -N(R)C(O)OR, -N(OR)C(O)OR"
+[0237],methyl N-(hydroxycarbamoyl)oxycarbamate,,,,False,"Example of -OC(O)N(R)2, -N(R)C(O)OR, -N(OR)C(O)OR"
+[0237],methyl N-methoxycarbamate,,,,False,"Example of -OC(O)N(R)2, -N(R)C(O)OR, -N(OR)C(O)OR"
+[0237],methyl N-methoxycarbamate,,,,False,"Example of -OC(O)N(R)2, -N(R)C(O)OR, -N(OR)C(O)OR"
+[0237],methyl N-hydroxycarbamate,,,,False,"Example of -OC(O)N(R)2, -N(R)C(O)OR, -N(OR)C(O)OR"
+[0237],methyl carbamate,,,,False,"Example of -OC(O)N(R)2, -N(R)C(O)OR, -N(OR)C(O)OR"
+[0239],Ethanol,,,,False,R4 may be -(CH2)2OH
+[0239],Propanol,,,,False,R4 may be -(CH2)30H
+[0239],Butanol,,,,False,R4 may be -(CH2)40H
+[0239],Benzyl,,,,False,R4 may be benzyl
+[0239],4-methoxybenzyl,,,,False,R4 may be 4-methoxybenzyl
+[0240],Cyclohexyl,,,,False,R4 is a C3-6 carbocycle
+[0240],2-hydroxycyclohexyl,,,,False,R4 may be 2-hydroxycyclohexyl
+[0242],—CH2CH(OH)CH3,,,,False,"Example for R4, unsubstituted C1-3 alkyl or unsubstituted C2-3 alkenyl."
+[0242],—CH(CH3)CH2OH,,,,False,"Example for R4, unsubstituted C1-3 alkyl or unsubstituted C2-3 alkenyl."
+[0242],—CH2CH(OH)CH2CH3,,,,False,"Example for R4, unsubstituted C1-3 alkyl or unsubstituted C2-3 alkenyl."
+[0243],CH2OH,,,,False,"Example for R4, substituted C1-3 alkyl."
+[0243],—CH2CH(OH)CH2OH,,,,False,"Example for R4, substituted C1-3 alkyl."
+[0243],—(CH2)3NHC(O)CH2OH,,,,False,"Example for R4, substituted C1-3 alkyl."
+[0243],—(CH2)3NHC(O)CH2OBn,,,,False,"Example for R4, substituted C1-3 alkyl."
+[0243],—(CH2)2O(CH2)2OH,,,,False,"Example for R4, substituted C1-3 alkyl."
+[0243],—CH(CH2OH)2,,,,False,"Example for R4, substituted C1-3 alkyl."
+[0246],cyclohexyl,,,,False,"Example of C6 carbocycle formed by R2 and R3, together with the atom to which they are attached."
+[0246],phenyl,,,,False,"Example of C6 carbocycle formed by R2 and R3, together with the atom to which they are attached."
+[0246],cyclohexyl,,,,False,"Example of a cyclohexyl group substituted with cyclohexyl, formed by R2 and R3, together with the atom to which they are attached."
+[0246],phenyl,,,,False,"Example of a phenyl group substituted with cyclohexyl, formed by R2 and R3, together with the atom to which they are attached."
+[0246],cycloheptyl,,,,False,"Example of C7-15 carbocycle formed by R2 and R3, together with the atom to which they are attached."
+[0246],cyclopentadecanyl,,,,False,"Example of C7-15 carbocycle formed by R2 and R3, together with the atom to which they are attached."
+[0246],naphthyl,,,,False,"Example of C7-15 carbocycle formed by R2 and R3, together with the atom to which they are attached."
+[0247],imidazole,,,,False,Example of Q group.
+[0247],pyrimidine,,,,False,Example of Q group.
+[0247],purine,,,,False,Example of Q group.
+[0248],phenyl group,,,,False,"Example of C3-6 carbocycle formed by R2 and R3, together with the atom to which they are attached."
+[0251],Compound of Formula (I),,,,True,"selected from the group consisting of: Figure US20170210697A1-20170727-C00039 to Figure US20170210697A1-20170727-C00073, and salts and isomers thereof."
+[0256],cyclopropyl,,,,False,Example of a carbocycle.
+[0256],cyclopentyl,,,,False,Example of a carbocycle.
+[0256],cyclohexyl,,,,False,Example of a carbocycle.
+[0256],phenyl,,,,False,Example of a carbocycle (aryl group).
+[0256],naphthyl,,,,False,Example of a carbocycle (aryl group).
+[0256],"1,2-dihydronaphthyl",,,,False,Example of a carbocycle.
+[0257],imidazolyl,,,,False,Example of a heterocycle (heteroaryl group).
+[0257],imidazolidinyl,,,,False,Example of a heterocycle.
+[0257],oxazolyl,,,,False,Example of a heterocycle (heteroaryl group).
+[0257],oxazolidinyl,,,,False,Example of a heterocycle.
+[0257],thiazolyl,,,,False,Example of a heterocycle (heteroaryl group).
+[0257],thiazolidinyl,,,,False,Example of a heterocycle.
+[0257],pyrazolidinyl,,,,False,Example of a heterocycle.
+[0257],pyrazolyl,,,,False,Example of a heterocycle (heteroaryl group).
+[0257],isoxazolidinyl,,,,False,Example of a heterocycle.
+[0257],isoxazolyl,,,,False,Example of a heterocycle (heteroaryl group).
+[0257],isothiazolidinyl,,,,False,Example of a heterocycle.
+[0257],isothiazolyl,,,,False,Example of a heterocycle (heteroaryl group).
+[0257],morpholinyl,,,,False,Example of a heterocycle.
+[0257],pyrrolyl,,,,False,Example of a heterocycle (heteroaryl group).
+[0257],pyrrolidinyl,,,,False,Example of a heterocycle.
+[0257],furyl,,,,False,Example of a heterocycle (heteroaryl group).
+[0257],tetrahydrofuryl,,,,False,Example of a heterocycle.
+[0257],thiophenyl,,,,False,Example of a heterocycle (heteroaryl group).
+[0257],pyridinyl,,,,False,Example of a heterocycle (heteroaryl group).
+[0257],piperidinyl,,,,False,Example of a heterocycle.
+[0257],quinolyl,,,,False,Example of a heterocycle (heteroaryl group).
+[0257],isoquinolyl,,,,False,Example of a heterocycle (heteroaryl group).
+[0258],phenyl,,,,False,Example of an aryl group. Can be a biodegradable group.
+[0258],naphthyl,,,,False,Example of an aryl group. Can be a biodegradable group.
+[0258],pyrrolyl,,,,False,Example of a heteroaryl group. Can be a biodegradable group.
+[0258],furyl,,,,False,Example of a heteroaryl group. Can be a biodegradable group.
+[0258],thiophenyl,,,,False,Example of a heteroaryl group. Can be a biodegradable group.
+[0258],imidazolyl,,,,False,Example of a heteroaryl group. Can be a biodegradable group.
+[0258],oxazolyl,,,,False,Example of a heteroaryl group. Can be a biodegradable group.
+[0258],thiazolyl,,,,False,Example of a heteroaryl group. Can be a biodegradable group.
+[0258],M,,,,False,"Can be independently selected from a list of biodegradable groups including optionally substituted phenyl, oxazole, and thiazole."
+[0258],M′,,,,False,"Can be independently selected from a list of biodegradable groups including optionally substituted phenyl, oxazole, and thiazole."
+[0264],MC3,,,,False,control nanoparticle
+[0264],KC2,,,,False,control nanoparticle
+[0264],DLinDMA,,,,False,control nanoparticle
+[0264],Compound 18,,,,False,compound of Formula (IA) or (II)
+[0264],Compound 25,,,,False,compound of Formula (IA) or (II)
+[0264],Compound 30,,,,False,compound of Formula (IA) or (II)
+[0264],Compound 60,,,,False,compound of Formula (IA) or (II)
+[0264],Compound 108,,,,False,compound of Formula (IA) or (II)
+[0264],Compound 109,,,,False,compound of Formula (IA) or (II)
+[0264],Compound 110,,,,False,compound of Formula (IA) or (II)
+[0264],Compound 111,,,,False,compound of Formula (IA) or (II)
+[0264],Compound 112,,,,False,compound of Formula (IA) or (II)
+[0264],Compound 122,,,,False,compound of Formula (IA) or (II)
+[0273],phosphates,,,,False,Linker group
+[0273],boranophosphates,,,,False,Linker group
+[0273],thiophosphates,,,,False,Linker group
+[0273],selenophosphates,,,,False,Linker group
+[0273],phosphonates,,,,False,Linker group
+[0273],triphosphate group,,,,False,Linker connecting two nucleosides of a cap analog at their 5′ positions
+[0273],two phosphate moieties and a boranophosphate moiety,,,,False,Linker chain connecting two nucleosides of a cap analog at their 5′ positions
+[0282],butylated hydroxytoluene (BHT),,,,False,Exemplary excipient
+[0282],calcium carbonate,,,,False,Exemplary excipient
+[0282],calcium phosphate (dibasic),,,,False,Exemplary excipient
+[0282],calcium stearate,,,,False,Exemplary excipient
+[0282],croscarmellose,,,,False,Exemplary excipient
+[0282],crosslinked polyvinyl pyrrolidone,,,,False,Exemplary excipient
+[0282],citric acid,,,,False,Exemplary excipient
+[0282],crospovidone,,,,False,Exemplary excipient
+[0282],cysteine,,,,False,Exemplary excipient
+[0282],ethylcellulose,,,,False,Exemplary excipient
+[0282],gelatin,,,,False,Exemplary excipient
+[0282],hydroxypropyl cellulose,,,,False,Exemplary excipient
+[0282],hydroxypropyl methylcellulose,,,,False,Exemplary excipient
+[0282],lactose,,,,False,Exemplary excipient
+[0282],magnesium stearate,,,,False,Exemplary excipient
+[0282],maltitol,,,,False,Exemplary excipient
+[0282],mannitol,,,,False,Exemplary excipient
+[0282],methionine,,,,False,Exemplary excipient
+[0282],methylcellulose,,,,False,Exemplary excipient
+[0282],methyl paraben,,,,False,Exemplary excipient
+[0282],microcrystalline cellulose,,,,False,Exemplary excipient
+[0282],polyethylene glycol,,,,False,Exemplary excipient
+[0282],polyvinyl pyrrolidone,,,,False,Exemplary excipient
+[0282],povidone,,,,False,Exemplary excipient
+[0282],pregelatinized starch,,,,False,Exemplary excipient
+[0282],propyl paraben,,,,False,Exemplary excipient
+[0282],retinyl palmitate,,,,False,Exemplary excipient
+[0282],shellac,,,,False,Exemplary excipient
+[0282],silicon dioxide,,,,False,Exemplary excipient
+[0282],sodium carboxymethyl cellulose,,,,False,Exemplary excipient
+[0282],sodium citrate,,,,False,Exemplary excipient
+[0282],sodium starch glycolate,,,,False,Exemplary excipient
+[0282],sorbitol,,,,False,Exemplary excipient
+[0282],starch (corn),,,,False,Exemplary excipient
+[0282],stearic acid,,,,False,Exemplary excipient
+[0282],sucrose,,,,False,Exemplary excipient
+[0282],talc,,,,False,Exemplary excipient
+[0282],titanium dioxide,,,,False,Exemplary excipient
+[0282],vitamin A,,,,False,Exemplary excipient
+[0282],vitamin E (alpha-tocopherol),,,,False,Exemplary excipient
+[0282],vitamin C,,,,False,Exemplary excipient
+[0282],xylitol,,,,False,Exemplary excipient
+[0285],acetate,,,,False,Representative acid addition salt
+[0285],adipate,,,,False,Representative acid addition salt
+[0285],alginate,,,,False,Representative acid addition salt
+[0285],ascorbate,,,,False,Representative acid addition salt
+[0285],aspartate,,,,False,Representative acid addition salt
+[0285],benzenesulfonate,,,,False,Representative acid addition salt
+[0285],benzoate,,,,False,Representative acid addition salt
+[0285],bisulfate,,,,False,Representative acid addition salt
+[0285],borate,,,,False,Representative acid addition salt
+[0285],butyrate,,,,False,Representative acid addition salt
+[0285],camphorate,,,,False,Representative acid addition salt
+[0285],camphorsulfonate,,,,False,Representative acid addition salt
+[0285],citrate,,,,False,Representative acid addition salt
+[0285],cyclopentanepropionate,,,,False,Representative acid addition salt
+[0285],digluconate,,,,False,Representative acid addition salt
+[0285],dodecylsulfate,,,,False,Representative acid addition salt
+[0285],ethanesulfonate,,,,False,Representative acid addition salt
+[0285],fumarate,,,,False,Representative acid addition salt
+[0285],glucoheptonate,,,,False,Representative acid addition salt
+[0285],glycerophosphate,,,,False,Representative acid addition salt
+[0285],hemisulfate,,,,False,Representative acid addition salt
+[0285],heptonate,,,,False,Representative acid addition salt
+[0285],hexanoate,,,,False,Representative acid addition salt
+[0285],hydrobromide,,,,False,Representative acid addition salt
+[0285],hydrochloride,,,,False,Representative acid addition salt
+[0285],hydroiodide,,,,False,Representative acid addition salt
+[0285],2-hydroxy-ethanesulfonate,,,,False,Representative acid addition salt
+[0285],lactobionate,,,,False,Representative acid addition salt
+[0285],lactate,,,,False,Representative acid addition salt
+[0285],laurate,,,,False,Representative acid addition salt
+[0285],lauryl sulfate,,,,False,Representative acid addition salt
+[0285],malate,,,,False,Representative acid addition salt
+[0285],maleate,,,,False,Representative acid addition salt
+[0285],malonate,,,,False,Representative acid addition salt
+[0285],methanesulfonate,,,,False,Representative acid addition salt
+[0285],2-naphthalenesulfonate,,,,False,Representative acid addition salt
+[0285],nicotinate,,,,False,Representative acid addition salt
+[0285],nitrate,,,,False,Representative acid addition salt
+[0285],oleate,,,,False,Representative acid addition salt
+[0285],oxalate,,,,False,Representative acid addition salt
+[0285],palmitate,,,,False,Representative acid addition salt
+[0285],pamoate,,,,False,Representative acid addition salt
+[0285],pectinate,,,,False,Representative acid addition salt
+[0285],persulfate,,,,False,Representative acid addition salt
+[0285],3-phenylpropionate,,,,False,Representative acid addition salt
+[0285],phosphate,,,,False,Representative acid addition salt
+[0285],picrate,,,,False,Representative acid addition salt
+[0285],pivalate,,,,False,Representative acid addition salt
+[0285],propionate,,,,False,Representative acid addition salt
+[0285],stearate,,,,False,Representative acid addition salt
+[0285],succinate,,,,False,Representative acid addition salt
+[0285],sulfate,,,,False,Representative acid addition salt
+[0285],tartrate,,,,False,Representative acid addition salt
+[0285],thiocyanate,,,,False,Representative acid addition salt
+[0285],toluenesulfonate,,,,False,Representative acid addition salt
+[0285],undecanoate,,,,False,Representative acid addition salt
+[0285],valerate,,,,False,Representative acid addition salt
+[0285],sodium,,,,False,Representative alkali or alkaline earth metal salt
+[0285],lithium,,,,False,Representative alkali or alkaline earth metal salt
+[0285],potassium,,,,False,Representative alkali or alkaline earth metal salt
+[0285],calcium,,,,False,Representative alkali or alkaline earth metal salt
+[0285],magnesium,,,,False,Representative alkali or alkaline earth metal salt
+[0285],ammonium,,,,False,"Representative nontoxic ammonium, quaternary ammonium, and amine cations"
+[0285],tetramethylammonium,,,,False,"Representative nontoxic ammonium, quaternary ammonium, and amine cations"
+[0285],tetraethylammonium,,,,False,"Representative nontoxic ammonium, quaternary ammonium, and amine cations"
+[0285],methylamine,,,,False,"Representative nontoxic ammonium, quaternary ammonium, and amine cations"
+[0285],dimethylamine,,,,False,"Representative nontoxic ammonium, quaternary ammonium, and amine cations"
+[0285],trimethylamine,,,,False,"Representative nontoxic ammonium, quaternary ammonium, and amine cations"
+[0285],triethylamine,,,,False,"Representative nontoxic ammonium, quaternary ammonium, and amine cations"
+[0285],ethylamine,,,,False,"Representative nontoxic ammonium, quaternary ammonium, and amine cations"
+[0289],small interfering RNA (siRNA),,,,False,Type of RNA
+[0289],asymmetrical interfering RNA (aiRNA),,,,False,Type of RNA
+[0289],microRNA (miRNA),,,,False,Type of RNA
+[0289],Dicer-substrate RNA (dsRNA),,,,False,Type of RNA
+[0289],small hairpin RNA (shRNA),,,,False,Type of RNA
+[0289],mRNA,,,,False,"Messenger RNA, a type of RNA"
+[0297],cytotoxins,,,,False,type of therapeutic agent
+[0297],radioactive ions,,,,False,type of therapeutic agent
+[0297],chemotherapeutic agents,,,,False,type of therapeutic agent
+[0297],small molecule drugs,,,,False,type of therapeutic agent
+[0297],proteins,,,,False,type of therapeutic agent
+[0297],nucleic acids,,,,False,type of therapeutic agent
+[0305],KL10,"3-(didodecylamino)-N1,N1,4-tridodecyl-1-piperazineethanamine",,,False,cationic/ionizable lipid
+[0305],KL22,"N1-[2-(didodecylamino)ethyl]-N1,N4,N4-tridodecyl-1,4-piperazinediethanamine",,,False,cationic/ionizable lipid
+[0305],KL25,"14,25-ditridecyl-15,18,21,24-tetraaza-octatriacontane",,,False,cationic/ionizable lipid
+[0305],DLin-DMA,"1,2-dilinoleyloxy-N,N-dimethylaminopropane",,,False,cationic/ionizable lipid
+[0305],DLin-K-DMA,"2,2-dilinoleyl-4-dimethylaminomethyl-[1,3]-dioxolane",,,False,cationic/ionizable lipid
+[0305],DLin-MC3-DMA,"heptatriaconta-6,9,28,31-tetraen-19-yl 4-(dimethylamino)butanoate",,,False,cationic/ionizable lipid
+[0305],DLin-KC2-DMA,"2,2-dilinoleyl-4-(2-dimethylaminoethyl)-[1,3]-dioxolane",,,False,cationic/ionizable lipid
+[0305],DODMA,"1,2-dioleyloxy-N,N-dimethylaminopropane",,,False,cationic/ionizable lipid
+[0305],Octyl-CLinDMA,"2-({8-[(3β)-cholest-5-en-3-yloxy]octyl}oxy)-N,N-dimethyl-3-[(9Z,12Z)-octadeca-9,12-dien-1-yloxy]propan-1-amine",,,False,cationic/ionizable lipid
+[0305],Octyl-CLinDMA (2R),"(2R)-2-({8-[(3β)-cholest-5-en-3-yloxy]octyl}oxy)-N,N-dimethyl-3-[(9Z,12Z)-octadeca-9,12-dien-1-yloxy]propan-1-amine",,,False,cationic/ionizable lipid
+[0305],Octyl-CLinDMA (2S),"(2S)-2-({8-[(313)-cholest-5-en-3-yloxy]octyl}oxy)-N,N-dimethyl-3-[(9Z,12Z)-octadeca-9,12-dien-1-yloxy]propan-1-amine",,,False,cationic/ionizable lipid
+[0307],cholesterol,,,,False,structural lipid
+[0307],fecosterol,,,,False,structural lipid
+[0307],sitosterol,,,,False,structural lipid
+[0307],ergosterol,,,,False,structural lipid
+[0307],campesterol,,,,False,structural lipid
+[0307],stigmasterol,,,,False,structural lipid
+[0307],brassicasterol,,,,False,structural lipid
+[0307],tomatidine,,,,False,structural lipid
+[0307],tomatine,,,,False,structural lipid
+[0307],ursolic acid,,,,False,structural lipid
+[0307],alpha-tocopherol,,,,False,structural lipid
+[0307],prednisolone,,,,False,"corticosteroid, structural lipid"
+[0307],dexamethasone,,,,False,"corticosteroid, structural lipid"
+[0307],prednisone,,,,False,"corticosteroid, structural lipid"
+[0307],hydrocortisone,,,,False,"corticosteroid, structural lipid"
+[0308],phosphatidyl choline,,,,False,phospholipid moiety
+[0308],phosphatidyl ethanolamine,,,,False,phospholipid moiety
+[0308],phosphatidyl glycerol,,,,False,phospholipid moiety
+[0308],phosphatidyl serine,,,,False,phospholipid moiety
+[0308],phosphatidic acid,,,,False,phospholipid moiety
+[0308],2-lysophosphatidyl choline,,,,False,phospholipid moiety
+[0308],sphingomyelin,,,,False,phospholipid moiety
+[0308],lauric acid,,,,False,fatty acid moiety
+[0308],myristic acid,,,,False,fatty acid moiety
+[0308],myristoleic acid,,,,False,fatty acid moiety
+[0308],palmitic acid,,,,False,fatty acid moiety
+[0308],palmitoleic acid,,,,False,fatty acid moiety
+[0308],stearic acid,,,,False,fatty acid moiety
+[0308],oleic acid,,,,False,fatty acid moiety
+[0308],linoleic acid,,,,False,fatty acid moiety
+[0308],alpha-linolenic acid,,,,False,fatty acid moiety
+[0308],erucic acid,,,,False,fatty acid moiety
+[0308],phytanoic acid,,,,False,fatty acid moiety
+[0308],arachidic acid,,,,False,fatty acid moiety
+[0308],arachidonic acid,,,,False,fatty acid moiety
+[0308],eicosapentaenoic acid,,,,False,fatty acid moiety
+[0308],behenic acid,,,,False,fatty acid moiety
+[0308],docosapentaenoic acid,,,,False,fatty acid moiety
+[0308],docosahexaenoic acid,,,,False,fatty acid moiety
+[0309],DSPC,"1,2-distearoyl-sn-glycero-3-phosphocholine",,,False,phospholipid
+[0309],DOPE,"1,2-dioleoyl-sn-glycero-3-phosphoethanolamine",,,False,phospholipid
+[0309],DLPC,"1,2-dilinoleoyl-sn-glycero-3-phosphocholine",,,False,phospholipid
+[0309],DMPC,"1,2-dimyristoyl-sn-glycero-phosphocholine",,,False,phospholipid
+[0309],DOPC,"1,2-dioleoyl-sn-glycero-3-phosphocholine",,,False,phospholipid
+[0309],DPPC,"1,2-dipalmitoyl-sn-glycero-3-phosphocholine",,,False,phospholipid
+[0309],DUPC,"1,2-diundecanoyl-sn-glycero-phosphocholine",,,False,phospholipid
+[0309],POPC,1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,,,False,phospholipid
+[0309],"1,2-di-O-octadecenyl-sn-glycero-3-phosphocholine","1,2-di-O-octadecenyl-sn-glycero-3-phosphocholine",,,False,phospholipid
+[0309],OChemsPC,1-oleoyl-2-cholesterylhemisuccinoyl-sn-glycero-3-phosphocholine,,,False,phospholipid
+[0309],C16 Lyso PC,1-hexadecyl-sn-glycero-3-phosphocholine,,,False,phospholipid
+[0309],"1,2-dilinolenoyl-sn-glycero-3-phosphocholine","1,2-dilinolenoyl-sn-glycero-3-phosphocholine",,,False,phospholipid
+[0309],"1,2-diarachidonoyl-sn-glycero-3-phosphocholine","1,2-diarachidonoyl-sn-glycero-3-phosphocholine",,,False,phospholipid
+[0309],"1,2-didocosahexaenoyl-sn-glycero-3-phosphocholine","1,2-didocosahexaenoyl-sn-glycero-3-phosphocholine",,,False,phospholipid
+[0309],ME 16.0 PE,"1,2-diphytanoyl-sn-glycero-3-phosphoethanolamine",,,False,phospholipid
+[0309],"1,2-distearoyl-sn-glycero-3-phosphoethanolamine","1,2-distearoyl-sn-glycero-3-phosphoethanolamine",,,False,phospholipid
+[0309],"1,2-dilinoleoyl-sn-glycero-3-phosphoethanolamine","1,2-dilinoleoyl-sn-glycero-3-phosphoethanolamine",,,False,phospholipid
+[0309],"1,2-dilinolenoyl-sn-glycero-3-phosphoethanolamine","1,2-dilinolenoyl-sn-glycero-3-phosphoethanolamine",,,False,phospholipid
+[0309],"1,2-diarachidonoyl-sn-glycero-3-phosphoethanolamine","1,2-diarachidonoyl-sn-glycero-3-phosphoethanolamine",,,False,phospholipid
+[0309],"1,2-didocosahexaenoyl-sn-glycero-3-phosphoethanolamine","1,2-didocosahexaenoyl-sn-glycero-3-phosphoethanolamine",,,False,phospholipid
+[0309],DOPG,"1,2-dioleoyl-sn-glycero-3-phospho-rac-(1-glycerol) sodium salt",,,False,phospholipid
+[0309],sphingomyelin,,,,False,phospholipid
+[0310],Glucopyranosyl Lipid Adjuvant,,,,False,adjuvant
+[0310],CpG oligodeoxynucleotides,,,,False,adjuvant
+[0310],poly(I:C),,,,False,adjuvant
+[0310],aluminum hydroxide,,,,False,adjuvant
+[0310],Pam3CSK4,,,,False,adjuvant
+[0312],vincristine,,,,False,antineoplastic agent
+[0312],doxorubicin,,,,False,antineoplastic agent
+[0312],mitoxantrone,,,,False,antineoplastic agent
+[0312],camptothecin,,,,False,antineoplastic agent
+[0312],cisplatin,,,,False,antineoplastic agent
+[0312],bleomycin,,,,False,antineoplastic agent
+[0312],cyclophosphamide,,,,False,antineoplastic agent
+[0312],methotrexate,,,,False,antineoplastic agent; antimetabolite; nucleoside analog
+[0312],streptozotocin,,,,False,antineoplastic agent
+[0312],actinomycin D,,,,False,antitumor agent
+[0312],vinblastine,,,,False,antitumor agent
+[0312],cystine arabinoside,,,,False,antitumor agent
+[0312],anthracyclines,,,,False,antitumor agent
+[0312],alkylative agents,,,,False,antitumor agent
+[0312],platinum compounds,,,,False,antitumor agent
+[0312],antimetabolites,,,,False,antitumor agent
+[0312],nucleoside analogs,,,,False,antitumor agent
+[0312],purine analogs,,,,False,antitumor agent; nucleoside analog
+[0312],pyrimidine analogs,,,,False,antitumor agent; nucleoside analog
+[0312],dibucaine,,,,False,local anesthetic
+[0312],chlorpromazine,,,,False,local anesthetic
+[0312],propranolol,,,,False,beta-adrenergic blocker
+[0312],timolol,,,,False,beta-adrenergic blocker
+[0312],labetolol,,,,False,beta-adrenergic blocker
+[0312],clonidine,,,,False,antihypertensive agent
+[0312],hydralazine,,,,False,antihypertensive agent
+[0312],imipramine,,,,False,anti-depressant
+[0312],amitriptyline,,,,False,anti-depressant
+[0312],doxepin,,,,False,anti-depressant
+[0312],phenytoin,,,,False,anti-conversant
+[0312],diphenhydramine,,,,False,antihistamine
+[0312],chlorpheniramine,,,,False,antihistamine
+[0312],promethazine,,,,False,antihistamine
+[0312],gentamycin,,,,False,antibiotic/antibacterial agent
+[0312],ciprofloxacin,,,,False,antibiotic/antibacterial agent
+[0312],cefoxitin,,,,False,antibiotic/antibacterial agent
+[0312],miconazole,,,,False,antifungal agent
+[0312],terconazole,,,,False,antifungal agent
+[0312],econazole,,,,False,antifungal agent
+[0312],isoconazole,,,,False,antifungal agent
+[0312],butaconazole,,,,False,antifungal agent
+[0312],clotrimazole,,,,False,antifungal agent
+[0312],itraconazole,,,,False,antifungal agent
+[0312],nystatin,,,,False,antifungal agent
+[0312],naftifine,,,,False,antifungal agent
+[0312],amphotericin B,,,,False,antifungal agent
+[0313],taxol,,,,False,cytotoxin; anti-mitotic agent
+[0313],cytochalasin B,,,,False,cytotoxin
+[0313],gramicidin D,,,,False,cytotoxin
+[0313],ethidium bromide,,,,False,cytotoxin
+[0313],emetine,,,,False,cytotoxin
+[0313],mitomycin,,,,False,cytotoxin
+[0313],etoposide,,,,False,cytotoxin
+[0313],teniposide,,,,False,cytotoxin
+[0313],vincristine,,,,False,cytotoxin; anti-mitotic agent
+[0313],vinblastine,,,,False,cytotoxin; anti-mitotic agent
+[0313],colchicine,,,,False,cytotoxin
+[0313],doxorubicin,,,,False,cytotoxin; anthracycline
+[0313],daunorubicin,,,,False,cytotoxin; anthracycline
+[0313],dihydroxyanthracinedione,,,,False,cytotoxin
+[0313],mitoxantrone,,,,False,cytotoxin
+[0313],mithramycin,,,,False,cytotoxin
+[0313],actinomycin D,,,,False,cytotoxin
+[0313],1-dehydrotestosterone,,,,False,cytotoxin
+[0313],glucocorticoids,,,,False,cytotoxin
+[0313],procaine,,,,False,cytotoxin
+[0313],tetracaine,,,,False,cytotoxin
+[0313],lidocaine,,,,False,cytotoxin
+[0313],propranolol,,,,False,cytotoxin
+[0313],puromycin,,,,False,cytotoxin
+[0313],maytansinoids,,,,False,cytotoxin
+[0313],maytansinol,,,,False,cytotoxin; maytansinoid
+[0313],rachelmycin (CC-1065),,,,False,cytotoxin; alkylating agent
+[0313],iodine 125,,,,False,radioactive ion
+[0313],iodine 131,,,,False,radioactive ion
+[0313],strontium 89,,,,False,radioactive ion
+[0313],phosphorous,,,,False,radioactive ion
+[0313],palladium,,,,False,radioactive ion
+[0313],cesium,,,,False,radioactive ion
+[0313],iridium,,,,False,radioactive ion
+[0313],phosphate,,,,False,radioactive ion
+[0313],cobalt,,,,False,radioactive ion
+[0313],yttrium 90,,,,False,radioactive ion
+[0313],samarium 153,,,,False,radioactive ion
+[0313],praseodymium,,,,False,radioactive ion
+[0313],dexamethasone,,,,False,corticosteroid
+[0313],Compound 3,,,,False,Compound according to Formula (I)
+[0313],Compound 18,,,,False,Compound according to Formula (IA)
+[0313],Compound 20,,,,False,Compound according to Formula (II)
+[0313],Compound 25,,,,False,Compound according to Formula (IIa)
+[0313],Compound 26,,,,False,Compound according to Formula (IIb)
+[0313],Compound 29,,,,False,Compound according to Formula (IIc)
+[0313],Compound 30,,,,False,Compound according to Formula (IId)
+[0313],Compound 60,,,,False,Compound according to Formula (IIe)
+[0313],Compound 108-112,,,,False,Compound according to Formula (IIe)
+[0313],Compound 122,,,,False,Compound according to Formula (IIe)
+[0313],6-mercaptopurine,,,,False,antimetabolite
+[0313],6-thioguanine,,,,False,antimetabolite
+[0313],cytarabine,,,,False,antimetabolite
+[0313],5-fluorouracil,,,,False,antimetabolite
+[0313],decarbazine,,,,False,antimetabolite
+[0313],mechlorethamine,,,,False,alkylating agent
+[0313],thiotepa,,,,False,alkylating agent
+[0313],chlorambucil,,,,False,alkylating agent
+[0313],melphalan,,,,False,alkylating agent
+[0313],carmustine (BSNU),,,,False,alkylating agent
+[0313],lomustine (CCNU),,,,False,alkylating agent
+[0313],cyclophosphamide,,,,False,alkylating agent
+[0313],busulfan,,,,False,alkylating agent
+[0313],dibromomannitol,,,,False,alkylating agent
+[0313],mitomycin C,,,,False,alkylating agent
+[0313],cis-dichlorodiamine platinum (II) (DDP),,,,False,alkylating agent
+[0313],cisplatin,,,,False,alkylating agent
+[0313],daunorubicin (formerly daunomycin),,,,False,anthracycline
+[0313],doxorubicin,,,,False,anthracycline
+[0313],dactinomycin (formerly actinomycin),,,,False,antibiotic
+[0313],bleomycin,,,,False,antibiotic
+[0313],mithramycin,,,,False,antibiotic
+[0313],anthramycin (AMC),,,,False,antibiotic
+[0313],vincristine,,,,False,anti-mitotic agent
+[0313],vinblastine,,,,False,anti-mitotic agent
+[0313],taxol,,,,False,anti-mitotic agent
+[0313],maytansinoids,,,,False,anti-mitotic agent
+[0314],gentamycin,,,,False,protein; therapeutic protein
+[0314],amikacin,,,,False,protein; therapeutic protein
+[0314],insulin,,,,False,protein; therapeutic protein
+[0314],erythropoietin (EPO),,,,False,protein; therapeutic protein
+[0314],granulocyte-colony stimulating factor (G-CSF),,,,False,protein; therapeutic protein
+[0314],granulocyte-macrophage colony stimulating factor (GM-CSF),,,,False,protein; therapeutic protein
+[0314],Factor VIR,,,,False,protein; therapeutic protein
+[0314],luteinizing hormone-releasing hormone (LHRH) analogs,,,,False,protein; therapeutic protein
+[0314],interferons,,,,False,protein; therapeutic protein
+[0314],heparin,,,,False,protein; therapeutic protein
+[0314],Hepatitis B surface antigen,,,,False,protein; therapeutic protein; vaccine
+[0314],typhoid vaccine,,,,False,protein; therapeutic protein; vaccine
+[0314],cholera vaccine,,,,False,protein; therapeutic protein; vaccine
+[0315],ribonucleic acid,,,,False,polynucleotide; nucleic acid; therapeutic agent
+[0315],deoxyribonucleic acid,,,,False,polynucleotide; nucleic acid; therapeutic agent
+[0315],messenger mRNA,,,,False,polynucleotide; nucleic acid; therapeutic agent; RNA
+[0315],RNAi-inducing agents,,,,False,polynucleotide; nucleic acid; therapeutic agent; RNA
+[0315],RNAi agents,,,,False,polynucleotide; nucleic acid; therapeutic agent; RNA
+[0315],siRNAs,,,,False,polynucleotide; nucleic acid; therapeutic agent; RNA
+[0315],shRNAs,,,,False,polynucleotide; nucleic acid; therapeutic agent; RNA
+[0315],miRNAs,,,,False,polynucleotide; nucleic acid; therapeutic agent; RNA
+[0315],antisense RNAs,,,,False,polynucleotide; nucleic acid; therapeutic agent; RNA
+[0315],ribozymes,,,,False,polynucleotide; nucleic acid; therapeutic agent; RNA
+[0315],catalytic DNA,,,,False,polynucleotide; nucleic acid; therapeutic agent
+[0315],RNAs that induce triple helix formation,,,,False,polynucleotide; nucleic acid; therapeutic agent; RNA
+[0315],aptamers,,,,False,polynucleotide; nucleic acid; therapeutic agent
+[0315],vectors,,,,False,polynucleotide; nucleic acid; therapeutic agent
+[0315],shortmers,,,,False,RNA; therapeutic agent
+[0315],antagomirs,,,,False,RNA; therapeutic agent
+[0315],antisense,,,,False,RNA; therapeutic agent
+[0315],ribozymes,,,,False,RNA; therapeutic agent
+[0315],small interfering RNA (siRNA),,,,False,RNA; therapeutic agent
+[0315],asymmetrical interfering RNA (aiRNA),,,,False,RNA; therapeutic agent
+[0315],microRNA (miRNA),,,,False,RNA; therapeutic agent
+[0315],Dicer-substrate RNA (dsRNA),,,,False,RNA; therapeutic agent
+[0315],small hairpin RNA (shRNA),,,,False,RNA; therapeutic agent
+[0315],transfer RNA (tRNA),,,,False,RNA; therapeutic agent
+[0315],messenger RNA (mRNA),,,,False,RNA; therapeutic agent
+[0316],mRNA,,,,False,therapeutic agent
+[0317],siRNA,,,,False,therapeutic agent
+[0318],shRNA,,,,False,therapeutic agent
+[0318],vector,,,,False,therapeutic agent
+[0318],plasmid,,,,False,therapeutic agent
+[0319],mRNA,,,,False,nucleic acid; polynucleotide
+[0319],L-nucleoside,,,,False,alternative nucleoside
+[0319],inverted thymidine,,,,False,alternative nucleoside
+[0319],2'-O-methyl nucleoside,,,,False,alternative nucleoside
+[0319],5-substituted uridine,,,,False,alternative nucleoside
+[0319],5-methoxyuridine,,,,False,alternative nucleoside
+[0319],1-substituted pseudouridine,,,,False,alternative nucleoside
+[0319],1-methyl-pseudouridine,,,,False,alternative nucleoside
+[0319],1-ethyl-pseudouridine,,,,False,alternative nucleoside
+[0319],5-substituted cytidine,,,,False,alternative nucleoside
+[0319],5-methyl-cytidine,,,,False,alternative nucleoside
+[0321],carnosine,,,,False,dipeptide
+[0321],anserine,,,,False,dipeptide
+[0323],A,adenosine,,,False,canonical nucleotide
+[0323],G,guanosine,,,False,canonical nucleotide
+[0323],C,cytosine,,,False,canonical nucleotide
+[0323],U,uridine,,,False,canonical nucleotide
+[0323],T,thymidine,,,False,canonical nucleotide
+[0325],RNAs,ribonucleic acids,,,False,
+[0325],DNAs,deoxyribonucleic acids,,,False,
+[0325],threose nucleic acids,TNA,,,False,nucleic acid analog
+[0325],glycol nucleic acids,GNA,,,False,nucleic acid analog
+[0325],peptide nucleic acids,PNA,,,False,nucleic acid analog
+[0325],locked nucleic acids,LNA,,,False,nucleic acid analog
+[0326],A,,,,False,nucleotide
+[0326],G,,,,False,nucleotide
+[0326],U,,,,False,nucleotide
+[0326],C,,,,False,nucleotide
+[0327],A,,,,False,canonical nucleotide
+[0327],G,,,,False,canonical nucleotide
+[0327],U,,,,False,canonical nucleotide
+[0327],C,,,,False,canonical nucleotide
+[0328],uracil,,,,False,pyrimidine base
+[0328],cytosine,,,,False,pyrimidine base
+[0328],alternative uracil,,,,False,modified nucleotide base
+[0328],5-substituted uracil,,,,False,modified nucleotide base
+[0328],alternative cytosine,,,,False,modified nucleotide base
+[0328],5-substituted cytosine,,,,False,modified nucleotide base
+[0330],RNAi-inducing agents,,,,False,agent
+[0330],RNAi agents,,,,False,agent
+[0330],siRNAs,,,,False,RNA molecule
+[0330],shRNAs,,,,False,RNA molecule
+[0330],miRNAs,,,,False,RNA molecule
+[0330],antisense RNAs,,,,False,RNA molecule
+[0330],ribozymes,,,,False,catalytic RNA molecule
+[0330],catalytic DNA,,,,False,DNA molecule with catalytic activity
+[0330],tRNA,,,,False,RNA molecule
+[0330],RNAs that induce triple helix formation,,,,False,RNA molecule
+[0330],aptamers,,,,False,nucleic acid or peptide molecule
+[0330],mRNAs,,,,False,messenger RNA
+[0333],inosine,,,,False,alternative nucleotide
+[0334],pseudouridine,,,,False,alternative uracil
+[0334],pyridin-4-one ribonucleoside,,,,False,alternative uracil
+[0334],5-aza-uracil,,,,False,alternative uracil
+[0334],6-aza-uracil,,,,False,alternative uracil
+[0334],2-thio-5-aza-uracil,,,,False,alternative uracil
+[0334],2-thio-uracil,,,,False,alternative uracil (s2U)
+[0334],4-thio-uracil,,,,False,alternative uracil (s4U)
+[0334],4-thio-pseudouridine,,,,False,alternative uracil
+[0334],2-thio-pseudouridine,,,,False,alternative uracil
+[0334],5-hydroxy-uracil,,,,False,alternative uracil (ho5U)
+[0334],5-aminoallyl-uracil,,,,False,alternative uracil
+[0334],5-halo-uracil,,,,False,alternative uracil
+[0334],5-iodo-uracil,,,,False,alternative uracil
+[0334],5-bromo-uracil,,,,False,alternative uracil
+[0334],3-methyl-uracil,,,,False,alternative uracil (m3U)
+[0334],5-methoxy-uracil,,,,False,alternative uracil (mo5U)
+[0334],uracil 5-oxyacetic acid,,,,False,alternative uracil (cmo5U)
+[0334],uracil 5-oxyacetic acid methyl ester,,,,False,alternative uracil (mcmo5U)
+[0334],5-carboxymethyl-uracil,,,,False,alternative uracil (cm5U)
+[0334],1-carboxymethyl-pseudouridine,,,,False,alternative uracil
+[0334],5-carboxyhydroxymethyl-uracil,,,,False,alternative uracil (chm5U)
+[0334],5-carboxyhydroxymethyl-uracil methyl ester,,,,False,alternative uracil (mchm5U)
+[0334],5-methoxycarbonylmethyl-uracil,,,,False,alternative uracil (mcm5U)
+[0334],5-methoxycarbonylmethyl-2-thio-uracil,,,,False,alternative uracil (mcm5s2U)
+[0334],5-aminomethyl-2-thio-uracil,,,,False,alternative uracil (nm5s2U)
+[0334],5-methylaminomethyl-uracil,,,,False,alternative uracil (mnm5U)
+[0334],5-methylaminomethyl-2-thio-uracil,,,,False,alternative uracil (mnm5s2U)
+[0334],5-methylaminomethyl-2-seleno-uracil,,,,False,alternative uracil (mnm5se2U)
+[0334],5-carbamoylmethyl-uracil,,,,False,alternative uracil (ncm5U)
+[0334],5-carboxymethylaminomethyl-uracil,,,,False,alternative uracil (cmnm5U)
+[0334],5-carboxymethylaminomethyl-2-thio-uracil,,,,False,alternative uracil (cmnm5s2U)
+[0334],5-propynyl-uracil,,,,False,alternative uracil
+[0334],1-propynyl-pseudouracil,,,,False,alternative uracil
+[0334],5-taurinomethyl-uracil,,,,False,alternative uracil (τm5U)
+[0334],1-taurinomethyl-pseudouridine,,,,False,alternative uracil
+[0334],5-taurinomethyl-2-thio-uracil,,,,False,alternative uracil (m5s2U)
+[0334],1-taurinomethyl-4-thio-pseudouridine,,,,False,alternative uracil
+[0334],5-methyl-uracil,,,,False,"alternative uracil (m5U, i.e., having the nucleobase deoxythymine)"
+[0334],1-methyl-pseudouridine,,,,False,alternative uracil (m1ψ)
+[0334],1-ethyl-pseudouridine,,,,False,alternative uracil (Et1ψ)
+[0334],5-methyl-2-thio-uracil,,,,False,alternative uracil (m5s2U)
+[0334],1-methyl-4-thio-pseudouridine,,,,False,alternative uracil (m1ψ)
+[0334],4-thio-1-methyl-pseudouridine,,,,False,alternative uracil
+[0334],3-methyl-pseudouridine,,,,False,alternative uracil (m3ψ)
+[0334],2-thio-1-methyl-pseudouridine,,,,False,alternative uracil
+[0334],1-methyl-1-deaza-pseudouridine,,,,False,alternative uracil
+[0334],2-thio-1-methyl-1-deaza-pseudouridine,,,,False,alternative uracil
+[0334],dihydrouracil,,,,False,alternative uracil (D)
+[0334],dihydropseudouridine,,,,False,alternative uracil
+[0334],"5,6-dihydrouracil",,,,False,alternative uracil
+[0334],5-methyl-dihydrouracil,,,,False,alternative uracil (m5D)
+[0334],2-thio-dihydrouracil,,,,False,alternative uracil
+[0334],2-thio-dihydropseudouridine,,,,False,alternative uracil
+[0334],2-methoxy-uracil,,,,False,alternative uracil
+[0334],2-methoxy-4-thio-uracil,,,,False,alternative uracil
+[0334],4-methoxy-pseudouridine,,,,False,alternative uracil
+[0334],4-methoxy-2-thio-pseudouridine,,,,False,alternative uracil
+[0334],N1-methyl-pseudouridine,,,,False,alternative uracil
+[0334],3-(3-amino-3-carboxypropyl)uracil,,,,False,alternative uracil (acp3U)
+[0334],1-methyl-3-(3-amino-3-carboxypropyl)pseudouridine,,,,False,alternative uracil (acp3 ψ)
+[0334],5-(isopentenylaminomethyl)uracil,,,,False,alternative uracil (inm5U)
+[0334],5-(isopentenylaminomethyl)-2-thio-uracil,,,,False,alternative uracil (inm5s2U)
+[0334],"5,2′-O-dimethyl-uridine",,,,False,alternative uracil (m5Um)
+[0334],2-thio-2′-O-methyl-uridine,,,,False,alternative uracil (s2Um)
+[0334],5-methoxycarbonylmethyl-2′-O-methyl-uridine,,,,False,alternative uracil (mcm5Um)
+[0334],5-carbamoylmethyl-2′-O-methyl-uridine,,,,False,alternative uracil (ncm5Um)
+[0334],5-carboxymethylaminomethyl-2′-O-methyl-uridine,,,,False,alternative uracil (cmnm5Um)
+[0334],"3,2′-O-dimethyl-uridine",,,,False,alternative uracil (m3Um)
+[0334],5-(isopentenylaminomethyl)-2′-O-methyl-uridine,,,,False,alternative uracil (inm5Um)
+[0334],1-thio-uracil,,,,False,alternative uracil
+[0334],deoxythymidine,,,,False,alternative uracil
+[0334],5-(2-carbomethoxyvinyl)-uracil,,,,False,alternative uracil
+[0334],5-(carbamoylhydroxymethyl)-uracil,,,,False,alternative uracil
+[0334],5-carbamoylmethyl-2-thio-uracil,,,,False,alternative uracil
+[0334],5-carboxymethyl-2-thio-uracil,,,,False,alternative uracil
+[0334],5-cyanomethyl-uracil,,,,False,alternative uracil
+[0334],5-methoxy-2-thio-uracil,,,,False,alternative uracil
+[0334],5-[3-(1-E-propenylamino)]uracil,,,,False,alternative uracil
+[0335],5-aza-cytosine,,,,False,alternative cytosine
+[0335],6-aza-cytosine,,,,False,alternative cytosine
+[0335],pseudoisocytidine,,,,False,alternative cytosine
+[0335],3-methyl-cytosine,,,,False,alternative cytosine (m3C)
+[0335],N4-acetyl-cytosine,,,,False,alternative cytosine (ac4C)
+[0335],5-formyl-cytosine,,,,False,alternative cytosine (f5C)
+[0335],N4-methyl-cytosine,,,,False,alternative cytosine (m4C)
+[0335],5-methyl-cytosine,,,,False,alternative cytosine (m5C)
+[0335],5-halo-cytosine,,,,False,alternative cytosine
+[0335],5-iodo-cytosine,,,,False,alternative cytosine
+[0335],5-hydroxymethyl-cytosine,,,,False,alternative cytosine (hm5C)
+[0335],1-methyl-pseudoisocytidine,,,,False,alternative cytosine
+[0335],pyrrolo-cytosine,,,,False,alternative cytosine
+[0335],pyrrolo-pseudoisocytidine,,,,False,alternative cytosine
+[0335],2-thio-cytosine,,,,False,alternative cytosine (s2C)
+[0335],2-thio-5-methyl-cytosine,,,,False,alternative cytosine
+[0335],4-thio-pseudoisocytidine,,,,False,alternative cytosine
+[0335],4-thio-1-methyl-pseudoisocytidine,,,,False,alternative cytosine
+[0335],4-thio-1-methyl-1-deaza-pseudoisocytidine,,,,False,alternative cytosine
+[0335],1-methyl-1-deaza-pseudoisocytidine,,,,False,alternative cytosine
+[0335],zebularine,,,,False,alternative cytosine
+[0335],5-aza-zebularine,,,,False,alternative cytosine
+[0335],5-methyl-zebularine,,,,False,alternative cytosine
+[0335],5-aza-2-thio-zebularine,,,,False,alternative cytosine
+[0335],2-thio-zebularine,,,,False,alternative cytosine
+[0335],2-methoxy-cytosine,,,,False,alternative cytosine
+[0335],2-methoxy-5-methyl-cytosine,,,,False,alternative cytosine
+[0335],4-methoxy-pseudoisocytidine,,,,False,alternative cytosine
+[0335],4-methoxy-1-methyl-pseudoisocytidine,,,,False,alternative cytosine
+[0335],lysidine,,,,False,alternative cytosine (k2C)
+[0335],"5,2′-O-dimethyl-cytidine",,,,False,alternative cytosine (m5Cm)
+[0335],N4-acetyl-2′-O-methyl-cytidine,,,,False,alternative cytosine (ac4Cm)
+[0335],"N4,2′-O-dimethyl-cytidine",,,,False,alternative cytosine (m4Cm)
+[0335],5-formyl-2′-O-methyl-cytidine,,,,False,alternative cytosine (f5Cm)
+[0335],"N4,N4,2′-O-trimethyl-cytidine",,,,False,alternative cytosine (m42Cm)
+[0335],1-thio-cytosine,,,,False,alternative cytosine
+[0335],5-hydroxy-cytosine,,,,False,alternative cytosine
+[0335],5-(3-azidopropyl)-cytosine,,,,False,alternative cytosine
+[0335],5-(2-azidoethyl)-cytosine,,,,False,alternative cytosine
+[0336],2-amino-purine,,,,False,alternative adenine
+[0336],"2,6-diaminopurine",,,,False,alternative adenine
+[0336],2-amino-6-halo-purine,,,,False,alternative adenine
+[0336],2-amino-6-chloro-purine,,,,False,alternative adenine
+[0336],6-halo-purine,,,,False,alternative adenine
+[0336],6-chloro-purine,,,,False,alternative adenine
+[0336],2-amino-6-methyl-purine,,,,False,alternative adenine
+[0336],8-azido-adenine,,,,False,alternative adenine
+[0336],7-deaza-adenine,,,,False,alternative adenine
+[0336],7-deaza-8-aza-adenine,,,,False,alternative adenine
+[0336],7-deaza-2-amino-purine,,,,False,alternative adenine
+[0336],7-deaza-8-aza-2-amino-purine,,,,False,alternative adenine
+[0336],"7-deaza-2,6-diaminopurine",,,,False,alternative adenine
+[0336],"7-deaza-8-aza-2,6-diaminopurine",,,,False,alternative adenine
+[0336],1-methyl-adenine,,,,False,alternative adenine (m1A)
+[0336],2-methyl-adenine,,,,False,alternative adenine (m2A)
+[0336],N6-methyl-adenine,,,,False,alternative adenine (m6A)
+[0336],2-methylthio-N6-methyl-adenine,,,,False,alternative adenine (ms2m6A)
+[0336],N6-isopentenyl-adenine,,,,False,alternative adenine (i6A)
+[0336],2-methylthio-N6-isopentenyl-adenine,,,,False,alternative adenine (ms2i6A)
+[0336],N6-(cis-hydroxyisopentenyl)adenine,,,,False,alternative adenine (io6A)
+[0336],2-methylthio-N6-(cis-hydroxyisopentenyl)adenine,,,,False,alternative adenine (ms2io6A)
+[0336],N6-glycinylcarbamoyl-adenine,,,,False,alternative adenine (g6A)
+[0336],N6-threonylcarbamoyl-adenine,,,,False,alternative adenine (t6A)
+[0336],N6-methyl-N6-threonylcarbamoyl-adenine,,,,False,alternative adenine (m6t6A)
+[0336],2-methylthio-N6-threonylcarbamoyl-adenine,,,,False,alternative adenine (ms2g6A)
+[0336],"N6,N6-dimethyl-adenine",,,,False,alternative adenine (m62A)
+[0336],N6-hydroxynorvalylcarbamoyl-adenine,,,,False,alternative adenine (hn6A)
+[0336],2-methylthio-N6-hydroxynorvalylcarbamoyl-adenine,,,,False,alternative adenine (ms2hn6A)
+[0336],N6-acetyl-adenine,,,,False,alternative adenine (ac6A)
+[0336],7-methyl-adenine,,,,False,alternative adenine
+[0336],2-methylthio-adenine,,,,False,alternative adenine
+[0336],2-methoxy-adenine,,,,False,alternative adenine
+[0336],"N6,2′-O-dimethyl-adenosine",,,,False,alternative adenine (m6Am)
+[0336],"N6,N6,2′-O-trimethyl-adenosine",,,,False,alternative adenine (m62Am)
+[0336],"1,2′-O-dimethyl-adenosine",,,,False,alternative adenine (m1Am)
+[0336],2-amino-N6-methyl-purine,,,,False,alternative adenine
+[0336],1-thio-adenine,,,,False,alternative adenine
+[0336],N6-(19-amino-pentaoxanonadecyl)-adenine,,,,False,alternative adenine
+[0336],"2,8-dimethyl-adenine",,,,False,alternative adenine
+[0336],N6-formyl-adenine,,,,False,alternative adenine
+[0336],N6-hydroxymethyl-adenine,,,,False,alternative adenine
+[0337],inosine,,,,False,alternative guanine (I)
+[0337],1-methyl-inosine,,,,False,alternative guanine (m1I)
+[0337],wyosine,,,,False,alternative guanine (imG)
+[0337],methylwyosine,,,,False,alternative guanine (mimG)
+[0337],4-demethyl-wyosine,,,,False,alternative guanine (imG-14)
+[0337],isowyosine,,,,False,alternative guanine (imG2)
+[0337],wybutosine,,,,False,alternative guanine (yW)
+[0337],peroxywybutosine,,,,False,alternative guanine (o2yW)
+[0337],hydroxywybutosine,,,,False,alternative guanine (OHyW)
+[0337],undermodified hydroxywybutosine,,,,False,alternative guanine (OHyW*)
+[0337],7-deaza-guanine,,,,False,alternative guanine
+[0337],queuosine,,,,False,alternative guanine (Q)
+[0337],epoxyqueuosine,,,,False,alternative guanine (oQ)
+[0337],galactosyl-queuosine,,,,False,alternative guanine (galQ)
+[0337],mannosyl-queuosine,,,,False,alternative guanine (manQ)
+[0337],7-cyano-7-deaza-guanine,,,,False,alternative guanine (preQ0)
+[0337],7-aminomethyl-7-deaza-guanine,,,,False,alternative guanine (preQ1)
+[0337],archaeosine,,,,False,alternative guanine (G+)
+[0337],7-deaza-8-aza-guanine,,,,False,alternative guanine
+[0337],6-thio-guanine,,,,False,alternative guanine
+[0337],6-thio-7-deaza-guanine,,,,False,alternative guanine
+[0337],6-thio-7-deaza-8-aza-guanine,,,,False,alternative guanine
+[0337],7-methyl-guanine,,,,False,alternative guanine (m7G)
+[0337],6-thio-7-methyl-guanine,,,,False,alternative guanine
+[0337],7-methyl-inosine,,,,False,alternative guanine
+[0337],6-methoxy-guanine,,,,False,alternative guanine
+[0337],1-methyl-guanine,,,,False,alternative guanine (m1G)
+[0337],N2-methyl-guanine,,,,False,alternative guanine (m2G)
+[0337],"N2,N2-dimethyl-guanine",,,,False,alternative guanine (m22G)
+[0337],"N2,7-dimethyl-guanine",,,,False,"alternative guanine (m2,7G)"
+[0337],"N2, N2,7-dimethyl-guanine",,,,False,"alternative guanine (m2,2,7G)"
+[0337],8-oxo-guanine,,,,False,alternative guanine
+[0337],7-methyl-8-oxo-guanine,,,,False,alternative guanine
+[0337],1-methyl-6-thio-guanine,,,,False,alternative guanine
+[0337],N2-methyl-6-thio-guanine,,,,False,alternative guanine
+[0337],"N2,N2-dimethyl-6-thio-guanine",,,,False,alternative guanine
+[0337],N2-methyl-2′-O-methyl-guanosine,,,,False,alternative guanine (m2Gm)
+[0337],"N2,N2-dimethyl-2′-O-methyl-guanosine",,,,False,alternative guanine (m22Gm)
+[0337],1-methyl-2′-O-methyl-guanosine,,,,False,alternative guanine (m1Gm)
+[0337],"N2,7-dimethyl-2′-O-methyl-guanosine",,,,False,"alternative guanine (m2,7Gm)"
+[0337],2′-O-methyl-inosine,,,,False,alternative guanine (Im)
+[0337],"1,2′-O-dimethyl-inosine",,,,False,alternative guanine (m1Im)
+[0337],1-thio-guanine,,,,False,alternative guanine
+[0337],O-6-methyl-guanine,,,,False,alternative guanine
+[0338],adenine,,,,False,alternative base
+[0338],cytosine,,,,False,alternative base
+[0338],guanine,,,,False,alternative base
+[0338],uracil,,,,False,alternative base
+[0338],hypoxanthine,,,,False,alternative base
+[0338],"pyrazolo[3,4-d]pyrimidines",,,,False,alternative base
+[0338],5-methylcytosine,,,,False,alternative base (5-me-C)
+[0338],5-hydroxymethyl cytosine,,,,False,alternative base
+[0338],xanthine,,,,False,alternative base
+[0338],2-aminoadenine,,,,False,alternative base
+[0338],6-methyl and other alkyl derivatives of adenine and guanine,,,,False,alternative base
+[0338],2-propyl and other alkyl derivatives of adenine and guanine,,,,False,alternative base
+[0338],2-thiouracil,,,,False,alternative base
+[0338],2-thiothymine,,,,False,alternative base
+[0338],2-thiocytosine,,,,False,alternative base
+[0338],5-propynyl uracil,,,,False,alternative base
+[0338],5-propynyl cytosine,,,,False,alternative base
+[0338],6-azo uracil,,,,False,alternative base
+[0338],6-azo cytosine,,,,False,alternative base
+[0338],6-azo thymine,,,,False,alternative base
+[0338],5-uracil,,,,False,alternative base (pseudouracil)
+[0338],4-thiouracil,,,,False,alternative base
+[0338],8-halo,,,,False,alternative base
+[0338],8-bromo,,,,False,alternative base
+[0338],8-amino,,,,False,alternative base
+[0338],8-thiol,,,,False,alternative base
+[0338],8-thioalkyl,,,,False,alternative base
+[0338],8-hydroxy,,,,False,alternative base
+[0338],8-substituted adenines and guanines,,,,False,alternative base
+[0338],5-trifluoromethyl,,,,False,alternative base
+[0338],5-substituted uracils and cytosines,,,,False,alternative base
+[0338],7-methylguanine,,,,False,alternative base
+[0338],7-methyladenine,,,,False,alternative base
+[0338],8-azaguanine,,,,False,alternative base
+[0338],8-azaadenine,,,,False,alternative base
+[0338],deazaguanine,,,,False,alternative base
+[0338],7-deazaguanine,,,,False,alternative base
+[0338],3-deazaguanine,,,,False,alternative base
+[0338],deazaadenine,,,,False,alternative base
+[0338],7-deazaadenine,,,,False,alternative base
+[0338],3-deazaadenine,,,,False,alternative base
+[0338],"pyrazolo[3,4-d]pyrimidine",,,,False,alternative base
+[0338],"imidazo[1,5-a]1,3,5 triazinones",,,,False,alternative base
+[0338],9-deazapurines,,,,False,alternative base
+[0338],"imidazo[4,5-d]pyrazines",,,,False,alternative base
+[0338],"thiazolo[4,5-d]pyrimidines",,,,False,alternative base
+[0338],pyrazin-2-ones,,,,False,alternative base
+[0338],"1,2,4-triazine",,,,False,alternative base
+[0338],pyridazine,,,,False,alternative base
+[0338],"1,3,5 triazine",,,,False,alternative base
+[0338],adenine analogs,,,,False,alternative base
+[0338],7-deaza adenine,,,,False,alternative base (example of adenine analog)
+[0339],ribose,,,,False,alternative sugar component
+[0339],arabinose,,,,False,alternative sugar component
+[0339],xylose,,,,False,alternative sugar component
+[0339],glucose,,,,False,alternative sugar component
+[0339],galactose,,,,False,alternative sugar component
+[0339],boranophosphate,,,,False,alternative phosphate group
+[0339],thiophosphate,,,,False,alternative phosphate group
+[0339],selenophosphate,,,,False,alternative phosphate group
+[0339],phosphonate,,,,False,alternative phosphate group
+[0339],alkyl group,,,,False,alternative phosphate group
+[0339],amidate,,,,False,alternative phosphate group
+[0339],glycerol,,,,False,alternative phosphate group
+[0345],2'-hydroxy group,,,,False,"Exemplary substitutions include H, azido, halo (e.g., fluoro), optionally substituted C1-6 alkyl (e.g., methyl); optionally substituted C1-6 alkoxy (e.g., methoxy or ethoxy); optionally substituted C6-10 aryloxy; optionally substituted C3-8 cycloalkyl; optionally substituted C6-10 aryl-C1-6 alkoxy, optionally substituted C1-12 (heterocyclyl)oxy; a sugar (e.g., ribose, pentose, or any described herein); a polyethyleneglycol (PEG), —O(CH2CH2O)nCH2CH2OR, where R is H or optionally substituted alkyl, and n is an integer from 0 to 20; ""locked"" nucleic acids (LNA) in which the 2′-hydroxy is connected by a C1-6 alkylene or C1-6 heteroalkylene bridge to the 4′-carbon of the same ribose sugar, where exemplary bridges included methylene, propylene, ether, or amino bridges; aminoalkyl; aminoalkoxy; amino; and amino acid."
+[0345],polyethyleneglycol (PEG),,,,False,"—O(CH2CH2O)nCH2CH2OR, where R is H or optionally substituted alkyl, and n is an integer from 0 to 20 (e.g., from 0 to 4, from 0 to 8, from 0 to 10, from 0 to 16, from 1 to 4, from 1 to 8, from 1 to 10, from 1 to 16, from 1 to 20, from 2 to 4, from 2 to 8, from 2 to 10, from 2 to 16, from 2 to 20, from 4 to 8, from 4 to 10, from 4 to 16, and from 4 to 20)"
+[0345],locked nucleic acids (LNA),,,,False,"in which the 2′-hydroxy is connected by a C1-6 alkylene or C1-6 heteroalkylene bridge to the 4′-carbon of the same ribose sugar, where exemplary bridges included methylene, propylene, ether, or amino bridges"
+[0346],ribose,,,,False,"a 5-membered ring having an oxygen. Exemplary alternative nucleotides include replacement of the oxygen in ribose (e.g., with S, Se, or alkylene, such as methylene or ethylene); addition of a double bond (e.g., to replace ribose with cyclopentenyl or cyclohexenyl); ring contraction of ribose (e.g., to form a 4-membered ring of cyclobutane or oxetane); ring expansion of ribose (e.g., to form a 6- or 7-membered ring having an additional carbon or heteroatom, such as for anhydrohexitol, altritol, mannitol, cyclohexanyl, cyclohexenyl, and morpholino (that also has a phosphoramidate backbone)); multicyclic forms (e.g., tricyclo and ""unlocked"" forms, such as glycol nucleic acid (GNA) (e.g., R-GNA or S-GNA, where ribose is replaced by glycol units attached to phosphodiester bonds), threose nucleic acid (TNA, where ribose is replace with α-L-threofuranosyl-(3′→2′)), and peptide nucleic acid (PNA, where 2-amino-ethyl-glycine linkages replace the ribose and phosphodiester backbone))."
+[0346],glycol nucleic acid (GNA),,,,False,"R-GNA or S-GNA, where ribose is replaced by glycol units attached to phosphodiester bonds"
+[0346],threose nucleic acid (TNA),,,,False,where ribose is replace with α-L-threofuranosyl-(3′→2′)
+[0346],peptide nucleic acid (PNA),,,,False,where 2-amino-ethyl-glycine linkages replace the ribose and phosphodiester backbone
+[0347],arabinose,,,,False,
+[0347],L-ribose,,,,False,
+[0348],L-ribose,,,,False,
+[0348],2′-O-methyl-ribose,,,,False,
+[0348],2′-fluoro-ribose,,,,False,
+[0348],arabinose,,,,False,
+[0348],hexitol,,,,False,
+[0348],LNA,,,,False,
+[0348],PNA,,,,False,
+[0350],phosphorothioate,,,,False,
+[0350],phosphoroselenates,,,,False,
+[0350],boranophosphates,,,,False,
+[0350],boranophosphate esters,,,,False,
+[0350],hydrogen phosphonates,,,,False,
+[0350],phosphoramidates,,,,False,
+[0350],phosphorodiamidates,,,,False,
+[0350],alkyl or aryl phosphonates,,,,False,
+[0350],phosphotriesters,,,,False,
+[0350],Phosphorodithioates,,,,False,have both non-linking oxygens replaced by sulfur.
+[0351],borane moiety,,,,False,replacement of one or more of the non-bridging oxygens
+[0351],thio,,,,False,replacement of one or more of the non-bridging oxygens
+[0351],methyl,,,,False,replacement of one or more of the non-bridging oxygens
+[0351],methoxy,,,,False,replacement of one or more of the non-bridging oxygens
+[0352],α-thio phosphate,,,,False,replacement of one or more of the oxygen atoms at the a position of the phosphate moiety
+[0356],5′-ppp-5′-triphosphate linkage,,,,False,between a terminal guanosine cap residue and the 5′-terminal transcribed sense nucleotide of the polynucleotide
+[0356],N7-methyl-guanylate,,,,False,methylation of 5'-guanylate cap
+[0357],5′-ppp-5′ phosphorodiester linkages,,,,False,cleavage of the guanylate cap structure
+[0357],α-thio-guanosine nucleotides,,,,False,used with Vaccinia Capping Enzyme
+[0357],phosphorothioate linkage,,,,False,in the 5′-ppp-5′ cap
+[0357],α-methyl-phosphonate,,,,False,alternative guanosine nucleotides
+[0357],seleno-phosphate nucleotides,,,,False,alternative guanosine nucleotides
+[0361],"N7,3′-O-dimethyl-guanosine-5′-triphosphate-5′-guanosine",,,,False,"ARCA cap, m7G-3′mppp-G, 3′ O-Me-m7G(5′)ppp(5′)G"
+[0361],guanosine,,,,False,part of ARCA cap
+[0362],"N7,2′-O-dimethyl-guanosine-5′-triphosphate-5′-guanosine",,,,False,"mCAP cap, m7Gm-ppp-G"
+[0364],N7-(4-chlorophenoxyethyl)-G(5′)ppp(5′)G,,,,False,N7-(4-chlorophenoxyethyl) substituted dinucleotide cap analog
+[0364],N7-(4-chlorophenoxyethyl)-m3′-OG(5′)ppp(5′)G,,,,False,N7-(4-chlorophenoxyethyl) substituted dinucleotide cap analog
+[0366],Cap1 structure,,,,False,canonical 5′-5′-triphosphate linkage between the 5′-terminal nucleotide of a polynucleotide and a guanosine cap nucleotide wherein the cap guanosine contains an N7-methylation and the 5′-terminal nucleotide of the polynucleotide contains a 2′-O-methyl.
+[0366],"7mG(5′)ppp(5′)N,pN2p",,,,False,Cap 0
+[0366],7mG(5′)ppp(5′)NlmpNp,,,,False,Cap 1
+[0366],7mG(5′)-ppp(5′)NlmpN2mp,,,,False,Cap 2
+[0366],"m(7)Gpppm(3)(6,6,2′)Apm(2′)Apm(2′)Cpm(2)(3,2′)Up",,,,False,Cap 4
+[0368],inosine,,,,False,guanosine analog
+[0368],N1-methyl-guanosine,,,,False,guanosine analog
+[0368],2′-fluoro-guanosine,,,,False,guanosine analog
+[0368],7-deaza-guanosine,,,,False,guanosine analog
+[0368],8-oxo-guanosine,,,,False,guanosine analog
+[0368],2-amino-guanosine,,,,False,guanosine analog
+[0368],LNA-guanosine,,,,False,guanosine analog
+[0368],2-azido-guanosine,,,,False,guanosine analog
+[0369],guanosine triphosphate (GTP),,,,False,modified 5'-cap component
+[0377],Gtx9-nt,,,,False,internal ribosome entry site (IRES) element
+[0377],Gtx8-nt,,,,False,internal ribosome entry site (IRES) element
+[0377],Gtx7-nt,,,,False,internal ribosome entry site (IRES) element
+[0395],miR-221,,,,False,microRNA
+[0395],miR-22,,,,False,microRNA
+[0400],3′-deoxynucleoside,,,,False,nucleoside
+[0400],"2′,3′-dideoxynucleoside",,,,False,nucleoside
+[0400],3′-O-methylnucleosides,,,,False,nucleoside
+[0400],3′-O-ethylnucleosides,,,,False,nucleoside
+[0400],3′-arabinosides,,,,False,nucleoside
+[0414],PABP,,,,False,poly-A binding protein
+[0414],analogs of PABP,,,,False,analogs of poly-A binding protein
+[0415],PABP,,,,False,poly-A binding protein
+[0415],analogs of PABP,,,,False,analogs of poly-A binding protein
+[0416],PABP,,,,False,poly-A binding protein
+[0418],guanosine nucleotides,,,,False,
+[0421],3′-deoxyadenosine,,,,False,cordycepin
+[0421],3′-deoxyuridine,,,,False,
+[0421],3′-deoxycytosine,,,,False,
+[0421],3′-deoxyguanosine,,,,False,
+[0421],3′-deoxythymine,,,,False,
+[0421],"2′,3′-dideoxyadenosine",,,,False,
+[0421],"2′,3′-dideoxyuridine",,,,False,
+[0421],"2′,3′-dideoxycytosine",,,,False,
+[0421],"2′,3′-dideoxyguanosine",,,,False,
+[0421],"2′,3′-dideoxythymine",,,,False,
+[0423],3′-deoxynucleoside,,,,False,
+[0423],"2′,3′-dideoxynucleoside",,,,False,
+[0423],3′-O-methylnucleosides,,,,False,
+[0423],3′-O-ethylnucleosides,,,,False,
+[0423],3′-arabinosides,,,,False,
+[0424],3′-deoxyadenosine,,,,False,cordycepin
+[0424],3′-deoxyuridine,,,,False,
+[0424],3′-deoxycytosine,,,,False,
+[0424],3′-deoxyguanosine,,,,False,
+[0424],3′-deoxythymine,,,,False,
+[0424],"2′,3′-dideoxynucleosides",,,,False,
+[0424],"2′,3′-dideoxyadenosine",,,,False,
+[0424],"2′,3′-dideoxyuridine",,,,False,
+[0424],"2′,3′-dideoxycytosine",,,,False,
+[0424],"2′,3′-dideoxyguanosine",,,,False,
+[0424],"2′,3′-dideoxythymine",,,,False,
+[0425],vitamin A,,,,False,small hydrophobic molecule
+[0425],vitamin E,,,,False,small hydrophobic molecule
+[0426],glucose,,,,False,simple sugar
+[0426],glycogen,,,,False,polysaccharide
+[0427],polyamines,,,,False,polymer
+[0427],polyethers,,,,False,polymer
+[0427],polyamides,,,,False,polymer
+[0427],polyesters,,,,False,polymer
+[0427],polycarbamates,,,,False,polymer
+[0427],polyureas,,,,False,polymer
+[0427],polycarbonates,,,,False,polymer
+[0427],polystyrenes,,,,False,polymer
+[0427],polyimides,,,,False,polymer
+[0427],polysulfones,,,,False,polymer
+[0427],polyurethanes,,,,False,polymer
+[0427],polyacetylenes,,,,False,polymer
+[0427],polyethylenes,,,,False,polymer
+[0427],polyethyleneimines,,,,False,polymer
+[0427],polyisocyanates,,,,False,polymer
+[0427],polyacrylates,,,,False,polymer
+[0427],polymethacrylates,,,,False,polymer
+[0427],polyacrylonitriles,,,,False,polymer
+[0427],polyarylates,,,,False,polymer
+[0427],poly(caprolactone),,,,False,"PCL, polymer"
+[0427],ethylene vinyl acetate polymer,,,,False,"EVA, polymer"
+[0427],poly(lactic acid),,,,False,"PLA, polymer"
+[0427],poly(L-lactic acid),,,,False,"PLLA, polymer"
+[0427],poly(glycolic acid),,,,False,"PGA, polymer"
+[0427],poly(lactic acid-co-glycolic acid),,,,False,"PLGA, polymer"
+[0427],poly(L-lactic acid-co-glycolic acid),,,,False,"PLLGA, polymer"
+[0427],"poly(D,L-lactide)",,,,False,"PDLA, polymer"
+[0427],poly(L-lactide),,,,False,"PLLA, polymer"
+[0427],"poly(D,L-lactide-co-caprolactone)",,,,False,polymer
+[0427],"poly(D,L-lactide-co-caprolactone-co-glycolide)",,,,False,polymer
+[0427],"poly(D,L-lactide-co-PEO-co-D,L-lactide)",,,,False,polymer
+[0427],"poly(D,L-lactide-co-PPO-co-D,L-lactide)",,,,False,polymer
+[0427],polyalkyl cyanoacrylate,,,,False,polymer
+[0427],polyurethane,,,,False,polymer
+[0427],poly-L-lysine,,,,False,"PLL, polymer"
+[0427],hydroxypropyl methacrylate,,,,False,"HPMA, polymer"
+[0427],polyethyleneglycol,,,,False,polymer
+[0427],poly-L-glutamic acid,,,,False,polymer
+[0427],poly(hydroxy acids),,,,False,polymer
+[0427],polyanhydrides,,,,False,polymer
+[0427],polyorthoesters,,,,False,polymer
+[0427],poly(ester amides),,,,False,polymer
+[0427],polyamides,,,,False,polymer
+[0427],poly(ester ethers),,,,False,polymer
+[0427],polycarbonates,,,,False,polymer
+[0427],polyalkenes,,,,False,polymer
+[0427],polyethylene,,,,False,polymer
+[0427],polypropylene,,,,False,polymer
+[0427],polyalkylene glycols,,,,False,polymer
+[0427],poly(ethylene glycol),,,,False,"PEG, polymer"
+[0427],polyalkylene oxides,,,,False,"PEO, polymer"
+[0427],polyalkylene terephthalates,,,,False,polymer
+[0427],poly(ethylene terephthalate),,,,False,polymer
+[0427],polyvinyl alcohols,,,,False,"PVA, polymer"
+[0427],polyvinyl ethers,,,,False,polymer
+[0427],polyvinyl esters,,,,False,polymer
+[0427],poly(vinyl acetate),,,,False,polymer
+[0427],polyvinyl halides,,,,False,polymer
+[0427],poly(vinyl chloride),,,,False,"PVC, polymer"
+[0427],polyvinylpyrrolidone,,,,False,"PVP, polymer"
+[0427],polysiloxanes,,,,False,polymer
+[0427],polystyrene,,,,False,"PS, polymer"
+[0427],polyurethanes,,,,False,polymer
+[0427],alkyl celluloses,,,,False,"derivatized cellulose, polymer"
+[0427],hydroxyalkyl celluloses,,,,False,"derivatized cellulose, polymer"
+[0427],cellulose ethers,,,,False,"derivatized cellulose, polymer"
+[0427],cellulose esters,,,,False,"derivatized cellulose, polymer"
+[0427],nitro celluloses,,,,False,"derivatized cellulose, polymer"
+[0427],hydroxypropylcellulose,,,,False,"derivatized cellulose, polymer"
+[0427],carboxymethylcellulose,,,,False,"derivatized cellulose, polymer"
+[0427],polymers of acrylic acids,,,,False,polymer
+[0427],poly(methyl(meth)acrylate),,,,False,"PMMA, polymer"
+[0427],poly(ethyl(meth)acrylate),,,,False,polymer
+[0427],poly(butyl(meth)acrylate),,,,False,polymer
+[0427],poly(isobutyl(meth)acrylate),,,,False,polymer
+[0427],poly(hexyl(meth)acrylate),,,,False,polymer
+[0427],poly(isodecyl(meth)acrylate),,,,False,polymer
+[0427],poly(lauryl(meth)acrylate),,,,False,polymer
+[0427],poly(phenyl(meth)acrylate),,,,False,polymer
+[0427],poly(methyl acrylate),,,,False,polymer
+[0427],poly(isopropyl acrylate),,,,False,polymer
+[0427],poly(isobutyl acrylate),,,,False,polymer
+[0427],poly(octadecyl acrylate),,,,False,polymer
+[0427],polydioxanone,,,,False,polymer
+[0427],polyhydroxyalkanoates,,,,False,polymer
+[0427],polypropylene fumarate,,,,False,polymer
+[0427],polyoxymethylene,,,,False,polymer
+[0427],poloxamers,,,,False,polymer
+[0427],polyoxamines,,,,False,polymer
+[0427],poly(ortho)esters,,,,False,polymer
+[0427],poly(butyric acid),,,,False,polymer
+[0427],poly(valeric acid),,,,False,polymer
+[0427],poly(lactide-co-caprolactone),,,,False,polymer
+[0427],trimethylene carbonate,,,,False,polymer
+[0427],poly(N-acryloylmorpholine),,,,False,"PAcM, polymer"
+[0427],poly(2-methyl-2-oxazoline),,,,False,"PMOX, polymer"
+[0427],poly(2-ethyl-2-oxazoline),,,,False,"PEOZ, polymer"
+[0427],polyglycerol,,,,False,polymer
+[0428],bovine serum albumin,,,,False,anionic protein
+[0428],dimethyldioctadecyl-ammonium bromide,,,,False,cationic surfactant
+[0428],cyclodextrin,,,,False,sugar derivative
+[0428],heparin,,,,False,polymer
+[0428],polyethylene glycol,,,,False,"PEG, polymer"
+[0428],poloxamer,,,,False,polymer
+[0428],acetylcysteine,,,,False,mucolytic agent
+[0428],mugwort,,,,False,mucolytic agent
+[0428],bromelain,,,,False,mucolytic agent
+[0428],papain,,,,False,mucolytic agent
+[0428],clerodendrum,,,,False,mucolytic agent
+[0428],bromhexine,,,,False,mucolytic agent
+[0428],carbocisteine,,,,False,mucolytic agent
+[0428],eprazinone,,,,False,mucolytic agent
+[0428],mesna,,,,False,mucolytic agent
+[0428],ambroxol,,,,False,mucolytic agent
+[0428],sobrerol,,,,False,mucolytic agent
+[0428],domiodol,,,,False,mucolytic agent
+[0428],letosteine,,,,False,mucolytic agent
+[0428],stepronin,,,,False,mucolytic agent
+[0428],tiopronin,,,,False,mucolytic agent
+[0428],gelsolin,,,,False,mucolytic agent
+[0428],thymosin β4,,,,False,mucolytic agent
+[0428],dornase alfa,,,,False,mucolytic agent
+[0428],neltenexine,,,,False,mucolytic agent
+[0428],erdosteine,,,,False,mucolytic agent
+[0428],rhDNase,,,,False,DNase
+[0432],TWEEN®20,,,,False,polyoxyethylene sorbitan monolaurate
+[0432],TWEEN® 60,,,,False,polyoxyethylene sorbitan
+[0432],TWEEN®80,,,,False,polyoxyethylene sorbitan monooleate
+[0432],SPAN®40,,,,False,sorbitan monopalmitate
+[0432],SPAN®60,,,,False,sorbitan monostearate
+[0432],SPAN®65,,,,False,sorbitan tristearate
+[0432],SPAN®80,,,,False,sorbitan monooleate
+[0432],MYRJ® 45,,,,False,polyoxyethylene monostearate
+[0432],SOLUTOL®,,,,False,
+[0432],CREMOPHOR®,,,,False,polyethylene glycol fatty acid esters
+[0432],BRIJ® 30,,,,False,polyoxyethylene lauryl ether
+[0432],PLURONIC® F 68,,,,False,
+[0432],POLOXAMER® 188,,,,False,
+[0432],VEEGUM®,,,,False,magnesium aluminum silicate
+[0433],VEEGUM®,,,,False,magnesium aluminum silicate
+[0434],GLYDANT PLUS®,,,,False,
+[0434],PHENONIP®,,,,False,
+[0434],GermALL® 115,,,,False,
+[0434],GermABEN®II,,,,False,
+[0434],NEOLONE™,,,,False,
+[0434],KATHON™,,,,False,
+[0434],EUXYL®,,,,False,
+[0435],VEEGUM®,,,,False,magnesium aluminum silicate
+[0436],dimethicone 360,,,,False,
+[0436],cyclomethicone,,,,False,
+[0436],simethicone,,,,False,
+[0438],DOPE,,,,False,unsaturated lipid
+[0438],DSPC,,,,False,unsaturated lipid
+[0439],DOPE,,,,False,phospholipid
+[0439],DSPC,,,,False,phospholipid
+[0439],PEG-DMG,,,,False,PEG lipid
+[0443],cholesterol,,,,False,structural lipid
+[0443],phospholipid,,,,False,
+[0453],Formula (I),,,,False,Mentioned as a component of a pharmaceutical composition.
+[0453],Formula (IA),,,,False,Mentioned as a component of a pharmaceutical composition.
+[0453],Formula (II),,,,False,Mentioned as a component of a pharmaceutical composition.
+[0453],Formula (IIa),,,,False,Mentioned as a component of a pharmaceutical composition.
+[0453],Formula (IIb),,,,False,Mentioned as a component of a pharmaceutical composition.
+[0453],Formula (IIc),,,,False,Mentioned as a component of a pharmaceutical composition.
+[0453],Formula (IId),,,,False,Mentioned as a component of a pharmaceutical composition.
+[0453],Formula (IIe),,,,False,Mentioned as a component of a pharmaceutical composition.
+[0453],Tris,,,,False,Pharmaceutically acceptable carrier.
+[0453],acetate,,,,False,Pharmaceutically acceptable carrier. Example: sodium acetate.
+[0453],sodium acetate,,,,False,Pharmaceutically acceptable carrier.
+[0453],citrate,,,,False,Pharmaceutically acceptable carrier. Example: sodium citrate.
+[0453],sodium citrate,,,,False,Pharmaceutically acceptable carrier.
+[0453],saline,,,,False,Pharmaceutically acceptable carrier.
+[0453],PBS,,,,False,Pharmaceutically acceptable carrier. Phosphate-buffered saline.
+[0453],sucrose,,,,False,Pharmaceutically acceptable carrier.
+[0458],ethyl alcohol,,,,False,Solubilizing agent/diluent in liquid dosage forms.
+[0458],isopropyl alcohol,,,,False,Solubilizing agent/diluent in liquid dosage forms.
+[0458],ethyl carbonate,,,,False,Solubilizing agent/diluent in liquid dosage forms.
+[0458],ethyl acetate,,,,False,Solubilizing agent/diluent in liquid dosage forms.
+[0458],benzyl alcohol,,,,False,Solubilizing agent/diluent in liquid dosage forms.
+[0458],benzyl benzoate,,,,False,Solubilizing agent/diluent in liquid dosage forms.
+[0458],propylene glycol,,,,False,Solubilizing agent/diluent in liquid dosage forms.
+[0458],"1,3-butylene glycol",,,,False,Solubilizing agent/diluent in liquid dosage forms.
+[0458],dimethylformamide,,,,False,Solubilizing agent/diluent in liquid dosage forms.
+[0458],cottonseed oil,,,,False,Oil used as diluent in liquid dosage forms.
+[0458],groundnut oil,,,,False,Oil used as diluent in liquid dosage forms.
+[0458],corn oil,,,,False,Oil used as diluent in liquid dosage forms.
+[0458],germ oil,,,,False,Oil used as diluent in liquid dosage forms.
+[0458],olive oil,,,,False,Oil used as diluent in liquid dosage forms.
+[0458],castor oil,,,,False,Oil used as diluent in liquid dosage forms.
+[0458],sesame oil,,,,False,Oil used as diluent in liquid dosage forms.
+[0458],glycerol,,,,False,Diluent in liquid dosage forms.
+[0458],tetrahydrofurfuryl alcohol,,,,False,Diluent in liquid dosage forms.
+[0458],polyethylene glycols,,,,False,Diluent in liquid dosage forms.
+[0458],fatty acid esters of sorbitan,,,,False,Diluent in liquid dosage forms.
+[0458],Cremophor,,,,False,Solubilizing agent for parenteral administration.
+[0458],alcohols,,,,False,Solubilizing agent for parenteral administration.
+[0458],oils,,,,False,Solubilizing agent for parenteral administration.
+[0458],modified oils,,,,False,Solubilizing agent for parenteral administration.
+[0458],glycols,,,,False,Solubilizing agent for parenteral administration.
+[0458],polysorbates,,,,False,Solubilizing agent for parenteral administration.
+[0458],cyclodextrins,,,,False,Solubilizing agent for parenteral administration.
+[0458],polymers,,,,False,Solubilizing agent for parenteral administration.
+[0459],"1,3-butanediol",,,,False,Solvent for sterile injectable preparations.
+[0459],water,,,,False,Vehicle/solvent for sterile injectable preparations.
+[0459],Ringer's solution,,,,False,Vehicle/solvent for sterile injectable preparations.
+[0459],isotonic sodium chloride solution,,,,False,Vehicle/solvent for sterile injectable preparations.
+[0459],synthetic mono-,,,,False,Fixed oil used as solvent or suspending medium.
+[0459],diglycerides,,,,False,Fixed oil used as solvent or suspending medium.
+[0459],oleic acid,,,,False,Fatty acid used in the preparation of injectables.
+[0463],sodium citrate,,,,False,pharmaceutically acceptable excipient
+[0463],dicalcium phosphate,,,,False,pharmaceutically acceptable excipient
+[0463],starches,,,,False,filler or extender
+[0463],lactose,,,,False,filler or extender
+[0463],sucrose,,,,False,filler or extender
+[0463],glucose,,,,False,filler or extender
+[0463],mannitol,,,,False,filler or extender
+[0463],silicic acid,,,,False,filler or extender
+[0463],carboxymethylcellulose,,,,False,binder
+[0463],alginates,,,,False,binder
+[0463],gelatin,,,,False,binder
+[0463],polyvinylpyrrolidinone,,,,False,binder
+[0463],acacia,,,,False,binder
+[0463],glycerol,,,,False,humectant
+[0463],agar,,,,False,disintegrating agent
+[0463],calcium carbonate,,,,False,disintegrating agent
+[0463],potato starch,,,,False,disintegrating agent
+[0463],tapioca starch,,,,False,disintegrating agent
+[0463],alginic acid,,,,False,disintegrating agent
+[0463],certain silicates,,,,False,disintegrating agent
+[0463],sodium carbonate,,,,False,disintegrating agent
+[0463],paraffin,,,,False,solution retarding agent
+[0463],quaternary ammonium compounds,,,,False,absorption accelerator
+[0463],cetyl alcohol,,,,False,wetting agent
+[0463],glycerol monostearate,,,,False,wetting agent
+[0463],kaolin,,,,False,absorbent
+[0463],bentonite clay,,,,False,absorbent
+[0463],silicates,,,,False,absorbent
+[0463],talc,,,,False,lubricant
+[0463],calcium stearate,,,,False,lubricant
+[0463],magnesium stearate,,,,False,lubricant
+[0463],solid polyethylene glycols,,,,False,lubricant
+[0463],sodium lauryl sulfate,,,,False,lubricant
+[0464],lactose,,,,False,excipient
+[0464],milk sugar,,,,False,excipient
+[0464],high molecular weight polyethylene glycols,,,,False,excipient
+[0468],sugar,,,,False,solid fine powder diluent
+[0469],surfactant,,,,False,liquid non-ionic and/or solid anionic surfactant
+[0470],saccharin sodium,,,,False,flavoring agent
+[0470],volatile oil,,,,False,additional ingredient
+[0470],methylhydroxybenzoate,,,,False,preservative
+[0477],granulocyte-colony stimulating factor,,,,False,therapeutic polypeptide
+[0477],trastuzumab,,,,False,therapeutic polypeptide
+[0484],tamoxifen,,,,False,estrogen receptor ligand
+[0486],apolipoprotein E,,,,False,apoE
+[0488],CFTR,,,,False,cystic fibrosis transmembrane conductance regulator
+[0495],dexamethasone,,,,False,"steroid, corticosteroid"
+[0495],methotrexate,,,,False,
+[0495],acetaminophen,,,,False,
+[0495],H1 receptor blocker,,,,False,anti-histamine
+[0495],H2 receptor blocker,,,,False,
+[0505],TBS,,,,False,protecting group for hydroxyl moiety
+[0505],benzyl,,,,False,protecting group for hydroxyl moiety
+[0505],THP,,,,False,protecting group for hydroxyl moiety
+[0505],Ac,,,,False,protecting group for hydroxyl moiety
+[0506],benzyl ester,,,,False,protecting group for carboxylic acids
+[0506],methyl ester,,,,False,protecting group for carboxylic acids
+[0506],ethyl ester,,,,False,protecting group for carboxylic acids
+[0506],allyl ester,,,,False,protecting group for carboxylic acids
+[0507],Fmoc,,,,False,protecting group for amines
+[0507],Cbz,,,,False,protecting group for amines
+[0507],BOC,,,,False,protecting group for amines
+[0507],DMB,,,,False,protecting group for amines
+[0507],Ac,,,,False,protecting group for amines
+[0507],Bn,,,,False,protecting group for amines
+[0507],Tr,,,,False,protecting group for amines
+[0507],Ts,,,,False,protecting group for amines
+[0507],trifluoroacetyl,,,,False,protecting group for amines
+[0507],phthalimide,,,,False,protecting group for amines
+[0507],benzylideneamine,,,,False,protecting group for amines
+[0508],Ac (×2),,,,False,protecting group for diols
+[0508],TBS (×2),,,,False,protecting group for diols
+[0508],acetonides,,,,False,protecting group for diols
+[0509],Ac,,,,False,protecting group for thiols
+[0510],SEM,,,,False,protecting group for benzimidazoles
+[0510],benzyl,,,,False,protecting group for benzimidazoles
+[0510],PMB,,,,False,protecting group for benzimidazoles
+[0510],DMB,,,,False,protecting group for benzimidazoles
+[0511],dimethoxy acetal,,,,False,di-alkyl acetal
+[0511],diethyl acetyl,,,,False,di-alkyl acetal
+[0513],8-bromooctanoic acid,,,,False,
+[0513],heptadecan-9-ol,,,,False,
+[0513],heptadecan-9-yl 8-bromooctanoate,,,,False,ester b1
+[0513],2-aminoethan-1-ol,,,,False,
+[0513],heptadecan-9-yl 8-((2-hydroxyethyl)amino)octanoate,,,,False,amine c1
+[0513],1-bromotetradecane,,,,False,bromoalkyl R1—Br
+[0513],heptadecan-9-yl 8-((2-hydroxyethyl)(tetradecyl)amino)octanoate,,,,False,compound d1
+[0514],8-bromooctanoic acid,,,,False,acid a2
+[0514],nonan-1-ol,,,,False,alcohol b2
+[0514],nonyl-8-bromooctanoate,,,,False,ester c2
+[0514],heptadecan-9-ol,,,,False,alcohol e2
+[0514],nonanal,,,,False,aldehyde d2
+[0514],heptadecan-9-yl 8-bromooctanoate,,,,False,ester f2
+[0514],2-aminoethan-1-ol,,,,False,
+[0514],heptadecan-9-yl 8-((2-hydroxyethyl)amino)octanoate,,,,False,amine g2
+[0514],heptadecan-9-yl 8-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,compound h2
+[0517],K2CO3,,,,False,inorganic base
+[0517],i-Pr2EtN,,,,False,non-nucleophilic organic base
+[0517],KI,,,,False,catalyst
+[0517],NaI,,,,False,catalyst
+[0519],heptadecan-9-yl 8-bromooctanoate,,,,False,intermediate
+[0519],heptadecan-9-yl 8-((2-hydroxyethyl)amino)octanoate,,,,False,intermediate
+[0524],Compound 2,Heptadecan-9-yl 8-((2-hydroxyethyl)(tetradecyl)amino)octanoate,,,False,"Abbreviation: THF (Tetrahydrofuran), MeCN (Acetonitrile), LAH (Lithium Aluminum Hydride), DCM (Dichloromethane), DMAP (4-Dimethylaminopyridine), LDA (Lithium Diisopropylamide), rt (Room Temperature), DME (1,2-Dimethoxyethane), n-BuLi (n-Butyllithium), CPME (Cyclopentyl methyl ether), i-Pr2EtN (N,N-Diisopropylethylamine)"
+[0536],,Heptadecan-9-yl 8-bromooctanoate,,,True,Method A
+[0538],,8-bromooctanoic acid,,,False,"Reactant, 1.04 g, 4.6 mmol"
+[0538],,heptadecan-9-ol,,,False,"Reactant, 1.5 g, 5.8 mmol"
+[0538],,N-(3-dimethylaminopropyl)-N′-ethylcarbodiimide hydrochloride,,,False,"Reactant, 1.1 g, 5.8 mmol"
+[0538],,"N,N-diisopropylethylamine",,,False,"Reactant, 3.3 mL, 18.7 mmol"
+[0538],,DMAP,,,False,"Reactant, 114 mg, 0.9 mmol"
+[0538],,Heptadecan-9-yl 8-bromooctanoate,,,False,"Product, 875 mg, 1.9 mmol, 41%"
+[0538],,heptadecan-9-yl 8-bromooctanoate,,,False,"Product, 875 mg, 1.9 mmol, 41%"
+[0538],,Heptadecan-9-yl 8-((2-hydroxyethyl)amino)octanoate,,,False,Method B
+[0540],,heptadecan-9-yl 8-bromooctanoate,,,False,"Reactant, 3.8 g, 8.2 mmol"
+[0540],,2-aminoethan-1-ol,,,False,"Reactant, 15 mL, 248 mmol"
+[0540],,Heptadecan-9-yl 8-((2-hydroxyethyl)amino)octanoate,,,False,"Product, 3.1 g, 7 mmol, 85%"
+[0541],,Heptadecan-9-yl 8-((2-hydroxyethyl)(tetradecyl)amino)octanoate,,,False,Method C
+[0545],heptadecan-9-yl 8-((2-hydroxyethyl)amino)octanoate,,,,False,Molecular Weight: 638.12 (from tag [0544] and confirmed by MS)
+[0545],1-bromotetradecane,,,,False,
+[0545],"N,N-diisopropylethylamine",,,,False,
+[0545],heptadecan-9-yl 8-((2-hydroxyethyl)(tetradecyl)amino)octanoate,,,,False,MS (ES): m/z (MH+) 638.91 for C41H83NO3
+[0545],Intermediate A: 2-Octyldecanoic acid,,,,False,
+[0547],diisopropylamine,,,,False,
+[0547],decanoic acid,,,,False,
+[0547],1-iodooctane,,,,False,
+[0547],2-octyldecanoic acid,,,,False,
+[0547],Intermediate B: 7-Bromoheptyl 2-octyldecanoate,,,,False,
+[0549],7-bromoheptyl 2-octyldecanoate,,,,False,
+[0549],2-octyldecanoic acid,,,,False,
+[0549],7-bromoheptan-1-ol,,,,False,
+[0549],Intermediate C: (2-Hexylcyclopropyl)methanol,,,,False,
+[0551],diethyl zinc,,,,False,
+[0551],diiodomethane,,,,False,
+[0551],trichloro-acetic acid,,,,False,
+[0551],(Z)-non-2-en-1-ol,,,,False,
+[0551],(2-Hexylcyclopropyl)methanol,,,,False,
+[0551],Compound 1: Heptadecan-9-yl 8-((2-hydroxyethyl)(octadecyl)amino)octanoate,,,,False,
+[0555],Compound 1,,,,False,Molecular Weight: 694.23; Chemical Formula: C45H91NO3
+[0559],Compound 3,Heptadecan-9-yl 8-((2-hydroxyethyl)(nonyl)amino)octanoate,,,False,Molecular Weight: 567.98; Chemical Formula: C36H73NO3
+[0563],Compound 4,Heptadecan-9-yl 8-(hexyl(2-hydroxyethyl)amino)octanoate,,,False,Molecular Weight: 553.96; UPLC/ELSD: RT=2.99 min; MS (ES): m/z (MH+) 554.777 for C35H71NO3
+[0567],Compound 5,"Heptadecan-9-yl 8-((2-hydroxyethyl)((9Z,12Z)-octadeca-9,12-dien-1-yl)amino)octanoate",,,False,Molecular Weight: 525.90; UPLC/ELSD: RT=3.10 min; MS (ES): m/z (MH+) 526.73 for C33H67NO3
+[0571],Compound 6,Heptadecan-9-yl 8-((3-hydroxypropyl)(nonyl)amino)octanoate,,,False,Molecular Weight: 690.20; UPLC/ELSD: RT=3.77 min; MS (ES): m/z (MH+) 690.84 for C45H87NO3
+[0575],Compound 7,,,,False,"Molecular Formula: C37H75NO3, Molecular Weight: 582.01, UPLC/ELSD: RT=3.24 min. MS (ES): m/z (MH+) 582.987 for C37H75NO3. 1H NMR (300 MHz, CDCl3) δ: ppm 4.84 (p, 1H); 3.76 (t, 2H); 2.42-2.66 (br. s, 5H); 2.25 (t, 2H); 1.47-1.68 (br. m, 12H); 1.24 (m, 42H); 0.86 (t, 9H)."
+[0575],Compound 8,Heptadecan-9-yl 8-((3-(1H-imidazol-1-yl)propyl)(nonyl)amino)octanoate,,,False,
+[0575],Heptadecan-9-yl 8-((3-chloropropyl)(nonyl)amino)octanoate,,,,False,Step 1 intermediate for Compound 8.
+[0579],heptadecan-9-yl 8-((3-hydroxypropyl)(nonyl)amino)octanoate,,,,False,"Starting material in Step 1. 0.53 g, 0.91 mmol. Molecular Formula: C37H74ClNO2 (implied from C37H74ClNO2 in [0577] and previous step's product)."
+[0579],heptadecan-9-yl 8-((3-chloropropyl)(nonyl)amino)octanoate,,,,False,"Product of Step 1. 0.23 g, 42%. 1H NMR (300 MHz, CDCl3) δ: ppm 4.84 (p, 1H); 3.58 (t, 2H); 2.51 (br. s, 2H); 2.35 (br. s, 2H); 2.26 (2, 2H); 1.86 (br. s, 2H); 1.40-1.60 (br. m, 12H); 1.24 (br. m, 42H); 0.86 (t, 9H)."
+[0579],heptadecan-9-yl 8-((3-(1H-imidazol-1-yl)propyl)(nonyl)amino)octanoate,,,,False,Product of Step 2.
+[0583],heptadecan-9-yl 8-((3-chloropropyl)(nonyl)amino)octanoate,,,,False,MS (ES): m/z (MH+) 633.994 for C40H77N3O2
+[0583],Compound 9,Heptadecan-9-yl 8-((2-acetoxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,False,
+[0587],heptadecan-9-yl 8-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,
+[0587],heptadecan-9-yl 8-((2-acetoxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,MS (ES): m/z (MH+) 753.07 for C46H89NO6
+[0591],Compound 10,,,,False,MS (ES): m/z (MH+) 725.10 for C45H89NO5
+[0591],Compound 11,Heptadecan-9-yl (R)-8-((2-hydroxypropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,False,
+[0595],Compound 11,,,,False,Chemical Formula: C45H89NO5; Molecular Weight: 724.21; UPLC/ELSD: RT=5.21 min. MS (ES): m/z (MH+) 725.02 for C45H89NO5.
+[0599],Compound 12,Heptadecan-9-yl (S)-8-((2-hydroxypropyl)(8-(nonyloxy)-8-oxooctyl) amino)octanoate,,,False,Chemical Formula: C45H89NO5; Molecular Weight: 724.21; UPLC/ELSD: RT=5.30 min. MS (ES): m/z (MH+) 725.10 for C45H89NO5.
+[0601],Compound 13,Heptadecan-9-yl 8-((2-hydroxybutyl)(8-(nonyloxy)-8-oxooctyl)amino) octanoate,,,False,Chemical Formula: C46H91NO5
+[0603],Compound 13,,,,False,"MS (ES): m/z (MH+) 739.21 for C46H91NO5. 1H NMR (300 MHz, CDCl3) δ: ppm 4.86 (p, 1H); 4.05 (t, 2H); 3.58-3.38 (br. m, 1H); 2.65-2.15 (br. m, 9H); 1.72-1.12 (br. m, 66H); 0.98 (t, 3H); 0.88 (m, 9H)."
+[0603],Compound 14,Heptadecan-9-yl 8-((2-(dimethylamino)ethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,False,
+[0607],Compound 14,Heptadecan-9-yl 8-((2-(dimethylamino)ethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,False,"MS (ES): m/z (MH+) 738.23 for C46H92N2O4. 1H NMR (300 MHz, CDCl3) δ: ppm 4.84 (p, 1H); 4.04 (t, 2H); 2.95 (m, 2H); 2.78 (m, 6H); 2.44 (s, 6H); 2.28 (m, 4H); 1.70-1.41 (br. m, 14H); 1.41-1.14 (br. m, 48H); 0.87 (m, 9H)."
+[0607],Compound 15,Heptadecan-9-yl 8-((2-methoxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,False,
+[0611],Compound 15,Heptadecan-9-yl 8-((2-methoxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,False,"MS (ES): m/z (MH+) 725.19 for C45H89NO5. 1H NMR (300 MHz, CDCl3) δ: ppm 4.86 (p, 1H); 4.05 (t, 2H); 3.43 (m, 2H); 3.34 (s, 3H); 2.61 (m, 2H); 2.43 (m, 3H); 2.29 (m, 4H); 1.70-1.15 (br. m, 63H); 0.88 (m, 9H)."
+[0611],Compound 16,Heptadecan-9-yl 8-((3-methoxypropyl)(8-(nonyloxy)-8-oxooctyl)amino) octanoate,,,False,
+[0615],Compound 16,,,,False,"Chemical Formula: C46H91NO5, Molecular Weight: 738.236"
+[0619],Compound 17,Heptadecan-9-yl 8-((2-(2-(dimethylamino)ethoxy)ethyl) (8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,False,"Chemical Formula: C48H96N2O5, Molecular Weight: 781.305"
+[0619],Compound 18,Heptadecan-9-yl 8-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,False,
+[0623],Compound 18,,,,True,Figure US20170210697A1-20170727-C00106
+[0624],Compound 19,Heptadecan-9-yl 8-((3-hydroxypropyl)(8-(nonyloxy)-8-oxooctyl)amino) octanoate,,,False,"UPLC/ELSD: RT=3.59 min. MS (ES): m/z (MH+) 710.89 for C44H87NO5. 1H NMR (300 MHz, CDCl3) δ: ppm 4.86 (m, 1H); 4.05 (t, 2H); 3.53 (br. m, 2H); 2.83-2.36 (br. m, 5H); 2.29 (m, 4H); 0.96-1.71 (m, 64H); 0.88 (m, 9H)."
+[0628],Compound 20,Heptadecan-9-yl 8-((4-hydroxybutyl)(8-(nonyloxy)-8-oxooctyl)amino) octanoate,,,False,"UPLC/ELSD: RT=4.51 min. MS (ES): m/z (MH+) 725.19 for C45H89NO5. 1H NMR (300 MHz, CDCl3) δ: ppm 4.86 (p, 1H); 4.05 (t, 2H); 3.80 (m, 2H); 2.92-2.36 (br. m, 5H); 2.29 (m, 4H); 1.89-1.42 (br. m, 16H); 1.42-1.02 (br. m, 50H); 0.88 (m, 9H)."
+[0632],Compound 20,,,,False,"UPLC/ELSD: RT=3.84 min. MS (ES): m/z (MH+) 739.21 for C46H91NO5. 1H NMR (300 MHz, CDCl3) δ: ppm 4.86 (p, 1H); 4.05 (t, 2H); 3.77-3.45 (br. m, 2H); 2.63-2.20 (br. m, 8H); 1.82-1.40 (br. m, 18H); 1.40-1.15 (br. m, 51H); 0.88 (m, 9H)."
+[0636],Compound 21,Heptadecan-9-yl 8-((2-cyanoethyl)(8-(nonyloxy)-8-oxooctyl)amino) octanoate,,,False,"UPLC/ELSD: RT=4.04 min. MS (ES): m/z (MH+) 720.18 for C45H86N2O4. 1H NMR (300 MHz, CDCl3) δ: ppm 4.88 (p, 1H); 4.07 (t, 2H); 2.81 (m, 2H); 2.44 (m, 5H); 2.30 (m, 4H); 1.73-1.18 (br. m, 63H); 0.89 (m, 9H)."
+[0640],Compound 22,Heptadecan-9-yl 8-((2-hydroxycyclohexyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,False,"UPLC/ELSD: RT=4.54 min. MS (ES): m/z (MH+) 765.21 for C48H93NO5. 1H NMR (300 MHz, CDCl3) δ: ppm 4.86 (p, 1H); 4.05 (t, 2H); 2.89-2.34 (br. m, 4H); 2.28 (m, 4H); 2.00 (m, 1H); 1.86-0.99 (br. m, 72H); 0.88 (m, 9H)."
+[0644],Compound 23,,,,False,"Chemical Formula: C46H91NO5; Molecular Weight: 738.24; UPLC/ELSD: RT=3.75 min. MS (ES): m/z (MH+) 739.13 for C46H91NO5. 1H NMR (300 MHz, CDCl3) δ: ppm 4.86 (m, 1H); 4.05 (m, 2H); 3.72-3.46 (br. m, 2H); 2.81-2.35 (br. m, 5H); 2.29 (m, 4H); 1.71-1.40 (br. m, 13H); 1.40-1.15 (br. m, 55H); 0.88 (m, 9H)."
+[0644],Compound 24,Heptadecan-9-yl (Z)-8-((2-hydroxyethyl) (8-(non-2-en-1-yloxy)-8-oxooctyl)amino)octanoate,,,False,Y.
+[0648],Compound 24,,,,False,"Chemical Formula: C44H85NO5; Molecular Weight: 708.17; UPLC/ELSD: RT=3.54 min. MS (ES): m/z (MH+) 708.95 for C44H85NO5. 1H NMR (300 MHz, CDCl3) δ: ppm 5.74-5.44 (br. m, 2H); 4.86 (m, 1H); 4.62 (m, 2H); 3.71-3.40 (br. m, 2H); 2.81-2.37 (br. m, 5H); 2.29 (m, 4H); 2.09 (m, 2H); 1.70-1.14 (br. m, 58H); 0.88 (m, 9H)."
+[0648],Compound 25,Heptadecan-9-yl 8-((2-hydroxyethyl)(6-oxo-6-(undecyloxy)hexyl)amino)octanoate,,,False,Z.
+[0652],Compound 25,,,,False,C44H87NO5
+[0652],Compound 26,Heptadecan-9-yl 8-((2-hydroxyethyl)(4-(nonyloxy)-4-oxobutyl)amino) octanoate,,,False,
+[0656],Compound 26,,,,False,C40H79NO5
+[0656],Compound 27,Nonyl 8-((6-(heptadecan-9-yloxy)-6-oxohexyl)(2-hydroxyethyl)amino) octanoate,,,False,
+[0660],Compound 27,,,,False,C42H83NO5
+[0660],Compound 28,Heptadecan-9-yl 8-((8-((2-hexylcyclopropyl)methoxy)-8-oxooctyl)(2-hydroxyethyl)amino)octanoate,,,False,
+[0664],Compound 28,,,,False,Molecular Weight: 722.19. MS (ES): m/z (MH+) 722.97 for C45H87NO5.
+[0664],Compound 29,"Di(heptadecan-9-yl) 8,8′-((2-hydroxyethyl)azanediyl)dioctanoate",,,False,
+[0668],Compound 29,,,,False,Molecular Weight: 822.40. MS (ES): m/z (MH+) 823.19 for C52H103NO5.
+[0668],Compound 30,7-((2-Hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)heptyl 2-octyldecanoate,,,False,
+[0672],Compound 30,,,,False,UPLC/ELSD: RT=3.55 min. MS (ES): m/z (MH+) 711.16 for C44H87NO5.
+[0672],Compound 31,heptadecan-9-yl (Z)-8-((2-hydroxyethyl)(octadec-9-en-1-yl)amino) octanoate,,,False,
+[0676],Compound 31,nonyl 8-((2-hydroxyethyl)(8-oxo-8-(pentadecan-7-yloxy)octyl)amino) octanoate,,,False,UPLC/ELSD: RT=3.83 min. MS (ES): m/z (MH+) 693.20 for C45H89NO3.
+[0676],Compound 32,nonyl 8-((2-hydroxyethyl)(8-oxo-8-(pentadecan-7-yloxy)octyl)amino) octanoate,,,False,
+[0680],Compound 32,nonyl 8-((2-hydroxyethyl)(8-oxo-8-(tetradecan-6-yloxy)octyl)amino) octanoate,,,False,UPLC/ELSD: RT=3.45 min. MS (ES): m/z (MH+) 683.20 for C42H83NO5.
+[0680],Compound 33,nonyl 8-((2-hydroxyethyl)(8-oxo-8-(tetradecan-6-yloxy)octyl)amino) octanoate,,,False,
+[0684],Compound 33,,,,False,MS (ES): m/z (MH+) 669.09 for C41H81NO5.
+[0684],Compound 34,dodecan-4-yl 8-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino) octanoate,,,False,
+[0688],Compound 34,,,,False,MS (ES): m/z (MH+) 641.05 for C39H77NO5.
+[0688],Compound 35,nonyl 8-((2-hydroxyethyl)(8-oxo-8-(undecan-3-yloxy)octyl)amino) octanoate,,,False,
+[0692],Compound 35,,,,False,"MS (ES): m/z (MH+) 627.11 for C38H75NO5. 1H NMR (300 MHz, CDCl3) δ: ppm 4.83 (p, 1H); 4.08 (t, 2H); 3.63 (br. m, 2H); 2.81-2.39 (br. m, 5H); 2.31 (m, 4H), 1.74-1.01 (br. m, 51H), 0.90 (m, 9H)."
+[0692],AK,decan-2-yl 8-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino) octanoate,,,False,
+[0696],Compound 36,,,,False,"MS (ES): m/z (MH+) 613.00 for C37H73NO5. 1H NMR (300 MHz, CDCl3) δ: ppm 4.91 (p, 1H); 4.08 (t, 2H); 3.55 (m, 2H); 2.60 (m, 2H); 2.47 (m, 4H); 2.29 (m, 4H), 1.731-1.01 (m, 51H), 0.90 (m, 6H)."
+[0696],AL,heptadecan-9-yl 8-((2-hydroxyethyl)(8-(2-octylcyclopropyl)octyl) amino)octanoate,,,False,
+[0700],Compound 47,,,,False,"MS (ES): m/z (MH+) 707.39 for C46H91NO3. 1H NMR (300 MHz, CDCl3) δ: ppm 4.86 (p, 1H); 3.56 (br. m, 2H); 2.72-2.38 (br. m, 5H); 2.28 (t, 2H); 1.70-1.02 (br. m, 67H), 0.88 (m, 9H); 0.71-0.49 (m, 4H); −0.33 (m, 1H)."
+[0700],AM,decan-2-yl 8-((8-(heptadecan-9-yloxy)-8-oxooctyl)(2-hydroxyethyl) amino)octanoate,,,False,
+[0704],Compound 48,,,,False,"C45H89NO5, MS (ES): m/z (MH+) 725.10"
+[0704],Compound 49,heptadecan-9-yl 8-((2-hydroxyethyl)(8-oxo-8-(undecan-3-yloxy)octyl) amino)octanoate,,,False,MS (ES): m/z (MH+) 725.10
+[0708],Compound 49,,,,False,"C46H91NO5, MS (ES): m/z (MH+) 739.21"
+[0708],Compound 50,dodecan-4-yl 8-((8-(heptadecan-9-yloxy)-8-oxooctyl)(2-hydroxyethyl) amino)octanoate,,,False,MS (ES): m/z (MH+) 739.21
+[0712],Compound 50,,,,False,"MS (ES): m/z (MH+) 753.23 for C47H93NO5. 1H NMR (300 MHz, CDCl3) δ: ppm 4.89 (m, 2H); 3.60 (br. m, 2H); 2.75-2.43 (br. m, 5H); 2.30 (m, 4H); 1.71-1.44 (m, 16H); 1.28 (m, 51H); 0.90 (m, 12H)."
+[0716],Compound 51,heptadecan-9-yl 8-((4-butoxy-4-oxobutyl)(2-hydroxyethyl)amino) octanoate,,,False,"MS (ES): m/z (MH+) 584.87 for C35H69NO5. 1H NMR (300 MHz, CDCl3) δ: ppm 4.89 (p, 1H); 4.10 (t, 2H); 3.61 (br. m, 2H); 2.81-2.21 (br. m, 9H); 1.87 (br. m, 2H), 1.70-1.04 (m, 43H), 0.98-0.82 (m, 9H)."
+[0720],Compound 52,heptadecan-9-yl 8-((2-hydroxyethyl)(4-oxo-4-(pentyloxy)butyl)amino) octanoate,,,False,"MS (ES): m/z (MH+) 598.90 for C36H71NO5. 1H NMR (300 MHz, CDCl3) δ: ppm 4.89 (p, 1H); 4.09 (t, 2H); 3.61 (br. m, 2H); 2.89-2.22 (br. m, 9H); 1.87 (br. m, 2H), 1.73-1.43 (m, 11H), 1.28 (m, 34H); 0.90 (m, 9H)."
+[0724],Compound 53,,,,False,"Molecular Formula: C37H73NO5; MS (ES): m/z (MH+) 612.92 for C37H73NO5; 1H NMR (300 MHz, CDCl3) δ: ppm 4.86 (p, 1H); 4.06 (t, 2H); 3.55 (br. m, 2H); 2.68-2.38 (br. m, 5H); 2.28 (m, 4H); 1.79 (br. m, 2H); 1.71-0.96 (m, 48H); 0.88 (m, 9H)."
+[0728],Compound 54,heptadecan-9-yl 8-((4-(heptyloxy)-4-oxobutyl)(2-hydroxyethyl)amino) octanoate,,,False,"Molecular Formula: C38H75NO5; MS (ES): m/z (MH+) 626.94 for C38H75NO5; 1H NMR (300 MHz, CDCl3) δ: ppm 4.89 (p, 1H); 4.09 (t, 2H); 3.60 (br. m, 2H); 2.77-2.42 (br. m, 5H); 2.32 (m, 4H); 1.84 (br. m, 2H); 1.75-1.03 (m, 49H); 0.90 (m, 9H)."
+[0732],Compound 55,,,,False,"UPLC/ELSD: RT=3.37 min. MS (ES): m/z (MH+) 667.04 for C41H79NO5. 1H NMR (300 MHz, CDCl3) δ: ppm 4.83 (p, 1H); 4.15 (m, 1H); 3.95 (m, 1H); 3.53 (br. m, 2H); 2.66-2.39 (br. m, 5H); 2.34-2.19 (m, 4H); 1.78 (br. m, 2H); 1.66-0.98 (m, 50H); 0.85 (m, 10H); 0.70 (m, 1H); 0.00 (m, 1H)."
+[0736],Compound 56,nonyl 8-((2-hydroxyethyl)(8-oxo-8-(tridecan-7-yloxy)octyl)amino) octanoate,,,False,"UPLC/ELSD: RT=3.28 min. MS (ES): m/z (MH+) 654.99 for C40H79NO5. 1H NMR (300 MHz, CDCl3) δ: ppm 4.89 (p, 1H); 4.08 (t, 2H); 3.60 (br. m, 2H); 2.77-2.40 (br. m, 5H); 2.30 (m, 4H); 1.78-0.99 (m, 55H); 0.90 (m, 9H)."
+[0740],Compound 57,nonan-5-yl 8-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino) octanoate,,,False,"UPLC/ELSD: RT=2.88 min. MS (ES): m/z (MH+) 598.98 for C36H71NO5. 1H NMR (300 MHz, CDCl3) δ: ppm 4.89 (p, 1H); 4.08 (t, 2H); 3.59 (br. m, 2H); 2.82-2.37 (br. m, 5H); 2.31 (m, 4H); 1.73-1.03 (m, 47H); 0.91 (m, 9H)."
+[0744],Compound 58,,,,False,Chemical Formula: C34H67NO5; Molecular Weight: 569.91; UPLC/ELSD: RT=2.67 min; MS (ES): m/z (MH+) 570.93 for C34H67NO5
+[0744],Compound 59,nonyl 8-((2-hydroxyethyl)(8-oxo-8-(pentan-3-yloxy)octyl)amino)octanoate,,,False,
+[0748],Compound 59,,,,False,Chemical Formula: C32H63NO5; Molecular Weight: 541.86; UPLC/ELSD: RT=2.39 min; MS (ES): m/z (MH+) 542.80 for C32H63NO5
+[0748],Compound 60,"(5Z,12Z)-Heptadeca-5,12-dien-9-yl 8-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,False,
+[0748],"(5Z,12Z)-Heptadeca-5,12-dien-9-ol",,,,False,Chemical Formula: C17H32O; Molecular Weight: 252.44
+[0752],"(5Z,12Z)-heptadeca-5,12-dien-9-ol",,,,False,Molecular Weight: not specified. Description: obtained from reaction of (Z)-1-bromooct-3-ene and ethyl formate. Yield: 28%. NMR data provided.
+[0752],"(5Z,12Z)-heptadeca-5,12-dien-9-yl 8-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,,False,"Molecular Weight: not specified. Description: derivative of (5Z,12Z)-heptadeca-5,12-dien-9-ol."
+[0756],Compound 60,,,,False,Molecular Weight: 706.15. Chemical Formula: C44H83NO5. Synthesized according to general procedure and Representative Procedure 1. UPLC/ELSD RT=3.36 min. MS (ES): m/z (MH+) 707.10. NMR data provided.
+[0760],Compound 61,,,,False,Molecular Weight: 706.15. Chemical Formula: C44H83NO5. Synthesized according to general procedure and Representative Procedure 1. UPLC/ELSD RT=3.39 min. MS (ES): m/z (MH+) 707.10. NMR data provided.
+[0760],Compound 65,,,,False,Molecular Weight: not specified. Description: 1-Cyclopropylnonyl 8-((8-(heptadecan-9-yloxy)-8-oxooctyl)(2-hydroxyethyl)amino)octanoate.
+[0764],Compound 65,,,,False,Molecular Weight: 750.247; Chemical Formula: C47H91NO5
+[0764],Compound 66,Heptadecan-9-yl 8-((2-hydroxyethyl)(8-oxo-8-((4-pentylcyclohexyl)oxy)octyl)amino)octanoate,,,False,Molecular Weight: 750.247; Chemical Formula: C47H91NO5
+[0768],Compound 66,,,,False,Molecular Weight: 736.220; Chemical Formula: C46H89NO5
+[0768],Compound 67,Heptadecan-9-yl 8-((2-hydroxyethyl)(4-oxo-4-((4-pentylcyclohexyl)oxy)butyl)amino)octanoate,,,False,Molecular Weight: 736.220; Chemical Formula: C46H89NO5
+[0772],Compound 67,,,,False,MS (ES): m/z (MH+) 680.8 for C42H81NO5
+[0776],Compound 68,Heptadecan-9-yl 8-((2-hydroxyethyl)(6-oxo-6-((4-pentylcyclohexyl)oxy)hexyl)amino)octanoate,,,False,MS (ES): m/z (MH+) 708.9 for C44H85NO5
+[0780],Compound 69,"Heptadecan-9-yl 8-((2,3-dihydroxypropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,False,MS (ES): m/z (MH+) 741.0 for C45H89NO6
+[0784],Compound 70,,,,False,Chemical Formula: C41H81NO5; Molecular Weight: 667.61
+[0784],Compound 71,Heptadecan-9-yl 8-((2-hydroxyethyl)(4-oxo-4-(tetradecan-6-yloxy)butyl)amino)octanoate,,,False,MS (ES): m/z (MH+) 668.9 for C41H81NO5
+[0788],Compound 71,,,,False,Chemical Formula: C45H89NO5; Molecular Weight: 724.209
+[0788],Compound 72,Heptadecan-9-yl 8-((2-hydroxyethyl)(4-oxo-4-(undecan-3-yloxy)butyl)amino)octanoate,,,False,MS (ES): m/z (MH+) 724.9 for C45H89NO5
+[0792],Compound 72,,,,False,C42H83NO5
+[0792],Compound 72,Heptadecan-9-yl 8-((2-hydroxyethyl)(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)octanoate,,,False,MS (ES): m/z (MH+) 683.0 for C42H83NO5
+[0796],Compound 73,,,,False,C46H91NO5
+[0796],Compound 73,Heptadecan-9-yl 8-((4-(dodecan-4-yloxy)-4-oxobutyl)(2-hydroxyethyl)amino)octanoate,,,False,MS (ES): m/z (MH+) 739.09 for C46H91NO5
+[0800],Compound 74,,,,False,C43H85NO5
+[0800],Compound 74,Heptadecan-9-yl 8-((2-hydroxyethyl)(6-oxo-6-(undecan-3-yloxy)hexyl)amino)octanoate,,,False,MS (ES): m/z (MH+) 696.9 for C43H85NO5
+[0804],Compound 75,,,,False,C44H87NO5
+[0804],Compound 79,Nonyl 8-((2-hydroxyethyl)(8-oxo-8-((4-pentylcyclohexyl)oxy)octyl)amino)octanoate,,,False,MS (ES): m/z (MH+) 711.1
+[0808],Compound 79,,,,False,C38H73NO5
+[0808],Compound 80,"[1,1′-Bi(cyclohexan)]-4-yl 8-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,False,MS (ES): m/z (MH+) 624.8
+[0812],Compound 80,,,,False,"MS (ES): m/z (MH+) 636.9 for C39H73NO5. 1H NMR (300 MHz, CDCl3) δ: ppm 5.01 (br. m, 0.5H); 4.65 (m, 0.5H); 4.08 (t, 2H); 3.56 (m, 2H); 2.69-2.36 (m, 6H); 2.31 (m, 4H); 2.07-0.84 (m, 57H)."
+[0816],Compound 81,,,,False,"MS (ES): m/z (MH+) 681.0 for C42H81NO5. 1H NMR (300 MHz, CDCl3) δ: ppm 4.91 (p, 1H); 4.08 (t, 2H); 3.57 (br. m, 2H); 2.74-2.39 (m, 6H); 2.30 (m, 4H), 1.73-1.03 (m, 62H), 0.90 (m, 3H)."
+[0820],heptadecan-9-yl 8-(benzylamino)octanoate,,,,False,"MS (ES): m/z (MH+) 488.4 for C32H57NO2. 1H NMR (300 MHz, CDCl3) δ: ppm 7.35-7.25 (br. m, 5H); 4.89 (p, 1H); 3.81 (s, 2H); 2.65 (t, 2H); 2.29 (t, 2H); 1.65-1.51 (br. m, 8H); 1.28 (m, 30H); 0.90 (m, 6H)."
+[0820],Heptadecan-9-yl 8-(benzyl(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,
+[0824],heptadecan-9-yl 8-(benylamino)octanoate,,,,False,
+[0824],nonyl 8-bromooctanoate,,,,False,
+[0824],"N,N-diisopropylethylamine",,,,False,
+[0824],heptadecan-9-yl 8-(benzyl(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,"MS (ES): m/z (MH+) 757.0 for C49H89NO4. 1H NMR (300 MHz, CDCl3) δ: ppm 7.33-7.23 (br. m, 5H); 4.89 (p, 1H); 4.08 (t, 2H); 3.55 (s, 2H); 2.40 (m, 4H); 2.30 (m, 4H); 1.64-1.28 (br. m, 62H); 0.90 (m, 9H)."
+[0824],Compound 96,7-((8-(Heptadecan-9-yloxy)-8-oxooctyl)(2-hydroxyethyl)amino)heptyl decanoate,,,False,
+[0828],Compound 96,8-((8-(Heptadecan-9-yloxy)-8-oxooctyl)(2-hydroxyethyl)amino)octan-2-yl decanoate,,,False,"MS (ES): m/z (MH+) 711.0 for C44H87NO5. 1H NMR (300 MHz, CDCl3) δ: ppm 4.89 (m, 1H); 4.08 (t, 2H); 3.61 (m, 2H); 2.88-2.37 (br. m, 6H); 2.31 (m, 4H), 1.79-1.04 (m, 62H); 0.90 (m, 9H)."
+[0828],"Octane-1,7-diol",,,,False,
+[0832],7-oxooctanoic acid,,,,False,
+[0832],"octane-1,7-diol",,,,False,molecular weight: 130.184 g/mol
+[0832],8-((tert-Butyldiphenylsilyl)oxy)octan-2-ol,,,,False,
+[0836],"octane-1,7-diol",,,,False,
+[0836],8-((tert-butyldiphenylsilyl)oxy)octan-2-ol,,,,False,molecular weight: 384.635 g/mol
+[0836],8-((tert-Butyldiphenylsilyl)oxy)octan-2-yl decanoate,,,,False,
+[0840],8-((tert-Butyldiphenylsilyl)oxy)octan-2-yl decanoate,,,,False,
+[0840],8-Hydroxyoctan-2-yl decanoate,,,,False,
+[0844],8-hydroxyoctan-2-yl decanoate,,,,False,Molecular Weight: 328.514 g/mol. Yield: 91%.
+[0844],8-((8-(Heptadecan-9-yloxy)-8-oxooctyl)(2-hydroxyethyl)amino)octan-2-yl decanoate,,,,False,
+[0848],Compound 98,,,,False,MS (ES): m/z (MH+) 725.0 for C45H89NO5. UPLC/ELSD: RT=3.55 min.
+[0848],Compound 101,,,,False,
+[0848],Heptadecan-9-yl 8-((2-(4-methylpiperazin-1-yl)ethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,
+[0848],Heptadecan-9-yl 8-((2-chloroethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,
+[0852],Heptadecan-9-yl 8-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,
+[0856],1-methylpiperazine,,,,False,
+[0856],heptadecan-9-yl 8-((2-chloroethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,
+[0856],Heptadecan-9-yl 8-((2-(4-methylpiperazin-1-yl)ethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,MS (ES): m/z (MH+) 792.8 for C49H97N3O4
+[0856],Compound 103,,,,False,Heptadecan-9-yl 8-((2-(4-methylpiperazin-1-yl)ethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate
+[0856],Heptadecan-9-yl 8-((2-chloroethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,
+[0860],heptadecan-9-yl 8-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,
+[0860],Heptadecan-9-yl 8-((2-morpholinoethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,
+[0864],heptadecan-9-yl 8-((2-(4-methylpiperazin-1-yl)ethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,MS (ES): m/z (MH+) 779.8 for C48H94N2O5
+[0864],Compound 108,Heptadecan-9-yl 8-((3-acetamidopropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,False,
+[0868],Compound 109,Heptadecan-9-yl 8-((3-(methylsulfonamido)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,False,MS (APCI): m/z (MH+) 765.7
+[0872],heptadecan-9-yl 8-((3-aminopropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,MS (APCI): m/z (MH+) 801.7
+[0872],Compound 110,"Heptadecan-9-yl 8-((3-(3,3-dimethylureido)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,False,
+[0876],heptadecan-9-yl 8-((3-aminopropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,MS (APCI): m/z (MH+) 794.7
+[0876],Compound 111,"Heptadecan-9-yl 8-((3-(3,3-dimethylthioureido)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,False,
+[0880],heptadecan-9-yl 8-((3-aminopropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,MS (APCI): m/z (MH+) 810.7
+[0880],Compound 112,Heptadecan-9-yl 8-((3-(3-methylureido)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,False,
+[0884],Compound 113,Heptadecan-9-yl 8-((3-(3-methylthioureido)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,False,MS (APCI): m/z (MH+) 780.7
+[0888],Compound 114,"Heptadecan-9-yl 8-((3-(2,4-dioxo-3,4-dihydropyrimidin-1(2H)-yl)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,False,MS (APCI): m/z (MH+) 796.7
+[0892],heptadecan-9-yl 8-((3-chloropropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,MS (APCI): m/z (MH+) 818.7
+[0892],Compound 115,Heptadecan-9-yl 8-((3-(4-amino-2-oxopyrimidin-1(2H)-yl)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,False,
+[0896],heptadecan-9-yl 8-((3-chloropropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,MS (APCI): m/z (MH+) 817.7
+[0896],Compound 116,Heptadecan-9-yl 8-((3-(6-amino-9H-purin-9-yl)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,False,
+[0900],heptadecan-9-yl 8-((3-chloropropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,MS (APCI): m/z (MH+) 841.7
+[0900],Compound 118,"3,4-Dipentylphenyl 8-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,False,
+[0900],5-Methoxy-2-(pent-1-yn-1-yl)benzaldehyde,,,,False,"see e.g., Bioorg. Med. Chem. Lett. 2013, 23, 1365"
+[0904],2-bromo-5-methoxybenzaldehyde,,,,False,
+[0904],1-pentyne,,,,False,
+[0904],bis(triphenylphosphino)palladium chloride,,,,False,
+[0904],CuI,,,,False,
+[0904],triethylamine,,,,False,
+[0904],4-Methoxy-2-(pent-1-en-1-yl)-1-(pent-1-yn-1-yl)benzene,,,,False,dark brown oil
+[0908],butyl triphenylphosphonium bromide,,,,False,
+[0908],potassium tert-butoxide,,,,False,
+[0908],5-methoxy-2-(pent-1-yn-1-yl)benzaldehyde,,,,False,
+[0908],"4-Methoxy-1,2-dipentylbenzene",,,,False,brown oil
+[0912],4-methoxy-2-(pent-1-en-1-yl)-1-(pent-1-yn-1-yl)benzene,,,,False,"3.46 g, 14.3 mmol"
+[0912],Pd/C,,,,False,"10%, 300 mg"
+[0912],"3,4-Dipentylphenol",,,,False,
+[0916],"4-methoxy-1,2-dipentylbenzene",,,,False,"3.40 g, 13.7 mmol"
+[0916],BBr3,,,,False,"1.65 mL, 17.1 mmol"
+[0916],"3,4-Dipentylphenyl 8-bromooctanoate",,,,False,"3.35 g, 97%"
+[0920],8-bromooctanoic acid,,,,False,"2.23 g, 10 mmol"
+[0920],"3,4-dipentylphenol",,,,False,"2.34 g, 10 mmol"
+[0920],N-(3-Dimethylaminopropyl)-N′-ethylcarbodiimide hydrochloride,,,,False,"1.92 g, 10 mmol"
+[0920],DMAP,,,,False,"244 mg, 2 mmol"
+[0920],Nonyl 8-((2-hydroxyethyl)amino)octanoate,,,,False,"4.30 g, 98%"
+[0924],nonyl 8-bromooctanoate,,,,False,
+[0924],2-aminoethanol,,,,False,
+[0924],"3,4-Dipentylphenyl 8-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,,False,MS (APCI): m/z (MH+) 330.3
+[0928],nonyl 8-((2-hydroxyethyl)amino)octanoate,,,,False,
+[0928],"3,4-dipentylphenyl 8-bromooctanoate",,,,False,
+[0928],"N, N-diisopropylethylamine",,,,False,
+[0928],Compound 119,Nonyl 8-((2-hydroxyethyl)(8-oxo-8-(4-pentylphenoxy)octyl)amino)octanoate,,,False,MS (APCI): m/z (MH+) 688.6
+[0928],4-Pentylphenyl 8-bromooctanoate,,,,False,
+[0932],8-bromooctanoic acid,,,,False,"2.00 g, 8.96 mmol"
+[0932],4-pentylphenol,,,,False,"3.07 mL g, 17.9 mmol"
+[0932],N-(3-Dimethylaminopropyl)-N′-ethylcarbodiimide hydrochloride,,,,False,"1.72 g, 8.96 mmol"
+[0932],DMAP,,,,False,"220 mg, 1.79 mmol"
+[0932],Nonyl 8-((2-hydroxyethyl)(8-oxo-8-(4-pentylphenoxy)octyl)amino)octanoate,,,,False,"colorless oil (3.12 g, 94%)"
+[0936],nonyl 8-((2-hydroxyethyl)amino)octanoate,,,,False,"500 mg, 1.52 mmol"
+[0936],4-pentylphenyl 8-bromooctanoate,,,,False,"840 mg, 2.28 mmol"
+[0936],"N, N-diisopropylethylamine",,,,False,"0.40 mL, 2.28 mmol"
+[0936],Compound 120,,,,False,"Nonyl 8-((2-hydroxyethyl)(8-oxo-8-(3-pentylphenoxy)octyl)amino)octanoate, colorless oil (95 mg)"
+[0936],3-Pentylphenol,,,,False,
+[0940],potassium tert-butoxide,,,,False,"6.73 g, 60 mmol"
+[0940],tetramethylethylenediamine,,,,False,"9.0 mL, 60 mmol"
+[0940],BuLi,,,,False,"2.5 M in hexane, 24 mL, 60 mmol"
+[0940],m-cresol,,,,False,"2.6 mL, 25 mmol"
+[0940],Butyl bromide,,,,False,"4.8 mL, 45 mmol"
+[0940],3-Pentylphenyl 8-bromooctanoate,,,,False,"colorless oil (1.23 g, 65%)"
+[0944],8-bromooctanoic acid,,,,False,
+[0944],3-pentylphenol,,,,False,
+[0944],N-(3-Dimethylaminopropyl)-N′-ethylcarbodiimide hydrochloride,,,,False,
+[0944],DMAP,,,,False,
+[0944],Nonyl 8-((2-hydroxyethyl)(8-oxo-8-(3-pentylphenoxy)octyl)amino)octanoate,,,,False,Colorless oil
+[0948],nonyl 8-((2-hydroxyethyl)amino)octanoate,,,,False,
+[0948],3-pentylphenyl 8-bromooctanoate,,,,False,
+[0948],"N, N-diisopropylethylamine",,,,False,
+[0948],Heptadecan-9-yl 8-((3-aminopropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,Colorless oil
+[0948],Heptadecan-9-yl 8-((3-chloropropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,Colorless oil
+[0952],heptadecan-9-yl 8-((3-hydroxypropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,MS (APCI): m/z (MH+) 742.6
+[0952],Heptadecan-9-yl 8-((3-azidopropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,
+[0956],heptadecan-9-yl 8-((3-chloropropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,MS (APCI): m/z (MH+) 749.7
+[0956],Heptadecan-9-yl 8-((3-aminopropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,MS (APCI): m/z (MH+) 749.7
+[0960],Heptadecan-9-yl 8-((3-azidopropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,MS (APCI): m/z (MH+) 723.7
+[0960],Compound 122,Heptadecan-9-yl 8-((6-(decan-2-yloxy)-6-oxohexyl)(2-hydroxyethyl)amino)octanoate,,,False,
+[0964],Compound 122,,,,False,"Molecular Formula: C43H85NO5; Molecular Weight: 696.16; UPLC/ELSD: RT=3.58 min. MS (ES): m/z (MH+) 697.1 for C43H85NO5. 1H NMR (300 MHz, CDCl3) δ: ppm 4.91 (m, 2H); 3.62 (m, 2H); 2.81-2.42 (br. m, 5H); 2.30 (m, 4H); 1.73-1.43 (m, 14H); 1.28 (m, 48H); 0.90 (m, 9H)."
+[0964],Compound 123,8-(methyl(8-nonyloxy)-8-oxooctyl)amino)octanoate,,,False,Heptadecan-9-yl
+[0968],heptadecan-9-yl 8-bromooctanoate,,,,False,"200 mg, 0.433 mmol"
+[0968],heptadecan-9-yl 8-(methylamino)octanoate,,,,False,"113 mg, 0.27 mmol, 63%. UPLC/ELSD: RT=2.76 min. MS (ES): m/z (MH+) 412.4 for C26H53NO2. 1H NMR (300 MHz, CDCl3) δ: ppm 4.92 (p, 1H); 2.62 (t, 2H); 2.48 (s, 3H); 2.32-2.27 (m, 2H); 1.66-1.52 (br. m, 8H); 1.28 (m, 30H); 0.90 (m, 6H)."
+[0968],Heptadecan-9-yl 8-(methyl(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,
+[0972],heptadecan-9-yl 8-(methylamino)octanoate,,,,False,
+[0972],nonyl 8-bromooctanoate,,,,False,
+[0972],"N,N-diisopropylethylamine",,,,False,
+[0972],potassium iodide,,,,False,
+[0972],heptadecan-9-yl 8-(methyl(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,"MS (ES): m/z (MH+) 681.0 for C43H85NO4. 1H NMR (300 MHz, CDCl3) δ: ppm 4.88 (p, 1H); 4.08 (t, 2H); 2.88-2.67 (br. m, 7H); 2.34-2.27 (m, 4H); 1.80 (m, 4H); 1.63-1.52 (br. m, 10H); 1.37-1.28 (br. m, 48H); 0.90 (m, 9H)."
+[0972],Compound 124,"Di(heptadecan-9-yl) 8,8′-(methylazanediyl)dioctanoate",,,False,
+[0976],heptadecan-9-yl 8-bromooctanoate,,,,False,
+[0976],methanamine,,,,False,
+[0976],"di(heptadecan-9-yl) 8,8′-(methylazanediyl)dioctanoate",,,,False,"UPLC/ELSD: RT=4.03 min. MS (ES): m/z (MH+) 793.3 for C51H101NO4. 1H NMR (300 MHz, CDCl3) δ: ppm 4.89 (p, 2H); 2.32-2.24 (m, 11H); 1.66-1.28 (br. m, 76H); 0.90 (m, 12H)."
+[0976],Compound 125,3-((8-(Heptadecan-9-yloxy)-8-oxooctyl)(8-(nonyloxy)-8-oxooctyl)amino)propanoic acid,,,False,
+[0976],Heptadecan-9-yl 8-((8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,
+[0980],oxalyl chloride,,,,False,
+[0980],DMSO,,,,False,
+[0980],heptadecan-9-yl 8-((3-hydroxypropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,M+1: 722.7
+[0980],triethylamine,,,,False,
+[0980],sodium sulfate,,,,False,
+[0980],Heptadecan-9-yl 8-((3-(benzyloxy)-3-oxopropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,"MS (APCI): m/z (MH+) 666.7. 1H NMR (300 MHz, CDCl3) δ: ppm 4.85 (p, 1H, J=6.0 Hz); 4.05 (t, 2H, J=6.9 Hz); 2.56 (t, 4H, J=7.1 Hz); 2.31-2.24 (m, 4H); 1.67-1.19 (m, 63H); 0.87 (m, 9H)."
+[0984],heptadecan-9-yl 8-((8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,Molecular Weight: 828.32
+[0984],benzyl acrylate,,,,False,
+[0984],3-((8-(Heptadecan-9-yloxy)-8-oxooctyl)(8-(nonyloxy)-8-oxooctyl)amino)propanoic acid,,,,False,
+[0988],heptadecan-9-yl 8-((3-(benzyloxy)-3-oxopropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,
+[0988],Compound 126,,,,False,Heptadecan-9-yl 8-(methyl(4-(nonyloxy)-4-oxobutyl)amino)octanoate
+[0992],heptadecan-9-yl 8-(methylamino)octanoate,heptadecan-9-yl 8-(methylamino)octanoate,,,False,
+[0992],nonyl 4-bromobutanoate,nonyl 4-bromobutanoate,,,False,
+[0992],"N,N-diisopropylethylamine","N,N-diisopropylethylamine",,,False,
+[0992],heptadecan-9-yl 8-(methyl(4-(nonyloxy)-4-oxobutyl)amino)octanoate,heptadecan-9-yl 8-(methyl(4-(nonyloxy)-4-oxobutyl)amino)octanoate,,,False,MS (ES): m/z (MH+) 624.8 for C39H77NO4.
+[0996],Compound 127,Nonyl 8-((9-((bis(nonyloxy)phosphoryl)oxy)nonyl)(2-hydroxyethyl)amino)octanoate,,,True,MS (ES): m/z (MH+) 805.1 for C46H94NO7P.
+[1000],Compound 128,Heptadecan-9-yl 8-((6-((1-cyclopropylnonyl)oxy)-6-oxohexyl)(2-hydroxyethyl)amino)octanoate,,,True,MS (ES): m/z (MH+) 722.9 for C45H87NO5.
+[1004],Compound 129,,,,False,"Molecular Weight: 695.171, Chemical Formula: C43H86N2O4"
+[1004],Compound 130,Decan-2-yl 8-((8-(dioctylamino)-8-oxooctyl)(2-hydroxyethyl)amino)octanoate,,,False,MS (ES): m/z (MH+) 695.9 for C43H86N2O4
+[1008],Compound 130,,,,False,"Molecular Weight: 709.198, Chemical Formula: C44H88N2O4"
+[1008],Compound 131,Nonyl 8-((7-((bis(octyloxy)phosphoryl)oxy)heptyl)(2-hydroxyethyl)amino)octanoate,,,False,
+[1008],7-Bromoheptyl dioctyl phosphate,,,,False,
+[1012],7-bromoheptyl dioctyl phosphate,,,,False,Molecular Weight: Not specified
+[1012],Nonyl 8-((7-((bis(octyloxy)phosphoryl)oxy)heptyl)(2-hydroxyethyl)amino)octanoate,,,,False,Molecular Weight: Not specified
+[1016],Compound 131,,,,False,"Chemical Formula: C42H86NO7P, Molecular Weight: 748.124"
+[1016],Compound 132,Decan-2-yl 8-((7-((bis(octyloxy)phosphoryl)oxy)heptyl)(2-hydroxyethyl)amino)octanoate,,,False,Molecular Weight: Not specified
+[1020],Compound 132,,,,False,"Chemical Formula: C43H88NO7P, Molecular Weight: 762.15"
+[1020],Compound 133,"((2-Hydroxyethyl)azanediyl)bis(nonane-9,1-diyl) bis(2-hexyldecanoate)",,,False,Molecular Weight: Not specified
+[1024],Compound 133,,,,False,Chemical Formula: C52H103NO5; Molecular Weight: 822.398; MS (ES): m/z (MH+) 824.0
+[1024],Compound 134,9-((2-Hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)nonyl 2-hexyldecanoate,,,False,MS (ES): m/z (MH+) 824.0 for C52H103NO5
+[1028],Compound 134,,,,False,Chemical Formula: C44H87NO5; Molecular Weight: 710.182; MS (ES): m/z (MH+) 712.0
+[1028],Compound 135,7-((8-(Decan-2-yloxy)-8-oxooctyl)(2-hydroxyethyl)amino)heptyl 2-octyldecanoate,,,False,MS (ES): m/z (MH+) 712.0 for C44H87NO5
+[1032],Compound 135,,,,False,UPLC/ELSD: RT=3.63 min. MS (ES): m/z (MH+) 726.0 for C45H89NO5.
+[1032],Compound 136,"Nonyl 8-((2-hydroxyethyl)((9Z,12Z)-octadeca-9,12-dien-1-yl)amino)octanoate",,,False,
+[1034],nonyl 8-bromooctanoate,,,,False,"Yield: 6.1 g, 17 mmol, 77%"
+[1035],Nonyl 8-((2-hydroxyethyl)amino)octanoate,,,,False,
+[1037],nonyl 8-((2-hydroxyethyl)amino)octanoate,,,,False,"Yield: 295 mg, 0.9 mmol, 26%"
+[1038],,,,,False,UPLC/ELSD: RT=1.29 min. MS (ES): m/z (MH+) 330.42 for C19H39NO3
+[1039],"Nonyl 8-((2-hydroxyethyl)((9Z,12Z)-octadeca-9,12-dien-1-yl)amino)octanoate",,,,False,
+[1041],,,,,False,Chemical Formula: C37H71NO3
+[1043],nonyl 8-((2-hydroxyethyl)amino)octanoate,,,,False,CAS: 0.46 mmol
+[1043],"(6Z,9Z)-18-bromooctadeca-6,9-diene",,,,False,CAS: 0.5 mmol
+[1043],"N,N-diisopropylethylamine",,,,False,CAS: 0.5 mmol
+[1043],"nonyl 8-((2-hydroxyethyl)((9Z,12Z)-octadeca-9,12-dien-1-yl)amino)octanoate",,,,False,"CAS: 0.14 mmol, 30%"
+[1045],Compound 137,Methyl 12-(dodecyl(2-hydroxyethyl)amino)dodecanoate,,,False,
+[1045],Methyl 12-bromododecanoate,,,,False,
+[1049],12-bromododecanoic acid,,,,False,CAS: 8.95 mmol
+[1049],methyl 12-bromododecanoate,,,,False,"CAS: 2.40 g, 92%"
+[1050],Methyl 12-(dodecyl(2-hydroxyethyl)amino)dodecanoate,,,,False,
+[1054],methyl 12-((2-hydroxyethyl)amino)dodecanoate,,,,False,"CAS: 413 mg, 1.51 mmol"
+[1054],methyl 12-(dodecyl(2-hydroxyethyl)amino)dodecanoate,,,,False,"CAS: 409 mg, 61%"
+[1056],Compound 138,"Dinonyl 8,8′-((2-hydroxyethyl)azanediyl)dioctanoate",,,False,
+[1056],"Dinonyl 8,8′-((2-hydroxyethyl)azanediyl)dioctanoate",,,,False,
+[1060],nonyl 8-bromooctanoate,,,,False,"CAS: 200 mg, 0.6 mmol"
+[1060],"dinonyl 8,8′-((2-hydroxyethyl)azanediyl)dioctanoate",,,,False,"CAS: 80 mg, 0.13 mmol, 43%"
+[1062],Compound 139,"Di((Z)-non-2-en-1-yl) 8,8′-((2-hydroxyethyl)azanediyl)dioctanoate",,,False,"1H NMR (300 MHz, CDCl3) δ: ppm 4.05 (m, 4H); 3.57 (br. m, 2H); 2.71-2.38 (br. m, 6H); 2.29 (m, 4H), 1.71-1.01 (br. m, 49H), 0.88 (m, 6H)."
+[1063],Compound 139,,,,True,Synthesized following the Representative Procedure 3.
+[1064],,,,,False,Chemical Formula: C36H67NO5
+[1065],,,,,False,Molecular Weight: 593.93
+[1066],,,,,False,UPLC/ELSD: RT=2.88 min. MS (ES): m/z (MH+) 594.78 for C36H67NO5
+[1067],Compound 140,"Di((Z)-undec-2-en-1-yl) 6,6′-((2-hydroxyethyl)azanediyl)dihexanoate",,,False,"1H NMR (300 MHz, CDCl3) δ: ppm 5.60 (m, 2H); 5.50 (m, 2H); 4.59 (m, 4H); 3.96 (br. m, 2H); 3.20-2.94 (br. m, 5H); 2.28 (m, 4H); 2.07 (m, 4H); 1.80 (br. m 4H); 1.59 (br. m, 6H); 1.43-1.14 (br. m, 28H), 0.85 (m, 6H)."
+[1068],Compound 140,,,,True,Synthesized following the Representative Procedure 3.
+[1069],,,,,False,Chemical Formula: C36H67NO5
+[1070],,,,,False,Molecular Weight: 593.93
+[1071],,,,,False,UPLC/ELSD: RT=2.87 min. MS (ES): m/z (MH+) 594.74 for C36H67NO5
+[1072],Compound 141,"Diundecyl 6,6′-((2-hydroxyethyl)azanediyl)dihexanoate",,,False,"1H NMR (300 MHz, CDCl3) δ: ppm 5.73-5.44 (m, 4H); 4.62 (m, 4H); 3.55 (m, 2H); 2.73-2.39 (br. m, 6H); 2.39 (m, 4H); 2.09 (m, 4H); 1.64 (m, 4H); 1.55-1.14 (br. m, 33H); 0.88 (m, 6H)."
+[1077],Compound 142,"12,12′-((2-Hydroxyethyl)azanediyl)didodecanoate",,,False,"1H NMR (300 MHz, CDCl3) δ: ppm 4.05 (m, 4H); 3.53 (m, 2H); 2.95 (br. m, 1H); 2.65-2.35 (m, 6H); 2.30 (m, 4H); 1.73-1.54 (m, 8H); 1.54-1.15 (m, 40H); 0.88 (m, 6H)."
+[1077],"12,12′-((2-Hydroxyethyl)azanediyl)didodecanoate","12,12′-((2-Hydroxyethyl)azanediyl)didodecanoate",,,False,
+[1081],methyl 12-bromododecanoate,,,,False,"1.5 g, 5.12 mmol"
+[1081],ethanolamine,,,,False,"0.310 mL, 5.12 mmol"
+[1081],"12,12′-((2-hydroxyethyl)azanediyl)didodecanoate",,,,False,"563 mg, 45%"
+[1083],Compound 143,Nonyl 8-((2-hydroxyethyl)(7-((2-octyldecyl)oxy)-7-oxoheptyl)amino)octanoate,,,False,
+[1087],diisopropylamine,,,,False,
+[1087],n-BuLi,,,,False,
+[1087],decanoic acid,,,,False,
+[1087],NaH,,,,False,
+[1087],LDA,,,,False,
+[1087],1-iodooctane,,,,False,
+[1087],2-octyldecanoic acid,,,,False,"Yield: 1.9 g, 6.6 mmol"
+[1088],2-Octyldecan-1-ol,,,,False,
+[1092],2-octyldecanoic acid,,,,False,
+[1092],2-octyldecan-1-ol,,,,False,
+[1094],2-Octyldecyl 7-bromoheptanoate,,,,False,synthesized according to Method A
+[1096],Nonyl 8-((2-hydroxyethyl)(7-((2-octyldecyl)oxy)-7-oxoheptyl)amino)octanoate,,,,True,synthesized using Representative Procedure 2
+[1100],Compound 144,,,,False,"Nonyl 8-((8-(dioctylamino)-8-oxooctyl)(2-hydroxyethyl)amino)octanoate 8-Bromo-N,N-dioctyloctanamide"
+[1102],,,,,False,Chemical Formula: C24H48BrNO
+[1104],"8-bromo-N,N-dioctyloctanamide",,,,False,
+[1104],"chloro-N,N-dioctyloctanamide",,,,False,
+[1105],,,,,False,MS (ES): m/z (MH+) 446.53 for C24H48BrNO
+[1107],Nonyl 8-((8-(dioctylamino)-8-oxooctyl)(2-hydroxyethyl)amino)octanoate,,,,True,
+[1108],,,,,False,Chemical Formula: C43H86N2O4
+[1110],,,,,False,MS (ES): m/z (MH+) 696.16 for C43H86N2O4
+[1111],Compound 145,Heptadecan-9-yl 8-((2-hydroxyethyl)(8-(methyl(octyl)amino)-8-oxooctyl)amino)octanoate,,,False,
+[1115],Compound 145,,,,False,"Chemical Formula: C44H88N2O4, Molecular Weight: 709.198"
+[1119],Compound 146,Heptadecan-9-yl 8-((2-hydroxyethyl)(6-(methyl(octyl)amino)-6-oxohexyl)amino)octanoate,,,False,"Chemical Formula: C42H84N2O4, Molecular Weight: 681.144"
+[1123],Compound 147,,,,False,Molecular Weight: 682.128
+[1123],XX48. Compound 148,Heptadecan-9-yl 8-((2-hydroxyethyl)(8-((2-methoxynonyl)oxy)-8-oxooctyl)amino)octanoate 1-((tert-Butyldiphenylsilyl)oxy)nonan-2-ol,,,False,MS (ES): m/z (MH+) 683.0 for C42H83NO5
+[1127],1-((tert-butyldiphenylsilyl)oxy)nonan-2-ol,1-((tert-butyldiphenylsilyl)oxy)nonan-2-ol,,,False,Molecular Weight: 398.662
+[1127],2-Methoxynonyl 8-bronmooctanoate,,,,False,
+[1131],2-Methoxynonyl 8-bromooctanoate,,,,False,Molecular Weight: 379.379
+[1131],Heptadecan-9-yl 8-((2-hydroxyethyl)(8-((2-methoxynonyl)oxy)-8-oxooctyl)amino)octanoate,Heptadecan-9-yl 8-((2-hydroxyethyl)(8-((2-methoxynonyl)oxy)-8-oxooctyl)amino)octanoate,,,False,
+[1135],Compound 148,,,,False,"Molecular Weight: 740.208, Chemical Formula: C45H89NO6, MS (ES): m/z (MH+) 741.0"
+[1139],Compound 149,Heptyl 10-((8-(heptadecan-9-yloxy)-8-oxooctyl)(methyl)amino)decanoate,,,False,"Molecular Weight: 680.156, Chemical Formula: C43H85NO4, MS (ES): m/z (MH+) 681.0"
+[1143],Compound 150,,,,False,"Molecular Weight: 680.156, UPLC/ELSD: RT=2.47 min. MS (ES): m/z (MH+) 681.0 for C43H85NO4. 1H NMR (300 MHz, CDCl3) δ: ppm 4.89 (m, 1H); 4.08 (t, 2H); 2.42-2.16 (m, 10H); 1.73-1.20 (m, 63H); 0.90 (m, 9H)."
+[1143],Compound 151,7-((7-(Decanoyloxy)heptyl)(2-hydroxyethyl)amino)heptyl 2-octyldecanoate,,,False,
+[1147],Compound 151,,,,False,"UPLC/ELSD: RT=2.83 min. MS (ES): m/z (MH+) 711.0 for C44H87NO5. 1H NMR (300 MHz, CDCl3) δ: ppm 4.07 (m, 4H); 3.57 (m, 2H); 2.63 (br. m, 2H); 2.50 (m, 4H); 2.31 (m, 3H), 1.71-1.19 (m, 62H); 0.90 (m, 9H)."
+[1147],Compound 152,Nonyl (Z)-8-((2-hydroxyethyl)(10-octyloctadec-8-en-1-yl)amino)octanoate,,,False,
+[1147],N-Methoxy-N-methyl-2-octyldecanamide,,,,False,
+[1151],2-octyl-decanoic acid,,,,False,MW: 39.02 mmol
+[1151],2-octyldecanoyl chloride,,,,False,MW: 39.02 mmol
+[1151],N-methoxy-N-methyl-2-octyldecanamide,,,,False,"Yield: 56%, 7.10 g, 21.68 mmol. 1H NMR (300 MHz, CDCl3) δ: ppm 3.70 (s, 3H); 3.22 (s, 3H); 2.82 (br. m, 1H); 1.62 (m, 2H); 1.51-1.19 (m, 26H); 0.90 (m, 6H)."
+[1151],2-Octyldecanol,,,,False,
+[1155],N-methoxy-N-methyl-2-octyldecanamide,,,,False,
+[1155],2-octyldecanol,,,,False,"1H NMR (300 MHz, CDCl3) δ: ppm 9.58 (d, 1H); 2.23 (m, 1H); 1.63 (m, 2H); 1.53-1.19 (m, 26H); 0.90 (m, 6H)."
+[1155],(Z)-10-Octyloctadec-8-en-1-ol,,,,False,
+[1159],(8-hydroxyoctyl)triphenylphosphonium bromide,,,,False,
+[1159],2-Octyldecanal,,,,False,
+[1159],(Z)-10-octyloctadec-8-en-1-ol,,,,False,"1H NMR (300 MHz, CDCl3) δ: ppm 5.24 (m, 1H); 4.90 (m, 1H); 3.53 (t, 2H); 2.14 (m, 1H); 1.89 (m, 2H); 1.45 (m, 3H); 1.33-0.95 (m, 36H); 0.77 (m, 6H)."
+[1159],(Z)-1-Bromo-10-octyloctadec-8-ene,,,,False,
+[1163],(Z)-1-bromo-10-octyloctadec-8-ene,,,,False,Molecular Weight: not specified in this paragraph
+[1163],Nonyl (Z)-8-((2-hydroxyethyl)(10-octyloctadec-8-en-1-yl)amino)octanoate,,,,False,"This is a chemical name, not a compound name with a specific identifier like 'Compound X'."
+[1167],Compound 152,,,,False,MS (ES): m/z (MH+) 694.0 for C45H89NO3.
+[1167],Compound 153,Nonyl 8-((2-hydroxyethyl)(10-octyloctadecyl)amino)octanoate,,,False,"This is a chemical name, not a compound name with a specific identifier like 'Compound X'."
+[1171],nonyl 8-[(2-hydroxyethyl)[(8Z)-10-octyloctadec-8-en-1-yl]amino]octanoate,,,,False,"This is a chemical name, not a compound name with a specific identifier like 'Compound X'."
+[1171],nonyl 8-((2-hydroxyethyl)(10-octyloctadecyl)amino)octanoate,,,,False,MS (ES): m/z (MH+) 695.08 for C45H91NO3.
+[1171],Compound 154,Heptadecan-9-yl 8-((2-(2-hydroxyethoxy)ethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,False,"This is a chemical name, not a compound name with a specific identifier like 'Compound X'."
+[1175],Compound 154,,,,False,"Molecular Formula: C46H91NO6, MS (ES): m/z (MH+) 755.0"
+[1175],Compound 155,tert-Butyl 8-((8-(heptadecan-9-yloxy)-8-oxooctyl)(2-hydroxyethyl)amino)octanoate,,,False,
+[1175],tert-Butyl 8-bromooctanoate,,,,False,
+[1179],8-bromooctanoic acid,,,,False,
+[1179],tert-butyl 8-bromooctanoate,,,,False,"1H NMR (300 MHz, CDCl3) δ: ppm 3.42 (t, 2H); 2.23 (t, 2H); 1.87 (m, 2H); 1.60 (m, 2H); 1.47 (s, 11H); 1.35 (m, 4H)."
+[1179],tert-Butyl 8-((8-(heptadecan-9-yloxy)-8-oxooctyl)(2-hydroxyethyl)amino)octanoate,,,,False,
+[1183],Compound 155,"Heptadecan-9-yl 8-((1,3-dihydroxypropan-2-yl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,False,"Molecular Weight: 640.047, MS (ES): m/z (MH+) 641.0 for C39H77NO5"
+[1187],Compound 156,Heptadecan-9-yl 8-((1-hydroxypropan-2-yl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,False,"Molecular Weight: 740.208, MS (ES): m/z (MH+) 741.0 for C45H89NO6"
+[1191],Compound 157,tert-Butyl 8-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,False,"Molecular Weight: 724.209, MS (ES): m/z (MH+) 725.0 for C45H89NO5"
+[1195],Compound 158,,,,False,"Molecular Weight: 527.831, Chemical Formula: C31H61NO5, UPLC/ELSD: RT=2.23 min. MS (ES): m/z (MH+) 528.0"
+[1199],Compound 159,Heptadecan-9-yl 8-((2-hydroxyethyl)(2-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)ethyl)amino)octanoate,,,False,"Molecular Weight: 797.304, Chemical Formula: C48H96N2O6, UPLC/ELSD: RT=3.15 min. MS (ES): m/z (MH+) 798.0"
+[1199],Compound 160,"1,5-Bis(2-butylcyclopropyl)pentan-3-yl 8-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,False,
+[1201],2-(2-Butylcyclopropyl)ethan-1-ol,,,,False,Chemical Formula: C9H18O
+[1203],2-(2-Butylcyclopropyl)ethan-1-ol,,,,False,Molecular Weight: 142.242
+[1203],Intermediate C,,,,False,
+[1203],1-(2-Bromoethyl)-2-butylcyclopropane,,,,False,
+[1207],1-(2-Bromoethyl)-2-butylcyclopropane,,,,False,Molecular Weight: 205.139
+[1207],(Z)-1-Bromo-10-octyloctadec-8-ene,,,,False,
+[1207],"1,5-Bis(2-butylcyclopropyl)pentan-3-ol oxooctyl)amino)octanoate",,,,False,
+[1211],"1,5-Bis(2-butylcyclopropyl)pentan-3-ol",,,,False,Molecular Weight: 280.496
+[1211],"(5Z,12Z)-heptadeca-5,12-dien-9-ol",,,,False,
+[1211],"1,5-Bis(2-butylcyclopropyl)pentan-3-yl 8-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,,False,
+[1215],Compound 160,,,,False,Molecular Weight: 734.204; UPLC/ELSD: RT=3.51 min. MS (ES): m/z (MH+) 735.0 for C46H87NO5.
+[1215],Compound 161,Heptadecan-9-yl 8-((2-hydroxyethyl)(10-(octanoyloxy)decan-2-yl)amino)octanoate,,,False,
+[1215],10-(Benzyloxy)decan-2-ol,,,,False,
+[1219],10-(benzyloxy)decan-2-one,,,,False,Starting material for synthesis of 10-(benzyloxy)decan-2-ol.
+[1219],10-(benzyloxy)decan-2-ol,,,,False,"Obtained with 91% yield. 1H NMR (300 MHz, CDCl3) δ: ppm 7.32 (m, 5H); 4.53 (s, 2H); 3.80 (m, 1H); 3.49 (t, 2H); 1.64 (m, 2H); 1.55-1.25 (m, 132H); 1.21 (d, 3H)."
+[1219],9-Hydroxydecyl octanoate,,,,False,
+[1223],9-Hydroxydecyl octanoate,,,,False,"1H NMR (300 MHz, CDCl3) δ: ppm 4.08 (t, 2H); 3.80 (m, 1H); 2.30 (t, 2H); 1.64 (m, 4H); 1.52-1.17 (m, 23H); 0.90 (m, 3H)."
+[1223],Heptadecan-9-yl 8-((2-hydroxyethyl)(10-(octanoyloxy)decan-2-yl)amino)octanoate,,,,False,
+[1227],Compound 161,,,,False,"UPLC/ELSD: RT=3.46 min. MS (ES): m/z (MH+) 725.0 for C45H89NO5. 1H NMR (300 MHz, CDCl3) δ: ppm 4.89 (m, 1H); 4.08 (t, 2H); 3.49 (br. m, 2H); 2.77-2.55 (m, 2H); 2.54-2.23 (m, 7H); 1.71-1.20 (m, 63H); 0.91 (m, 12H)."
+[1227],Compound 162,,,,False,7-((2-Hydroxyethyl)(10-(octanoyloxy)decan-2-yl)amino)heptyl 2-octyldecanoate
+[1231],Compound 162,,,,False,"UPLC/ELSD: RT=3.49 min. MS (ES): m/z (MH+) 725.0 for C45H89NO5. 1H NMR (300 MHz, CDCl3) δ: ppm 3.99 (m, 4H); 2.72-2.48 (m, 2H); 2.48-2.17 (m, 6H); 1.55 (m, 8H); 1.44-1.10 (m, 56H); 0.92-0.75 (m, 12H)."
+[1231],Compound 163,,,,False,7-((2-Hydroxyethyl)(7-methyl-8-(nonyloxy)-8-oxooctyl)amino)heptyl 2-octyldecanoate
+[1231],8-Methoxyoctanoic acid,,,,False,
+[1235],8-methoxyoctanoic acid,,,,False,Molecular Weight: 174.240 (implied from Chemical Formula: C9H18O3 and Molecular Weight: 174.240)
+[1239],8-methoxy-2-methyloctanoic acid,,,,False,Molecular Weight: 188.267 (implied from Chemical Formula: C10H20O3 and Molecular Weight: 188.267)
+[1243],8-methoxy-2-methyloctanoic acid,,,,False,"0.77 g, 4.41 mmol, 83%"
+[1243],8-hydroxy-2-methyloctanoic acid,,,,False,"0.77 g, 4.41 mmol, 83%"
+[1243],Nonyl 8-hydroxy-2-methyloctanoate,,,,False,
+[1247],8-hydroxy-2-methyloctanoic acid,,,,False,"0.75 g, 4.31 mmol"
+[1247],nonan-1-ol,,,,False,"6.22 g, 43.1 mmol"
+[1247],4-dimethylaminopyridine,,,,False,"0.11 g, 0.86 mmol"
+[1247],(3-{[(ethylimino)methylidene]amino}propyl)dimethylamine hydrochloride,,,,False,"0.83 g, 4.31 mmol"
+[1247],nonyl 8-hydroxy-2-methyloctanoate,,,,False,"0.68 g, 2.26 mmol, 53%"
+[1247],7-((2-Hydroxyethyl)(7-methyl-8-(nonyloxy)-8-oxooctyl)amino)heptyl 2-octyldecanoate,,,,False,
+[1251],Compound 163,,,,False,MS (ES): m/z (MH+) 725.0 for C45H89NO5
+[1251],Compound 152,,,,False,
+[1251],XX64,,,,False,
+[1251],Compound 164,,,,False,Nonyl 8-((8-(heptadecan-9-yloxy)-8-oxooctyl)(2-hydroxyethyl)amino)-2-methyloctanoate
+[1255],Compound 164,,,,False,"Molecular Weight: 724.209, Chemical Formula: C45H89NO5, UPLC/ELSD: RT=3.51 min, MS (ES): m/z (MH+) 725.0 for C45H89NO5, 1H NMR (300 MHz, CDCl3) δ: ppm 4.89 (m, 1H); 4.08 (t, 2H); 3.55 (m, 2H); 2.69-2.38 (m, 8H); 2.30 (t, 2H); 1.74-1.09 (m, 65H); 0.90 (m, 9H)."
+[1259],Compound 165,7-((7-(Decanoyloxy)octyl)(2-hydroxyethyl)amino)heptyl 2-octyldecanoate,,,False,"Molecular Weight: 724.209, Chemical Formula: C45H89NO5, UPLC/ELSD: RT=3.55 min, MS (ES): m/z (MH+) 725.0 for C45H89NO5, 1H NMR (300 MHz, CDCl3) δ: ppm 4.91 (m, 1H); 4.08 (t, 2H); 3.55 (m, 2H); 2.68-2.39 (m, 8H); 2.29 (m, 3H); 1.72-1.15 (m, 64H); 0.90 (m, 9H)."
+[1261],Compound 166,8-((8-(Heptadecan-9-yloxy)-8-oxooctyl)(2-hydroxyethyl)amino)octanoic acid,,,False,Chemical Formula: C35H69NO5
+[1263],8-{[8-(heptadecan-9-yloxy)-8-oxooctyl](2-hydroxyethyl)amino}octanoic acid,,,,False,"MS (ES): m/z (MH+) 585.0 for C35H69NO5. 1H NMR (300 MHz, CDCl3) δ: ppm 4.87 (m, 1H); 3.98 (m, 2H); 3.25-3.05 (m, 6H); 2.32 (m, 4H); 1.82-1.45 (m, 12H); 1.45-1.19 (m, 37H); 0.89 (m, 6H). colorless liquid"
+[1263],Compound 167,8-((2-Hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoic acid,,,False,
+[1267],Compound 167,,,,False,"UPLC/ELSD: RT=1.57 min. MS (ES): m/z (MH+) 472.0 for C27H53NO5. 1H NMR (300 MHz, CDCl3) δ: ppm 4.08 (m, 2H); 4.00 (m, 2H); 3.44-2.98 (m, 10H); 2.35 (t, 4H); 1.85-1.55 (m, 10H); 1.33 (m, 23H); 0.90 (m, 3H)."
+[1267],Compound 168,"Heptadecan-9-yl (Z)-8-((3-(2-cyano-3,3-dimethylguanidino)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,False,
+[1271],"heptadecan-9-yl (Z)-8-((3-(2-cyano-3,3-dimethylguanidino)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,,False,"UPLC/ELSD: RT=3.52 min. MS (ES): m/z (MH+) 819.0 for C49H95N5O4. 1H NMR (300 MHz, CDCl3) δ: ppm 7.62 (br. s., 1H); 4.86 (quint., 1H, J=6 Hz); 4.05 (t, 2H, J=7.5 Hz); 3.68 (d, 2H, J=3 Hz); 2.99 (s, 6H); 2.59 (br. s, 2H); 2.43 (br. s, 3H); 2.28 (m, 4H); 1.71 (br. s, 2H); 1.62 (m, 8H); 1.49 (m, 5H); 1.26 (br. m, 50H); 0.88 (t, 9H, J=7.5 Hz). colorless syrup"
+[1271],Compound 169,"Heptadecan-9-yl 8-((3-((2-(dimethylamino)-3,4-dioxocyclobut-1-en-1-yl)amino)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,False,
+[1271],"3-(Dimethylamino)-4-methoxycyclobut-3-ene-1,2-dione",,,,False,
+[1275],"3,4-dimethoxy-3-cyclobutene-1,2-dione",,,,False,
+[1275],"3-(dimethylamino)-4-methoxycyclobut-3-ene-1,2-dione",,,,False,pale yellow solid
+[1275],"Heptadecan-9-yl 8-((3-((2-(dimethylamino)-3,4-dioxocyclobut-1-en-1-yl)amino)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,,False,
+[1279],heptadecan-9-yl 8-((3-aminopropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,
+[1279],"3-(dimethylamino)-4-methoxycyclobut-3-ene-1,2-dione",,,,False,
+[1279],"Heptadecan-9-yl 8-((3-((2-(dimethylamino)-3,4-dioxocyclobut-1-en-1-yl)amino)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,,False,colorless syrup
+[1279],Compound 170,,,,False,Heptadecan-9-yl (E)-8-((3-((1-(methylamino)-2-nitrovinyl)amino)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate
+[1283],heptadecan-9-yl 8-((3-aminopropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,Molecular Weight: 823.30
+[1283],1-methylthio-1-methylamino-2-nitroethene,,,,False,
+[1283],heptadecan-9-yl (E)-8-((3-((1-(methylamino)-2-nitrovinyl)amino)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,MS (ES): m/z (MH+) 824.3 for C48H94N4O6
+[1283],Compound 171,Heptadecan-9-yl 8-((9-hydroxy-9-methyloctadecyl)(2-hydroxyethyl)amino)octanoate,,,False,
+[1287],((dec-9-en-1-yloxy)methyl)benzene,,,,False,Molecular Weight: 246.394
+[1287],9-decen-1-ol,,,,False,
+[1287],benzyl bromide,,,,False,
+[1291],10-(benzyloxy)decan-2-one,,,,False,Molecular Weight: 262.393
+[1291],palladium chloride,,,,False,
+[1291],benzoquinone,,,,False,
+[1291],[(dec-9-en-1-yloxy)methyl]benzene,,,,False,
+[1295],1-(benzyloxy)-9-methyloctadecan-9-ol,,,,False,
+[1295],"9-Methyloctadecane-1,9-diol",,,,False,
+[1299],1-(benzyloxy)-9-methyloctadecan-9-ol,,,,False,"1H NMR (300 MHz, CDCl3) δ: ppm 3.66 (t, 2H); 1.59 (m, 2H); 1.49-1.22 (br. m, 29H); 1.17 (s, 3H); 0.90 (m, 3H)"
+[1299],"9-methyloctadecane-1,9-diol",,,,False,Yield: 84%
+[1299],1-Bromo-9-methyloctadecan-9-ol,,,,False,
+[1303],1-Bromo-9-methyloctadecan-9-ol,,,,False,"1H NMR (300 MHz, CDCl3) δ: ppm 3.43 (t, 2H); 1.88 (m, 2H); 1.53-1.23 (br. m, 28H); 1.17 (s, 3H); 0.91 (m, 3H)."
+[1303],Heptadecan-9-yl 8-((9-hydroxy-9-methyloctadecyl)(2-hydroxyethyl)amino)octanoate,,,,False,
+[1307],Compound 171,,,,False,"UPLC/ELSD: RT=3.56 min. MS (ES): m/z (MH+) 725.0 for C46H93NO4. 1H NMR (300 MHz, CDCl3) δ: ppm 4.89 (m, 1H); 3.55 (m, 2H); 2.60 (m, 2H); 2.47 (m, 4H); 2.30 (t, 2H); 1.74-1.21 (m, 69H); 1.17 (s, 3H); 0.90 (m, 9H)."
+[1307],XX72. Compound 172: (R)-Decan-2-yl 8-((8-(heptadecan-9-yloxy)-8-oxooctyl)(2-hydroxyethyl)amino)octanoate,(R)-Decan-2-yl 8-((8-(heptadecan-9-yloxy)-8-oxooctyl)(2-hydroxyethyl)amino)octanoate,,,False,
+[1311],Compound 172,,,,False,"UPLC/ELSD: RT=3.53 min. MS (ES): m/z (MH+) 725.0 for C45H89NO5. 1H NMR (300 MHz, CDCl3) δ: ppm 4.91 (m, 2H); 3.54 (m, 2H); 2.59 (m, 2H); 2.46 (m, 4H); 2.30 (m, 4H); 1.70-1.19 (m, 66H); 0.90 (m, 9H)."
+[1311],XX73. Compound 173: Heptadecan-9-yl 8-((3-(N-methylmethylsulfonamido)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,Heptadecan-9-yl 8-((3-(N-methylmethylsulfonamido)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,False,
+[1315],heptadecan-9-yl 8-((3-(N-methylmethylsulfonamido)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,Molecular Weight: 815.34 (from Chemical Formula C47H94N2O6S and Molecular Weight: 815.34 in preceding tags). MS (ES): m/z (MH+) 816.1 for C47H94N2O6S
+[1315],Compound 174,"Heptadecan-9-yl 8-((3-(2,5-dioxoimidazolidin-1-yl)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,False,
+[1319],"heptadecan-9-yl 8-((3-(2,5-dioxoimidazolidin-1-yl)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,,False,Molecular Weight: 806.27 (from Chemical Formula C48H91N3O6 and Molecular Weight: 806.27 in preceding tags). MS (ES): m/z (MH+) 807.2 for C48H91N3O6
+[1319],Compound 175,Heptadecan-9-yl 8-((3-((methylcarbamoyl)oxy)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,False,
+[1323],heptadecan-9-yl 8-((3-hydroxypropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,molecular weight: 781.26
+[1323],heptadecan-9-yl 8-((3-((methylcarbamoyl)oxy)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,MS (ES): m/z (MH+) 782.3 for C47H92N2O6. colorless oil. UPLC/ELSD: RT=3.54 min.
+[1327],heptadecan-9-yl 8-((3-chloropropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,molecular weight: 805.28
+[1327],"heptadecan-9-yl 8-((3-(2,5-dioxopyrrolidin-1-yl)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,,False,MS (ES): m/z (MH+) 806.1 for C49H92N2O6. slightly yellow oil. UPLC/ELSD: RT=3.56 min.
+[1331],heptadecan-9-yl 8-((3-azidopropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,molecular weight: 861.40
+[1331],"heptadecan-9-yl 8-((3-(4-(tert-butoxymethyl)-1H-1,2,3-triazol-1-yl)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,,False,MS (ES): m/z (MH+) 862.2 for C52H100N4O5. slightly yellow oil. UPLC/ELSD: RT=3.63 min.
+[1335],heptadecan-9-yl 8-((3-aminopropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,
+[1335],heptadecan-9-yl 8-((3-(2-methoxyacetamido)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,Molecular Formula: C48H94N2O6; Molecular Weight: 795.29
+[1335],Compound 179,"Heptadecan-9-yl 8-((3-(1H-1,2,3-triazol-1-yl)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,False,
+[1335],"Heptadecan-9-yl 8-((8-(nonyloxy)-8-oxooctyl)(3-(4-(trimethylsilyl)-1H-1,2,3-triazol-1-yl)propyl)amino)octanoate",,,,False,
+[1339],heptadecan-9-yl 8-((3-azidopropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,
+[1339],"heptadecan-9-yl 8-((8-(nonyloxy)-8-oxooctyl)(3-(4-(trimethyl silyl)-1H-1,2,3-triazol-1-yl)propyl)amino)octanoate",,,,False,Molecular Formula: C50H98N4O4Si; Molecular Weight: 847.44
+[1339],"Heptadecan-9-yl 8-((3-(1H-1,2,3-triazol-1-yl)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,,False,
+[1343],"heptadecan-9-yl 8-((3-(1H-1,2,3-triazol-1-yl)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,,False,Molecular Weight: 775.26. MS (ES): m/z (MH+) 776.2 for C47H90N4O4.
+[1343],Compound 181,Heptadecan-9-yl 8-((3-((methoxycarbonyl)amino)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,False,
+[1347],heptadecan-9-yl 8-((3-((methoxycarbonyl)amino)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,MS (ES): m/z (MH+) 782.1 for C47H92N2O6.
+[1347],Compound 182,"Heptadecan-9-yl 8-((3-((2-(methylamino)-3,4-dioxocyclobut-1-en-1-yl)amino)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,False,
+[1347],"3-Methoxy-4-(methylamino)cyclobut-3-ene-1,2-dione",,,,False,
+[1351],"3,4-dimethoxy-3-cyclobutene-1,2-dione",,,,False,
+[1351],"3-methoxy-4-(methylamino)cyclobut-3-ene-1,2-dione",,,,False,
+[1351],"Heptadecan-9-yl 8-((3-((2-(methylamino)-3,4-dioxocyclobut-1-en-1-yl)amino)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,,False,
+[1355],heptadecan-9-yl 8-((3-aminopropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,"Starting material, 200 mg, 0.28 mmol"
+[1355],"3-methoxy-4-(methylamino)cyclobut-3-ene-1,2-dione",,,,False,"39 mg, 0.28 mmol"
+[1355],"heptadecan-9-yl 8-((3-((2-(methylamino)-3,4-dioxocyclobut-1-en-1-yl)amino)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,,False,"Product, 138 mg, 0.17 mmol, 60%, gummy white solid. MS (ES): m/z (MH+) 833.4 for C51H95N3O6."
+[1355],Compound 183,"1,3-Bis(hexyloxy)propan-2-yl 8-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,False,
+[1355],"(((1,3-Bis(hexyloxy)propan-2-yl)oxy)methyl)benzene",,,,False,
+[1359],"2-(benzyloxy)propane-1,3-diol",,,,False,"Starting material, 2 g, 10.98 mmol"
+[1359],"(((1,3-bis(hexyloxy)propan-2-yl)oxy)methyl)benzene",,,,False,"Product, 1.7 g, 4.75 mmol, 43%"
+[1359],"1,3-Bis(hexyloxy)propan-2-ol",,,,False,
+[1363],"1,3-Bis(hexyloxy)propan-2-ol",,,,False,
+[1363],"1,3-Bis(hexyloxy)propan-2-yl 8-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,,False,
+[1367],Compound 183,,,,False,"Molecular Formula: C42H83NO7, MS (ES): m/z (MH+) 715.0"
+[1367],XX84,,,,False,
+[1367],Compound 184,Heptadecan-9-yl 8-((2-hydroxyethyl)(8-((2-methylnonyl)oxy)-8-oxooctyl)amino)octanoate,,,False,
+[1367],2-Methylnonyl 8-bromooctanoate,,,,False,
+[1371],8-bromooctanoic acid,,,,False,
+[1371],2-methylnonan-1-ol,,,,False,
+[1371],2-methylnonyl 8-bromooctanoate,,,,False,Yield: 82%
+[1371],Heptadecan-9-yl 8-((2-hydroxyethyl)(8-((2-methylnonyl)oxy)-8-oxooctyl)amino)octanoate,,,,False,
+[1375],Compound 184,,,,False,"Molecular Weight: 724.209, Chemical Formula: C45H89NO5"
+[1379],Compound 185,Henicosan-11-yl 6-((2-hydroxyethyl)(6-oxo-6-(undecyloxy)hexyl)amino)hexanoate,,,False,"Molecular Weight: 738.236, Chemical Formula: C46H91NO5"
+[1383],Compound 186,,,,False,MS (ES): m/z (MH+) 739.0 for C42H83NO5
+[1387],Compound 189,,,,False,MS (ES): m/z (MH+) 710.98 for C44H87NO5
+[1391],heptadecan-9-yl 8-((3-isobutyramidopropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,MS (ES): m/z (MH+) 794.3 for C49H96N2O5
+[1391],Compound 197,Heptadecan-9-yl 8-((3-(2-(benzyloxy)acetamido)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,False,
+[1395],heptadecan-9-yl 8-((3-aminopropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,
+[1395],heptadecan-9-yl 8-((3-(2-(benzyloxy)acetamido)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,MS (ES): m/z (MH+) 872.4 for C54H98N2O6
+[1395],Compound 198,Heptadecan-9-yl 8-((3-(2-hydroxyacetamido)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,False,
+[1399],heptadecan-9-yl 8-((3-(2-(benzyloxy)acetamido)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,
+[1399],heptadecan-9-yl 8-((3-(2-hydroxyacetamido)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,MS (ES): m/z (MH+) 782.2 for C47H92N2O6
+[1399],Compound 200,(E)-8-((3-(3-methyl-2-nitroguanidino)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate Heptadecan-9-yl,,,False,
+[1399],Methyl (E/Z)—N-methyl-N′-nitrocarbamimidothioate,,,,False,
+[1403],methyl (E/Z)—N-methyl-N-nitrocarbamimidothioate,,,,True,Molecular Weight: 149.17
+[1406],heptadecan-9-yl 8-((3-(3-methyl-2-nitroguanidino)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,Molecular Weight: 824.29. Chemical Formula: C47H93N5O6. MS (ES): m/z (MH+) 825.3
+[1406],Compound 207: Heptadecan-9-yl 8-((3-guanidinopropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,
+[1406],"Heptadecan-9-yl 6-((tert-butoxycarbonyl)amino)-2,2-dimethyl-11-(8-(nonyloxy)-8-oxooctyl)-4-oxo-3-oxa-5,7,11-triazanonadec-6-en-19-oate",,,,False,
+[1410],"heptadecan-9-yl 6-((tert-butoxycarbonyl)amino)-2,2-dimethyl-11-(8-(nonyloxy)-8-oxooctyl)-4-oxo-3-oxa-5,7,11-triazanonadec-6-en-19-oate",,,,True,Molecular Weight: 965.50. Chemical Formula: C56H108N4O8. MS (ES): m/z (MH+) 966.0
+[1413],"heptadecan-9-yl 6-((tert-butoxycarbonyl)amino)-2,2-dimethyl-11-(8-(nonyloxy)-8-oxooctyl)-4-oxo-3-oxa-5,7,11-triazanonadec-6-en-19-oate",,,,False,molecular weight: 0.32 mmol
+[1413],heptadecan-9-yl 8-((3-guanidinopropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,,,,False,molecular weight: 766.3 (MH+); C46H92N4O4
+[1413],Compound 218,"Heptadecan-9-yl 8-((3-(4-(hydroxymethyl)-1H-1,2,3-triazol-1-yl)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,False,
+[1417],"heptadecan-9-yl 8-((3-(4-(tert-butoxymethyl)-1H-1,2,3-triazol-1-yl)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,,False,molecular weight: 0.22 mmol
+[1417],"heptadecan-9-yl 8-((3-(4-(hydroxymethyl)-1H-1,2,3-triazol-1-yl)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",,,,False,molecular weight: 806.1 (MH+); C48H92N4O5
+[1417],Compound 232,Nonyl 8-((2-hydroxyethyl)(6-oxo-6-((4-pentylcyclohexyl)oxy)hexyl)amino)octanoate,,,False,
+[1421],Compound 232,Nonyl 8-((2-hydroxyethyl)(6-oxo-6-((4-pentylcyclohexyl)oxy)hexyl)amino)octanoate,,,False,molecular weight: 596.84 (MH+); C36H69NO5
+[1424],DOPE,,,,False,phospholipid
+[1424],DSPC,,,,False,phospholipid
+[1424],PEG-DMG,"1,2-dimyristoyl-sn-glycerol methoxypolyethylene glycol",,,False,PEG lipid
+[1424],cholesterol,,,,False,structural lipid
+[1424],prednisolone,,,,False,corticosteroid
+[1424],dexamethasone,,,,False,corticosteroid
+[1424],prednisone,,,,False,corticosteroid
+[1424],hydrocortisone,,,,False,corticosteroid
+[1431],Trition X-100,,,,False,surfactant
+[1436],MC3,,,,False,cationic lipid
+[1436],DSPC,,,,False,phospholipid
+[1436],cholesterol,,,,False,structural lipid
+[1436],PEG-DMG,,,,False,PEG lipid
+[1436],Compound 1,,,,False,
+[1436],Compound 2,,,,False,
+[1436],Compound 3,,,,False,
+[1436],Compound 4,,,,False,
+[1436],Compound 5,,,,False,
+[1436],Compound 6,,,,False,
+[1436],Compound 7,,,,False,
+[1436],Compound 8,,,,False,
+[1436],Compound 9,,,,False,
+[1436],Compound 10,,,,False,
+[1436],Compound 11,,,,False,
+[1436],Compound 12,,,,False,
+[1436],Compound 13,,,,False,
+[1436],Compound 14,,,,False,
+[1436],Compound 15,,,,False,
+[1436],Compound 16,,,,False,
+[1436],Compound 17,,,,False,
+[1436],Compound 18,,,,False,
+[1436],Compound 19,,,,False,
+[1436],Compound 20,,,,False,
+[1436],Compound 21,,,,False,
+[1436],Compound 24,,,,False,
+[1436],Compound 26,,,,False,
+[1436],Compound 28,,,,False,
+[1436],Compound 29,,,,False,
+[1436],Compound 30,,,,False,
+[1436],Compound 35,,,,False,
+[1436],Compound 36,,,,False,
+[1436],Compound 49,,,,False,
+[1436],Compound 50,,,,False,
+[1436],Compound 51,,,,False,
+[1436],Compound 55,,,,False,
+[1436],Compound 59,,,,False,
+[1436],Compound 60,,,,False,
+[1436],Compound 61,,,,False,
+[1436],Compound 65,,,,False,
+[1436],Compound 66,,,,False,
+[1436],Compound 67,,,,False,
+[1436],Compound 68,,,,False,
+[1436],Compound 69,,,,False,
+[1436],Compound 70,,,,False,
+[1436],Compound 71,,,,False,
+[1436],Compound 72,,,,False,
+[1436],Compound 74,,,,False,
+[1436],Compound 75,,,,False,
+[1436],Compound 94,,,,False,
+[1436],Compound 101,,,,False,
+[1436],Compound 107,,,,False,
+[1436],Compound 109,,,,False,
+[1436],Compound 110,,,,False,
+[1436],Compound 111,,,,False,
+[1436],Compound 112,,,,False,
+[1436],Compound 113,,,,False,
+[1436],Compound 114,,,,False,
+[1436],Compound 115,,,,False,
+[1436],Compound 116,,,,False,
+[1436],Compound 118,,,,False,
+[1436],Compound 119,,,,False,
+[1436],Compound 121,,,,False,
+[1436],Compound 122,,,,False,
+[1436],Compound 124,,,,False,
+[1436],Compound 126,,,,False,
+[1436],Compound 128,,,,False,
+[1436],Compound 130,,,,False,
+[1436],Compound 131,,,,False,
+[1436],Compound 132,,,,False,
+[1436],Compound 133,,,,False,
+[1436],Compound 137,,,,False,
+[1436],Compound 138,,,,False,
+[1436],Compound 139,,,,False,
+[1436],Compound 145,,,,False,
+[1436],Compound 148,,,,False,
+[1436],Compound 149,,,,False,
+[1436],Compound 150,,,,False,
+[1436],Compound 152,,,,False,
+[1436],Compound 153,,,,False,
+[1436],Compound 155,,,,False,
+[1436],Compound 156,,,,False,
+[1436],Compound 158,,,,False,
+[1436],Compound 159,,,,False,
+[1436],Compound 168,,,,False,
+[1436],Compound 169,,,,False,
+[1436],Compound 170,,,,False,
+[1436],Compound 173,,,,False,
+[1436],Compound 174,,,,False,
+[1436],Compound 175,,,,False,
+[1437],Compound 5,,,,False,
+[1437],Compound 35,,,,False,
+[1437],Compound 36,,,,False,
+[1437],Compound 9,,,,False,
+[1437],Compound 21,,,,False,
+[1437],Compound 29,,,,False,
+[1437],Compound 30,,,,False,
+[1437],Compound 65,,,,False,
+[1437],Compound 7175,,,,False,
+[1437],Compound 94,,,,False,
+[1437],Compound 107,,,,False,
+[1437],Compound 114,,,,False,
+[1437],Compound 115,,,,False,
+[1437],Compound 116,,,,False,
+[1437],Compound 119,,,,False,
+[1437],Compound 124,,,,False,
+[1437],Compound 133,,,,False,
+[1437],Compound 148,,,,False,
+[1437],Compound 150,,,,False,
+[1437],Compound 152,,,,False,
+[1437],Compound 174,,,,False,
+[1437],Compound 175,,,,False,
+[1437],Compound 1,,,,False,
+[1437],Compound 6,,,,False,
+[1437],Compound 18,,,,False,
+[1437],Compound 19,,,,False,
+[1437],Compound 24,,,,False,
+[1437],Compound 26,,,,False,
+[1437],Compound 28,,,,False,
+[1437],Compound 49,,,,False,
+[1437],Compound 50,,,,False,
+[1437],Compound 55,,,,False,
+[1437],Compound 60,,,,False,
+[1437],Compound 61,,,,False,
+[1437],Compound 65,,,,False,
+[1437],Compound 66,,,,False,
+[1437],Compound 67,,,,False,
+[1437],Compound 68,,,,False,
+[1437],Compound 69,,,,False,
+[1437],Compound 70,,,,False,
+[1437],Compound 72,,,,False,
+[1437],Compound 74,,,,False,
+[1437],Compound 75,,,,False,
+[1437],Compound 101,,,,False,
+[1437],Compound 109,,,,False,
+[1437],Compound 110,,,,False,
+[1437],Compound 111,,,,False,
+[1437],Compound 112,,,,False,
+[1437],Compound 113,,,,False,
+[1437],Compound 114,,,,False,
+[1437],Compound 115,,,,False,
+[1437],Compound 116,,,,False,
+[1437],Compound 118,,,,False,
+[1437],Compound 119,,,,False,
+[1437],Compound 121,,,,False,
+[1437],Compound 122,,,,False,
+[1437],Compound 124,,,,False,
+[1437],Compound 126,,,,False,
+[1437],Compound 128,,,,False,
+[1437],Compound 130,,,,False,
+[1437],Compound 149,,,,False,
+[1437],Compound 152,,,,False,
+[1437],Compound 153,,,,False,
+[1437],Compound 156,,,,False,
+[1437],Compound 159,,,,False,
+[1437],Compound 169,,,,False,
+[1437],Compound 170,,,,False,
+[1437],Compound 174,,,,False,
+[1437],MC3,,,,False,
+[1438],MC3,,,,False,
+[1438],Compound 4,,,,False,
+[1438],Compound 28,,,,False,
+[1438],Compound 32,,,,False,
+[1438],Compound 48,,,,False,
+[1438],Compound 66,,,,False,
+[1438],Compound 128,,,,False,
+[1438],Compound 135,,,,False,
+[1438],Compound 2,,,,False,
+[1438],Compound 3,,,,False,
+[1438],Compound 18,,,,False,
+[1438],Compound 19,,,,False,
+[1438],Compound 20,,,,False,
+[1438],Compound 24,,,,False,
+[1438],Compound 26,,,,False,
+[1438],Compound 25,,,,False,
+[1438],Compound 27,,,,False,
+[1438],Compound 31,,,,False,
+[1438],Compound 33,,,,False,
+[1438],Compound 47,,,,False,
+[1438],Compound 49,,,,False,
+[1438],Compound 50,,,,False,
+[1438],Compound 53,,,,False,
+[1438],Compound 54,,,,False,
+[1438],Compound 55,,,,False,
+[1438],Compound 60,,,,False,
+[1438],Compound 61,,,,False,
+[1438],Compound 65,,,,False,
+[1438],Compound 66,,,,False,
+[1438],Compound 67,,,,False,
+[1438],Compound 68,,,,False,
+[1438],Compound 70,,,,False,
+[1438],Compound 72,,,,False,
+[1438],Compound 74,,,,False,
+[1438],Compound 75,,,,False,
+[1438],Compound 96,,,,False,
+[1438],Compound 111,,,,False,
+[1438],Compound 122,,,,False,
+[1438],Compound 130,,,,False,
+[1438],Compound 133,,,,False,
+[1438],Compound 134,,,,False,
+[1438],Compound 143,,,,False,
+[1438],Compound 147,,,,False,
+[1438],Compound 148,,,,False,
+[1438],Compound 150,,,,False,
+[1438],Compound 151,,,,False,
+[1438],Compound 153,,,,False,
+[1438],Compound 9,,,,False,
+[1438],Compound 17,,,,False,
+[1438],Compound 57,,,,False,
+[1438],Compound 58,,,,False,
+[1438],Compound 59,,,,False,
+[1438],Compound 121,,,,False,
+[1438],Compound 125,,,,False,
+[1438],Compound 137,,,,False,
+[1438],Compound 140,,,,False,
+[1438],Compound 141,,,,False,
+[1438],Compound 158,,,,False,
+[1439],MC3,,,,False,
+[1439],Compound 48,,,,False,
+[1439],Compound 49,,,,False,
+[1439],Compound 50,,,,False,
+[1439],Compound 54,,,,False,
+[1439],Compound 55,,,,False,
+[1439],Compound 108,,,,False,
+[1439],Compound 168,,,,False,
+[1439],Compound 66,,,,False,
+[1439],Compound 133,,,,False,
+[1439],Compound 134,,,,False,
+[1439],Compound 135,,,,False,
+[1439],Compound 147,,,,False,
+[1439],Compound 96,,,,False,
+[1439],Compound 148,,,,False,
+[1439],Compound 151,,,,False,
+[1439],Compound 1,,,,False,
+[1439],Compound 2,,,,False,
+[1439],Compound 3,,,,False,
+[1439],Compound 4,,,,False,
+[1439],Compound 5,,,,False,
+[1439],Compound 6,,,,False,
+[1439],Compound 16,,,,False,
+[1439],Compound 18,,,,False,
+[1439],Compound 19,,,,False,
+[1439],Compound 20,,,,False,
+[1439],Compound 24,,,,False,
+[1439],Compound 26,,,,False,
+[1439],Compound 27,,,,False,
+[1439],Compound 28,,,,False,
+[1439],Compound 29,,,,False,
+[1439],Compound 30,,,,False,
+[1439],Compound 31,,,,False,
+[1439],Compound 32,,,,False,
+[1439],Compound 33,,,,False,
+[1439],Compound 34,,,,False,
+[1439],Compound 35,,,,False,
+[1439],Compound 36,,,,False,
+[1439],Compound 51,,,,False,
+[1439],Compound 53,,,,False,
+[1439],Compound 56,,,,False,
+[1439],Compound 57,,,,False,
+[1439],Compound 58,,,,False,
+[1439],Compound 59,,,,False,
+[1439],Compound 65,,,,False,
+[1439],Compound 67,,,,False,
+[1439],Compound 68,,,,False,
+[1439],Compound 71,,,,False,
+[1439],Compound 73,,,,False,
+[1439],Compound 74,,,,False,
+[1439],Compound 101,,,,False,
+[1439],Compound 103,,,,False,
+[1439],Compound 108,,,,False,
+[1439],Compound 109,,,,False,
+[1439],Compound 110,,,,False,
+[1439],Compound 111,,,,False,
+[1439],Compound 113,,,,False,
+[1439],Compound 114,,,,False,
+[1439],Compound 115,,,,False,
+[1439],Compound 116,,,,False,
+[1439],Compound 118,,,,False,
+[1439],Compound 119,,,,False,
+[1439],Compound 121,,,,False,
+[1439],Compound 122,,,,False,
+[1439],Compound 123,,,,False,
+[1439],Compound 124,,,,False,
+[1439],Compound 125,,,,False,
+[1439],Compound 126,,,,False,
+[1439],Compound 127,,,,False,
+[1439],Compound 128,,,,False,
+[1439],Compound 129,,,,False,
+[1439],Compound 130,,,,False,
+[1439],Compound 131,,,,False,
+[1439],Compound 132,,,,False,
+[1439],Compound 133,,,,False,
+[1439],Compound 134,,,,False,
+[1439],Compound 135,,,,False,
+[1439],Compound 136,,,,False,
+[1439],Compound 137,,,,False,
+[1439],Compound 138,,,,False,
+[1439],Compound 139,,,,False,
+[1439],Compound 140,,,,False,
+[1439],Compound 141,,,,False,
+[1439],Compound 143,,,,False,
+[1439],Compound 144,,,,False,
+[1439],Compound 145,,,,False,
+[1439],Compound 146,,,,False,
+[1439],Compound 147,,,,False,
+[1439],Compound 148,,,,False,
+[1439],Compound 149,,,,False,
+[1439],Compound 150,,,,False,
+[1439],Compound 151,,,,False,
+[1439],Compound 152,,,,False,
+[1439],Compound 153,,,,False,
+[1439],Compound 154,,,,False,
+[1439],Compound 155,,,,False,
+[1439],Compound 156,,,,False,
+[1439],Compound 157,,,,False,
+[1439],Compound 158,,,,False,
+[1439],Compound 159,,,,False,
+[1440],MC3,,,,False,
+[1440],Compound 3,,,,False,
+[1440],Compound 28,,,,False,
+[1440],Compound 33,,,,False,
+[1440],Compound 48,,,,False,
+[1440],Compound 96,,,,False,
+[1440],Compound 135,,,,False,
+[1440],Compound 2,,,,False,
+[1440],Compound 4,,,,False,
+[1440],Compound 6,,,,False,
+[1440],Compound 7,,,,False,
+[1440],Compound 18,,,,False,
+[1440],Compound 20,,,,False,
+[1440],Compound 24,,,,False,
+[1440],Compound 25,,,,False,
+[1440],Compound 26,,,,False,
+[1440],Compound 27,,,,False,
+[1440],Compound 30,,,,False,
+[1440],Compound 31,,,,False,
+[1440],Compound 32,,,,False,
+[1440],Compound 34,,,,False,
+[1440],Compound 47,,,,False,
+[1440],Compound 49,,,,False,
+[1440],Compound 50,,,,False,
+[1440],Compound 53,,,,False,
+[1440],Compound 54,,,,False,
+[1440],Compound 55,,,,False,
+[1440],Compound 56,,,,False,
+[1440],Compound 60,,,,False,
+[1440],Compound 65,,,,False,
+[1440],Compound 67,,,,False,
+[1440],Compound 68,,,,False,
+[1440],Compound 74,,,,False,
+[1440],Compound 75,,,,False,
+[1440],Compound 111,,,,False,
+[1440],Compound 113,,,,False,
+[1440],Compound 122,,,,False,
+[1440],Compound 128,,,,False,
+[1440],Compound 130,,,,False,
+[1440],Compound 133,,,,False,
+[1440],Compound 134,,,,False,
+[1440],Compound 143,,,,False,
+[1440],Compound 147,,,,False,
+[1440],Compound 148,,,,False,
+[1440],Compound 150,,,,False,
+[1440],Compound 151,,,,False,
+[1440],Compound 153,,,,False,
+[1440],Compound 5,,,,False,
+[1440],Compound 58,,,,False,
+[1440],Compound 59,,,,False,
+[1440],Compound 137,,,,False,
+[1440],Compound 141,,,,False,
+[1441],Compound 20,,,,False,
+[1441],Compound 2,,,,False,
+[1441],Compound 3,,,,False,
+[1441],Compound 5,,,,False,
+[1441],Compound 7,,,,False,
+[1441],Compound 8,,,,False,
+[1441],Compound 12,,,,False,
+[1441],Compound 18,,,,False,
+[1441],Compound 19,,,,False,
+[1441],Compound 23,,,,False,
+[1441],Compound 24,,,,False,
+[1441],Compound 25,,,,False,
+[1441],Compound 26,,,,False,
+[1441],Compound 27,,,,False,
+[1441],Compound 28,,,,False,
+[1441],Compound 29,,,,False,
+[1441],Compound 30,,,,False,
+[1441],Compound 32,,,,False,
+[1441],Compound 35,,,,False,
+[1441],Compound 48,,,,False,
+[1441],Compound 50,,,,False,
+[1441],Compound 57,,,,False,
+[1441],Compound 137,,,,False,
+[1441],Compound 138,,,,False,
+[1441],Compound 140,,,,False,
+[1441],Compound 144,,,,False,
+[1441],MC3,,,,False,
+[1442],Compound 108,,,,False,Exhibited the highest expression.
+[1442],MC3,,,,False,
+[1443],MC3,,,,False,
+[1443],Compound 20,,,,False,Displayed the highest fold increase in Luc expression upon intramuscular administration.
+[1443],Compound 18,,,,False,Displayed the highest fold increase upon intravenous administration.
+[1443],Compound 26,,,,False,Displayed the highest fold increase upon intravenous administration.
+[1444],MC3,,,,False,
+[1444],Compound 1,,,,False,IL-6 induction was highest.
+[1444],Compound 3,,,,False,IL-6 induction was highest. IP-10 induction was highest.
+[1444],Compound 9,,,,False,IL-6 induction was highest.
+[1444],Compound 19,,,,False,IL-6 induction was highest.
+[1444],Compound 26,,,,False,IL-6 induction was highest. IP-10 induction was highest.
+[1444],Compound 4,,,,False,IL-6 induction was lowest. IP-10 induction was highest.
+[1444],Compound 7,,,,False,IP-10 induction was highest.
+[1444],Compound 20,,,,False,IP-10 induction was highest.
+[1444],Compound 11,,,,False,IL-6 induction was lowest. IP-10 induction was lowest.
+[1444],Compound 12,,,,False,IL-6 induction was lowest. IP-10 induction was lowest.
+[1444],Compound 28,,,,False,IL-6 induction was lowest.
+[1444],Compound 10,,,,False,IP-10 induction was lowest.
+[1444],Compound 13,,,,False,IP-10 induction was lowest.
+[1444],Compound 15,,,,False,IP-10 induction was lowest.
+[1444],Compound 17,,,,False,IP-10 induction was lowest.
+[1444],Compound 18,,,,False,IP-10 induction was lowest.
+[1445],Compound 1,,,,False,Slightly decrease sC5b-9 levels relative to saline.
+[1445],Compound 6,,,,False,Somewhat increase sC5b-9 levels relative to saline.
+[1445],Compound 9,,,,False,Slightly decrease sC5b-9 levels relative to saline.
+[1445],Compound 18,,,,False,Somewhat increase sC5b-9 levels relative to saline.
+[1445],Compound 24,,,,False,Slightly decrease sC5b-9 levels relative to saline.
+[1445],Compound 25,,,,False,Slightly decrease sC5b-9 levels relative to saline.
+[1445],Compound 29,,,,False,Slightly decrease sC5b-9 levels relative to saline.
+[1445],Compound 30,,,,False,Slightly decrease sC5b-9 levels relative to saline.
+[1445],MC3,,,,False,
+[1446],MC3,,,,False,
+[1446],PBS,,,,False,
+[1446],Compound 3,,,,False,
+[1446],Compound 24,,,,False,
+[1446],Compound 25,,,,False,
+[1446],Compound 30,,,,False,
+[1447],Compound 6,,,,False,DSPC:Chol:PEG-DMG (50:10:38.5:1.5)
+[1447],Compound 18,,,,False,DSPC:Chol:PEG-DMG (50:10:38.5:1.5)
+[1447],MC3,,,,False,DSPC:Chol:PEG-DMG (50:10:38.5:1.5)
+[1447],Compound 25,,,,False,
+[1447],Compound 30,,,,False,
+[1447],Compound 108,,,,False,
+[1447],Compound 109,,,,False,
+[1447],Compound 110,,,,False,
+[1447],Compound 111,,,,False,
+[1447],Compound 112,,,,False,
+[1447],Compound 60,,,,False,
+[1447],Compound 122,,,,False,
+[1448],MC3,,,,False,
+[1448],Compound 6,,,,False,Yielded higher hEPO concentrations than MC3 formulations at each time point.
+[1448],Compound 18,,,,False,Yielded higher hEPO concentrations than MC3 formulations at each time point. Yielded higher hEPO concentrations than MC3 formulations at 6 hr time point.
+[1448],Compound 25,,,,False,Yielded higher hEPO concentrations than MC3 formulations at 6 hr time point.
+[1448],Compound 30,,,,False,Yielded higher hEPO concentrations than MC3 formulations at 6 hr time point.
+[1448],Compound 108,,,,False,Yielded higher hEPO concentrations than MC3 formulations at 6 hr time point.
+[1448],Compound 109,,,,False,Yielded higher hEPO concentrations than MC3 formulations at 6 hr time point.
+[1448],Compound 110,,,,False,Yielded higher hEPO concentrations than MC3 formulations at 6 hr time point.
+[1448],Compound 111,,,,False,Yielded higher hEPO concentrations than MC3 formulations at 6 hr time point.
+[1448],Compound 112,,,,False,Yielded higher hEPO concentrations than MC3 formulations at 6 hr time point.
+[1448],Compound 60,,,,False,Yielded higher hEPO concentrations than MC3 formulations at 6 hr time point.
+[1448],Compound 122,,,,False,Yielded higher hEPO concentrations than MC3 formulations at 6 hr time point.
+[1449],MC3,,,,False,
+[1449],Compound 6,,,,False,Outperform MC3 in both hEPO expression and average total flux.
+[1449],Compound 18,,,,False,Outperform MC3 in both hEPO expression and average total flux.
+[1451],Compound 3,,,,False,
+[1451],Compound 18,,,,False,
+[1451],Compound 24,,,,False,
+[1451],Compound 25,,,,False,
+[1451],Compound 30,,,,False,
+[1451],MC3,,,,False,
+[1452],"Compounds 28, 33, 53, and 54",,,,False,Lipid levels in liver and spleen
+[1452],MC3,,,,False,Lipid levels in liver and spleen
+[1452],Compound 1,,,,False,Ratio of hEPO expression levels
+[1452],Compound 18,,,,False,Ratio of hEPO expression levels
+[1452],Compound 24,,,,False,Ratio of hEPO expression levels
+[1452],Compound 25,,,,False,Ratio of hEPO expression levels
+[1452],Compound 26,,,,False,Ratio of hEPO expression levels
+[1452],Compound 30,,,,False,Ratio of hEPO expression levels
+[1452],Compound 48,,,,False,"Ratio of hEPO expression levels, Lipid levels in liver and spleen"
+[1452],Compound 49,,,,False,Ratio of hEPO expression levels
+[1452],Compound 50,,,,False,Ratio of hEPO expression levels
+[1452],Compound 53,,,,False,Lipid levels in liver and spleen
+[1452],Compound 54,,,,False,Lipid levels in liver and spleen
+[1453],Compound 48,,,,False,"hEPO expression, IP-10 induction, liver and spleen levels, ALT and AST levels"
+[1453],Compound 49,,,,False,"hEPO expression, IP-10 induction, liver and spleen levels, ALT and AST levels"
+[1453],Compound 50,,,,False,"hEPO expression, IP-10 induction, liver and spleen levels, ALT and AST levels"
+[1453],MC3,,,,False,"hEPO expression, IP-10 induction, liver and spleen levels, ALT and AST levels"
+[1454],Compound 26,,,,True,"hEPO expression, lipid levels in liver"
+[1454],Compound 18,,,,True,hEPO expression
+[1454],Compound 25,,,,True,hEPO expression
+[1454],MC3,,,,True,hEPO expression
+[1455],Compound 18,,,,True,Area under the curve
+[1455],Compound 25,,,,True,Area under the curve
+[1455],Compound 26,,,,True,Area under the curve
+[1455],MC3,,,,True,Area under the curve
+[1456],Compound 18,,,,False,"Expression of hEPO, Lipid level in liver, Lipid level in spleen"
+[1456],Compound 25,,,,False,"Expression of hEPO, Lipid level in liver, Lipid level in spleen"
+[1456],MC3,,,,False,"Expression of hEPO, Lipid level in liver, Lipid level in spleen"
+[1458],DOPE,,,,False,phospholipid component
+[1458],DSPC,,,,False,phospholipid component
+[1458],cholesterol,,,,False,structural lipid component
+[1458],PEG-DMG,,,,False,PEG lipid component
+[1459],MC3 formulation,,,,False,Current standard in the art with N:P ratio of 5.67
+[1460],luciferase (Luc),,,,False,therapeutic agent for expression
+[1460],human erythropoietin (hEPO),,,,False,therapeutic agent for expression
+[1462],DOPE,,,,False,phospholipid
+[1462],DSPC,,,,False,phospholipid
+[1464],DOPE,,,,False,phospholipid
+[1464],DSPC,,,,False,phospholipid
+[1465],cholesterol,,,,False,structural lipid
+[1466],PEG-DMG,,,,False,PEG lipid
+[1467],DOPE,,,,False,Phospholipid
+[1467],DSPC,,,,False,Phospholipid
+[1467],Chol,,,,False,Cholesterol
+[1467],PEG-DMG,,,,False,PEG lipid
+[1470],dexamethasone,,,,False,steroid
+[1470],acetaminophen,,,,False,analgesic and antipyretic
+[1471],dexamethasone,,,,False,additional therapeutic and/or prophylactic
+[1473],MC3,,,,False,standard MC3 formulation
+[1474],dexamethasone,,,,False,corticosteroid
+[1474],Formula (I),,,,False,
+[1474],Formula (IA),,,,False,
+[1474],Formula (II),,,,False,
+[1474],Formula (IIa),,,,False,
+[1474],Formula (IIb),,,,False,
+[1474],Formula (IIc),,,,False,
+[1474],Formula (IId),,,,False,
+[1474],Formula (IIe),,,,False,
+[1475],MC3,,,,False,standard MC3 formulation
+[1475],Compound 18,,,,False,
+[1476],MC3,,,,False,MC3 formulation
+[1477],MC3,,,,False,standard MC3 formulation
+[1477],Compound 18,,,,False,
+[1477],Compound 25,,,,False,
+[1477],Compound 26,,,,False,
+[1477],Compound 48,,,,False,
+[1477],Formula (I),,,,False,
+[1477],Formula (IA),,,,False,
+[1477],Formula (II),,,,False,
+[1477],Formula (IIa),,,,False,
+[1477],Formula (IIb),,,,False,
+[1477],Formula (IIc),,,,False,
+[1477],Formula (IId),,,,False,
+[1477],Formula (IIe),,,,False,
+[1478],Compound 18,,,,False,
+[1479],MC3,,,,False,
+[1479],Compound 18,,,,False,
+[1479],Compound 25,,,,False,
+[1479],Compound 26,,,,False,
+[1479],Compound 48,,,,False,
+[1479],Formula (I),,,,False,
+[1479],Formula (IA),,,,False,
+[1479],Formula (II),,,,False,
+[1479],Formula (IIa),,,,False,
+[1479],Formula (IIb),,,,False,
+[1479],Formula (IIc),,,,False,
+[1479],Formula (IId),,,,False,
+[1479],Formula (IIe),,,,False,
+[1480],MC3,,,,False,standard MC3 formulation
+[1480],Compound 18,,,,False,
+[1481],MC3,,,,False,
+[1481],Compound 18,,,,False,
+[1482],Compound 18,,,,False,"5 times higher protein expression than MC3 counterpart, dose response found between 0.1 and 0.3 mpk"
+[1482],MC3,,,,False,
+[1483],vascular endothelial growth factor A,,,,False,mRNA encoding VEGF-A used to promote angiogenesis
+[1483],apolipoprotein B,,,,False,siRNA capable of knocking down apoB used to treat metabolic disease or disorder such as dyslipidemia
+[1484],dexamethasone,,,,False,small dose used for pretreatment
