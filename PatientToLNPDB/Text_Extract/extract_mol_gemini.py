@@ -9,7 +9,7 @@ import google.generativeai as genai
 # API 설정 (실제 키 입력 필요)
 genai.configure(api_key="")
 
-def get_gemini_model(model_name='gemini-2.5-flash-lite'):
+def get_gemini_model(model_name='gemini-2.5-flash'): # gemini-2.5-flash-lite, gemini-2.5-flash
     return genai.GenerativeModel(
         model_name=model_name,
         generation_config={"response_mime_type": "application/json"}
@@ -56,6 +56,7 @@ def extract_compound_info(paragraph_list, model_instance):
     """
 
     for i in range(0, len(paragraph_list), batch_size):
+        start_time = time.time()
         batch = paragraph_list[i:i+batch_size]
         batch_text = "\n\n".join([f"TAG: {p['tag']}\nTEXT: {p['text']}" for p in batch])
         
@@ -69,6 +70,8 @@ def extract_compound_info(paragraph_list, model_instance):
             print(f"Error in batch {i}: {e}")
         
         time.sleep(0.5)  # Rate limit 고려
+        end_time = time.time()
+        print(f"Finished in {end_time - start_time} seconds.")
 
     return extracted_data
 
@@ -102,10 +105,10 @@ def main(file_path):
     cols = ['paragraph_no', 'compound_name', 'iupac_name', 'inchi', 'smiles', 'has_structure_fig', 'other_info']
     df = df[cols]
     
-    csv_path = output_dir / f"{file_stem}_compounds.csv"
+    csv_path = output_dir / f"{file_stem}_compounds_gemini_flash_10batch.csv"
     df.to_csv(csv_path, index=False, encoding='utf-8-sig')
     print(f"Extraction complete. Saved to: {csv_path}")
 
 if __name__ == "__main__":
-    target_path = "/Users/kogeon/python_projects_path/LNPDB_extend/PatientToLNPDB/Text_Extract/US20170210697A1.txt"
+    target_path = "US20170210697A1.txt"
     main(target_path)

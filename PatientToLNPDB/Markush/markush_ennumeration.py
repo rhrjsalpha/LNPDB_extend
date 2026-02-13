@@ -18,9 +18,12 @@ df = pd.read_excel(file_path)
 def get_actual_label(atom):
     """원자의 속성(atomLabel, molFileAlias 등)을 뒤져 라벨 추출"""
     props = atom.GetPropsAsDict()
+    print(props)
     candidates = ['atomLabel', '_label', '_APLabel', 'molFileAlias', '_AtomLabel']
     for key in candidates:
-        if key in props: return str(props[key])
+        if key in props:
+            print(key)
+            return str(props[key])
     return ""
 
 def get_mol_labels(mol):
@@ -174,7 +177,7 @@ print(f"\n--- [2단계] 최종 CORE 조립 시작 ---")
 for r1 in groups.get('R1', []):
     inter = join_by_label_debug(core_mol, r1, '_R1', '_R1_1', "CORE+R1")
     if not inter: continue
-    
+    final_mols = []
     for r2 in r2_final_pool:
         # 모든 R2 후보는 공통적으로 '_R2_1' 플러그를 통해 연결됨
         final = join_by_label_debug(inter, r2, '_R2', '_R2_1', "CORE+R2")
@@ -186,8 +189,31 @@ for r1 in groups.get('R1', []):
                 # SVG 저장
                 d2d = rdMolDraw2D.MolDraw2DSVG(600, 600)
                 d2d.DrawMolecule(final)
+                final_mols.append(final)
                 d2d.FinishDrawing()
                 with open(os.path.join(image_out_dir, f"result_{count:03d}.svg"), "w") as f:
                     f.write(d2d.GetDrawingText())
 
 print(f"\n✅ 완료! 총 {len(final_smiles)}개의 고유 화합물 생성")
+
+from rdkit.Chem import Draw
+from math import ceil, sqrt
+
+n = len(final_mols)
+if n == 0:
+    print("❌ 생성된 화합물이 없습니다.")
+else:
+    cols = int(ceil(sqrt(n)))
+
+    svg = Draw.MolsToGridImage(
+        final_mols,
+        molsPerRow=cols,
+        subImgSize=(300, 300),
+        useSVG=True
+    )
+
+    grid_svg_path = os.path.join(current_dir, "ALL_ENUMERATED_COMPOUNDS.svg")
+    with open(grid_svg_path, "w") as f:
+        f.write(svg)
+
+    print(f"✅ 전체 화합물 grid SVG 저장 완료: {grid_svg_path}")
