@@ -1,98 +1,59 @@
-import re
-import os
 from rdkit import Chem
+from rdkit.Chem import rdChemReactions
+from itertools import product
 
-def extract_detailed_markush(file_path):
-    if not os.path.exists(file_path):
-        return "파일을 찾을 수 없습니다."
+def attach(core_smiles, frag_smiles, mapnum=1):
+    """
+    core_smiles: 코어(결합점 [*:mapnum] 포함)
+    frag_smiles: 치환기(결합점 [*:mapnum] 포함)
+    """
+    core = Chem.MolFromSmiles(core_smiles)
+    frag = Chem.MolFromSmiles(frag_smiles)
+    if core is None or frag is None:
+        return None
 
-    with open(file_path, 'r', encoding='utf-8') as f:
-        text = f.read().strip()
+    # core 쪽: [X]-[*:n] 형태, frag 쪽: [*:n]-[Y] 형태라고 가정하고 결합
+    rxn = rdChemReactions.ReactionFromSmarts(
+        f"[*:a]-[*:{mapnum}].[*:{mapnum}]-[*:b]>>[*:a]-[*:b]"
+    )
+    ps = rxn.RunReactants((core, frag))
+    if not ps:
+        return None
 
-    # --- [추가] Core 구조 추출 및 분석 ---
-    # 첫 번째 | 기호 이전이 Core SMILES입니다.
-    core_raw = text.split('|')[0].strip()
-    # 전체 텍스트에서 Core에 대한 메타데이터(|...|) 부분만 추출
-    core_meta_match = re.search(r"^.*?\|(.*?)\|", text)
-    
-    core_info = {"smiles": core_raw, "labeled_smiles": "변환 실패", "mapping": []}
-    
-    if core_meta_match:
-        # Core의 메타데이터를 포함한 조각을 만들어 RDKit으로 분석
-        core_chunk = f"{core_raw} |{core_meta_match.group(1)}|"
-        mol_core = Chem.MolFromSmiles(core_chunk)
-        if mol_core:
-            mapping = []
-            for atom in mol_core.GetAtoms():
-                if atom.GetSymbol() == '*':
-                    if atom.HasProp('_label'):
-                        l = atom.GetProp('_label')
-                        atom.SetIsotope(int(l.replace('R', '')))
-                        mapping.append(f"* -> {l}")
-            core_info["labeled_smiles"] = Chem.MolToSmiles(mol_core, isomericSmiles=True)
-            core_info["mapping"] = mapping
+    # 첫 생성물 사용 (여러 개면 규칙으로 필터링 가능)
+    prod = ps[0][0]
+    Chem.SanitizeMol(prod)
+    return Chem.MolToSmiles(prod)
 
-    # 1. RG: 섹션 추출
-    rg_match = re.search(r"RG:(.*)(?=\|atomProp|\||$)", text)
-    if not rg_match: return {"Core": core_info, "R_Groups": "RG 데이터 없음"}
-    rg_content = rg_match.group(1)
+# -----------------------------
+# 1) 코어에 결합점 넣기 (예시)
+#   실제로는 그림의 (I) 골격을 SMILES로 만든 뒤,
+#   R1 자리와 R2 자리에 [*:1], [*:2]를 둡니다.
+# -----------------------------
+core = "OCC(OC(=O)[*:2])CO[*:1]"   # (예시용) R1, R2 자리에 더미
 
-    # 2. R-그룹별 분리
-    r_groups = {}
-    parts = re.split(r'(_R\d+=)', rg_content)
-    
-    for i in range(1, len(parts), 2):
-        label = parts[i].replace('=', '').strip('_')
-        raw_chunks = re.findall(r'\{(.*?)\}', parts[i+1])
-        
-        candidates = []
-        for chunk in raw_chunks:
-            mol = Chem.MolFromSmiles(chunk)
-            labeled_smi = "변환 실패"
-            mapping_info = []
+# 2) R1 후보들 (결합점 [*:1] 포함)
+R1_list = [
+    "[*:1]C(=O)CCCC",              # 예시: acyl
+    "[*:1]C(=O)CCCCCCCCC",         # 더 긴 acyl
+]
 
-            if mol:
-                for atom in mol.GetAtoms():
-                    if atom.GetSymbol() == '*':
-                        if atom.HasProp('_label'):
-                            l = atom.GetProp('_label')
-                            atom.SetIsotope(int(l.replace('R', '')))
-                            mapping_info.append(f"* -> {l}")
-                        for prop in atom.GetPropNames():
-                            if 'AP' in prop:
-                                atom.SetIsotope(0)
-                                mapping_info.append(f"* -> {prop}")
-                labeled_smi = Chem.MolToSmiles(mol, isomericSmiles=True)
+# 3) R2 후보들 (결합점 [*:2] 포함)
+R2_list = [
+    "[*:2]CCN1CCN(C)CC1",           # morpholine-like 예시(실제는 구조에 맞게)
+    "[*:2]CCN1CCCC1",               # pyrrolidine-like
+]
 
-            candidates.append({
-                "original_chunk": f"{{{chunk}}}",
-                "labeled_smiles": labeled_smi,
-                "connection_map": mapping_info
-            })
-        r_groups[label] = candidates
+# 4) 전개
+products = []
+for r1, r2 in product(R1_list, R2_list):
+    step1 = attach(core, r1, mapnum=1)
+    if step1 is None:
+        continue
+    step2 = attach(step1, r2, mapnum=2)
+    if step2 is None:
+        continue
+    products.append(step2)
 
-    return {"Core": core_info, "R_Groups": r_groups}
-
-# --- 실행 및 결과 출력 ---
-file_path = '/Users/kogeon/python_projects_path/LNPDB_extend/PatientToLNPDB/Markush/WO2021021634_formula1.cxsmiles'
-results = extract_detailed_markush(file_path)
-
-if isinstance(results, dict):
-    # Core 출력
-    core = results["Core"]
-    print("="*50)
-    print(f"CORE STRUCTURE")
-    print(f"  원본 SMILES: {core['smiles']}")
-    print(f"  번호 매핑: {core['labeled_smiles']}")
-    print(f"  연결 지점: {', '.join(core['mapping'])}")
-    print("="*50)
-
-    # R-Groups 출력
-    for label, items in results["R_Groups"].items():
-        print(f"\n[{label}] 정의부")
-        for idx, item in enumerate(items, 1):
-            print(f"  후보 {idx}: {item['original_chunk']}")
-            print(f"    └─ 번호 매핑: {item['labeled_smiles']}")
-            print(f"    └─ 연결 상세: {', '.join(item['connection_map'])}")
-else:
-    print(results)
+print("N products:", len(products))
+print(products[:5])
