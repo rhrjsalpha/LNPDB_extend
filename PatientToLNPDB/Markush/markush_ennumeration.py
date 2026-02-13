@@ -60,7 +60,10 @@ def join_by_label_debug(parent, child, p_label, c_label, step_name=""):
     return None
 
 def decompose_and_insert_bridge(scaffold, bridge_frag, target_label):
-    """R5 원자를 제거하여 두 조각으로 분해한 뒤 브릿지를 삽입하는 핵심 로직"""
+    """
+    R5 원자를 제거하고 생긴 두 소켓에 
+    하나의 bridge_frag를 가져와 양쪽을 동시에 연결합니다.
+    """
     target_idx = -1
     for atom in scaffold.GetAtoms():
         if get_actual_label(atom) == target_label:
@@ -68,28 +71,59 @@ def decompose_and_insert_bridge(scaffold, bridge_frag, target_label):
             break
     if target_idx == -1: return None
 
-    # 이웃 정보 기록
-    neighbors = []
-    target_atom = scaffold.GetAtomWithIdx(target_idx)
-    for nb in target_atom.GetNeighbors():
-        bond_type = scaffold.GetBondBetweenAtoms(target_idx, nb.GetIdx()).GetBondType()
-        neighbors.append((nb.GetIdx(), bond_type))
-
-    # 분해 시작
+    # 1. Scaffold 분해 및 소켓 생성
     mw = Chem.RWMol(scaffold)
-    for i, (nb_idx, _) in enumerate(neighbors):
-        mw.GetAtomWithIdx(nb_idx).SetIntProp('temp_tag', i + 1)
+    neighbors = list(scaffold.GetAtomWithIdx(target_idx).GetNeighbors())
+    
+    # 연결될 이웃 원자들의 인덱스와 결합 타입 저장
+    conn_info = []
+    for i, nb in enumerate(neighbors):
+        btype = scaffold.GetBondBetweenAtoms(target_idx, nb.GetIdx()).GetBondType()
+        conn_info.append((nb.GetIdx(), btype, f"{target_label}_{i+1}"))
+    
     mw.RemoveAtom(target_idx)
-
-    # 새로운 소켓(_R5_SOCKET_1, _R5_SOCKET_2) 생성
-    for i in range(len(neighbors)):
+    
+    # Scaffold에 소켓 원자(*) 추가
+    for nb_idx, btype, label in conn_info:
         new_star = mw.AddAtom(Chem.Atom(0))
-        mw.GetAtomWithIdx(new_star).SetProp('atomLabel', f"{target_label}_{i+1}")
-        for atom in mw.GetAtoms():
-            if atom.HasProp('temp_tag') and atom.GetIntProp('temp_tag') == i + 1:
-                mw.AddBond(atom.GetIdx(), new_star, neighbors[i][1])
-                atom.ClearProp('temp_tag')
-                break
+        mw.GetAtomWithIdx(new_star).SetProp('atomLabel', label)
+        mw.AddBond(nb_idx, new_star, btype)
+
+    # 2. 하나의 bridge_frag를 단 한 번만 합침
+    combined = Chem.RWMol(Chem.CombineMols(mw.GetMol(), bridge_frag))
+    
+    # 3. 양쪽 연결점(Socket <-> Frag) 매칭 및 결합
+    # 예: scaffold의 _R5_1과 bridge의 _R5_1을 찾아 연결
+    for i in range(len(conn_info)):
+        label = f"{target_label}_{i+1}"
+        p_idx, c_idx = -1, -1
+        p_dummy, c_dummy = -1, -1
+        
+        for atom in combined.GetAtoms():
+            if atom.GetSymbol() == '*':
+                lbl = get_actual_label(atom)
+                if lbl == label:
+                    if atom.GetNeighbors():
+                        # 이웃이 있으면 실제 분자 쪽 인덱스, 본인은 dummy 인덱스
+                        if p_idx == -1: 
+                            p_idx = atom.GetNeighbors()[0].GetIdx()
+                            p_dummy = atom.GetIdx()
+                        else:
+                            c_idx = atom.GetNeighbors()[0].GetIdx()
+                            c_dummy = atom.GetIdx()
+        
+        if p_idx != -1 and c_idx != -1:
+            combined.AddBond(p_idx, c_idx, Chem.rdchem.BondType.SINGLE)
+            # 연결 후 더미 원자 제거 (인덱스 변화 방지를 위해 역순 제거)
+            for d_idx in sorted([p_dummy, c_dummy], reverse=True):
+                combined.RemoveAtom(d_idx)
+
+    res = combined.GetMol()
+    try:
+        Chem.SanitizeMol(res)
+        return res
+    except:
+        return None
     
     # 브릿지(R5) 조각과 연결 (_R5_SOCKET_n <-> _R5_n)
     temp = mw.GetMol()

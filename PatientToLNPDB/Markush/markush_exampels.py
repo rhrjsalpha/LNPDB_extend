@@ -60,7 +60,7 @@ def unified_markush_regex_multi_ap(input_path, output_path):
     print(f"✅ 다중 라벨 매칭 완료: 총 {len(df)}행 저장")
 
 # --- 실행 ---
-input_file = '/Users/kogeon/python_projects_path/LNPDB_extend/PatientToLNPDB/Markush/WO2021021634_formula1.cxsmiles'
-output_file = '/Users/kogeon/python_projects_path/LNPDB_extend/PatientToLNPDB/Markush/WO2021021634_Unified_MultiAP.xlsx'
+input_file = '/Users/kogeon/python_projects_path/LNPDB_extend/PatientToLNPDB/Markush/marvin_file (1).cxsmiles'
+output_file = '/Users/kogeon/python_projects_path/LNPDB_extend/PatientToLNPDB/Markush/marvinfile.xlsx'
 
 unified_markush_regex_multi_ap(input_file, output_file)
