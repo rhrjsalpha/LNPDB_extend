@@ -1,0 +1,279 @@
+[
+  {
+    "tag_no": "[1424]",
+    "data": [
+      "Table 23 description",
+      "Experimental conditions"
+    ],
+    "summary_english": "Experimental conditions for preparing lipid compositions, referencing molar ratios in Table 23."
+  },
+  {
+    "tag_no": "[1436]",
+    "data": [
+      "Table 1A description",
+      "Table 1B description",
+      "Experimental conditions"
+    ],
+    "summary_english": "Setup for initial studies comparing LNP delivery efficiency, referencing characteristics summarized in Tables 1A and 1B."
+  },
+  {
+    "tag_no": "[1437]",
+    "data": [
+      "Table 1A",
+      "Table 1B",
+      "Experimental results"
+    ],
+    "summary_english": "Physicochemical characteristics including size, polydispersity, and encapsulation efficiency for various nanoparticle compounds shown in Tables 1A and 1B."
+  },
+  {
+    "tag_no": "[1438]",
+    "data": [
+      "Table 1A description",
+      "Table 2",
+      "Experimental results"
+    ],
+    "summary_english": "Bioluminescence study results measuring luciferase expression (Total Flux) over 24 hours, detailed in Table 2."
+  },
+  {
+    "tag_no": "[1439]",
+    "data": [
+      "Table 3A",
+      "Table 3B",
+      "Table 3C",
+      "Table 3D",
+      "Fig 8 description",
+      "Experimental results"
+    ],
+    "summary_english": "Comparison of luciferase expression and lipid clearance relative to MC3 standard across multiple LNP formulations, with results in Tables 3A-D and Figure 8."
+  },
+  {
+    "tag_no": "[1440]",
+    "data": [
+      "Table 1A description",
+      "Table 4",
+      "Experimental results"
+    ],
+    "summary_english": "Organ-specific (liver, lung, spleen, femur) luciferase expression data for sample formulations, detailed in Table 4."
+  },
+  {
+    "tag_no": "[1441]",
+    "data": [
+      "Table 5A",
+      "Experimental conditions",
+      "Experimental results"
+    ],
+    "summary_english": "Total flux measured after intramuscular administration of nanoparticle compositions at different dose levels, shown in Table 5A."
+  },
+  {
+    "tag_no": "[1442]",
+    "data": [
+      "Table 5B",
+      "Experimental conditions",
+      "Experimental results"
+    ],
+    "summary_english": "Luciferase expression data for additional intramuscularly administered compounds, detailed in Table 5B."
+  },
+  {
+    "tag_no": "[1443]",
+    "data": [
+      "Table 6",
+      "Experimental results"
+    ],
+    "summary_english": "Comparison of relative luciferase flux between intravenous and intramuscular administration routes in Table 6."
+  },
+  {
+    "tag_no": "[1444]",
+    "data": [
+      "Table 1A description",
+      "Table 7",
+      "Experimental results"
+    ],
+    "summary_english": "Measurement of cytokine induction (IL-6 and IP-10) for selected compounds, shown in Table 7."
+  },
+  {
+    "tag_no": "[1445]",
+    "data": [
+      "Table 1A description",
+      "Table 8",
+      "Experimental results"
+    ],
+    "summary_english": "Evaluation of complement activation levels (sC5b-9) for specific nanoparticle compositions, detailed in Table 8."
+  },
+  {
+    "tag_no": "[1446]",
+    "data": [
+      "Table 9",
+      "Experimental results"
+    ],
+    "summary_english": "Clinical markers including liver enzymes and white blood cell levels measured after intravenous administration, shown in Table 9."
+  },
+  {
+    "tag_no": "[1447]",
+    "data": [
+      "Table 10",
+      "Table 1B description",
+      "Experimental conditions"
+    ],
+    "summary_english": "Characteristics of nanoparticle compositions formulated with hEPO mRNA, detailed in Table 10."
+  },
+  {
+    "tag_no": "[1448]",
+    "data": [
+      "Table 11A",
+      "Table 11B",
+      "Table 1B description",
+      "Fig 9 description",
+      "Experimental results"
+    ],
+    "summary_english": "Comparison of hEPO expression and cytokine levels in mice across various LNP formulations and administration routes, shown in Tables 11A-B and referencing Figure 9."
+  },
+  {
+    "tag_no": "[1449]",
+    "data": [
+      "Table 12",
+      "Experimental results"
+    ],
+    "summary_english": "Direct performance comparison between novel compounds and the MC3 standard in Table 12."
+  },
+  {
+    "tag_no": "[1451]",
+    "data": [
+      "Table 13",
+      "Table 14",
+      "Table 15",
+      "Experimental results"
+    ],
+    "summary_english": "Evaluation of hEPO expression, cytokine induction, and residual lipid levels in the liver after 48 hours in rats, detailed in Tables 13, 14, and 15."
+  },
+  {
+    "tag_no": "[1452]",
+    "data": [
+      "Table 16",
+      "Table 17",
+      "Table 18",
+      "Experimental results"
+    ],
+    "summary_english": "Ratios of hEPO expression and lipid accumulation in liver and spleen tissues for rats across different dose levels, detailed in Tables 16, 17, and 18."
+  },
+  {
+    "tag_no": "[1453]",
+    "data": [
+      "Table 19",
+      "Experimental results"
+    ],
+    "summary_english": "Comprehensive assessment of expression, cytokine induction, lipid levels, and clinical chemistry in rats for Compounds 48-50, shown in Table 19."
+  },
+  {
+    "tag_no": "[1454]",
+    "data": [
+      "Fig 3 description",
+      "Fig 4 description",
+      "Fig 5 description",
+      "Fig 6 description",
+      "Experimental results"
+    ],
+    "summary_english": "Analysis of dose-response for hEPO expression in rats, referencing data visualized in Figures 3 through 6."
+  },
+  {
+    "tag_no": "[1455]",
+    "data": [
+      "Fig 7 description",
+      "Experimental results"
+    ],
+    "summary_english": "Presentation of Area Under the Curve (AUC) data for various dosages, referencing Figure 7."
+  },
+  {
+    "tag_no": "[1456]",
+    "data": [
+      "Table 20",
+      "Table 21",
+      "Table 22",
+      "Experimental results"
+    ],
+    "summary_english": "Pharmacokinetic data including hEPO expression and lipid levels in the liver and spleen over 48 hours in rats, shown in Tables 20, 21, and 22."
+  },
+  {
+    "tag_no": "[1467]",
+    "data": [
+      "Table 23"
+    ],
+    "summary_english": "List of exemplary nanoparticle formulations with varied molar ratios of components provided in Table 23."
+  },
+  {
+    "tag_no": "[1470]",
+    "data": [
+      "Table 24",
+      "Experimental conditions"
+    ],
+    "summary_english": "Study protocol for evaluating pretreatment effects with dexamethasone and acetaminophen, detailed in Table 24."
+  },
+  {
+    "tag_no": "[1473]",
+    "data": [
+      "Table 25",
+      "Experimental conditions"
+    ],
+    "summary_english": "Dosing protocol and pretreatment groups for non-human primate (NHP) studies using hEPO mRNA, detailed in Table 25."
+  },
+  {
+    "tag_no": "[1474]",
+    "data": [
+      "Fig 1 description",
+      "Experimental results"
+    ],
+    "summary_english": "Evaluation of pretreatment effectiveness on protein expression over time in primates, referencing Figure 1."
+  },
+  {
+    "tag_no": "[1475]",
+    "data": [
+      "Table 26",
+      "Table 27",
+      "Table 28",
+      "Table 29",
+      "Experimental results"
+    ],
+    "summary_english": "Comprehensive NHP data including hEPO concentration, PK parameters, complement activation, and cytokine induction, detailed in Tables 26 through 29."
+  },
+  {
+    "tag_no": "[1477]",
+    "data": [
+      "Table 30",
+      "Table 31",
+      "Experimental results"
+    ],
+    "summary_english": "Physical characteristics and comparative rodent/NHP expression efficiency for lead compounds, detailed in Tables 30 and 31."
+  },
+  {
+    "tag_no": "[1478]",
+    "data": [
+      "Fig 2 description",
+      "Experimental results"
+    ],
+    "summary_english": "Validation of hEPO expression levels in cynomolgus monkeys, referencing Figure 2."
+  },
+  {
+    "tag_no": "[1479]",
+    "data": [
+      "Table 32",
+      "Experimental results"
+    ],
+    "summary_english": "Pharmacokinetic parameters measured in primates comparing novel formulations to MC3 standard in Table 32."
+  },
+  {
+    "tag_no": "[1480]",
+    "data": [
+      "Table 33",
+      "Experimental results"
+    ],
+    "summary_english": "Characterization of LNPs containing anti-HA antibody mRNA, detailed in Table 33."
+  },
+  {
+    "tag_no": "[1481]",
+    "data": [
+      "Table 34",
+      "Fig 11 description",
+      "Experimental results"
+    ],
+    "summary_english": "Anti-HA antibody expression levels and AUC comparison in Table 34 and referencing Figure 11."
+  }
+]

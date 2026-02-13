@@ -1,0 +1,249 @@
+﻿Experiment_ID,IL_name,Experiment_method,Experiment_value,IL_molratio,HL_name,HL_molratio,CHL_name,CHL_molratio,PEG_name,PEG_molratio,IL_to_nucleicacid_massratio,Aqueous_buffer,Mixing_method,Model,Model_type,Model_target,Route_of_administration,Cargo,Cargo_type,Dose_ug_nucleicacid
+Compound 2,Heptadecan-9-yl 8-((2-hydroxyethyl)(tetradecyl)amino)octanoate,Representative Procedure 1 (Method C),638.91 (MH+),,,,,,,,,,,,,,,,,
+Compound 1,Heptadecan-9-yl 8-((2-hydroxyethyl)(octadecyl)amino)octanoate,Representative Procedure 1,694.93 (MH+),,,,,,,,,,,,,,,,,
+Compound 3,Heptadecan-9-yl 8-((2-hydroxyethyl)(nonyl)amino)octanoate,Representative Procedure 1,568.80 (MH+),,,,,,,,,,,,,,,,,
+Compound 4,Heptadecan-9-yl 8-((2-hydroxyethyl)(octyl)amino)octanoate,Representative Procedure 1,554.777 (MH+),,,,,,,,,,,,,,,,,
+Compound 5,Heptadecan-9-yl 8-(hexyl(2-hydroxyethyl)amino)octanoate,Representative Procedure 1,526.73 (MH+),,,,,,,,,,,,,,,,,
+Compound 6,"Heptadecan-9-yl 8-((2-hydroxyethyl)((9Z,12Z)-octadeca-9,12-dien-1-yl)amino)octanoate",Representative Procedure 1,690.84 (MH+),,,,,,,,,,,,,,,,,
+Compound 7,Heptadecan-9-yl 8-((3-hydroxypropyl)(nonyl)amino)octanoate,Representative Procedure 1,582.987 (MH+),,,,,,,,,,,,,,,,,
+Compound 8,Heptadecan-9-yl 8-((3-(1H-imidazol-1-yl)propyl)(nonyl)amino)octanoate,Representative Procedure 1,633.994 (MH+),,,,,,,,,,,,,,,,,
+Compound 9,Heptadecan-9-yl 8-((2-acetoxyethyl)(8-(nonyloxy)-8-oxooctyl)amino) octanoate,Representative Procedure 1,753.07 (MH+),,,,,,,,,,,,,,,,,
+Compound 10,Heptadecan-9-yl 8-((2-hydroxypropyl)(8-(nonyloxy)-8-oxooctyl)amino) octanoate,Representative Procedure 1,725.10 (MH+),,,,,,,,,,,,,,,,,
+Compound 11,Heptadecan-9-yl (R)-8-((2-hydroxypropyl)(8-(nonyloxy)-8-oxooctyl) amino)octanoate,Representative Procedure 1,725.02 (MH+),,,,,,,,,,,,,,,,,
+Compound 12,Heptadecan-9-yl (S)-8-((2-hydroxypropyl)(8-(nonyloxy)-8-oxooctyl) amino)octanoate,Representative Procedure 1,725.10 (MH+),,,,,,,,,,,,,,,,,
+Compound 13,Heptadecan-9-yl 8-((2-hydroxybutyl)(8-(nonyloxy)-8-oxooctyl)amino) octanoate,Representative Procedure 1,739.21 (MH+),,,,,,,,,,,,,,,,,
+Compound 14,Heptadecan-9-yl 8-((2-(dimethylamino)ethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,Representative Procedure 1,738.23 (MH+),,,,,,,,,,,,,,,,,
+Compound 15,Heptadecan-9-yl 8-((2-methoxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,Representative Procedure 1,725.19 (MH+),,,,,,,,,,,,,,,,,
+Compound 16,Heptadecan-9-yl 8-((3-methoxypropyl)(8-(nonyloxy)-8-oxooctyl)amino) octanoate,Representative Procedure 1,739.13 (MH+),,,,,,,,,,,,,,,,,
+Compound 17,Heptadecan-9-yl 8-((2-(2-(dimethylamino)ethoxy)ethyl) (8-(nonyloxy)-8-oxooctyl)amino)octanoate,Representative Procedure 1,782.27 (MH+),,,,,,,,,,,,,,,,,
+Compound 18,Heptadecan-9-yl 8-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,Representative Procedure 1,710.89 (MH+),,,,,,,,,,,,,,,,,
+Compound 19,Heptadecan-9-yl 8-((3-hydroxypropyl)(8-(nonyloxy)-8-oxooctyl)amino) octanoate,Representative Procedure 1,725.19 (MH+),,,,,,,,,,,,,,,,,
+Compound 20,Heptadecan-9-yl 8-((4-hydroxybutyl)(8-(nonyloxy)-8-oxooctyl)amino) octanoate,Representative Procedure 1,739.21 (MH+),,,,,,,,,,,,,,,,,
+Compound 21,Heptadecan-9-yl 8-((2-cyanoethyl)(8-(nonyloxy)-8-oxooctyl)amino) octanoate,Representative Procedure 1,720.18 (MH+),,,,,,,,,,,,,,,,,
+Compound 22,Heptadecan-9-yl 8-((2-hydroxycyclohexyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,Representative Procedure 1,765.21 (MH+),,,,,,,,,,,,,,,,,
+Compound 23,Heptadecan-9-yl 10-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino) decanoate,Representative Procedure 1,739.13 (MH+),,,,,,,,,,,,,,,,,
+Compound 24,Heptadecan-9-yl (Z)-8-((2-hydroxyethyl) (8-(non-2-en-1-yloxy)-8-oxooctyl)amino)octanoate,Representative Procedure 1,708.95 (MH+),,,,,,,,,,,,,,,,,
+Compound 25,Heptadecan-9-yl 8-((2-hydroxyethyl)(6-oxo-6-(undecyloxy)hexyl)amino)octanoate,Representative Procedure 1,711.00 (MH+),,,,,,,,,,,,,,,,,
+Compound 26,Heptadecan-9-yl 8-((2-hydroxyethyl)(4-(nonyloxy)-4-oxobutyl)amino) octanoate,Representative Procedure 1,655.07 (MH+),,,,,,,,,,,,,,,,,
+Compound 27,Nonyl 8-((6-(heptadecan-9-yloxy)-6-oxohexyl)(2-hydroxyethyl)amino) octanoate,Representative Procedure 1,683.12 (MH+),,,,,,,,,,,,,,,,,
+Compound 28,Heptadecan-9-yl 8-((8-((2-hexylcyclopropyl)methoxy)-8-oxooctyl)(2-hydroxyethyl)amino)octanoate,Representative Procedure 1,722.97 (MH+),,,,,,,,,,,,,,,,,
+Compound 29,"Di(heptadecan-9-yl) 8,8'-((2-hydroxyethyl)azanediyl)dioctanoate",Representative Procedure 1,823.19 (MH+),,,,,,,,,,,,,,,,,
+Compound 30,7-((2-Hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)heptyl 2-octyldecanoate,Representative Procedure 1,711.16 (MH+),,,,,,,,,,,,,,,,,
+Compound 31,heptadecan-9-yl (Z)-8-((2-hydroxyethyl)(octadec-9-en-1-yl)amino) octanoate,Representative Procedure 1,693.20 (MH+),,,,,,,,,,,,,,,,,
+Compound 32,nonyl 8-((2-hydroxyethyl)(8-oxo-8-(pentadecan-7-yloxy)octyl)amino) octanoate,Representative Procedure 1,683.20 (MH+),,,,,,,,,,,,,,,,,
+Compound 33,nonyl 8-((2-hydroxyethyl)(8-oxo-8-(tetradecan-6-yloxy)octyl)amino) octanoate,Representative Procedure 1,669.09 (MH+),,,,,,,,,,,,,,,,,
+Compound 34,dodecan-4-yl 8-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino) octanoate,Representative Procedure 1,641.05 (MH+),,,,,,,,,,,,,,,,,
+Compound 35,nonyl 8-((2-hydroxyethyl)(8-oxo-8-(undecan-3-yloxy)octyl)amino) octanoate,Representative Procedure 1,627.11 (MH+),,,,,,,,,,,,,,,,,
+Compound 36,decan-2-yl 8-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino) octanoate,Representative Procedure 1,613.00 (MH+),,,,,,,,,,,,,,,,,
+Compound 47,heptadecan-9-yl 8-((2-hydroxyethyl)(8-(2-octylcyclopropyl)octyl) amino)octanoate,Representative Procedure 1,707.39 (MH+),,,,,,,,,,,,,,,,,
+Compound 48,decan-2-yl 8-((8-(heptadecan-9-yloxy)-8-oxooctyl)(2-hydroxyethyl) amino)octanoate,Representative Procedure 1,725.10 (MH+),,,,,,,,,,,,,,,,,
+Compound 49,heptadecan-9-yl 8-((2-hydroxyethyl)(8-oxo-8-(undecan-3-yloxy)octyl) amino)octanoate,Representative Procedure 1,739.21 (MH+),,,,,,,,,,,,,,,,,
+Compound 50,dodecan-4-yl 8-((8-(heptadecan-9-yloxy)-8-oxooctyl)(2-hydroxyethyl) amino)octanoate,Representative Procedure 1,753.23 (MH+),,,,,,,,,,,,,,,,,
+Compound 51,heptadecan-9-yl 8-((4-butoxy-4-oxobutyl)(2-hydroxyethyl)amino) octanoate,Representative Procedure 1,584.87 (MH+),,,,,,,,,,,,,,,,,
+Compound 52,heptadecan-9-yl 8-((2-hydroxyethyl)(4-oxo-4-(pentyloxy)butyl)amino) octanoate,Representative Procedure 1,598.90 (MH+),,,,,,,,,,,,,,,,,
+Compound 53,heptadecan-9-yl 8-((4-(hexyloxy)-4-oxobutyl)(2-hydroxyethyl)amino) octanoate,Representative Procedure 1,612.92 (MH+),,,,,,,,,,,,,,,,,
+Compound 54,heptadecan-9-yl 8-((4-(heptyloxy)-4-oxobutyl)(2-hydroxyethyl)amino) octanoate,Representative Procedure 1,626.94 (MH+),,,,,,,,,,,,,,,,,
+Compound 55,heptadecan-9-yl 8-((4-((2-hexylcyclopropyl)methoxy)-4-oxobutyl)(2-hydroxyethyl) amino)octanoate,Representative Procedure 1,667.04 (MH+),,,,,,,,,,,,,,,,,
+Compound 56,nonyl 8-((2-hydroxyethyl)(8-oxo-8-(tridecan-7-yloxy)octyl)amino) octanoate,Representative Procedure 1,654.99 (MH+),,,,,,,,,,,,,,,,,
+Compound 57,nonan-5-yl 8-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino) octanoate,Representative Procedure 1,598.98 (MH+),,,,,,,,,,,,,,,,,
+Compound 58,heptan-4-yl 8-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino) octanoate,Representative Procedure 1,570.93 (MH+),,,,,,,,,,,,,,,,,
+Compound 59,nonyl 8-((2-hydroxyethyl)(8-oxo-8-(pentan-3-yloxy)octyl)amino) octanoate,Representative Procedure 1,542.80 (MH+),,,,,,,,,,,,,,,,,
+Compound 60,"(5Z,12Z)-Heptadeca-5,12-dien-9-yl 8-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",Representative Procedure 1,707.10 (MH+),,,,,,,,,,,,,,,,,
+Compound 61,"(5Z,12Z)-heptadeca-5,12-dien-9-yl 8-((2-hydroxyethyl)(6-oxo-6-(undecyloxy)hexyl)amino)octanoate",Representative Procedure 1,707.10 (MH+),,,,,,,,,,,,,,,,,
+Compound 65,1-Cyclopropylnonyl 8-((8-(heptadecan-9-yloxy)-8-oxooctyl)(2-hydroxyethyl)amino)octanoate,Representative Procedure 1,750.9 (MH+),,,,,,,,,,,,,,,,,
+Compound 66,Heptadecan-9-yl 8-((2-hydroxyethyl)(8-oxo-8-((4-pentylcyclohexyl)oxy)octyl)amino)octanoate,Representative Procedure 1,736.9 (MH+),,,,,,,,,,,,,,,,,
+Compound 67,Heptadecan-9-yl 8-((2-hydroxyethyl)(4-oxo-4-((4-pentylcyclohexyl)oxy)butyl)amino)octanoate,Representative Procedure 1,680.8 (MH+),,,,,,,,,,,,,,,,,
+Compound 68,Heptadecan-9-yl 8-((2-hydroxyethyl)(6-oxo-6-((4-pentylcyclohexyl)oxy)hexyl)amino)octanoate,Representative Procedure 1,708.9 (MH+),,,,,,,,,,,,,,,,,
+Compound 69,"Heptadecan-9-yl 8-((2,3-dihydroxypropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",Representative Procedure 1,741.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 70,Heptadecan-9-yl 8-((4-(decan-2-yloxy)-4-oxobutyl)(2-hydroxyethyl)amino)octanoate,Representative Procedure 1,668.9 (MH+),,,,,,,,,,,,,,,,,
+Compound 71,Heptadecan-9-yl 8-((2-hydroxyethyl)(4-oxo-4-(tetradecan-6-yloxy)butyl)amino)octanoate,Representative Procedure 1,724.9 (MH+),,,,,,,,,,,,,,,,,
+Compound 72,Heptadecan-9-yl 8-((2-hydroxyethyl)(4-oxo-4-(undecan-3-yloxy)butyl)amino)octanoate,Representative Procedure 1,683.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 73,Heptadecan-9-yl 8-((2-hydroxyethyl)(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)octanoate,Representative Procedure 1,739.09 (MH+),,,,,,,,,,,,,,,,,
+Compound 74,Heptadecan-9-yl 8-((4-(dodecan-4-yloxy)-4-oxobutyl)(2-hydroxyethyl)amino)octanoate,Representative Procedure 1,696.9 (MH+),,,,,,,,,,,,,,,,,
+Compound 75,Heptadecan-9-yl 8-((2-hydroxyethyl)(6-oxo-6-(undecan-3-yloxy)hexyl)amino)octanoate,Representative Procedure 1,711.1 (MH+),,,,,,,,,,,,,,,,,
+Compound 79,Nonyl 8-((2-hydroxyethyl)(8-oxo-8-((4-pentylcyclohexyl)oxy)octyl)amino)octanoate,Representative Procedure 1,624.8 (MH+),,,,,,,,,,,,,,,,,
+Compound 80,"[1,1'-Bi(cyclohexan)]-4-yl 8-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",Representative Procedure 1,636.9 (MH+),,,,,,,,,,,,,,,,,
+Compound 81,Cyclopentadecyl 8-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,Representative Procedure 1,681.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 94,Heptadecan-9-yl 8-(benzyl(8-(nonyloxy)-8-oxooctyl)amino)octanoate,Synthesis,757.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 96,7-((8-(Heptadecan-9-yloxy)-8-oxooctyl)(2-hydroxyethyl)amino)heptyl decanoate,Representative Procedure 1,711.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 98,8-((8-(Heptadecan-9-yloxy)-8-oxooctyl)(2-hydroxyethyl)amino)octan-2-yl decanoate,Representative Procedure 1,725.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 101,Heptadecan-9-yl 8-((2-(4-methylpiperazin-1-yl)ethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,Synthesis,792.8 (MH+),,,,,,,,,,,,,,,,,
+Compound 103,Heptadecan-9-yl 8-((2-morpholinoethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,Synthesis,779.8 (MH+),,,,,,,,,,,,,,,,,
+Compound 108,Heptadecan-9-yl 8-((3-acetamidopropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,Synthesis,765.7 (MH+),,,,,,,,,,,,,,,,,
+Compound 109,Heptadecan-9-yl 8-((3-(methylsulfonamido)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,Synthesis,801.7 (MH+),,,,,,,,,,,,,,,,,
+Compound 110,"Heptadecan-9-yl 8-((3-(3,3-dimethylureido)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",Synthesis,794.7 (MH+),,,,,,,,,,,,,,,,,
+Compound 111,"Heptadecan-9-yl 8-((3-(3,3-dimethylthioureido)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",Synthesis,810.7 (MH+),,,,,,,,,,,,,,,,,
+Compound 112,Heptadecan-9-yl 8-((3-(3-methylureido)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,Synthesis,780.7 (MH+),,,,,,,,,,,,,,,,,
+Compound 113,Heptadecan-9-yl 8-((3-(3-methylthioureido)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,Synthesis,796.7 (MH+),,,,,,,,,,,,,,,,,
+Compound 114,"Heptadecan-9-yl 8-((3-(2,4-dioxo-3,4-dihydropyrimidin-1(2H)-yl)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",Synthesis,818.7 (MH+),,,,,,,,,,,,,,,,,
+Compound 115,Heptadecan-9-yl 8-((3-(4-amino-2-oxopyrimidin-1(2H)-yl)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,Synthesis,817.7 (MH+),,,,,,,,,,,,,,,,,
+Compound 116,Heptadecan-9-yl 8-((3-(6-amino-9H-purin-9-yl)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,Synthesis,841.7 (MH+),,,,,,,,,,,,,,,,,
+Compound 118,"3,4-Dipentylphenyl 8-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",Synthesis,688.6 (MH+),,,,,,,,,,,,,,,,,
+Compound 119,Nonyl 8-((2-hydroxyethyl)(8-oxo-8-(4-pentylphenoxy)octyl)amino)octanoate,Synthesis,618.5 (MH+),,,,,,,,,,,,,,,,,
+Compound 120,Nonyl 8-((2-hydroxyethyl)(8-oxo-8-(3-pentylphenoxy)octyl)amino)octanoate,Synthesis,618.5 (MH+),,,,,,,,,,,,,,,,,
+Compound 121,Heptadecan-9-yl 8-((3-aminopropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,Synthesis,723.7 (MH+),,,,,,,,,,,,,,,,,
+Compound 122,Heptadecan-9-yl 8-((6-(decan-2-yloxy)-6-oxohexyl)(2-hydroxyethyl)amino)octanoate,Representative Procedure 1,697.1 (MH+),,,,,,,,,,,,,,,,,
+Compound 123,Heptadecan-9-yl 8-(methyl(8-(nonyloxy)-8-oxooctyl)amino)octanoate,Synthesis,681.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 124,"Di(heptadecan-9-yl) 8,8'-(methylazanediyl)dioctanoate",Synthesis,793.3 (MH+),,,,,,,,,,,,,,,,,
+Compound 125,3-((8-(Heptadecan-9-yloxy)-8-oxooctyl)(8-(nonyloxy)-8-oxooctyl)amino)propanoic acid,Synthesis,838.7 (MH+ reported),,,,,,,,,,,,,,,,,
+Compound 126,Heptadecan-9-yl 8-(methyl(4-(nonyloxy)-4-oxobutyl)amino)octanoate,Synthesis,624.8 (MH+),,,,,,,,,,,,,,,,,
+Compound 127,Nonyl 8-((9-((bis(nonyloxy)phosphoryl)oxy)nonyl)(2-hydroxyethyl)amino)octanoate,Representative Procedure 1,805.1 (MH+),,,,,,,,,,,,,,,,,
+Compound 128,Heptadecan-9-yl 8-((6-((1-cyclopropylnonyl)oxy)-6-oxohexyl)(2-hydroxyethyl)amino)octanoate,Representative Procedure 1,722.9 (MH+),,,,,,,,,,,,,,,,,
+Compound 129,Undecyl 6-((8-(dioctylamino)-8-oxooctyl)(2-hydroxyethyl)amino)hexanoate,Representative Procedure 1,695.9 (MH+),,,,,,,,,,,,,,,,,
+Compound 130,Decan-2-yl 8-((8-(dioctylamino)-8-oxooctyl)(2-hydroxyethyl)amino)octanoate,Representative Procedure 1,709.9 (MH+),,,,,,,,,,,,,,,,,
+Compound 131,Nonyl 8-((7-((bis(octyloxy)phosphoryl)oxy)heptyl)(2-hydroxyethyl)amino)octanoate,Representative Procedure 1,750.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 132,Decan-2-yl 8-((7-((bis(octyloxy)phosphoryl)oxy)heptyl)(2-hydroxyethyl)amino)octanoate,Representative Procedure 1,764.00 (MH+),,,,,,,,,,,,,,,,,
+Compound 133,"((2-Hydroxyethyl)azanediyl)bis(nonane-9,1-diyl) bis(2-hexyldecanoate)",Representative Procedure 1,824.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 134,9-((2-Hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)nonyl 2-hexyldecanoate,Representative Procedure 1,712.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 135,7-((8-(Decan-2-yloxy)-8-oxooctyl)(2-hydroxyethyl)amino)heptyl 2-octyldecanoate,Representative Procedure 1,726.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 136,"Nonyl 8-((2-hydroxyethyl)((9Z,12Z)-octadeca-9,12-dien-1-yl)amino)octanoate",Representative Procedure 2,578.64 (MH+),,,,,,,,,,,,,,,,,
+Compound 137,Methyl 12-(dodecyl(2-hydroxyethyl)amino)dodecanoate,Synthesis,442.60 (MH+),,,,,,,,,,,,,,,,,
+Compound 138,"Dinonyl 8,8'-((2-hydroxyethyl)azanediyl)dioctanoate",Representative Procedure 3,598.85 (MH+),,,,,,,,,,,,,,,,,
+Compound 139,"Di((Z)-non-2-en-1-yl) 8,8'-((2-hydroxyethyl)azanediyl)dioctanoate",Representative Procedure 3,594.78 (MH+),,,,,,,,,,,,,,,,,
+Compound 140,"Di((Z)-undec-2-en-1-yl) 6,6'-((2-hydroxyethyl)azanediyl)dihexanoate",Representative Procedure 3,594.74 (MH+),,,,,,,,,,,,,,,,,
+Compound 141,"Diundecyl 6,6'-((2-hydroxyethyl)azanediyl)dihexanoate",Representative Procedure 3,598.63 (MH+),,,,,,,,,,,,,,,,,
+Compound 142,"12,12'-((2-Hydroxyethyl)azanediyl)didodecanoate",Synthesis,486.63 (MH+),,,,,,,,,,,,,,,,,
+Compound 143,Nonyl 8-((2-hydroxyethyl)(7-((2-octyldecyl)oxy)-7-oxoheptyl)amino)octanoate,Representative Procedure 2,711.08 (MH+),,,,,,,,,,,,,,,,,
+Compound 144,Nonyl 8-((8-(dioctylamino)-8-oxooctyl)(2-hydroxyethyl)amino)octanoate,Representative Procedure 2,696.16 (MH+),,,,,,,,,,,,,,,,,
+Compound 145,Heptadecan-9-yl 8-((2-hydroxyethyl)(8-(methyl(octyl)amino)-8-oxooctyl)amino)octanoate,Representative Procedure 1,710.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 146,Heptadecan-9-yl 8-((2-hydroxyethyl)(6-(methyl(octyl)amino)-6-oxohexyl)amino)octanoate,Representative Procedure 1,682.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 147,Tridecan-7-yl 10-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)decanoate,Representative Procedure 1,683.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 148,Heptadecan-9-yl 8-((2-hydroxyethyl)(8-((2-methoxynonyl)oxy)-8-oxooctyl)amino)octanoate,Representative Procedure 1,741.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 149,Heptyl 10-((8-(heptadecan-9-yloxy)-8-oxooctyl)(methyl)amino)decanoate,Representative Procedure 1,681.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 150,Pentyl 12-((8-(heptadecan-9-yloxy)-8-oxooctyl)(methyl)amino)dodecanoate,Representative Procedure 1,681.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 151,7-((7-(Decanoyloxy)heptyl)(2-hydroxyethyl)amino)heptyl 2-octyldecanoate,Representative Procedure 1,711.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 152,Nonyl (Z)-8-((2-hydroxyethyl)(10-octyloctadec-8-en-1-yl)amino)octanoate,Representative Procedure 1,694.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 153,Nonyl 8-((2-hydroxyethyl)(10-octyloctadecyl)amino)octanoate,Synthesis,695.08 (MH+),,,,,,,,,,,,,,,,,
+Compound 154,Heptadecan-9-yl 8-((2-(2-hydroxyethoxy)ethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,Representative Procedure 1,755.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 155,tert-Butyl 8-((8-(heptadecan-9-yloxy)-8-oxooctyl)(2-hydroxyethyl)amino)octanoate,Representative Procedure 1,641.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 156,"Heptadecan-9-yl 8-((1,3-dihydroxypropan-2-yl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",Representative Procedure 1,741.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 157,Heptadecan-9-yl 8-((1-hydroxypropan-2-yl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,Representative Procedure 1,725.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 158,tert-Butyl 8-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,Representative Procedure 1,528.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 159,Heptadecan-9-yl 8-((2-hydroxyethyl)(2-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)ethyl)amino)octanoate,Representative Procedure 1,798.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 160,"1,5-Bis(2-butylcyclopropyl)pentan-3-yl 8-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",Representative Procedure 1,735.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 161,Heptadecan-9-yl 8-((2-hydroxyethyl)(10-(octanoyloxy)decan-2-yl)amino)octanoate,Representative Procedure 1,725.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 162,7-((2-Hydroxyethyl)(10-(octanoyloxy)decan-2-yl)amino)heptyl 2-octyldecanoate,Representative Procedure 1,725.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 163,7-((2-Hydroxyethyl)(7-methyl-8-(nonyloxy)-8-oxooctyl)amino)heptyl 2-octyldecanoate,Representative Procedure 1,725.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 164,Nonyl 8-((8-(heptadecan-9-yloxy)-8-oxooctyl)(2-hydroxyethyl)amino)-2-methyloctanoate,Representative Procedure 1,725.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 165,7-((7-(Decanoyloxy)octyl)(2-hydroxyethyl)amino)heptyl 2-octyldecanoate,Representative Procedure 1,725.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 166,8-((8-(Heptadecan-9-yloxy)-8-oxooctyl)(2-hydroxyethyl)amino)octanoic acid,Synthesis,585.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 167,8-((2-Hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoic acid,Synthesis,472.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 168,"Heptadecan-9-yl (Z)-8-((3-(2-cyano-3,3-dimethylguanidino)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",Synthesis,819.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 169,"Heptadecan-9-yl 8-((3-((2-(dimethylamino)-3,4-dioxocyclobut-1-en-1-yl)amino)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",Synthesis,847.3 (MH+),,,,,,,,,,,,,,,,,
+Compound 170,Heptadecan-9-yl (E)-8-((3-((1-(methylamino)-2-nitrovinyl)amino)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,Synthesis,824.3 (MH+),,,,,,,,,,,,,,,,,
+Compound 171,Heptadecan-9-yl 8-((9-hydroxy-9-methyloctadecyl)(2-hydroxyethyl)amino)octanoate,Representative Procedure 1,725.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 172,(R)-Decan-2-yl 8-((8-(heptadecan-9-yloxy)-8-oxooctyl)(2-hydroxyethyl)amino)octanoate,Representative Procedure 1,725.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 173,Heptadecan-9-yl 8-((3-(N-methylmethylsulfonamido)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,Synthesis,816.1 (MH+),,,,,,,,,,,,,,,,,
+Compound 174,"Heptadecan-9-yl 8-((3-(2,5-dioxoimidazolidin-1-yl)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",Synthesis,807.2 (MH+),,,,,,,,,,,,,,,,,
+Compound 175,Heptadecan-9-yl 8-((3-((methylcarbamoyl)oxy)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,Synthesis,782.3 (MH+),,,,,,,,,,,,,,,,,
+Compound 176,"Heptadecan-9-yl 8-((3-(2,5-dioxopyrrolidin-1-yl)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",Synthesis,806.1 (MH+),,,,,,,,,,,,,,,,,
+Compound 177,"Heptadecan-9-yl 8-((3-(4-(tert-butoxymethyl)-1H-1,2,3-triazol-1-yl)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",Synthesis,862.2 (MH+),,,,,,,,,,,,,,,,,
+Compound 178,Heptadecan-9-yl 8-((3-(2-methoxyacetamido)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,Synthesis,796.2 (MH+),,,,,,,,,,,,,,,,,
+Compound 179,"Heptadecan-9-yl 8-((3-(1H-1,2,3-triazol-1-yl)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",Synthesis,776.2 (MH+),,,,,,,,,,,,,,,,,
+Compound 181,Heptadecan-9-yl 8-((3-((methoxycarbonyl)amino)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,Synthesis,782.1 (MH+),,,,,,,,,,,,,,,,,
+Compound 182,"Heptadecan-9-yl 8-((3-((2-(methylamino)-3,4-dioxocyclobut-1-en-1-yl)amino)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",Synthesis,833.4 (MH+),,,,,,,,,,,,,,,,,
+Compound 183,"1,3-Bis(hexyloxy)propan-2-yl 8-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",Representative Procedure 1,715.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 184,Heptadecan-9-yl 8-((2-hydroxyethyl)(8-((2-methylnonyl)oxy)-8-oxooctyl)amino)octanoate,Representative Procedure 1,725.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 185,Henicosan-11-yl 6-((2-hydroxyethyl)(6-oxo-6-(undecyloxy)hexyl)amino)hexanoate,Representative Procedure 1,739.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 186,Heptyl 10-((2-hydroxyethyl)(10-oxo-10-(tridecan-7-yloxy)decyl)amino)decanoate,Representative Procedure 1,739.0 (MH+),,,,,,,,,,,,,,,,,
+Compound 189,Heptyl 10-((8-(heptadecan-9-yloxy)-8-oxooctyl)(2-hydroxyethyl)amino)decanoate,Representative Procedure 1,710.98 (MH+),,,,,,,,,,,,,,,,,
+Compound 194,Heptadecan-9-yl 8-((3-isobutyramidopropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,Synthesis,794.3 (MH+),,,,,,,,,,,,,,,,,
+Compound 197,Heptadecan-9-yl 8-((3-(2-(benzyloxy)acetamido)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,Synthesis,872.4 (MH+),,,,,,,,,,,,,,,,,
+Compound 198,Heptadecan-9-yl 8-((3-(2-hydroxyacetamido)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,Synthesis,782.2 (MH+),,,,,,,,,,,,,,,,,
+Compound 200,Heptadecan-9-yl (E)-8-((3-(3-methyl-2-nitroguanidino)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,Synthesis,825.3 (MH+),,,,,,,,,,,,,,,,,
+Compound 207,Heptadecan-9-yl 8-((3-guanidinopropyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,Synthesis,766.3 (MH+),,,,,,,,,,,,,,,,,
+Compound 218,"Heptadecan-9-yl 8-((3-(4-(hydroxymethyl)-1H-1,2,3-triazol-1-yl)propyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate",Synthesis,806.1 (MH+),,,,,,,,,,,,,,,,,
+Compound 232,Nonyl 8-((2-hydroxyethyl)(6-oxo-6-((4-pentylcyclohexyl)oxy)hexyl)amino)octanoate,Representative Procedure 1,596.84 (MH+),,,,,,,,,,,,,,,,,
+Standard MC3 formulation,MC3,Nano-precipitation via microfluidics; Dialysis against PBS,,50.0,DSPC,10.0,cholesterol,38.5,PEG-DMG,1.5,5:1 to 50:1,50 mM sodium citrate buffer (pH 3-4),NanoAssemblr microfluidic based system,Mice,In Vivo,Cells,"Intravenous, intramuscular, intraarterial, intratumoral, or inhalation",mRNA encoding G5 luciferase (Luc) or G5 hEPO,mRNA,0.001 mg/kg to 10 mg/kg
+"Example 3: Compounds 1-159, 168-170, 173-175","Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe) selected from Compounds 1-159, 168-170, and 173-175",Nano-precipitation via microfluidics; Dialysis against PBS,,50.0,DSPC,10.0,cholesterol,38.5,PEG-DMG,1.5,5:1 to 50:1,50 mM sodium citrate buffer (pH 3-4),NanoAssemblr microfluidic based system,Mice,In Vivo,Cells,"Intravenous, intramuscular, intraarterial, intratumoral, or inhalation",mRNA encoding G5 luciferase (Luc) or G5 hEPO,mRNA,0.001 mg/kg to 10 mg/kg
+Table_2_Compound_1,Compound 1,"Bioluminescence (Total Flux, 3 hours)",3.48E+09,50.0,DSPC,10.0,Cholesterol,38.5,PEG-DMG,1.5,,,,Mice,in vivo,,Intravenous,Luciferase mRNA,mRNA,0.5 mg/kg
+Table_2_Compound_2,Compound 2,"Bioluminescence (Total Flux, 3 hours)",1.93E+10,50.0,DSPC,10.0,Cholesterol,38.5,PEG-DMG,1.5,,,,Mice,in vivo,,Intravenous,Luciferase mRNA,mRNA,0.5 mg/kg
+Table_2_MC3,MC3,"Bioluminescence (Total Flux, 3 hours)",1.58E+10,50.0,DSPC,10.0,Cholesterol,38.5,PEG-DMG,1.5,,,,Mice,in vivo,,Intravenous,Luciferase mRNA,mRNA,0.5 mg/kg
+Table_3B_Compound_108_IV,Compound 108,Fold increase in Luc expression vs MC3 (6h),0.4,50.0,DSPC,10.0,Cholesterol,38.5,PEG-DMG,1.5,,,,Mice,in vivo,,Intravenous,Luciferase mRNA,mRNA,0.5 mg/kg
+Table_3B_Compound_108_IM,Compound 108,Fold increase in Luc expression vs MC3 (6h),14.2,50.0,DSPC,10.0,Cholesterol,38.5,PEG-DMG,1.5,,,,Mice,in vivo,,Intramuscular,Luciferase mRNA,mRNA,0.01 mg/kg
+Table_4_Compound_1_Liver,Compound 1,"Bioluminescence (Total Flux, 6 hours)",4.02E+08,50.0,DSPC,10.0,Cholesterol,38.5,PEG-DMG,1.5,,,,Mice,in vivo,Liver,Intravenous,Luciferase mRNA,mRNA,0.5 mg/kg
+Table_5A_Compound_20_LowDose,Compound 20,"Bioluminescence (Total Flux, 6 hours)",2.59E+07,50.0,DSPC,10.0,Cholesterol,38.5,PEG-DMG,1.5,,,,Mice,in vivo,,Intramuscular,Luciferase mRNA + H10 mRNA,mRNA,0.001 mg/kg
+Table_7_Compound_1_IL6,Compound 1,"Cytokine IL-6 Induction (pg/ml, 6 hours)",267.24,50.0,DSPC,10.0,Cholesterol,38.5,PEG-DMG,1.5,,,,Mice,in vivo,,Intravenous,Luciferase mRNA,mRNA,0.5 mg/kg
+Table_8_Compound_1,Compound 1,sC5b-9 Fold increase versus saline,0.82,50.0,DSPC,10.0,Cholesterol,38.5,PEG-DMG,1.5,,,,Human cells,in vitro,,,Luciferase mRNA,mRNA,
+Table_10_Compound_6,Compound 6,Particle Size (nm),70.5,50.0,DSPC,10.0,Cholesterol,38.5,PEG-DMG,1.5,,,,N/A,Physicochemical,,,,,
+Table_10_Compound_6_EE,Compound 6,Encapsulation Efficiency (%),97.84,50.0,DSPC,10.0,Cholesterol,38.5,PEG-DMG,1.5,,,,N/A,Physicochemical,,,,,
+Table_11A_Compound_6_3h,Compound 6,"hEPO expression (pg/ml, 3 hours)",2.31E+06,50.0,DSPC,10.0,Cholesterol,38.5,PEG-DMG,1.5,,,,Mice,in vivo,,Intravenous,hEPO mRNA,mRNA,0.5 mg/kg
+Table_11A_Compound_18_3h,Compound 18,"hEPO expression (pg/ml, 3 hours)",3.00E+06,50.0,DSPC,10.0,Cholesterol,38.5,PEG-DMG,1.5,,,,Mice,in vivo,,Intravenous,hEPO mRNA,mRNA,0.5 mg/kg
+Table_13_Compound_3,Compound 3,"hEPO expression (pg/ml, 6 hours)",1.74E+07,50.0,DSPC,10.0,Cholesterol,38.5,PEG-DMG,1.5,,,,Rat,in vivo,,Intravenous,hEPO mRNA,mRNA,2.0 mg/kg
+Table_14_Compound_3_IP10,Compound 3,"Cytokine IP-10 Induction (pg/mL, 6 hours)",542,50.0,DSPC,10.0,Cholesterol,38.5,PEG-DMG,1.5,,,,Rat,in vivo,,Intravenous,hEPO mRNA,mRNA,2.0 mg/kg
+Table_15_Compound_3_Liver,Compound 3,% remaining dose in liver (48 hours),14.2,50.0,DSPC,10.0,Cholesterol,38.5,PEG-DMG,1.5,,,,Rat,in vivo,Liver,Intravenous,hEPO mRNA,mRNA,2.0 mg/kg
+Table_19_Compound_48_0.2mpk_hEPO,Compound 48,"hEPO expression (pg/ml, 6 hours)",4.06E+06,50.0,DSPC,10.0,Cholesterol,38.5,PEG-DMG,1.5,,,,Rat,in vivo,,Intravenous,hEPO mRNA,mRNA,0.2 mg/kg
+Table_19_Compound_48_0.2mpk_LiverLevel,Compound 48,"Liver level (ng/g, 48 hours)",5448,50.0,DSPC,10.0,Cholesterol,38.5,PEG-DMG,1.5,,,,Rat,in vivo,Liver,Intravenous,hEPO mRNA,mRNA,0.2 mg/kg
+"Table 23, Row 1","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,40.0,Phospholipid (DOPE or DSPC),20.0,Cholesterol,38.5,PEG-DMG,1.5,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 2","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,45.0,Phospholipid (DOPE or DSPC),15.0,Cholesterol,38.5,PEG-DMG,1.5,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 3","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,50.0,Phospholipid (DOPE or DSPC),10.0,Cholesterol,38.5,PEG-DMG,1.5,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 4","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,55.0,Phospholipid (DOPE or DSPC),5.0,Cholesterol,38.5,PEG-DMG,1.5,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 5","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,60.0,Phospholipid (DOPE or DSPC),5.0,Cholesterol,33.5,PEG-DMG,1.5,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 6","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,45.0,Phospholipid (DOPE or DSPC),20.0,Cholesterol,33.5,PEG-DMG,1.5,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 7","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,50.0,Phospholipid (DOPE or DSPC),20.0,Cholesterol,28.5,PEG-DMG,1.5,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 8","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,55.0,Phospholipid (DOPE or DSPC),20.0,Cholesterol,23.5,PEG-DMG,1.5,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 9","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,60.0,Phospholipid (DOPE or DSPC),20.0,Cholesterol,18.5,PEG-DMG,1.5,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 10","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,40.0,Phospholipid (DOPE or DSPC),15.0,Cholesterol,43.5,PEG-DMG,1.5,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 11","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,50.0,Phospholipid (DOPE or DSPC),15.0,Cholesterol,33.5,PEG-DMG,1.5,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 12","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,55.0,Phospholipid (DOPE or DSPC),15.0,Cholesterol,28.5,PEG-DMG,1.5,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 13","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,60.0,Phospholipid (DOPE or DSPC),15.0,Cholesterol,23.5,PEG-DMG,1.5,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 14","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,40.0,Phospholipid (DOPE or DSPC),10.0,Cholesterol,48.5,PEG-DMG,1.5,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 15","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,45.0,Phospholipid (DOPE or DSPC),10.0,Cholesterol,43.5,PEG-DMG,1.5,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 16","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,55.0,Phospholipid (DOPE or DSPC),10.0,Cholesterol,33.5,PEG-DMG,1.5,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 17","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,60.0,Phospholipid (DOPE or DSPC),10.0,Cholesterol,28.5,PEG-DMG,1.5,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 18","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,40.0,Phospholipid (DOPE or DSPC),5.0,Cholesterol,53.5,PEG-DMG,1.5,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 19","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,45.0,Phospholipid (DOPE or DSPC),5.0,Cholesterol,48.5,PEG-DMG,1.5,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 20","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,50.0,Phospholipid (DOPE or DSPC),5.0,Cholesterol,43.5,PEG-DMG,1.5,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 21","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,40.0,Phospholipid (DOPE or DSPC),20.0,Cholesterol,40.0,PEG-DMG,0.0,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 22","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,45.0,Phospholipid (DOPE or DSPC),20.0,Cholesterol,35.0,PEG-DMG,0.0,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 23","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,50.0,Phospholipid (DOPE or DSPC),20.0,Cholesterol,30.0,PEG-DMG,0.0,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 24","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,55.0,Phospholipid (DOPE or DSPC),20.0,Cholesterol,25.0,PEG-DMG,0.0,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 25","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,60.0,Phospholipid (DOPE or DSPC),20.0,Cholesterol,20.0,PEG-DMG,0.0,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 26","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,40.0,Phospholipid (DOPE or DSPC),15.0,Cholesterol,45.0,PEG-DMG,0.0,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 27","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,45.0,Phospholipid (DOPE or DSPC),15.0,Cholesterol,40.0,PEG-DMG,0.0,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 28","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,50.0,Phospholipid (DOPE or DSPC),15.0,Cholesterol,35.0,PEG-DMG,0.0,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 29","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,55.0,Phospholipid (DOPE or DSPC),15.0,Cholesterol,30.0,PEG-DMG,0.0,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 30","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,60.0,Phospholipid (DOPE or DSPC),15.0,Cholesterol,25.0,PEG-DMG,0.0,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 31","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,40.0,Phospholipid (DOPE or DSPC),10.0,Cholesterol,50.0,PEG-DMG,0.0,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 32","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,45.0,Phospholipid (DOPE or DSPC),10.0,Cholesterol,45.0,PEG-DMG,0.0,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 33","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,50.0,Phospholipid (DOPE or DSPC),0.0,Cholesterol,48.5,PEG-DMG,1.5,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 34","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,50.0,Phospholipid (DOPE or DSPC),10.0,Cholesterol,40.0,PEG-DMG,0.0,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 35","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,55.0,Phospholipid (DOPE or DSPC),10.0,Cholesterol,35.0,PEG-DMG,0.0,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Table 23, Row 36","Compound according to Formula (I), (IA), (II), (IIa), (IIb), (IIc), (IId) or (IIe)",Nano-precipitation,,60.0,Phospholipid (DOPE or DSPC),10.0,Cholesterol,30.0,PEG-DMG,0.0,,,"NanoAssemblr microfluidic based system, 12 mL/min, water:ethanol 3:1",Mice,,,Intravenously,Luc or hEPO,mRNA,"0.05 mg/kg, 0.5 mg/kg"
+"Example 21, Group 1",Compound 18,Pharmacokinetics Cmax (pg/ml) at 0.05 mpk,379000,,,,,,,,,,,Cynomolgus monkeys,Non-human primates,hEPO,Intravenous infusion,hEPO mRNA,mRNA,
+"Example 21, Group 1",Compound 18,Pharmacokinetics AUCall (hr·pg/ml) at 0.05 mpk,7720000,,,,,,,,,,,Cynomolgus monkeys,Non-human primates,hEPO,Intravenous infusion,hEPO mRNA,mRNA,
+"Example 21, Group 2",Compound 18,Pharmacokinetics Cmax (pg/ml) at 0.3 mpk,384000,,,,,,,,,,,Cynomolgus monkeys,Non-human primates,hEPO,Intravenous infusion,hEPO mRNA,mRNA,
+"Example 21, Group 2",Compound 18,Pharmacokinetics AUCall (hr·pg/ml) at 0.3 mpk,10200000,,,,,,,,,,,Cynomolgus monkeys,Non-human primates,hEPO,Intravenous infusion,hEPO mRNA,mRNA,
+"Example 21, Group 3",Compound 18,Pharmacokinetics Cmax (pg/ml) at 1.0 mpk,551000,,,,,,,,,,,Cynomolgus monkeys,Non-human primates,hEPO,Intravenous infusion,hEPO mRNA,mRNA,
+"Example 21, Group 3",Compound 18,Pharmacokinetics AUCall (hr·pg/ml) at 1.0 mpk,23200000,,,,,,,,,,,Cynomolgus monkeys,Non-human primates,hEPO,Intravenous infusion,hEPO mRNA,mRNA,
+"Example 22, Table 30",Compound 18,Particle Size (nm),102.6,,,,,,,,,,,,,,,hEPO mRNA,mRNA,
+"Example 22, Table 30",Compound 18,Polydispersity Index (PDI),0.23,,,,,,,,,,,,,,,hEPO mRNA,mRNA,
+"Example 22, Table 30",Compound 18,Encapsulation Efficiency (%),85.56,,,,,,,,,,,,,,,hEPO mRNA,mRNA,
+"Example 22, Table 30",Compound 25,Particle Size (nm),98.8,,,,,,,,,,,,,,,hEPO mRNA,mRNA,
+"Example 22, Table 30",Compound 25,Polydispersity Index (PDI),0.23,,,,,,,,,,,,,,,hEPO mRNA,mRNA,
+"Example 22, Table 30",Compound 25,Encapsulation Efficiency (%),87.01,,,,,,,,,,,,,,,hEPO mRNA,mRNA,
+"Example 22, Table 30",Compound 26,Particle Size (nm),79.2,,,,,,,,,,,,,,,hEPO mRNA,mRNA,
+"Example 22, Table 30",Compound 26,Polydispersity Index (PDI),0.12,,,,,,,,,,,,,,,hEPO mRNA,mRNA,
+"Example 22, Table 30",Compound 26,Encapsulation Efficiency (%),95.6,,,,,,,,,,,,,,,hEPO mRNA,mRNA,
+"Example 22, Table 30",Compound 48,Particle Size (nm),70.6,,,,,,,,,,,,,,,hEPO mRNA,mRNA,
+"Example 22, Table 30",Compound 48,Polydispersity Index (PDI),0.176,,,,,,,,,,,,,,,hEPO mRNA,mRNA,
+"Example 22, Table 30",Compound 48,Encapsulation Efficiency (%),91.92,,,,,,,,,,,,,,,hEPO mRNA,mRNA,
+"Example 22, Table 30",MC3,Particle Size (nm),106.0,,,,,,,,,,,,,,,hEPO mRNA,mRNA,
+"Example 22, Table 30",MC3,Encapsulation Efficiency (%),91.66,,,,,,,,,,,,,,,hEPO mRNA,mRNA,
+"Example 22, Table 32",MC3,Pharmacokinetics Cmax (ng/mL) at 0.01 mpk,2.36,,,,,,,,,,,Cynomolgus monkeys,Non-human primates,hEPO,Intravenous infusion,hEPO mRNA,mRNA,
+"Example 22, Table 32",MC3,Pharmacokinetics AUC0-t (hr*ng/mL) at 0.01 mpk,16.8,,,,,,,,,,,Cynomolgus monkeys,Non-human primates,hEPO,Intravenous infusion,hEPO mRNA,mRNA,
+"Example 22, Table 32",Compound 18,Pharmacokinetics Cmax (ng/mL) at 0.01 mpk,34.7,,,,,,,,,,,Cynomolgus monkeys,Non-human primates,hEPO,Intravenous infusion,hEPO mRNA,mRNA,
+"Example 22, Table 32",Compound 18,Pharmacokinetics AUC0-t (hr*ng/mL) at 0.01 mpk,1060,,,,,,,,,,,Cynomolgus monkeys,Non-human primates,hEPO,Intravenous infusion,hEPO mRNA,mRNA,
+"Example 22, Table 32",Compound 25,Pharmacokinetics Cmax (ng/mL) at 0.01 mpk,15.1,,,,,,,,,,,Cynomolgus monkeys,Non-human primates,hEPO,Intravenous infusion,hEPO mRNA,mRNA,
+"Example 22, Table 32",Compound 25,Pharmacokinetics AUC0-t (hr*ng/mL) at 0.01 mpk,249,,,,,,,,,,,Cynomolgus monkeys,Non-human primates,hEPO,Intravenous infusion,hEPO mRNA,mRNA,
+"Example 22, Table 32",Compound 26,Pharmacokinetics Cmax (ng/mL) at 0.01 mpk,17.7,,,,,,,,,,,Cynomolgus monkeys,Non-human primates,hEPO,Intravenous infusion,hEPO mRNA,mRNA,
+"Example 22, Table 32",Compound 26,Pharmacokinetics AUC0-t (hr*ng/mL) at 0.01 mpk,302,,,,,,,,,,,Cynomolgus monkeys,Non-human primates,hEPO,Intravenous infusion,hEPO mRNA,mRNA,
+"Example 22, Table 32",Compound 48,Pharmacokinetics Cmax (ng/mL) at 0.01 mpk,9.49,,,,,,,,,,,Cynomolgus monkeys,Non-human primates,hEPO,Intravenous infusion,hEPO mRNA,mRNA,
+"Example 22, Table 32",Compound 48,Pharmacokinetics AUC0-t (hr*ng/mL) at 0.01 mpk,117,,,,,,,,,,,Cynomolgus monkeys,Non-human primates,hEPO,Intravenous infusion,hEPO mRNA,mRNA,
+"Example 23, Table 33",Compound 18,Encapsulation Efficiency (%),79.3,,,,,,,,,,,,,,,anti-HA antibody mRNA,mRNA,
+"Example 23, Table 33",Compound 18,Particle Diameter (nm),76.8,,,,,,,,,,,,,,,anti-HA antibody mRNA,mRNA,
+"Example 23, Table 33",Compound 18,Polydispersity Index (PDI),0.16,,,,,,,,,,,,,,,anti-HA antibody mRNA,mRNA,
+"Example 23, Table 34",MC3,Pharmacokinetics AUC (ug/mL * h) at 0.1 mpk,77.05,,,,,,,,,,,Cynomolgus monkeys,Non-human primates,anti-HA antibody,Intravenous infusion,anti-HA antibody mRNA,mRNA,
+"Example 23, Table 34",Compound 18,Pharmacokinetics AUC (ug/mL * h) at 0.1 mpk,354.3,,,,,,,,,,,Cynomolgus monkeys,Non-human primates,anti-HA antibody,Intravenous infusion,anti-HA antibody mRNA,mRNA,
+"Example 23, Table 34",MC3,Pharmacokinetics AUC (ug/mL * h) at 0.3 mpk,235.7,,,,,,,,,,,Cynomolgus monkeys,Non-human primates,anti-HA antibody,Intravenous infusion,anti-HA antibody mRNA,mRNA,
+"Example 23, Table 34",Compound 18,Pharmacokinetics AUC (ug/mL * h) at 0.3 mpk,1055,,,,,,,,,,,Cynomolgus monkeys,Non-human primates,anti-HA antibody,Intravenous infusion,anti-HA antibody mRNA,mRNA,

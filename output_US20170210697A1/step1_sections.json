@@ -1,0 +1,44 @@
+[
+  {
+    "category_no": 1,
+    "category_name": "Background",
+    "start_tag": "[0004]",
+    "end_tag": "[0005]"
+  },
+  {
+    "category_no": 2,
+    "category_name": "Markush",
+    "start_tag": "[0135]",
+    "end_tag": "[0248]"
+  },
+  {
+    "category_no": 3,
+    "category_name": "Specific Compounds",
+    "start_tag": "[0249]",
+    "end_tag": "[0251]"
+  },
+  {
+    "category_no": 4,
+    "category_name": "Definitions",
+    "start_tag": "[0253]",
+    "end_tag": "[0301]"
+  },
+  {
+    "category_no": 5,
+    "category_name": "Manufacturing",
+    "start_tag": "[1422]",
+    "end_tag": "[1431]"
+  },
+  {
+    "category_no": 6,
+    "category_name": "Synthesis",
+    "start_tag": "[0500]",
+    "end_tag": "[1421]"
+  },
+  {
+    "category_no": 7,
+    "category_name": "Biological Examples",
+    "start_tag": "[1432]",
+    "end_tag": "[1484]"
+  }
+]
