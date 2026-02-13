@@ -1,0 +1,18 @@
+Source_Page,Extraction_Source,Compound_Type,Example_ID,Chemical_Name,SMILES,IUPAC_EN,Confidence_Level,Data_Quality_Flag
+11,Text,Target_Compound,DLin-K-C2-DMA,,C(CCCCCCC\C=C/C\C=C/CCCCC)C1(OCC(O1)CCN(C)C)CCCCCCCC\C=C/C\C=C/CCCCC,"2,2-dilinoleyl-4-(2-dimethylaminoethyl)-[1,3]-dioxolane",HIGH,OK
+11,Text,Target_Compound,DLin-K-DMA,,C(CCCCCCC\C=C/C\C=C/CCCCC)C1(OCC(O1)CN(C)C)CCCCCCCC\C=C/C\C=C/CCCCC,"2,2-dilinoleyl-4-dimethylaminomethyl-[1,3]-dioxolane",HIGH,OK
+11,Text,Target_Compound,DLin-M-C2-DMA,,C(CCCCCCC\C=C/C\C=C/CCCCC)C(C(C(=O)[O-])C)(N(C)C)CCCCCCCC\C=C/C\C=C/CCCCC,dilinoleylmethyl-3-dimethylaminopropionate,HIGH,OK
+11,Text,Target_Compound,DLin-M-C3-DMA,,CN(CCCC(=O)OC(CCCCCCCC\C=C/C\C=C/CCCCC)CCCCCCCC\C=C/C\C=C/CCCCC)C,"(6Z,9Z,28Z,31Z)-heptatriaconta-6,9,28,31-tetraen-19-yl 4-(dimethylamino)butanoate",HIGH,OK
+11,Text,Target_Compound,DLinDMA,,C(CCCCCCC\C=C/C\C=C/CCCCC)OC(C(C)OCCCCCCCC\C=C/C\C=C/CCCCC)N(C)C,"1,2-dilinoleyloxy-N,N-dimethylaminopropane",HIGH,OK
+11,Text,Target_Compound,y-DLenDMA,,C(CCCCCCC\C=C/C\C=C/C\C=C/CC)(=O)OOC(C(C)OOC(CCCCCCC\C=C/C\C=C/C\C=C/CC)=O)N(C)C,"1,2-di-y-linolenyloxy-N,N-dimethylaminopropane",MEDIUM,Check_Stereo_Ambiguity
+18,Image,Target_Compound,Example 7-001,,CN(CCCC(=O)OC(CCCCCCCC\C=C/C\C=C/CCCCC)CCCCCCCC\C=C/C\C=C/CCCCC)C,"(6Z,9Z,28Z,31Z)-heptatriaconta-6,9,28,31-tetraen-19-yl 4-(dimethylamino)butanoate",HIGH,OK
+21,Image,Target_Compound,Example 111,DLin-MPZ,C(CCCCCCC\C=C/C\C=C/CCCCC)OC(CN1CCN(CC1)C)COCCCCCCCC\C=C/C\C=C/CCCCC,"1-(2,3-bis(((9Z,12Z)-octadeca-9,12-dien-1-yl)oxy)propyl)-4-methylpiperazine",HIGH,OK
+21,Image,Target_Compound,Example 130,DLin-C-DAP,C(CCCCCCC\C=C/C\C=C/CCCCC)NC(OCC(CN(C)C)OC(NCCCCCCCC\C=C/C\C=C/CCCCC)=O)=O,"3-(dimethylamino)propane-1,2-diyl bis((9Z,12Z)-octadeca-9,12-dien-1-ylcarbamate)",HIGH,OK
+21,Image,Target_Compound,Example 135,DLinDAP,C(CCCCCCC\C=C/C\C=C/CCCCC)(=O)OCC(CN(C)C)OC(CCCCCCC\C=C/C\C=C/CCCCC)=O,"3-(dimethylamino)propane-1,2-diyl bis((9Z,12Z)-octadeca-9,12-dienoate)",HIGH,OK
+22,Text,Target_Compound,Compound 7,,CN(CCCC(=O)OC(CCCCCCCC\C=C/C\C=C/CCCCC)CCCCCCCC\C=C/C\C=C/CCCCC)C,"(6Z,9Z,28Z,31Z)-heptatriaconta-6,9,28,31-tetraen-19-yl 4-(dimethylamino)butanoate",HIGH,OK
+22,"Image, Text",Target_Compound,Example 53,Compound 53,CN(CCCCC(=O)OC(CCCCCCCCCC)C(CCC\C=C/CCCCC)CCC\C=C/CCCCC)C,(Z)-12-((Z)-dec-4-en-1-yl)docos-16-en-11-yl 5-(dimethylamino)pentanoate,HIGH,OK
+22,Image,Target_Compound,Example 7-002,,CN(CCCC(=O)OC(CCCCCCCC\C=C/C\C=C/CCCCC)CCCCCCCC\C=C/C\C=C/CCCCC)C,"(6Z,9Z,28Z,31Z)-heptatriaconta-6,9,28,31-tetraen-19-yl 4-(dimethylamino)butanoate",HIGH,OK
+23,"Image, Text",Target_Compound,Example 11,Compound 11,CN(CCCCCC(=O)OC(CCC\C=C/CCCCC)C(CCC\C=C/CCCCC)CCC\C=C/CCCCC)C,"(6Z,16Z)-12-((Z)-dec-4-en-1-yl)docosa-6,16-dien-11-yl 6-(dimethylamino)hexanoate",HIGH,OK
+23,"Image, Text",Target_Compound,Example 13,Compound 13,CN(CCCCC(=O)OC(CCC\C=C/CCCCC)C(CCC\C=C/CCCCC)CCC\C=C/CCCCC)C,"(6Z,16Z)-12-((Z)-dec-4-en-1-yl)docosa-6,16-dien-11-yl 5-(dimethylamino)pentanoate",HIGH,OK
+23,"Image, Text",Target_Compound,Example 14,Compound 14,CN(CCCCC(=O)OC(CCCCCCCCCC)C(CCCCCCCCCC)CCCCCCCCCC)C,12-decyldocosan-11-yl 5-(dimethylamino)pentanoate,HIGH,OK
+35,Text,Target_Compound,DSPC,,C(CCCCCCCCCCCCCCCCC)(=O)OC[C@@H](OC(CCCCCCCCCCCCCCCCC)=O)COP(=O)([O-])OCC[N+](C)(C)C,"1,2-distearoyl-sn-glycero-3-phosphocholine",HIGH,OK

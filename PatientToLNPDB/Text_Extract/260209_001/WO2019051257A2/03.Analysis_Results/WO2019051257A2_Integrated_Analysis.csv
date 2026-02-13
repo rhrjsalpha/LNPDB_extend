@@ -1,0 +1,145 @@
+Source_Page,Extraction_Source,Compound_Type,Example_ID,Chemical_Name,SMILES,IUPAC_EN,Confidence_Level,Data_Quality_Flag
+11,Text,Target_Compound,Compound (507),,CCCCC\C=C/C\C=C/CCCCCCCCC(CCCCCCCC\C=C/C\C=C/CCCCC)C(C(=O)[O-])CCN(C)C,"((6Z,9Z,28Z,31Z)-heptatriaconta-6,9,28,31-tetraen-19-yl 4-(dimethylamino)butanoate)",HIGH,OK
+"11,53,72,86,283","Image, Text",Target_Compound,Example 513,,CN(CCCCC(=O)OC(CCC\C=C/CCCCC)C(CCC\C=C/CCCCC)CCC\C=C/CCCCC)C,"(6Z,16Z)-12-((Z)-dec-4-enyl)docosa-6,16-dien-11-yl 5-(dimethylamino)pentanoate",HIGH,OK
+11,Text,Target_Compound,Compound (515),gamma-DLenDMA,C(CCCC\C=C/C\C=C/C\C=C/CCCCC)OC(C(C)OCCCCC\C=C/C\C=C/C\C=C/CCCCC)N(C)C,"1,2-di-gamma-linolenyloxy-N,N-dimethylaminopropane",HIGH,OK
+"11,46,72,283",Text,Target_Compound,DLinDMA,,C(CCCCCCC\C=C/C\C=C/CCCCC)OC(C(C)OCCCCCCCC\C=C/C\C=C/CCCCC)N(C)C,"1,2-dilinoleyloxy-N,N-dimethylaminopropane",HIGH,OK
+15,Image,Target_Compound,AT-61,,ClC=1C=C(C=C(C1)Cl)NC(CN1C(=NC2=CC=CC=C2C1=O)C1=CC=CC=C1)=O,"N-(3,5-dichlorophenyl)-2-(4-oxo-2-phenylquinazolin-3(4H)-yl)acetamide",HIGH,OK
+15,Image,Target_Compound,Bay-41-4109,,ClC1=C(C=CC(=C1)F)C1N=C(NC(=C1C(=O)OC)C)C1=NC=CC=C1,"Methyl 4-(2-chloro-4-fluorophenyl)-6-methyl-2-(pyridin-2-yl)-1,4-dihydropyrimidine-5-carboxylate",HIGH,OK
+16,Image,Target_Compound,PBHBV-001,,ClC1=C(C=CC(=C1)F)NC(=O)C=1C(N=C(NC1C)C=1SC=CN1)C1=C(C=C(C=C1)F)Cl,"N-(2-chloro-4-fluorophenyl)-4-(2-chloro-4-fluorophenyl)-6-methyl-2-(thiazol-2-yl)-1,4-dihydropyrimidine-5-carboxamide",HIGH,OK
+16,Image,Target_Compound,PBHBV-2-15,,ClC1=C(C=CC(=C1)F)NC(=O)C=1C(N=C(NC1C)C=1SC=CN1)C1=C(C=C(C=C1)F)F,"N-(2-chloro-4-fluorophenyl)-4-(2,4-difluorophenyl)-6-methyl-2-(thiazol-2-yl)-1,4-dihydropyrimidine-5-carboxamide",HIGH,OK
+23,Text,Target_Compound,RT Inhibitor,,NC1=C2N=CN(C2=NC=N1)[C@H]1[C@H]([C@@H]([C@H](C1=C)CO)O)F,"(1R,2R,3R,5R)-3-(6-amino-9H-9-purinyl)-2-fluoro-5-(hydroxymethyl)-4-methylenecyclopentan-1-ol",HIGH,OK
+23,Text,Target_Compound,RT Inhibitor,,NC1=C2N=CN(C2=NC=N1)[C@@H]1C([C@H]([C@H]([C@@H]1F)O)C[C@](N=P(=O)OC1=CC=CC=C1)(C(=O)OC)OC)=C,"methyl ((((1R,3R,4R,5R)-3-(6-amino-9H-purin-9-yl)-4-fluoro-5-hydroxy-2-methylenecyclopentyl)methoxy)(phenoxy)phosphoryl)-(D or L)-alaninate",MEDIUM,Check_Stereo_Ambiguity
+23,Text,Target_Compound,RT Inhibitor,,F[C@H]1[C@@H]([C@@H](C([C@@H]1C1=C2N=CNC2=NC=N1)=C)C[C@](N=P(=O)OC1=CC=CC=C1)(C(=O)OC)OC)O,"methyl ((((1R,2R,3R,4R)-3-fluoro-2-hydroxy-5-methylene-4-(6-oxo-1,6-dihydro-9H-purin-9-yl)cyclopentyl)methoxy)(phenoxy)phosphoryl)-(D or L)-alaninate",MEDIUM,Check_Stereo_Ambiguity
+24,Image,Target_Compound,24_1,Unlabeled,C1(=CC=CC=C1)S(=O)(=O)NC1=C(C(=O)NCC2=CC=NC=C2)C=CC=C1,2-(Benzenesulfonamido)-N-(pyridin-4-ylmethyl)benzamide,HIGH,OK
+24,Text,Target_Compound,cccDNA Inhibitor,,ClC1=C(C=CC(=C1)C(F)(F)F)S(=O)(=O)N(C1=C(C=CC(=C1)C(F)(F)F)Cl)CC(=O)NCC1=CC=NC=C1,2-(2-chloro-N-(2-chloro-5-(trifluoromethyl)phenyl)-4-(trifluoromethyl)phenylsulfonamido)-N-(pyridin-4-ylmethyl)acetamide,HIGH,OK
+24,Text,Target_Compound,cccDNA Inhibitor,,ClC1=CC=C(C=C1)S(=O)(=O)N(C1=C(C=CC(=C1)C(F)(F)F)Cl)CC(=O)NCC1=CC=NC=C1,2-(4-chloro-N-(2-chloro-5-(trifluoromethyl)phenyl)phenylsulfonamido)-N-(pyridin-4-ylmethyl)acetamide,HIGH,OK
+24,Text,Target_Compound,cccDNA Inhibitor,,ClC1=C(C=C(C=C1)C(F)(F)F)N(S(=O)(=O)C1=CC=CC=C1)CC(=O)NCC1=CC=NC=C1,2-(N-(2-chloro-5-(trifluoromethyl)phenyl)phenylsulfonamido)-N-(pyridin-4-ylmethyl)acetamide,HIGH,OK
+25,Text,Target_Compound,cccDNA Inhibitor,,ClC1=C(C=C(C=C1)C(F)(F)F)N(S(=O)(=O)C1=CC=C(C=C1)OC)CC(=O)NCC1=CC=NC=C1,2-(N-(2-chloro-5-(trifluoromethyl)phenyl)-4-methoxyphenylsulfonamido)-N-(pyridin-4-ylmethyl)acetamide,HIGH,OK
+25,Text,Target_Compound,cccDNA Inhibitor,,ClC1=C(C=C(C=C1)C(F)(F)F)N(S(=O)(=O)C1=CC=CC=C1)CC(=O)NCC1CCN(CC1)C,2-(N-(2-chloro-5-(trifluoromethyl)phenyl)phenylsulfonamido)-N-((1-methylpiperidin-4-yl)methyl)acetamide,HIGH,OK
+25,Text,Target_Compound,cccDNA Inhibitor,,ClC1=C(C=C(C=C1)C(F)(F)F)N(S(=O)(=O)C1=CC=CC=C1)CC(=O)NCC1CCNCC1,2-(N-(2-chloro-5-(trifluoromethyl)phenyl)phenylsulfonamido)-N-(piperidin-4-ylmethyl)acetamide,HIGH,OK
+25,Text,Target_Compound,cccDNA Inhibitor,,ClC1=C(C=C(C=C1)C(F)(F)F)N(S(=O)(=O)C1=CC=CC=C1)C(C(=O)NCC=1C=NC=CC1)C,2-(N-(2-chloro-5-(trifluoromethyl)phenyl)phenylsulfonamido)-N-(pyridin-3-ylmethyl)propanamide,HIGH,OK
+25,Text,Target_Compound,cccDNA Inhibitor,,ClC1=C(C=C(C=C1)C(F)(F)F)N(S(=O)(=O)C1=CC=CC=C1)CC(=O)NCC=1C=NC=CC1,2-(N-(2-chloro-5-(trifluoromethyl)phenyl)phenylsulfonamido)-N-(pyridin-3-ylmethyl)acetamide,HIGH,OK
+25,Text,Target_Compound,cccDNA Inhibitor,,ClC1=C(C=C(C=C1)C(F)(F)F)N(S(=O)(=O)C1=CC=CC=C1)CC(=O)NCC=1C=NC=NC1,2-(N-(2-chloro-5-(trifluoromethyl)phenyl)phenylsulfonamido)-N-(pyrimidin-5-ylmethyl)acetamide,HIGH,OK
+25,Text,Target_Compound,cccDNA Inhibitor,,ClC1=C(C=C(C=C1)C(F)(F)F)N(S(=O)(=O)C1=CC=CC=C1)CC(=O)NCC1=NC=NC=C1,2-(N-(2-chloro-5-(trifluoromethyl)phenyl)phenylsulfonamido)-N-(pyrimidin-4-ylmethyl)acetamide,HIGH,OK
+25,Text,Target_Compound,cccDNA Inhibitor,,ClC=1C=CC(=C(C1)N(S(=O)(=O)C1=CC=CC=C1)CC(=O)NCC1=CC=NC=C1)F,2-(N-(5-chloro-2-fluorophenyl)phenylsulfonamido)-N-(pyridin-4-ylmethyl)acetamide,HIGH,OK
+25,Text,Target_Compound,cccDNA Inhibitor,,ClC1=C(C=C(C=C1)C(F)(F)F)N(S(=O)(=O)C1=CC=CC=C1)CCCC(=O)NCC1=CC=NC=C1,4-(N-(2-chloro-5-(trifluoromethyl)phenyl)phenylsulfonamido)-N-(pyridin-4-yl-methyl)butanamide,HIGH,OK
+25,Text,Target_Compound,cccDNA Inhibitor,,[Cl-].ClC1=C(C=C(C=C1)C(F)(F)F)N(S(=O)(=O)C1=CC=CC=C1)CC(=O)NCC1CC[N+](CC1)(C)C,"4-((2-(N-(2-chloro-5-(trifluoromethyl)phenyl)phenylsulfonamido)-acetamido)-methyl)-1,1-dimethylpiperidin-1-ium chloride",HIGH,OK
+25,Text,Target_Compound,cccDNA Inhibitor,,C(C1=CC=CC=C1)N(S(=O)(=O)C1=CC=C(C(=O)NC2=C(C=CC(=C2)C(F)(F)F)Cl)C=C1)C,4-(benzyl-methyl-sulfamoyl)-N-(2-chloro-5-trifluoromethyl-phenyl)-benzamide,HIGH,OK
+25,Text,Target_Compound,cccDNA Inhibitor,,C(C1=CC=CC=C1)N(S(=O)(=O)C1=CC=C(C(=O)NC=2C=C3C=C(NC3=CC2)C)C=C1)C,4-(benzyl-methyl-sulfamoyl)-N-(2-methyl-1H-indol-5-yl)-benzamide,HIGH,OK
+25,Text,Target_Compound,cccDNA Inhibitor,,C(C1=CC=CC=C1)N(S(=O)(=O)C1=CC=C(C(=O)NC=2C=CC3=C(N=C(S3)C)C2)C=C1)C,4-(benzyl-methyl-sulfamoyl)-N-(2-methyl-benzothiazol-5-yl)-benzamide,HIGH,OK
+25,Text,Target_Compound,cccDNA Inhibitor,,C(C1=CC=CC=C1)N(S(=O)(=O)C1=CC=C(C(=O)NC2=CC3=C(N=C(S3)C)C=C2)C=C1)C,4-(benzyl-methyl-sulfamoyl)-N-(2-methyl-benzothiazol-6-yl)-benzamide,HIGH,OK
+25,Text,Target_Compound,cccDNA Inhibitor,,C(C1=CC=CC=C1)N(S(=O)(=O)C1=CC=C(C(=O)NCC2=CC=NC=C2)C=C1)C,4-(benzyl-methyl-sulfamoyl)-N-pyridin-4-ylmethyl-benzamide,HIGH,OK
+25,Text,Target_Compound,cccDNA Inhibitor,,NCCNC(CN(S(=O)(=O)C1=CC=CC=C1)C1=C(C=CC(=C1)C(F)(F)F)Cl)=O,N-(2-aminoethyl)-2-(N-(2-chloro-5-(trifluoromethyl)phenyl)phenylsulfonamido)-acetamide,HIGH,OK
+25,Text,Target_Compound,cccDNA Inhibitor,,ClC1=C(C=C(C=C1)C(F)(F)F)N(S(=O)(=O)C1=CC=CC=C1)CC(=O)N1CC2=CC=NC=C2CC1,"N-(2-chloro-5-(trifluoromethyl)phenyl)-N-(2-(3,4-dihydro-2,6-naphthyridin-2(1H)-yl)-2-oxoethyl)benzenesulfonamide",HIGH,OK
+25,Text,Target_Compound,cccDNA Inhibitor,,S1C=NC2=C1C=C(C=C2)NC(C2=CC=C(C=C2)S(N(C)CC2=CC=CC=C2)(=O)=O)=O,N-benzothiazol-6-yl-4-(benzyl-methyl-sulfamoyl)-benzamide,HIGH,OK
+47,Text,Target_Compound,D-Lin-K-N-methylpiperzine,,O1COCC1.C(CCCCCCC\C=C/C\C=C/CCCCC)C1(NCCN(C1)C)CCCCCCCC\C=C/C\C=C/CCCCC,"2,2-dilinoleyl-4-methylpiperazine-[1,3]-dioxolane",MEDIUM,Check_Stereo_Ambiguity
+47,Text,Target_Compound,DLin-K2-DMA,,C(CCCCCCC\C=C/C\C=C/CCCCC)C1(OC(C(O1)CN(C)C)CN(C)C)CCCCCCCC\C=C/C\C=C/CCCCC,"2,2-dilinoleyl-4,5-bis(dimethylaminomethyl)-[1,3]-dioxolane",MEDIUM,Check_Stereo_Ambiguity
+47,Text,Target_Compound,DLin-K6-DMA,,C(CCCCCCC\C=C/C\C=C/CCCCC)C1(OCC(CO1)CN(C)C)CCCCCCCC\C=C/C\C=C/CCCCC,"2,2-dilinoleyl-5-dimethylaminomethyl-[1,3]-dioxane",MEDIUM,Check_Stereo_Ambiguity
+"47,72",Text,Target_Compound,DLin-K-C2-DMA,,C(CCCCCCC\C=C/C\C=C/CCCCC)C1(OCC(O1)CCN(C)C)CCCCCCCC\C=C/C\C=C/CCCCC,"2,2-dilinoleyl-4-(2-dimethylaminoethyl)-[1,3]-dioxolane",MEDIUM,Check_Stereo_Ambiguity
+47,Text,Target_Compound,DLin-K-C3-DMA,,C(CCCCCCC\C=C/C\C=C/CCCCC)C1(OCC(O1)CCCN(C)C)CCCCCCCC\C=C/C\C=C/CCCCC,"2,2-dilinoleyl-4-(3-dimethylaminopropyl)-[1,3]-dioxolane",MEDIUM,Check_Stereo_Ambiguity
+47,Text,Target_Compound,DLin-K-C4-DMA,,C(CCCCCCC\C=C/C\C=C/CCCCC)C1(OCC(O1)CCCCN(C)C)CCCCCCCC\C=C/C\C=C/CCCCC,"2,2-dilinoleyl-4-(4-dimethylaminobutyl)-[1,3]-dioxolane",MEDIUM,Check_Stereo_Ambiguity
+"47,72",Text,Target_Compound,DLin-K-DMA,,C(CCCCCCC\C=C/C\C=C/CCCCC)C1(OCC(O1)CN(C)C)CCCCCCCC\C=C/C\C=C/CCCCC,"2,2-dilinoleyl-4-dimethylaminomethyl-[1,3]-dioxolane",MEDIUM,Check_Stereo_Ambiguity
+47,Text,Target_Compound,DLin-K-MA,,C(CCCCCCCC=CCC=CCCCCC)C1(OCC(O1)N1CCOCC1)CCCCCCCCC=CCC=CCCCCC,"2,2-dilinoleyl-4-N-morpholino-[1,3]-dioxolane",MEDIUM,Check_Stereo_Ambiguity
+47,Text,Target_Compound,DLin-K-MPZ,,C(CCCCCCC\C=C/C\C=C/CCCCC)C1(N(CCN(C1)C)C1OCCO1)CCCCCCCC\C=C/C\C=C/CCCCC,"2,2-dilinoleyl-4-N-methylpiperazino-[1,3]-dioxolane",MEDIUM,Check_Stereo_Ambiguity
+47,Text,Target_Compound,DO-K-DMA,,C(CCCCCCC\C=C/CCCCCCCC)(=O)C1(OCC(O1)CN(C)C)C(CCCCCCC\C=C/CCCCCCCC)=O,"2,2-dioleoyl-4-dimethylaminomethyl-[1,3]-dioxolane",MEDIUM,Check_Stereo_Ambiguity
+47,Text,Target_Compound,DS-K-DMA,,C(CCCCCCCCCCCCCCCCC)(=O)C1(OCC(O1)CN(C)C)C(CCCCCCCCCCCCCCCCC)=O,"2,2-distearoyl-4-dimethylaminomethyl-[1,3]-dioxolane",MEDIUM,Check_Stereo_Ambiguity
+52,Image,Target_Compound,Example 507-001,,CN(CCCC(=O)OC(CCCCCCCC\C=C/C\C=C/CCCCC)CCCCCCCC\C=C/C\C=C/CCCCC)C,"(6Z,9Z,28Z,31Z)-heptatriaconta-6,9,28,31-tetraen-19-yl 4-(dimethylamino)butanoate",HIGH,OK
+52,Text,Target_Compound,Example 507-002,,CN(CCCC(=O)OC(CCCCCCCC\C=C/C\C=C/CCCCC)CCCCCCCC\C=C/C\C=C/CCCCC)C,"(6Z,9Z,28Z,31Z)-heptatriaconta-6,9,28,31-tetraen-19-yl 4-(dimethylamino)butanoate",HIGH,OK
+52,Text,Target_Compound,Example 511,Example 511-001,CN(CCCCCC(=O)OC(CCC\C=C/CCCCC)C(CCC\C=C/CCCCC)CCC\C=C/CCCCC)C,"(6Z,16Z)-12-((Z)-dec-4-enyl)docosa-6,16-dien-11-yl 6-(dimethylamino)hexanoate",HIGH,OK
+52,Image,Target_Compound,Example 511-001,Example 511,CN(CCCCCC(=O)OC(CCC\C=C/CCCCC)C(CCC\C=C/CCCCC)CCC\C=C/CCCCC)C,"(6Z,16Z)-12-[(4Z)-dec-4-en-1-yl]docosa-6,16-dien-11-yl 6-(dimethylamino)hexanoate",HIGH,OK
+52,"Image, Text",Target_Compound,Example 553,,CN(CCCCC(=O)OC(CCCCCCCCCC)C(CCC\C=C/CCCCC)CCC\C=C/CCCCC)C,(Z)-12-((Z)-dec-4-enyl)docos-16-en-11-yl 5-(dimethylamino)pentanoate,HIGH,OK
+53,"Image, Text",Target_Compound,Example 514,,CN(CCCCC(=O)OC(CCCCCCCCCC)C(CCCCCCCCCC)CCCCCCCCCC)C,12-decyldocosan-11-yl 5-(dimethylamino)pentanoate,HIGH,OK
+"72,91,283",Text,Target_Compound,Compound (507),,CN(CCCC(=O)OC(CCCCCCCC\C=C/C\C=C/CCCCC)CCCCCCCC\C=C/C\C=C/CCCCC)C,"(6Z,9Z,28Z,31Z)-heptatriaconta-6,9,28,31-tetraen-19-yl 4-(dimethylamino)butanoate",HIGH,OK
+72,Text,Target_Compound,DLin-M-C2-DMA,,C(CCCCCCC\C=C/C\C=C/CCCCC)C(C(C(=O)[O-])C)(N(C)C)CCCCCCCC\C=C/C\C=C/CCCCC,dilinoleylmethyl-3-dimethylaminopropionate,MEDIUM,Check_Stereo_Ambiguity
+163,Image,Target_Compound,-,GalNAc,C(C)(=O)N[C@H]1C(O)O[C@@H]([C@@H]([C@@H]1O)O)CO,2-acetamido-2-deoxy-D-galactopyranose,HIGH,OK
+167,Text,Target_Compound,Example 3,,CC1=CC=C(C=C1)S(=O)(=O)OCCOCCOCCOCCO,2-(2-(2-(2-hydroxyethoxy)ethoxy)ethoxy)ethyl 4-methylbenzenesulfonate,HIGH,OK
+168,Text,Target_Compound,Example 4,,N(=[N+]=[N-])CCOCCOCCOCCO,2-(2-(2-(2-azidoethoxy)ethoxy)ethoxy)ethan-1-ol,HIGH,OK
+168,Text,Target_Compound,Example 7-002,,C(C)(=O)O[C@@H]1[C@@H]([C@H]2N=C(O[C@H]2O[C@@H]1COC(C)=O)C)OC(C)=O,"(3aR,5R,6R,7R,7aR)-5-(acetoxymethyl)-2-methyl-3a,6,7,7a-tetrahydro-5H-pyrano[3,2-d]oxazole-6,7-diyl diacetate",HIGH,OK
+169,Text,Target_Compound,Example 8-001,Example 8-002,C(C)(=O)O[C@H]1[C@H](O[C@H]([C@@H]([C@H]1OC(C)=O)NC(C)=O)OCCOCCOCCOCCN=[N+]=[N-])COC(C)=O,"(2R,3R,4R,5R,6R)-5-acetamido-2-(acetoxymethyl)-6-(2-(2-(2-(2-azidoethoxy)ethoxy)ethoxy)ethoxy)tetrahydro-2H-pyran-3,4-diyl diacetate",HIGH,OK
+169,Image,Target_Compound,Example 8-001,,C(C)(=O)OC[C@H]1O[C@H]([C@@H]([C@H]([C@H]1OC(C)=O)OC(C)=O)NC(C)=O)OCCOCCOCCN=[N+]=[N-],"[(2R,3R,4R,5R,6R)-5-acetamido-3,4-diacetyloxy-6-[2-[2-(2-azidoethoxy)ethoxy]ethoxy]oxan-2-yl]methyl acetate",HIGH,OK
+169,Text,Target_Compound,Example 8-002,Example 8-001,C(C)(=O)O[C@H]1[C@H](O[C@H]([C@@H]([C@H]1OC(C)=O)NC(C)=O)OCCOCCOCCOCCN=[N+]=[N-])COC(C)=O,"(2R,3R,4R,5R,6R)-5-acetamido-2-(acetoxymethyl)-6-(2-(2-(2-(2-azidoethoxy)ethoxy)ethoxy)ethoxy)tetrahydro-2H-pyran-3,4-diyl diacetate",HIGH,OK
+169,Text,Target_Compound,Example 9-001,Example 9-002,FC(C(=O)[O-])(F)F.C(C)(=O)N[C@H]1[C@@H](O[C@@H]([C@@H]([C@@H]1OC(C)=O)OC(C)=O)COC(C)=O)OCCOCCOCCOCC[NH3+],"2-(2-(2-(2-(((2R,3R,4R,5R,6R)-3-acetamido-4,5-diacetoxy-6-(acetoxymethyl)tetrahydro-2H-pyran-2-yl)oxy)ethoxy)ethoxy)ethoxy)ethan-1-aminium 2,2,2-trifluoroacetate",HIGH,OK
+169,Image,Target_Compound,Example 9-001,,FC(C(=O)[O-])(F)F.C(C)(=O)N[C@H]1[C@H]([C@H]([C@@H](O[C@H]1COC(C)=O)OCCOCCOCC[NH3+])OC(C)=O)OC(C)=O,"2-[2-[2-[[(2R,3R,4R,5R,6R)-5-acetamido-3,4-diacetyloxy-6-(acetoxymethyl)oxan-2-yl]oxy]ethoxy]ethoxy]ethanaminium 2,2,2-trifluoroacetate",HIGH,OK
+169,Text,Target_Compound,Example 9-002,Example 9-001,FC(C(=O)[O-])(F)F.C(C)(=O)N[C@H]1[C@@H](O[C@@H]([C@@H]([C@@H]1OC(C)=O)OC(C)=O)COC(C)=O)OCCOCCOCCOCC[NH3+],"2-(2-(2-(2-(((2R,3R,4R,5R,6R)-3-acetamido-4,5-diacetoxy-6-(acetoxymethyl)tetrahydro-2H-pyran-2-yl)oxy)ethoxy)ethoxy)ethoxy)ethan-1-aminium 2,2,2-trifluoroacetate",HIGH,OK
+170,Text,Target_Compound,Example 11-001,Example 11-002,C(C1=CC=CC=C1)OC(=O)NC(CCC(=O)OC(C)(C)C)(CCC(=O)OC(C)(C)C)CCC(=O)OC(C)(C)C,di-tert-butyl 4-(((benzyloxy)carbonyl)amino)-4-(3-(tert-butoxy)-3-oxopropyl)heptanedioate,MEDIUM,Check_Stereo_Ambiguity
+170,Text,Target_Compound,Example 11-002,Example 11-001,C(C1=CC=CC=C1)OC(=O)NC(CCC(=O)OC(C)(C)C)(CCC(=O)OC(C)(C)C)CCC(=O)OC(C)(C)C,di-tert-butyl 4-(((benzyloxy)carbonyl)amino)-4-(3-(tert-butoxy)-3-oxopropyl)heptanedioate,HIGH,OK
+170,"Image, Text",Target_Compound,Example 12-001,Example 12-002,C(C1=CC=CC=C1)OC(=O)NC(CCC(=O)O)(CCC(=O)O)CCC(=O)O,4-(((benzyloxy)carbonyl)amino)-4-(2-carboxyethyl)heptanedioic acid,MEDIUM,Check_Stereo_Ambiguity
+170,Text,Target_Compound,Example 12-002,Example 12-001,C(C1=CC=CC=C1)OC(=O)NC(CCC(=O)O)(CCC(=O)O)CCC(=O)O,4-(((benzyloxy)carbonyl)amino)-4-(2-carboxyethyl)heptanedioic acid,HIGH,OK
+171,Text,Target_Compound,Example 15,,NC=1C=C(C=C(C1)CO)CO,"(5-amino-1,3-phenylene)dimethanol",HIGH,OK
+171,Image,Target_Compound,Example 15-001,,NC=1C=C(C=C(C1)CO)CO,"(5-amino-1,3-phenylene)dimethanol",HIGH,OK
+172,"Image, Text",Target_Compound,Example 16,,OCC=1C=C(C=C(C1)CO)NC(CCCCCCCCC(=O)OC)=O,"methyl 10-((3,5-bis(hydroxymethyl)phenyl)amino)-10-oxodecanoate",HIGH,OK
+172,"Image, Text",Target_Compound,Example 17,,COC1=CC=C(C=C1)C(OCC=1C=C(C=C(C1)CO)NC(CCCCCCCCC(=O)OC)=O)(C1=CC=CC=C1)C1=CC=C(C=C1)OC,methyl 10-((3-((bis(4-methoxyphenyl)(phenyl)methoxy)methyl)-5-(hydroxymethyl)phenyl)amino)-10-oxodecanoate,HIGH,OK
+176,Text,Target_Compound,Example 21,,C(C1=CC=CC=C1)OC(=O)NCC(=O)NC(CCC(=O)OC(C)(C)C)(CCC(=O)OC(C)(C)C)CCC(=O)OC(C)(C)C,di-tert-butyl 4-(2-(((benzyloxy)carbonyl)amino)acetamido)-4-(3-(tert-butoxy)-3-oxopropyl)heptanedioate,MEDIUM,Check_Stereo_Ambiguity
+177,Text,Target_Compound,Example 22,,C(C1=CC=CC=C1)OC(=O)NCC(=O)NC(CCC(=O)O)(CCC(=O)O)CCC(=O)O,4-(2-(((benzyloxy)carbonyl)amino)acetamido)-4-(2-carboxyethyl)heptanedioic acid,MEDIUM,Check_Stereo_Ambiguity
+178,Text,Target_Compound,Example 26,,NC=1C=C(C=C(C1)CO)CO,"(5-amino-1,3-phenylene)dimethanol",HIGH,OK
+178,Text,Target_Compound,Example 27,,OCC=1C=C(C#N)C=C(C1)CO,"3,5-bis(hydroxymethyl)benzonitrile",HIGH,OK
+179,Text,Target_Compound,Example 28,,COC1=CC=C(C=C1)C(OCC=1C=C(C#N)C=C(C1)CO)(C1=CC=CC=C1)C1=CC=C(C=C1)OC,3-((bis(4-methoxyphenyl)(phenyl)methoxy)methyl)-5-(hydroxymethyl)benzonitrile,HIGH,OK
+179,Text,Target_Compound,Example 29,,NCC=1C=C(C=C(C1)COC(C1=CC=CC=C1)(C1=CC=C(C=C1)OC)C1=CC=C(C=C1)OC)CO,(3-(aminomethyl)-5-((bis(4-methoxyphenyl)(phenyl)methoxy)methyl)phenyl)methanol,HIGH,OK
+179,Text,Target_Compound,Example 30,,NCC=1C=C(CNC(CCCCCCCCC(=O)OC)=O)C=C(C1)COC(C1=CC=CC=C1)(C1=CC=C(C=C1)OC)C1=CC=C(C=C1)OC,methyl 10-((3-(aminomethyl)-5-((bis(4-methoxyphenyl)(phenyl)methoxy)methyl)benzyl)amino)-10-oxodecanoate,HIGH,OK
+184,Text,Target_Compound,Example 44,,OCC1=C(OCCCCCCCCCCC(=O)OC)C(=CC(=C1)C)CO,"methyl 11-(2,6-bis(hydroxymethyl)-4-methylphenoxy)undecanoate",HIGH,OK
+185,Text,Target_Compound,Example 45,,COC1=CC=C(C=C1)C(OCC1=C(OCCCCCCCCCCC(=O)OC)C(=CC(=C1)C)CO)(C1=CC=CC=C1)C1=CC=C(C=C1)OC,methyl 11-(2-((bis(4-methoxyphenyl)(phenyl)methoxy)methyl)-6-(hydroxymethyl)-4-methylphenoxy)undecanoate,HIGH,OK
+188,Text,Target_Compound,Example 51,,[Si](C)(C)(C(C)(C)C)OCCNCCO,2-((2-((tert-butyldimethylsilyl)oxy)ethyl)amino)ethan-1-ol,HIGH,OK
+189,Text,Target_Compound,Example 53,,COC1=CC=C(C=C1)C(OCCN(C(CCCCCCCCC(=O)OC)=O)CCO[Si](C)(C)C(C)(C)C)(C1=CC=CC=C1)C1=CC=C(C=C1)OC,methyl 10-((2-(bis(4-methoxyphenyl)(phenyl)methoxy)ethyl)(2-((tert-butyldimethylsilyl)oxy)ethyl)amino)-10-oxodecanoate,HIGH,OK
+189,Text,Target_Compound,Example 54,,COC1=CC=C(C=C1)C(OCCN(C(CCCCCCCCC(=O)OC)=O)CCO)(C1=CC=CC=C1)C1=CC=C(C=C1)OC,methyl 10-((2-(bis(4-methoxyphenyl)(phenyl)methoxy)ethyl)(2-hydroxyethyl)amino)-10-oxodecanoate,HIGH,OK
+191,Text,Target_Compound,Example 61,,O[C@@H]1CC[C@@H](NC1)C(=O)OC,"methyl (2R,5R)-5-hydroxypiperidine-2-carboxylate",HIGH,OK
+192,Text,Target_Compound,Example 64,,OC[C@H]1CC[C@H](CN1)O,"(3R,6R)-6-(hydroxymethyl)piperidin-3-ol",HIGH,OK
+193,Text,Target_Compound,Example 65,,FC(C(=O)N1[C@H](CC[C@H](C1)O)CO)(F)F,"2,2,2-trifluoro-1-((2R,5R)-5-hydroxy-2-(hydroxymethyl)piperidin-1-yl)ethan-1-one",HIGH,OK
+193,Text,Target_Compound,Example 66,,COC1=CC=C(C=C1)C(OC[C@@H]1N(C[C@@H](CC1)O)C(C(F)(F)F)=O)(C1=CC=CC=C1)C1=CC=C(C=C1)OC,"1-((2R,5R)-2-((bis(4-methoxyphenyl)(phenyl)methoxy)methyl)-5-hydroxypiperidin-1-yl)-2,2,2-trifluoroethan-1-one",HIGH,OK
+193,Text,Target_Compound,Example 67,,COC1=CC=C(C=C1)C(OC[C@H]1CC[C@H](CN1)O)(C1=CC=CC=C1)C1=CC=C(C=C1)OC,"(3R,6R)-6-((bis(4-methoxyphenyl)(phenyl)methoxy)methyl)piperidin-3-ol",HIGH,OK
+194,Text,Target_Compound,Example 68,,COC1=CC=C(C=C1)C(OC[C@@H]1N(C[C@@H](CC1)O)C(CCCCCCCCCCC(=O)OC)=O)(C1=CC=CC=C1)C1=CC=C(C=C1)OC,"methyl 12-((2R,5R)-2-((bis(4-methoxyphenyl)(phenyl)methoxy)methyl)-5-hydroxypiperidin-1-yl)-12-oxododecanoate",HIGH,OK
+196,Text,Target_Compound,Example 73,,C(C)(=O)OC=1C=C(C(=O)O)C=C(C1OC(C)=O)OC(C)=O,"3,4,5-Triacetoxybenzoic acid",HIGH,OK
+196,Text,Target_Compound,Example 74,,C(C)(=O)OC1=C(C(=CC(=C1)C(NCCN[C]C(C1=CC=CC=C1)=O)=O)OC(C)=O)OC(C)=O,"5-((2-((2-Oxo-2-phenyl-1lambda2-ethyl)amino)ethyl)carbamoyl)benzene-1,2,3-triyl triacetate",MEDIUM,Check_Stereo_Ambiguity
+197,Text,Target_Compound,Example 75-001,,OC=1C=C(C(=O)NCCN[C]C(C2=CC=CC=C2)=O)C=C(C1O)O,"3,4,5-Trihydroxy-N-(2-((2-oxo-2-phenyl-1lambda2-ethyl)amino)ethyl)benzamide",MEDIUM,Check_Stereo_Ambiguity
+197,Text,Target_Compound,Example 75-002,,OC=1C=C(C(=O)NCCNCC(C2=CC=CC=C2)=O)C=C(C1O)O,"3,4,5-Trihydroxy-N-(2-((2-oxo-2-phenyl-1$\lambda^2$-ethyl)amino)ethyl)benzamide",MEDIUM,Check_Stereo_Ambiguity; Formatting_Artifacts
+197,Text,Target_Compound,Example 76-001,,O=C([C]NCCNC(=O)C=1C=C(C(=C(C1)OCC(=O)OC)OCC(=O)OC)OCC(=O)OC)C1=CC=CC=C1,"Trimethyl 2,2',2''-((5-((2-((2-oxo-2-phenyl-1lambda2-ethyl)amino)ethyl)carbamoyl)benzene-1,2,3-triyl)tris(oxy))triacetate",MEDIUM,Check_Stereo_Ambiguity
+197,Text,Target_Compound,Example 76-002,,O=C(CNCCNC(=O)C=1C=C(C(=C(C1)OCC(=O)OC)OCC(=O)OC)OCC(=O)OC)C1=CC=CC=C1,"Trimethyl 2,2',2''-((5-((2-((2-oxo-2-phenyl-1$\lambda^2$-ethyl)amino)ethyl)carbamoyl)benzene-1,2,3-triyl)tris(oxy))triacetate",MEDIUM,Check_Stereo_Ambiguity; Formatting_Artifacts
+197,Text,Target_Compound,Example 77-001,,O=C([C]NCCNC(=O)C=1C=C(C(=C(C1)OCC(=O)O)OCC(=O)O)OCC(=O)O)C1=CC=CC=C1,"2,2',2''-((5-((2-((2-Oxo-2-phenyl-1lambda2-ethyl)amino)ethyl)carbamoyl)benzene-1,2,3-triyl)tris(oxy))triacetic acid",MEDIUM,Check_Stereo_Ambiguity
+197,Text,Target_Compound,Example 77-002,,O=C(CNCCNC(=O)C=1C=C(C(=C(C1)OCC(=O)O)OCC(=O)O)OCC(=O)O)C1=CC=CC=C1,"2,2',2''-((5-((2-((2-oxo-2-phenyl-1$\lambda^2$-ethyl)amino)ethyl)carbamoyl)benzene-1,2,3-triyl)tris(oxy))triacetic acid",MEDIUM,Check_Stereo_Ambiguity; Formatting_Artifacts
+199,Text,Target_Compound,Example 123,Example 301,C(C1=CC=CC=C1)N1C[C@@]2([C@](C1)(C(OC2=O)=O)C)C,"(3aR,6aS)-5-Benzyl-3a,6a-dimethyltetrahydro-1H-furo[3,4-c]pyrrole-1,3(3aH)-dione",HIGH,OK
+199,Text,Target_Compound,Example 124,Example 302,C(C1=CC=CC=C1)N1C[C@]([C@](C1)(C)CO)(C)CO,"((3R,4S)-1-Benzyl-3,4-dimethylpyrrolidine-3,4-diyl)dimethanol",HIGH,OK
+200,Text,Target_Compound,Example 125,,C[C@@]1(CNC[C@@]1(C)CO)CO,"((3R,4S)-3,4-Dimethylpyrrolidine-3,4-diyl)dimethanol",HIGH,OK
+200,Text,Target_Compound,Example 126,,OC[C@]1(CN(C[C@@]1(C)CO)C(CCCCCCCCC(=O)OC)=O)C,"Methyl 10-((3R,4S)-3,4-bis(hydroxymethyl)-3,4-dimethylpyrrolidin-1-yl)-10-oxodecanoate",HIGH,OK
+200,Text,Target_Compound,Example 127,,COC1=CC=C(C=C1)C(OC[C@]1(CN(C[C@@]1(C)CO)C(CCCCCCCCC(=O)OC)=O)C)(C1=CC=CC=C1)C1=CC=C(C=C1)OC,"Methyl 10-((3R,4S)-3-((bis(4-methoxyphenyl)(phenyl)methoxy)methyl)-4-(hydroxymethyl)-3,4-dimethylpyrrolidin-1-yl)-10-oxodecanoate",HIGH,OK
+202,Text,Target_Compound,'146-1,,C(CCCCCCCCCCC(=O)OC)(=O)ON1C(CCC1=O)=O,"1-(2,5-dioxopyrrolidin-1-yl) 12-methyl dodecanedioate",HIGH,OK
+202,Text,Target_Compound,'146-3,,C12CC(CC2O1)CO,(6-oxabicyclo[3.1.0]hexan-3-yl)methanol,HIGH,OK
+202,Text,Target_Compound,'146-4,,NC1C(CC(C1)CO)O,2-amino-4-(hydroxymethyl)cyclopentan-1-ol,HIGH,OK
+203,Text,Target_Compound,'146-5,,OC1C(CC(C1)CO)NC(CCCCCCCCCCC(=O)OC)=O,Methyl 12-(2-hydroxy-4-(hydroxymethyl)cyclopentylamino)-12-oxododecanoate,HIGH,OK
+205,Text,Target_Compound,Example 136,,Cl.OC[C@@]1(C[C@H](CN1)O)C,"(3R,5S)-5-(hydroxymethyl)-5-methylpyrrolidin-3-ol hydrochloride",HIGH,OK
+205,Text,Target_Compound,Example 137,,O[C@@H]1C[C@@](N(C1)C(CCCCCCCCCCC(=O)OC)=O)(C)CO,"methyl 12-((2S,4R)-4-hydroxy-2-(hydroxymethyl)-2-methylpyrrolidin-1-yl)-12-oxododecanoate",HIGH,OK
+206,Text,Target_Compound,'154-1,,COC1=CC=C(C=C1)C(OCCN1C(C2=CC=CC=C2C1=O)=O)(C1=CC=CC=C1)C1=CC=C(C=C1)OC,"2-(2-(Bis(4-methoxyphenyl)(phenyl)methoxy)ethyl)isoindoline-1,3-dione",HIGH,OK
+206,Text,Target_Compound,Example 138,,COC1=CC=C(C=C1)C(OC[C@]1(N(C[C@@H](C1)O)C(CCCCCCCCCCC(=O)OC)=O)C)(C1=CC=CC=C1)C1=CC=C(C=C1)OC,"methyl 12-((2S,4R)-2-((bis(4-methoxyphenyl)(phenyl)methoxy)methyl)-4-hydroxy-2-methylpyrrolidin-1-yl)-12-oxododecanoate",HIGH,OK
+207,Text,Target_Compound,'154-3,,O[C@@H]([C@@H](C(=O)O)NC(CCCCCCCCCCC(=O)OC)=O)C,"(2S,3R)-3-hydroxy-2-(12-methoxy-12-oxododecanamido)butanoic acid",HIGH,OK
+207,Text,Target_Compound,Example 154,,COC1=CC=C(C=C1)C(OCCNC([C@H]([C@@H](C)O)NC(CCCCCCCCCCC(=O)OC)=O)=O)(C1=CC=CC=C1)C1=CC=C(C=C1)OC,"methyl 12-((2S,3R)-1-(2-(bis(4-methoxyphenyl)(phenyl)methoxy)ethylamino)-3-hydroxy-1-oxobutan-2-ylamino)-12-oxododecanoate",HIGH,OK
+209,Text,Target_Compound,'164-3,,Cl.N1CC(CC1)C(CO)O,"1-(pyrrolidin-3-yl)ethane-1,2-diol hydrochloride",HIGH,OK
+209,Text,Target_Compound,'164-4,,OC(CO)C1CN(CC1)C(CCCCCCCCCCC(=O)OC)=O,"methyl 12-(3-(1,2-dihydroxyethyl)pyrrolidin-1-yl)-12-oxododecanoate",HIGH,OK
+209,Text,Target_Compound,Example 164,,COC1=CC=C(C=C1)C(OCC(O)C1CN(CC1)C(CCCCCCCCCCC(=O)OC)=O)(C1=CC=CC=C1)C1=CC=C(C=C1)OC,methyl 12-(3-(2-(bis(4-methoxyphenyl)(phenyl)methoxy)-1-hydroxyethyl)pyrrolidin-1-yl)-12-oxododecanoate,HIGH,OK
+210,Text,Target_Compound,'170-1,,C(C)(C)(C)OC(=O)NCCNC(CCCCCCCCCCC(=O)OC)=O,methyl 12-(2-(tert-butoxycarbonylamino)ethylamino)-12-oxododecanoate,HIGH,OK
+210,Text,Target_Compound,'170-2,,Cl.NCCNC(CCCCCCCCCCC(=O)OC)=O,methyl 12-(2-aminoethylamino)-12-oxododecanoate hydrochloride,HIGH,OK
+210,Text,Target_Compound,'170-3,,CC1(OCC(O1)C(=O)O)C,"(S)-2,2-dimethyl-1,3-dioxolane-4-carboxylic acid",HIGH,OK
+211,Text,Target_Compound,'170-4,,CC1(OCC(O1)C(=O)ON1C(CCC1=O)=O)C,"(S)-2,5-Dioxopyrrolidin-1-yl 2,2-dimethyl-1,3-dioxolane-4-carboxylate",HIGH,OK
+211,Text,Target_Compound,'170-5,,CC1(OCC(O1)C(=O)NCCNC(CCCCCCCCCCC(=O)OC)=O)C,"(S)-methyl 12-(2-(2,2-dimethyl-1,3-dioxolane-4-carboxamido)ethylamino)-12-oxododecanoate",HIGH,OK
+211,Text,Target_Compound,'170-6,,OC(C(=O)NCCNC(CCCCCCCCCCC(=O)OC)=O)CO,"(S)-methyl 12-(2-(2,3-dihydroxypropanamido)ethylamino)-12-oxododecanoate",HIGH,OK
+212,Text,Target_Compound,Example 170,,COC1=CC=C(C=C1)C(OCC(C(=O)NCCNC(CCCCCCCCCCC(=O)OC)=O)O)(C1=CC=CC=C1)C1=CC=C(C=C1)OC,(S)-methyl 12-(2-(3-(bis(4-methoxyphenyl)(phenyl)methoxy)-2-hydroxypropanamido)ethylamino)-12-oxododecanoate,HIGH,OK
+214,Text,Target_Compound,Example 131,,NCCCCCCCCCCCC(=O)O,12-aminoundecanoic acid,HIGH,OK
+214,Text,Target_Compound,Example 132,,NCCCCCCCCCCCC(=O)OC,methyl 12-aminododecanoate,HIGH,OK
+220,Text,Target_Compound,Example 82,,CC1=CC=C(C=C1)S(=O)(=O)OCCOCCOCCOCCOCCO,"14-Hydroxy-3,6,9,12-tetraoxatetradecyl 4-methylbenzenesulfonate",HIGH,OK
+220,Text,Target_Compound,Example 83,,N(=[N+]=[N-])CCOCCOCCOCCOCCO,"14-azido-3,6,9,12-tetraoxatetradecan-1-ol",HIGH,OK
+223,Text,Target_Compound,Example 86,,N(=[N+]=[N-])CCOCCOCCO,2-(2-(2-azidoethoxy)ethoxy)ethan-1-ol,HIGH,OK
+227,Text,Target_Compound,86a,,N(=[N+]=[N-])CCOCCOCCO,2-(2-(2-azidoethoxy)ethoxy)ethan-1-ol,HIGH,OK
+230,Text,Target_Compound,86b,,N(=[N+]=[N-])CCOCCOCCO,2-(2-(2-azidoethoxy)ethoxy)ethan-1-ol,HIGH,OK
+233,Text,Target_Compound,86c,,N(=[N+]=[N-])CCOCCOCCO,2-(2-(2-azidoethoxy)ethoxy)ethan-1-ol,HIGH,OK
+238,Text,Target_Compound,Example 105,105a,O=C(CNCC(=O)NC=1C=C(C=C(C(=O)OC)C1)C(=O)OC)C1=CC=CC=C1,Dimethyl 5-(2-((2-oxo-2-phenylethyl)amino)acetamido)isophthalate,HIGH,OK
+239,Text,Target_Compound,Example 106,106a,O=C(CNCC(=O)NC=1C=C(C=C(C(=O)O)C1)C(=O)O)C1=CC=CC=C1,5-(2-((2-oxo-2-phenylethyl)amino)acetamido)isophthalic acid,HIGH,OK
+241,Text,Target_Compound,105a,Example 105,O=C(CNCC(=O)NC=1C=C(C=C(C(=O)OC)C1)C(=O)OC)C1=CC=CC=C1,Dimethyl 5-(2-((2-oxo-2-phenylethyl)amino)acetamido)isophthalate,HIGH,OK
+241,Text,Target_Compound,106a,Example 106,O=C(CNCC(=O)NC=1C=C(C=C(C(=O)O)C1)C(=O)O)C1=CC=CC=C1,5-(2-((2-oxo-2-phenylethyl)amino)acetamido)isophthalic acid,HIGH,OK
+259,Text,Target_Compound,Example 301,Example 123,C(C1=CC=CC=C1)N1C[C@@]2([C@](C1)(C(OC2=O)=O)C)C,"Racemic (cis) 5-Benzyl-3a,6a-dimethyltetrahydro-1H-furo[3,4-c]pyrrole-1,3(3aH)-dione",HIGH,OK
+259,Text,Target_Compound,Example 302,Example 124,C(C1=CC=CC=C1)N1C[C@]([C@](C1)(C)CO)(C)CO,"Racemic (cis) (1-Benzyl-3,4-dimethylpyrrolidine-3,4-diyl)dimethanol",HIGH,OK
+259,Text,Target_Compound,Example 303,,OC[C@]1(CNC[C@]1(C)CO)C,"Racemic (cis) (3,4-Dimethylpyrrolidine-3,4-diyl)dimethanol",HIGH,OK
+261,Text,Target_Compound,Example 308,Example 508-001,ClCCOCCOCCO,2-[2-(2-chloroethoxy)ethoxy]ethanol,HIGH,OK
+262,Text,Target_Compound,Example 312,,O=C([C]NCC(=O)NC=1C=C(C=C(C(=O)OC)C1)C(=O)OC)C1=CC=CC=C1,Dimethyl 5-(2-((2-oxo-2-phenyl-1lambda2-ethyl)amino)acetamido)isophthalate,MEDIUM,Check_Stereo_Ambiguity
+262,Text,Target_Compound,Example 313,,O=C([C]NCC(=O)NC=1C=C(C=C(C(=O)O)C1)C(=O)O)C1=CC=CC=C1,5-(2-((2-oxo-2-phenyl-1lambda2-ethyl)amino)acetamido)isophthalic acid,MEDIUM,Check_Stereo_Ambiguity
+268,Text,Target_Compound,Example 508-001,Example 308,ClCCOCCOCCO,2-[2-(2-chloroethoxy)ethoxy]ethanol,HIGH,OK
+276,Text,Target_Compound,-,DSPC,C(CCCCCCCCCCCCCCCCC)(=O)OC[C@@H](OC(CCCCCCCCCCCCCCCCC)=O)COP(=O)([O-])OCC[N+](C)(C)C,"1,2-Distearoyl-sn-glycero-3-phosphocholine",HIGH,OK
+276,Text,Target_Compound,-,Cholesterol,C[C@]12[C@H]3CC[C@@]4([C@H](CC[C@H]4[C@@H]3CCC2C[C@H](CC1)O)[C@H](C)CCCC(C)C)C,Cholest-5-en-3beta-ol,HIGH,OK
+284,Text,Target_Compound,DPPC,,C(CCCCCCCCCCCCCCC)(=O)OC[C@@H](OC(CCCCCCCCCCCCCCC)=O)COP(=O)([O-])OCC[N+](C)(C)C,dipalmitoylphosphatidylcholine,HIGH,OK
+284,Text,Target_Compound,DSPC,,C(CCCCCCCCCCCCCCCCC)(=O)OC[C@@H](OC(CCCCCCCCCCCCCCCCC)=O)COP(=O)([O-])OCC[N+](C)(C)C,distearoylphosphatidylcholine,HIGH,OK

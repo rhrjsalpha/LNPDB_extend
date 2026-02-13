@@ -1,0 +1,114 @@
+Source_Page,Extraction_Source,Compound_Type,Example_ID,Chemical_Name,SMILES,IUPAC_EN,Confidence_Level,Data_Quality_Flag
+"67,116",Text,Target_Compound,DLin-KC2-DMA,,C(CCCCCCC\C=C/C\C=C/CCCCC)C1(OCC(O1)CCN(C)C)CCCCCCCC\C=C/C\C=C/CCCCC,"2,2-dilinoleyl-4-dimethylaminoethyl-[1,3]-dioxolane",HIGH,OK
+"67,116",Text,Target_Compound,DLin-MC3-DMA,,C(CCCCCCC\C=C/C\C=C/CCCCC)C(C(C(=O)[O-])(C)CCCCCCCC\C=C/C\C=C/CCCCC)CN(C)C,dilinoleyl-methyl-4-dimethylaminobutyrate,HIGH,OK
+"67,116",Text,Target_Compound,L319,,CN(CCCC(=O)OC(CCCCCCCC(=O)OC\C=C/CCCCCC)CCCCCCCC(=O)OC\C=C/CCCCCC)C,di((Z)-non-2-en-1-yl) 9-((4-(dimethylamino)butanoyl)oxy)heptadecanedioate,HIGH,OK
+116,Text,Target_Compound,Compound 1,,NC(CO)(COCCCCCCCC\C=C/C\C=C/CCCCC)COCCCCCCCC\C=C/C\C=C/CCCCC,"2-amino-3-[(9Z,12Z)-octadeca-9,12-dien-1-yloxy]-2-{[(9Z,12Z)-octadeca-9,12-dien-1-yloxy]methyl}propan-1-ol",HIGH,OK
+116,Text,Target_Compound,Compound 2,,NC(CO)(COCCCCCCCC\C=C/CCCCCCCC)COCCCCCCCC\C=C/CCCCCCCC,2-amino-3-[(9Z)-octadec-9-en-1-yloxy]-2-{[(9Z)-octadec-9-en-1-yloxy]methyl}propan-1-ol,HIGH,OK
+116,Text,Target_Compound,Compound 3,,NC(CO)(COCCCCCCCC\C=C/C\C=C/CCCCC)COCCCCCCCC,"2-amino-3-[(9Z,12Z)-octadeca-9,12-dien-1-yloxy]-2-[(octyloxy)methyl]propan-1-ol",HIGH,OK
+116,Text,Target_Compound,Compound 4,,CN(C(CO)(COCCCCCCCC\C=C/C\C=C/CCCCC)COCCCCCCCC\C=C/C\C=C/CCCCC)C,"2-(dimethylamino)-3-[(9Z,12Z)-octadeca-9,12-dien-1-yloxy]-2-{[(9Z,12Z)-octadeca-9,12-dien-1-yloxy]methyl}propan-1-ol",HIGH,OK
+118,Text,Target_Compound,DLin-DMA,,C(CCCCCCC\C=C/C\C=C/CCCCC)OCC(CN(C)C)OCCCCCCCC\C=C/C\C=C/CCCCC,"1,2-dilinoleyloxy-3-dimethylaminopropane",HIGH,OK
+118,Text,Target_Compound,DODMA,,C(CCCCCCC\C=C/CCCCCCCC)OC(C(C)OCCCCCCCC\C=C/CCCCCCCC)N(C)C,"1,2-dioleyloxy-N,N-dimethylaminopropane",HIGH,OK
+118,Text,Target_Compound,DSDMA,,C(CCCCCCCCCCCCCCCCC)OC(C(C)OCCCCCCCCCCCCCCCCCC)N(C)C,"1,2-distearyloxy-N,N-dimethylaminopropane",HIGH,OK
+133,Image,Target_Compound,Compound 1,,OCCN(CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC,"di(heptadecan-9-yl) 8,8'-((2-hydroxyethyl)azanediyl)dioctanoate",HIGH,OK
+133,Image,Target_Compound,Compound 2,,OCCN(CCCCCCCCCC(=O)OC(CCCCCC)CCCCCCCC)CCCCCCCCCC(=O)OC(CCCCCC)CCCCCCCC,"di(pentadecan-7-yl) 10,10'-((2-hydroxyethyl)azanediyl)didecanoate",HIGH,OK
+134,Image,Target_Compound,Compound 3,,OCCN(CCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)CCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC,"di(heptadecan-9-yl) 7,7'-((2-hydroxyethyl)azanediyl)diheptanoate",HIGH,OK
+134,Image,Target_Compound,Compound 4,,OCCN(CCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)CCCCCC(=O)OC(CCCCCCCC)CCCCCCCC,"di(heptadecan-9-yl) 6,6'-((2-hydroxyethyl)azanediyl)dihexanoate",HIGH,OK
+134,Image,Target_Compound,Compound 5,,OCCN(CCCCC(=O)OC(CCCCCCCC)CCCCCCCC)CCCCC(=O)OC(CCCCCCCC)CCCCCCCC,"di(heptadecan-9-yl) 5,5'-((2-hydroxyethyl)azanediyl)dipentanoate",HIGH,OK
+134,Image,Target_Compound,Compound 7,,OCCCN(CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC,"di(heptadecan-9-yl) 8,8'-((3-hydroxypropyl)azanediyl)dioctanoate",HIGH,OK
+134,Image,Target_Compound,Compound 8,,N1(C=NC=C1)CCN(CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC,"di(heptadecan-9-yl) 8,8'-((2-(1H-imidazol-1-yl)ethyl)azanediyl)dioctanoate",HIGH,OK
+134,Image,Target_Compound,Compound 9,,C(C)(=O)OCCN(CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC,"di(heptadecan-9-yl) 8,8'-((2-acetoxyethyl)azanediyl)dioctanoate",HIGH,OK
+134,Image,Target_Compound,Compound 10,,COC(CCN(CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)=O,"di(heptadecan-9-yl) 8,8'-((3-methoxy-3-oxopropyl)azanediyl)dioctanoate",HIGH,OK
+134,Image,Target_Compound,Compound 11,,OC(CN(CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)C,"di(heptadecan-9-yl) 8,8'-((2-hydroxypropyl)azanediyl)dioctanoate",HIGH,OK
+135,Image,Target_Compound,Compound 12,,OC(CN(CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)CO,"di(heptadecan-9-yl) 8,8'-((2,3-dihydroxypropyl)azanediyl)dioctanoate",HIGH,OK
+135,Image,Target_Compound,Compound 13,,OCC(CC)N(CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC,"di(heptadecan-9-yl) 8,8'-((1-hydroxybutan-2-yl)azanediyl)dioctanoate",HIGH,OK
+135,Image,Target_Compound,Compound 14,,CN(CCN(CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)C,"di(heptadecan-9-yl) 8,8'-((2-(dimethylamino)ethyl)azanediyl)dioctanoate",HIGH,OK
+135,Image,Target_Compound,Compound 15,,COCCN(CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC,"di(heptadecan-9-yl) 8,8'-((2-methoxyethyl)azanediyl)dioctanoate",HIGH,OK
+135,Image,Target_Compound,Compound 16,,COCCCN(CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC,"di(heptadecan-9-yl) 8,8'-((3-methoxypropyl)azanediyl)dioctanoate",HIGH,OK
+135,Image,Target_Compound,Compound 17,,CN(CCCN(CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)C,"di(heptadecan-9-yl) 8,8'-((3-(dimethylamino)propyl)azanediyl)dioctanoate",HIGH,OK
+135,Image,Target_Compound,Compound 18,,OCCN(CCCCCCCC(=O)OC(CCCCCC)CCCCCCCCCC)CCCCCCCC(=O)OC(CCCCCC)CCCCCCCCCC,"di(heptadecan-7-yl) 8,8'-((2-hydroxyethyl)azanediyl)dioctanoate",HIGH,OK
+136,Image,Target_Compound,Compound 19,,OCCCN(CCCCCCCC(=O)OC(CCCCCC)CCCCCCCCCC)CCCCCCCC(=O)OC(CCCCCC)CCCCCCCCCC,"di(heptadecan-7-yl) 8,8'-((3-hydroxypropyl)azanediyl)dioctanoate",HIGH,OK
+136,Image,Target_Compound,Compound 20,,OCCCCN(CCCCCCCC(=O)OC(CCCCCC)CCCCCCCCCC)CCCCCCCC(=O)OC(CCCCCC)CCCCCCCCCC,"di(heptadecan-7-yl) 8,8'-((4-hydroxybutyl)azanediyl)dioctanoate",HIGH,OK
+136,Image,Target_Compound,Compound 21,,C(#N)CCN(CCCCCCCC(=O)OC(CCCCCC)CCCCCCCCCC)CCCCCCCC(=O)OC(CCCCCC)CCCCCCCCCC,"di(heptadecan-7-yl) 8,8'-((2-cyanoethyl)azanediyl)dioctanoate",HIGH,OK
+136,Image,Target_Compound,Compound 22,,OC1CCC(CC1)N(CCCCCCCC(=O)OC(CCCCCC)CCCCCCCCCC)CCCCCCCC(=O)OC(CCCCCC)CCCCCCCCCC,"di(heptadecan-7-yl) 8,8'-((4-hydroxycyclohexyl)azanediyl)dioctanoate",HIGH,OK
+136,Image,Target_Compound,Compound 23,,OCCN(CCCCCCCC(=O)OC(CCCCCCCCC)CCCCCCCCC)CCCCCCCC(=O)OC(CCCCCCCCC)CCCCCCCCC,"di(nonadecan-10-yl) 8,8'-((2-hydroxyethyl)azanediyl)dioctanoate",HIGH,OK
+136,Image,Target_Compound,Compound 25,Compound 33,OCCN(CCCCCCCC(=O)OC(CCCCCCC)CCCCCCCCC)CCCCCCCC(=O)OC(CCCCCCC)CCCCCCCCC,"di(heptadecan-8-yl) 8,8'-((2-hydroxyethyl)azanediyl)dioctanoate",HIGH,OK
+137,Image,Target_Compound,Compound 26,,OCCN(CCCCCC(=O)OC(CCCCCC)CCCCCCCCCC)CCCCCC(=O)OC(CCCCCC)CCCCCCCCCC,"di(heptadecan-7-yl) 6,6'-((2-hydroxyethyl)azanediyl)dihexanoate",HIGH,OK
+137,Image,Target_Compound,Compound 27,,OCCN(CCCC(=O)OC(CCCCCC)CCCCCCCCCC)CCCC(=O)OC(CCCCCC)CCCCCCCCCC,"di(heptadecan-7-yl) 4,4'-((2-hydroxyethyl)azanediyl)dibutyrate",HIGH,OK
+137,Image,Target_Compound,Compound 29,,OCCN(CCCCCCCC(=O)OC(CCCCCC)CCCCCC)CCCCCCCC(=O)OC(CCCCCC)CCCCCC,"di(tridecan-7-yl) 8,8'-((2-hydroxyethyl)azanediyl)dioctanoate",HIGH,OK
+137,Image,Target_Compound,Compound 30,,OCCN(CCCCCCCC(=O)OC(CCCCCCCCCC)CCCCCCCCCC)CCCCCCCC(=O)OC(CCCCCCCCCC)CCCCCCCCCC,"di(heneicosan-11-yl) 8,8'-((2-hydroxyethyl)azanediyl)dioctanoate",HIGH,OK
+137,Image,Target_Compound,Compound 32,,OCCN(CCCCCCCC(=O)OC(CCCCCCC)CCCCCCC)CCCCCCCC(=O)OC(CCCCCCC)CCCCCCC,"di(pentadecan-8-yl) 8,8'-((2-hydroxyethyl)azanediyl)dioctanoate",HIGH,OK
+138,Image,Target_Compound,Compound 33,Compound 25,OCCN(CCCCCCCC(=O)OC(CCCCCCC)CCCCCCCCC)CCCCCCCC(=O)OC(CCCCCCC)CCCCCCCCC,"di(heptadecan-8-yl) 8,8'-((2-hydroxyethyl)azanediyl)dioctanoate",HIGH,OK
+138,Image,Target_Compound,Compound 34,,OCCN(CCCCCCCC(=O)OC(CCCCC)CCCCCCCCC)CCCCCCCC(=O)OC(CCCCC)CCCCCCCCC,"di(pentadecan-6-yl) 8,8'-((2-hydroxyethyl)azanediyl)dioctanoate",HIGH,OK
+138,Image,Target_Compound,Compound 35,,OCCN(CCCCCCCC(=O)OC(CCCC)CCCCCCCC)CCCCCCCC(=O)OC(CCCC)CCCCCCCC,"di(tridecan-5-yl) 8,8'-((2-hydroxyethyl)azanediyl)dioctanoate",HIGH,OK
+138,Image,Target_Compound,Compound 36,,OCCN(CCCCCCCC(=O)OC(CCC)CCCCCCC)CCCCCCCC(=O)OC(CCC)CCCCCCC,"di(undecan-4-yl) 8,8'-((2-hydroxyethyl)azanediyl)dioctanoate",HIGH,OK
+138,Image,Target_Compound,Compound 37,,C(C)(=O)NCCCN(CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC,"di(heptadecan-9-yl) 8,8'-((3-acetamidopropyl)azanediyl)dioctanoate",HIGH,OK
+138,Image,Target_Compound,Compound 38,,CS(=O)(=O)NCCCN(CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC,"di(heptadecan-9-yl) 8,8'-((3-(methylsulfonamido)propyl)azanediyl)dioctanoate",HIGH,OK
+138,Image,Target_Compound,Compound 39,,CN(C(NCCCN(CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)=O)C,"di(heptadecan-9-yl) 8,8'-((3-(3,3-dimethylureido)propyl)azanediyl)dioctanoate",HIGH,OK
+139,Image,Target_Compound,Compound 40,,CN(C(NCCCN(CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)=S)C,"di(heptadecan-9-yl) 8,8'-((3-(3,3-dimethylthioureido)propyl)azanediyl)dioctanoate",HIGH,OK
+139,Image,Target_Compound,Compound 41,,CNC(NCCCN(CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)=O,"di(heptadecan-9-yl) 8,8'-((3-(3-methylureido)propyl)azanediyl)dioctanoate",HIGH,OK
+139,Image,Target_Compound,Compound 42,,CNC(NCCCN(CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)=S,"di(heptadecan-9-yl) 8,8'-((3-(3-methylthioureido)propyl)azanediyl)dioctanoate",HIGH,OK
+139,Image,Target_Compound,Compound 43,,O=C1N(C=CC(N1)=O)CCCN(CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC,"di(heptadecan-9-yl) 8,8'-((3-(2,4-dioxo-3,4-dihydropyrimidin-1(2H)-yl)propyl)azanediyl)dioctanoate",HIGH,OK
+139,Image,Target_Compound,Compound 44,,NC1=NC(N(C=C1)CCCN(CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)=O,"di(heptadecan-9-yl) 8,8'-((3-(4-amino-2-oxopyrimidin-1(2H)-yl)propyl)azanediyl)dioctanoate",HIGH,OK
+139,Image,Target_Compound,Compound 45,,NC1=C2N=CN(C2=NC=N1)CCCN(CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC,"di(heptadecan-9-yl) 8,8'-((3-(6-amino-9H-purin-9-yl)propyl)azanediyl)dioctanoate",HIGH,OK
+140,Image,Target_Compound,Compound 46,,NC=1NC(C=2N=CN(C2N1)CCCN(CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)CCCCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)=O,"di(heptadecan-9-yl) 8,8'-((3-(2-amino-6-oxo-1,6-dihydro-9H-purin-9-yl)propyl)azanediyl)dioctanoate",HIGH,OK
+140,Image,Target_Compound,Compound 51,,OCCN(CCCCCCCC(=O)OC(CCCC)CCCCCC)CCCCCCCC(=O)OC(CCCC)CCCCCC,"di(undecan-5-yl) 8,8'-((2-hydroxyethyl)azanediyl)dioctanoate",HIGH,OK
+140,Image,Target_Compound,Compound 52,,OCCN(CCCCCCCC(=O)OC(CCC)CCCCC)CCCCCCCC(=O)OC(CCC)CCCCC,"di(nonan-4-yl) 8,8'-((2-hydroxyethyl)azanediyl)dioctanoate",HIGH,OK
+141,Image,Target_Compound,Compound 53,,OCCN(CCCCCCCC(=O)OC(CC)CCCC)CCCCCCCC(=O)OC(CC)CCCC,"di(heptan-3-yl) 8,8'-((2-hydroxyethyl)azanediyl)dioctanoate",HIGH,OK
+141,Image,Target_Compound,Compound 54,,OCCN(CCCCCCCC(=O)OC(C)CCC)CCCCCCCC(=O)OC(C)CCC,"di(pentan-2-yl) 8,8'-((2-hydroxyethyl)azanediyl)dioctanoate",HIGH,OK
+141,Image,Target_Compound,Compound 56,,OCCN(CCCCCCCC(=O)OC(CCCCCCCCCCCC)CCCCCCCCCCCC)CCCCCCCC(=O)OC(CCCCCCCCCCCC)CCCCCCCCCCCC,"di(pentacosan-13-yl) 8,8'-((2-hydroxyethyl)azanediyl)dioctanoate",HIGH,OK
+141,Image,Target_Compound,Compound 57,,OCCN(CCCCCCCC(=O)OC(CCCCCCCCCCCCCC)CCCCCCCCCCCCCC)CCCCCCCC(=O)OC(CCCCCCCCCCCCCC)CCCCCCCCCCCCCC,"di(nonacosan-15-yl) 8,8'-((2-hydroxyethyl)azanediyl)dioctanoate",HIGH,OK
+141,Image,Target_Compound,Compound 58,,OCCN(CCCCCCCC(=O)OC(CC)CCCCCC)CCCCCCCC(=O)OC(CC)CCCCCC,"di(nonan-3-yl) 8,8'-((2-hydroxyethyl)azanediyl)dioctanoate",HIGH,OK
+141,Image,Target_Compound,Compound 59,,OCCN(CCCCCCCC(=O)OC(CC)CCCCCCCC)CCCCCCCC(=O)OC(CC)CCCCCCCC,"di(undecan-3-yl) 8,8'-((2-hydroxyethyl)azanediyl)dioctanoate",HIGH,OK
+141,Image,Target_Compound,Example 53,Compound 53,OCCN(CCCCCC(=O)OC(CCCCCC)CCCCCCCC)CCCC(OC(CCCCCC)CCCCCCCC)=O,pentadecan-7-yl 6-((2-hydroxyethyl)(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)hexanoate,HIGH,OK
+141,Image,Target_Compound,Example 54,Compound 54,OCCN(CCCCCC(=O)OC(CCCCCCCC)CCCCCCCC)CCCC(OC(CCCCCCCC)CCCCCCCC)=O,heptadecan-9-yl 6-((2-hydroxyethyl)(4-oxo-4-(heptadecan-9-yloxy)butyl)amino)hexanoate,HIGH,OK
+141,Image,Target_Compound,Example 55,Compound 55,OCCN(CCCCCC(=O)OC(CCCCCC)CCCCCCCC)CCCC(OCC1C(C1)CCCCCCCC)=O,pentadecan-7-yl 6-((2-hydroxyethyl)(4-oxo-4-((2-octylcyclopropyl)methoxy)butyl)amino)hexanoate,MEDIUM,Check_Stereo_Ambiguity
+141,Image,Target_Compound,Example 56,Compound 56,C(CCCCCCCCCCC)OC(CCCN(CCCCCC(=O)OC(CCCCCC)CCCCCCCC)CCO)=O,pentadecan-7-yl 6-((4-(dodecyloxy)-4-oxobutyl)(2-hydroxyethyl)amino)hexanoate,HIGH,OK
+141,Image,Target_Compound,Example 57,Compound 57,OCCN(CCCCCC(=O)OCCCCCCCCCCCC)CCCC(OC(CCCCCC)CCCCCCCC)=O,dodecyl 6-((2-hydroxyethyl)(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)hexanoate,HIGH,OK
+141,Image,Target_Compound,Example 58,Compound 58,OCCN(CCCCCC(=O)OC(CCCC)CCCCCC)CCCC(OC(CCCC)CCCCCC)=O,undecan-5-yl 6-((2-hydroxyethyl)(4-oxo-4-(undecan-5-yloxy)butyl)amino)hexanoate,HIGH,OK
+141,Image,Target_Compound,Example 59,Compound 59,CCC(CCCC)OC(CCCN(CCCCCC(=O)OC(CC)CCCC)CCO)=O,heptan-3-yl 6-((4-(heptan-3-yloxy)-4-oxobutyl)(2-hydroxyethyl)amino)hexanoate,HIGH,OK
+142,Image,Target_Compound,Compound 62,,OCCN(CCCCCCCC(=O)OC1=CC=C(C=C1)CCCCCC)CCCCCCCC(=O)OC1=CC=C(C=C1)CCCCCC,"di(4-hexylphenyl) 8,8'-((2-hydroxyethyl)azanediyl)dioctanoate",HIGH,OK
+142,Image,Target_Compound,Compound 63,,OCCN(CCCCCCCC(=O)OC1=CC(=CC=C1)CCCCCC)CCCCCCCC(=O)OC1=CC(=CC=C1)CCCCCC,"di(3-hexylphenyl) 8,8'-((2-hydroxyethyl)azanediyl)dioctanoate",HIGH,OK
+142,Image,Target_Compound,Compound 64,,OCCN(CCCCCCCC(=O)OC1=CC=C(C=C1)CCCCCCCC)CCCCCCCC(=O)OC1=CC=C(C=C1)CCCCCCCC,"di(4-octylphenyl) 8,8'-((2-hydroxyethyl)azanediyl)dioctanoate",HIGH,OK
+142,Image,Target_Compound,Example 60,Compound 60,OCCN(CCCCCC(=O)OC(CCCCCC)CCCCCCCC)CCCC(=O)OCCCCCCCC\C=C/CCCCCCCC,pentadecan-7-yl 6-((2-hydroxyethyl)(4-(((Z)-octadec-9-en-1-yl)oxy)-4-oxobutyl)amino)hexanoate,HIGH,OK
+142,Image,Target_Compound,Example 61,Compound 61,OCCN(CCCCCC(=O)OCCCCCCCC\C=C/CCCCCCCC)CCCC(OC(CCCCCC)CCCCCCCC)=O,(Z)-octadec-9-en-1-yl 6-((2-hydroxyethyl)(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)hexanoate,HIGH,OK
+142,Image,Target_Compound,Example 62,Compound 62,OCCN(CCCCCC(=O)OCC1=CC=C(C=C1)CCCCCCCC)CCCC(OC(CCCCCC)CCCCCCCC)=O,4-octylbenzyl 6-((2-hydroxyethyl)(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)hexanoate,HIGH,OK
+142,Image,Target_Compound,Example 63,Compound 63,OCCN(CCCCCC(=O)OCC1=CC(=CC=C1)CCCCCCCC)CCCC(OC(CCCCCC)CCCCCCCC)=O,3-octylbenzyl 6-((2-hydroxyethyl)(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)hexanoate,HIGH,OK
+142,Image,Target_Compound,Example 64,Compound 64,OCCN(CCCCCC(=O)OC1=CC=C(C=C1)CCCCCCCC)CCCC(OC(CCCCCC)CCCCCCCC)=O,4-octylphenyl 6-((2-hydroxyethyl)(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)hexanoate,HIGH,OK
+142,Image,Target_Compound,Example 65,Compound 65,OCCN(CCCCCC(=O)OCC1C(C1)CCCCCCCC)CCCC(OC(CCCCCC)CCCCCCCC)=O,(2-octylcyclopropyl)methyl 6-((2-hydroxyethyl)(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)hexanoate,HIGH,OK
+142,Image,Target_Compound,Example 66,Compound 66,OCCN(CCCCCC(=O)OCC1CCC(CC1)CCCCC)CCCC(OC(CCCCCC)CCCCCCCC)=O,(4-pentylcyclohexyl)methyl 6-((2-hydroxyethyl)(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)hexanoate,HIGH,OK
+143,Image,Target_Compound,Example 67,Compound 67,OCCN(CCCCCC(=O)OC(CCCCCC)CCCCCCCC)CCCC(OCC1CCC(CC1)CCCCC)=O,pentadecan-7-yl 6-((2-hydroxyethyl)(4-oxo-4-((4-pentylcyclohexyl)methoxy)butyl)amino)hexanoate,HIGH,OK
+143,Image,Target_Compound,Example 68,Compound 68,OCCN(CCCCCC(=O)OCC1CCC(CC1)CCCCC)CCCC(OCC1CCC(CC1)CCCCC)=O,(4-pentylcyclohexyl)methyl 6-((2-hydroxyethyl)(4-oxo-4-((4-pentylcyclohexyl)methoxy)butyl)amino)hexanoate,HIGH,OK
+143,Image,Target_Compound,Example 70,,OCCN(CCCCCC(=O)OC(CCCCCC)CCCCCCCC)CCCC(OC(C)CCCCCCCCCCC)=O,pentadecan-7-yl 6-((2-hydroxyethyl)(4-oxo-4-(tridecan-2-yloxy)butyl)amino)hexanoate,MEDIUM,Check_Stereo_Ambiguity
+143,Image,Target_Compound,Example 71,Compound 71,OCCN(CCCCCC(=O)OC(CCCC)CCCCCC)CCCC(OC(CCCCCC)CCCCCCCC)=O,undecan-5-yl 6-((2-hydroxyethyl)(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)hexanoate,HIGH,OK
+143,Image,Target_Compound,Example 72,Compound 72,OCCN(CCCCCC(=O)OC(CC)CCCC)CCCC(OC(CCCCCC)CCCCCCCC)=O,heptan-3-yl 6-((2-hydroxyethyl)(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)hexanoate,HIGH,OK
+143,Image,Target_Compound,Example 73,Compound 73,OCCN(CCCCCC(=O)OC(CC)CCCCCC)CCCC(OC(CCCCCC)CCCCCCCC)=O,nonan-3-yl 6-((2-hydroxyethyl)(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)hexanoate,HIGH,OK
+143,Image,Target_Compound,Example 74,Compound 74,OCCN(CCCCCC(=O)OC(CC)CCCCCCCC)CCCC(OC(CCCCCC)CCCCCCCC)=O,undecan-3-yl 6-((2-hydroxyethyl)(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)hexanoate,HIGH,OK
+143,Image,Target_Compound,Example 75,Compound 75,OCCN(CCCCCC(=O)OC(CC)CCCCCCCCCC)CCCC(OC(CCCCCC)CCCCCCCC)=O,tridecan-3-yl 6-((2-hydroxyethyl)(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)hexanoate,HIGH,OK
+143,Image,Target_Compound,Example 76,Compound 76,OCCN(CCCCCC(=O)OC(CCCC)CCCCCCCC)CCCC(OC(CCCCCC)CCCCCCCC)=O,tridecan-5-yl 6-((2-hydroxyethyl)(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)hexanoate,HIGH,OK
+143,Image,Target_Compound,Example 77,Compound 77,OCCN(CCCCCC(=O)OC(CCCC)CCCCCCCCCC)CCCC(OC(CCCCCC)CCCCCCCC)=O,pentadecan-5-yl 6-((2-hydroxyethyl)(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)hexanoate,HIGH,OK
+144,Image,Target_Compound,Example 78,Compound 78,OCCN(CCCCCC(=O)OC(C)CCCC(C)C)CCCC(OC(CCCCCC)CCCCCCCC)=O,6-methylheptan-2-yl 6-((2-hydroxyethyl)(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)hexanoate,HIGH,OK
+144,Image,Target_Compound,Example 79,Compound 79,OCCN(CCCCCC(=O)OC1CCC(CC1)CCCCC)CCCC(OC(CCCCCC)CCCCCCCC)=O,4-pentylcyclohexyl 6-((2-hydroxyethyl)(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)hexanoate,HIGH,OK
+144,Image,Target_Compound,Example 80,Compound 80,OCCN(CCCCCC(=O)OC1CCC(CC1)CCCCCCC)CCCC(OC(CCCCCC)CCCCCCCC)=O,4-heptylcyclohexyl 6-((2-hydroxyethyl)(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)hexanoate,HIGH,OK
+145,Image,Target_Compound,Example 84,Compound 84,OCCN(CCC(=O)OC(CCCCCC)CCCCCCCC)CCCC(OC(CCCCCC)CCCCCCCC)=O,pentadecan-7-yl 3-((2-hydroxyethyl)(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)propanoate,HIGH,OK
+145,Image,Target_Compound,Example 85,Compound 85,OCCN(CC(=O)OC(CCCCCC)CCCCCCCC)CCCC(OC(CCCCCC)CCCCCCCC)=O,pentadecan-7-yl 2-((2-hydroxyethyl)(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)acetate,HIGH,OK
+145,Image,Target_Compound,Example 86,Compound 86,OCCN(CCCCC(=O)OC(CCCCCC)CCCCCCCC)CCCC(OC(CCCCCC)CCCCCCCC)=O,pentadecan-7-yl 5-((2-hydroxyethyl)(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)pentanoate,HIGH,OK
+145,Image,Target_Compound,Example 87,Compound 87,OCCN(CCCCCCC(=O)OC(CCCCCC)CCCCCCCC)CCCC(OC(CCCCCC)CCCCCCCC)=O,pentadecan-7-yl 7-((2-hydroxyethyl)(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)heptanoate,HIGH,OK
+145,Image,Target_Compound,Example 88,Compound 88,OCCN(CCCC(OC(CCCCCC)CCCCCCCC)=O)CC1C(C1)C(=O)OC(CCCCCC)CCCCCCCC,pentadecan-7-yl 2-(((2-hydroxyethyl)(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)methyl)cyclopropanecarboxylate,HIGH,OK
+145,Image,Target_Compound,Example 89,Compound 89,OCCN(CC(CCC(=O)OC(CCCCCC)CCCCCCCC)C)CCCC(OC(CCCCCC)CCCCCCCC)=O,pentadecan-7-yl 5-((2-hydroxyethyl)(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)-4-methylpentanoate,HIGH,OK
+145,Image,Target_Compound,Example 90,Compound 90,OCCN(CCC(C(=O)OC(CCCCCC)CCCCCCCC)C)CCCC(OC(CCCCCC)CCCCCCCC)=O,pentadecan-7-yl 4-((2-hydroxyethyl)(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)-2-methylbutanoate,HIGH,OK
+146,Image,Target_Compound,Example 91,Compound 91,OCCN(C(CCC(=O)OC(CCCCCC)CCCCCCCC)C)CCCC(OC(CCCCCC)CCCCCCCC)=O,pentadecan-7-yl 4-((2-hydroxyethyl)(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)pentanoate,HIGH,OK
+146,Image,Target_Compound,Example 92,Compound 92,OCCN(CCOCC(=O)OC(CCCCCC)CCCCCCCC)CCCC(OC(CCCCCC)CCCCCCCC)=O,pentadecan-7-yl 2-(2-((2-hydroxyethyl)(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)ethoxy)acetate,HIGH,OK
+146,Image,Target_Compound,Example 93,Compound 93,OCCN(CCCC(OC(CCCCCC)CCCCCCCC)=O)CC1(CC1)CC(=O)OC(CCCCCC)CCCCCCCC,pentadecan-7-yl 2-((((2-hydroxyethyl)(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)methyl)cyclopropyl)acetate,HIGH,OK
+146,Image,Target_Compound,Example 94,Compound 94,C(C1=CC=CC=C1)N(CCCCCC(=O)OC(CCCCCC)CCCCCCCC)CCCC(OC(CCCCCC)CCCCCCCC)=O,pentadecan-7-yl 6-(benzyl(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)hexanoate,HIGH,OK
+146,Image,Target_Compound,Example 95,Compound 95,COC1=CC=C(CN(CCCCCC(=O)OC(CCCCCC)CCCCCCCC)CCCC(OC(CCCCCC)CCCCCCCC)=O)C=C1,pentadecan-7-yl 6-((4-methoxybenzyl)(4-oxo-4-(pentadecan-7-yloxy)butyl)amino)hexanoate,HIGH,OK
+146,Image,Target_Compound,Example 96,Compound 96,OCCN(CCCCCC(=O)OC(CCCCCC)CCCCCCCC)CCCCCCCCCC(OC(CCCCCC)CCCCCCCC)=O,pentadecan-7-yl 6-((2-hydroxyethyl)(10-oxo-10-(pentadecan-7-yloxy)decyl)amino)hexanoate,HIGH,OK
+146,Image,Target_Compound,Example 97,Compound 97,OCCN(CCCC(=O)OC(CCCCCC)CCCCCCCC)CCCCCCCCCC(OC(CCCCCC)CCCCCCCC)=O,pentadecan-7-yl 4-((2-hydroxyethyl)(10-oxo-10-(pentadecan-7-yloxy)decyl)amino)butanoate,HIGH,OK
+147,Image,Target_Compound,Example 98,,OCCN(CCCCCC(=O)OC(CCCCCC)CCCCCCCC)CCCC(OC(C)CCCCCCCCCCC)=O,pentadecan-7-yl 6-((2-hydroxyethyl)(4-oxo-4-(tridecan-2-yloxy)butyl)amino)hexanoate,HIGH,OK
+169,Image,Target_Compound,Example 225,Compound 225,C(CCCCC)C(C(=O)OCCCCCCCCCN(CCC(=O)NCCO)CCCCCCCCCOC(C(CCCCCCCC)CCCCCC)=O)CCCCCCCC,3-(bis(9-((2-hexyldecanoyl)oxy)nonyl)amino)-N-(2-hydroxyethyl)propanamide,MEDIUM,Check_Stereo_Ambiguity
+169,Image,Target_Compound,Example 226,Compound 226,C(CCCCC)C(C(=O)OCCCCCCCCCN(CCC(=O)NCCOC)CCCCCCCCCOC(C(CCCCCCCC)CCCCCC)=O)CCCCCCCC,3-(bis(9-((2-hexyldecanoyl)oxy)nonyl)amino)-N-(2-methoxyethyl)propanamide,MEDIUM,Check_Stereo_Ambiguity
+169,Image,Target_Compound,Example 227,Compound 227,C(CCCCC)C(C(=O)OCCCCCCCCCN(CCC(=O)N(C)CCO)CCCCCCCCCOC(C(CCCCCCCC)CCCCCC)=O)CCCCCCCC,3-(bis(9-((2-hexyldecanoyl)oxy)nonyl)amino)-N-(2-hydroxyethyl)-N-methylpropanamide,MEDIUM,Check_Stereo_Ambiguity
+169,Image,Target_Compound,Example 228,Compound 228,C(CCCCC)C(C(=O)OCCCCCCCCCN(CCC(=O)N(C)CCOC)CCCCCCCCCOC(C(CCCCCCCC)CCCCCC)=O)CCCCCCCC,3-(bis(9-((2-hexyldecanoyl)oxy)nonyl)amino)-N-(2-methoxyethyl)-N-methylpropanamide,MEDIUM,Check_Stereo_Ambiguity
+175,Text,Target_Compound,,,CN1C=C([C@H]2[C@H](O)[C@H](O)[C@@H](CO)O2)C(NC1=O)=O,N1-methyl pseudouridine,HIGH,OK
+175,Text,Target_Compound,DSPC,,C(CCCCCCCCCCCCCCCCC)(=O)OC[C@@H](OC(CCCCCCCCCCCCCCCCC)=O)COP(=O)([O-])OCC[N+](C)(C)C,"1,2-Distearoyl-sn-glycero-3-phosphocholine",HIGH,OK
+195,Text,Target_Compound,,,C(C)N1C=C([C@H]2[C@H](O)[C@H](O)[C@@H](CO)O2)C(NC1=O)=O,N1-ethylpseudouridine,HIGH,OK
+196,Image,Target_Compound,Example 25,Compound 25,OCCN(CCCC(=O)OC(CCCCCC)CCCCCCCC)CCCC(=O)OC(CCCCCC)CCCCCCCC,"di(pentadecan-7-yl) 4,4'-((2-hydroxyethyl)azanediyl)dibutyrate",HIGH,OK
